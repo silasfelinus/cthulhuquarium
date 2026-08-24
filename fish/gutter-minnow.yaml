@@ -1,0 +1,26 @@
+slug: gutter-minnow
+name: Gutter Minnow
+species: Alburnus incuriosus
+class: minnow
+field_note: >
+  Thrives in water no one has changed. Grateful for very little.
+quirks: Schools with anything roughly its own size, including debris.
+alignment: indifferent
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+yield: 3
+interval: 6
+unlock_cost: 0
+behavior: drift
+hue: 168
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a small silver-grey silhouetted minnow in profile, thin body and forked tail, dark
+  teal water, one pale green light source above, strong rim light along the spine,
+  particulate water, unpeopled frame, no text

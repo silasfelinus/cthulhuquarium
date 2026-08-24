@@ -1,0 +1,26 @@
+slug: choirfish
+name: Choirfish
+species: Chorus abyssalis
+class: drifter
+field_note: >
+  Sings only when the tank is otherwise silent. Three specimens sing in harmony.
+quirks: Solitary specimens are noticeably unhappy.
+alignment: communal
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: RARE
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+yield: 12
+interval: 10
+unlock_cost: 260
+behavior: drift
+hue: 205
+games: [cthulhuquarium]
+art_prompt: >
+  three slender silhouetted fish drifting in close vertical formation, translucent
+  fins edged in pale blue light, mouths open, dark teal water, single cold light
+  source above, particulate water, unpeopled frame, no text

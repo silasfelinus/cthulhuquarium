@@ -1,0 +1,27 @@
+slug: lamplight-angler
+name: Lamplight Angler
+species: Melanocetus hospitalis
+class: angler
+field_note: >
+  The light is not for you. It has never been for you.
+quirks: Holds position for hours. Moves only when unobserved.
+alignment: patient
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: RARE
+tier: 2
+yield: 9
+interval: 9
+unlock_cost: 120
+behavior: lurk
+hue: 96
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a heavy-bodied silhouetted anglerfish hanging motionless in black water, a single
+  sickly green bioluminescent lure glowing on a stalk above its head, oversized jaw
+  faintly lit from below, cold rim light, thick particulate water fading to black,
+  unpeopled frame, no text
