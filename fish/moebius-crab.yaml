@@ -15,6 +15,7 @@ stats:
   might: UNCOMMON
   wits: LEGENDARY
 tier: 4
+size: 4
 yield: 32
 interval: 13
 unlock_cost: 1250

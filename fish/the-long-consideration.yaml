@@ -16,6 +16,7 @@ stats:
   might: UNCOMMON
   wits: MYTHIC
 tier: 5
+size: 7
 yield: 60
 interval: 18
 unlock_cost: 3200

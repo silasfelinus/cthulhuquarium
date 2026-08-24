@@ -14,6 +14,7 @@ stats:
   might: COMMON
   wits: COMMON
 tier: 1
+size: 1
 yield: 3
 interval: 6
 unlock_cost: 0

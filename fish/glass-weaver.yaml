@@ -15,6 +15,7 @@ stats:
   might: COMMON
   wits: MYTHIC
 tier: 4
+size: 4
 yield: 34
 interval: 15
 unlock_cost: 1350

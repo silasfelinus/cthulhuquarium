@@ -15,6 +15,7 @@ stats:
   might: MYTHIC
   wits: EPIC
 tier: 5
+size: 10
 yield: 75
 interval: 16
 unlock_cost: 0

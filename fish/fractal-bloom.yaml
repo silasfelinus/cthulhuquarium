@@ -15,6 +15,7 @@ stats:
   might: RARE
   wits: COMMON
 tier: 4
+size: 5
 yield: 30
 interval: 14
 unlock_cost: 1100

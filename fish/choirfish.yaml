@@ -14,6 +14,7 @@ stats:
   might: COMMON
   wits: UNCOMMON
 tier: 2
+size: 3
 yield: 12
 interval: 10
 unlock_cost: 260

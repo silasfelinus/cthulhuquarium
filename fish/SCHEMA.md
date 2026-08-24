@@ -46,12 +46,35 @@ and are read by the aquarium API.
 | Field | Meaning |
 |---|---|
 | `tier` | 1–5. Roughly how deep into the game it appears. |
+| `size` | 1–12 tank units. Fish capacity is measured by total size, not by count. |
 | `yield` | Coins produced per drop cycle when fed. |
 | `interval` | Seconds between drops. |
 | `unlock_cost` | Coins to unlock. `0` means starting stock. |
 | `behavior` | `drift` \| `dart` \| `lurk`. Drives the renderer; not a hardcoded switch. |
 | `hue` | 0–360. Base hue for prototype rendering and art direction consistency. |
 | `games` | List. Which games this creature appears in: `cthulhuquarium`, `ruler-hooked`. |
+
+## Size, and why capacity is weighed rather than counted
+
+Decided 2026-08-24. Set slots are **counted** (start with three, buy up to about five).
+Fish capacity is **weighed**: a tank holds a total number of size units, not a number of
+fish. Silas: *"fish could be say different sizes and an aquarium can accommodate more or
+less."*
+
+That asymmetry is deliberate. Counted set slots stay easy to hold in your head; weighed
+fish capacity turns stocking into a **packing problem** — six small fish or one enormous
+one — which is a far more interesting decision than "pick six." It also gives the big
+tier-5 creatures a cost beyond their price. The Long Patience is size 10 and should eat
+most of a tank.
+
+Assign `size` from what the creature physically **is**, not mechanically from its tier. A
+shoal is many small bodies moving together (Tithe Shoal is 4). An island is enormous
+regardless of where it sits in the progression (The Pleasant Island is 9). A snail on the
+glass takes almost nothing (The Sexton is 1).
+
+Stocking one of every current species would take **89 units**, which is the number a tank
+progression should be designed against — the largest tank should stay well under it, or
+the packing problem stops being a problem.
 
 ## Movement modes
 

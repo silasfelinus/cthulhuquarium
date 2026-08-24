@@ -16,6 +16,7 @@ stats:
   might: COMMON
   wits: EPIC
 tier: 2
+size: 1
 yield: 6
 interval: 12
 unlock_cost: 190

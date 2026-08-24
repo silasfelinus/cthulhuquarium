@@ -16,6 +16,7 @@ stats:
   might: UNCOMMON
   wits: EPIC
 tier: 3
+size: 3
 yield: 21
 interval: 12
 unlock_cost: 610

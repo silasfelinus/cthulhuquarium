@@ -15,6 +15,7 @@ stats:
   might: LEGENDARY
   wits: EPIC
 tier: 5
+size: 9
 yield: 68
 interval: 20
 unlock_cost: 3600
