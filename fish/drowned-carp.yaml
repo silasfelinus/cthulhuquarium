@@ -1,0 +1,26 @@
+slug: drowned-carp
+name: Drowned Carp
+species: Cyprinus posthumous
+class: drifter
+field_note: >
+  Died some time ago. Continues to feed, and continues to be hungry.
+quirks: Sinks when startled. Rises again shortly afterward.
+alignment: persistent
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: COMMON
+tier: 1
+yield: 5
+interval: 8
+unlock_cost: 60
+behavior: drift
+hue: 42
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a large pale bloated silhouetted carp drifting slightly tilted in dark green water,
+  ragged fins, clouded eye catching one pale light from above, dust and sediment
+  suspended around it, cold rim light, unpeopled frame, no text

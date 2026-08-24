@@ -1,0 +1,82 @@
+# balance.yaml — every tunable number in Cthulhuquarium.
+#
+# Read server-side by the kind_robots aquarium API (conductor cthulhuquarium/t-009).
+# A balance change is a commit to this file and nothing else. If retuning the game
+# ever requires editing a .ts file, the economy has leaked out of here and that leak
+# is the bug — see cthulhuquarium/t-019.
+#
+# v0: seeded during project scaffolding, NOT yet simulated. t-004 owns replacing
+# these with numbers backed by a first-two-hours simulation. Treat them as a shape
+# to argue with, not as tuned values.
+
+version: 0
+
+currency:
+  starting_coins: 25
+  starting_food: 3
+
+collectibles:
+  # The drifting motes the player clicks. This is the active-play income channel,
+  # and it must out-earn idling by a clear margin or nobody plays actively.
+  value: 4
+  spawn_interval_seconds: 2.4
+  max_on_screen: 6
+  # Motes rise and expire; missing them is the cost of not watching.
+  lifetime_seconds: 13
+
+food:
+  cost: 10
+  # Hunger points restored per pellet.
+  restore: 45
+  # Pellets fall and are eaten by the nearest occupant.
+  fall_speed: 70
+
+hunger:
+  # Points drained per second. 100 -> 0 in about three minutes of neglect.
+  decay_per_second: 0.55
+  max: 100
+  # A starving occupant stops producing. It does not die — see the open question
+  # in DESIGN-BRIEF.md; if Silas wants teeth, this is where teeth go.
+  production_floor: 0
+
+offline:
+  # Idling is rewarded but strictly worse than playing: no collectible income
+  # accrues while away, only fed-occupant drops, and only up to the cap.
+  cap_seconds: 14400 # 4 hours
+  # Multiplier applied to offline drop income. 1.0 = same rate as fed active play,
+  # which is already slower than active play because motes are worth more.
+  rate: 1.0
+
+upgrades:
+  - key: richer-silt
+    label: Richer Silt
+    effect: collectibles.value
+    cost: 150
+    magnitude: 2
+    note: Motes are worth more. The tank does not explain where they come from.
+  - key: restless-water
+    label: Restless Water
+    effect: collectibles.spawn_interval_seconds
+    cost: 320
+    magnitude: -0.6
+    note: Motes surface more often.
+  - key: heavier-feed
+    label: Heavier Feed
+    effect: food.restore
+    cost: 260
+    magnitude: 25
+    note: One pellet goes further.
+  - key: another-shelf
+    label: Another Shelf
+    effect: tank.slots
+    cost: 600
+    magnitude: 2
+    note: There was always room for more. There is always room for more.
+
+tank:
+  starting_slots: 4
+  max_slots: 12
+
+persistence:
+  # Seconds between autosaves during active play.
+  autosave_interval_seconds: 5

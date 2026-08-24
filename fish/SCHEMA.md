@@ -1,0 +1,98 @@
+# Fish bible schema
+
+One YAML file per species: `fish/<slug>.yaml`. This directory is the **canonical
+source of truth** for every creature in Cthulhuquarium and for the twisted-ecosystem
+catches in Ruler is Hooked. The database is downstream of these files, never the
+other way around.
+
+Validate before committing:
+
+```bash
+python3 scripts/validate_fish.py
+```
+
+## Why YAML and not the database
+
+The bestiary has to survive a schema migration, an offline build, and a future port
+that has no Kind Robots behind it. Plain files are diffable, reviewable in a PR, and
+editable by a human who is not running a server. The seed script (conductor
+cthulhuquarium/t-008) reads these files and upserts kind_robots `Character` rows keyed
+on `slug`; re-running it after an edit updates rows rather than duplicating them.
+
+## Field reference
+
+Every field maps onto an existing kind_robots `Character` column. That constraint is
+deliberate — a field with nowhere to land is a field the seed script has to drop.
+
+| Field | Character column | Notes |
+|---|---|---|
+| `slug` | `slug` | Unique, kebab-case, stable forever. Renaming a slug orphans a row. |
+| `name` | `name` | Display name. |
+| `species` | `species` | The taxonomic-sounding lie. |
+| `class` | `class` | Broad family: `minnow`, `angler`, `drifter`, `predator`, `anomaly`. |
+| `field_note` | `backstory` | One line, museum-placard register. See the tone rules below. |
+| `quirks` | `quirks` | Behavioral oddities, free text. |
+| `alignment` | `alignment` | Flavor only; no mechanical effect. |
+| `rarity` | `luck` | `COMMON` \| `UNCOMMON` \| `RARE` \| `EPIC` \| `LEGENDARY` \| `MYTHIC`. |
+| `stats.charm` etc. | `charm`, `empathy`, `grace`, `might`, `wits` | Same `Rarity` enum. |
+| `art_prompt` | `artPrompt` | Generation prompt. Silhouette-forward — see below. |
+| `theme` | `theme` | Optional daisyUI theme for the card. |
+
+## Game-facing fields
+
+These do not map to `Character` columns; they live in the seeded record's game payload
+and are read by the aquarium API.
+
+| Field | Meaning |
+|---|---|
+| `tier` | 1–5. Roughly how deep into the game it appears. |
+| `yield` | Coins produced per drop cycle when fed. |
+| `interval` | Seconds between drops. |
+| `unlock_cost` | Coins to unlock. `0` means starting stock. |
+| `behavior` | `drift` \| `dart` \| `lurk`. Drives the renderer; not a hardcoded switch. |
+| `hue` | 0–360. Base hue for prototype rendering and art direction consistency. |
+| `games` | List. Which games this creature appears in: `cthulhuquarium`, `ruler-hooked`. |
+
+## The `games` field is the whole sharing mechanism
+
+A creature tagged `[cthulhuquarium, ruler-hooked]` seeds into the shared
+`abyssal-bestiary` Pack and both games query it. There is no sync layer, no duplicated
+art, and no second catalog — Silas's "we can have appropriate ones appear in both
+games" costs exactly one list field.
+
+Rules for shared creatures:
+
+- A shared `Character` is **not one game's property**. Neither game may mutate the row;
+  both read it. Per-game state (hunger, placement, whether it has been caught) belongs
+  in that game's own tables.
+- Ruler is Hooked's dark-ecosystem branch should query `games` contains `ruler-hooked`.
+  A creature that only makes sense in a tank stays `[cthulhuquarium]`.
+- Removing a creature from the bible sets `isActive: false` on its row. Never DELETE —
+  someone's save may reference it.
+
+## Tone rules for `field_note`
+
+The register is a museum placard written by someone who is not telling you everything.
+
+- One sentence, occasionally two. Never three.
+- Dry and understated. The humor is in what is omitted, not in a punchline.
+- Present tense, clinical vocabulary, faint concern.
+- Never explain the joke. Never use an exclamation mark.
+- Good: *"The light is not for you. It has never been for you."*
+- Bad: *"This wacky fish has a glowing lure that tricks its prey — watch out!"*
+
+## Art prompt rules
+
+Read `ART-PROMPTS.md` in the conductor repo before writing one. The short version, both
+learned the hard way:
+
+1. **No conditionals.** Krea 2 has no instruction-following layer; "include X only when
+   the scene calls for it" gets painted literally. State what is in the frame, once.
+2. **Lead with the physical subject** — material, shape, scale, framing, light — before
+   any statement of what the creature means.
+
+For this bestiary specifically: silhouette-forward, strong rim light, dark teal water,
+one sickly accent light, unpeopled frame, no text. Silhouettes are chosen because they
+survive generation inconsistency where detailed consistently-colored creature art does
+not. A species that will not generate consistently gets redesigned, not shipped as an
+outlier.

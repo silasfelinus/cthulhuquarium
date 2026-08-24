@@ -1,0 +1,26 @@
+slug: bailiff-eel
+name: Bailiff Eel
+species: Anguilla executoria
+class: predator
+field_note: >
+  Arrives when a debt is outstanding. The tank does not explain what debt.
+quirks: Refuses food offered directly. Takes it later, when it is not being watched.
+alignment: lawful
+rarity: RARE
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: EPIC
+  might: RARE
+  wits: RARE
+tier: 3
+yield: 18
+interval: 11
+unlock_cost: 400
+behavior: dart
+hue: 18
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a long dark silhouetted eel coiling through black water, narrow head lit along one
+  edge by a single amber light, ribbon body trailing into shadow, cold teal water with
+  one warm accent, heavy particulate, unpeopled frame, no text

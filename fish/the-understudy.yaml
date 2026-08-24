@@ -1,0 +1,27 @@
+slug: the-understudy
+name: The Understudy
+species: unresolved
+class: anomaly
+field_note: >
+  Resembles whichever fish you looked at last. Specimen unavailable for photography.
+quirks: Every recorded description contradicts the previous one.
+alignment: obliging
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: RARE
+  might: COMMON
+  wits: LEGENDARY
+tier: 3
+yield: 22
+interval: 12
+unlock_cost: 480
+behavior: dart
+hue: 286
+games: [cthulhuquarium]
+art_prompt: >
+  a violet-black silhouetted fish with blurred indistinct edges as though photographed
+  mid-movement, body shape half-resolved into the surrounding water, one clear bright
+  eye, dark teal tank, cold backlighting, heavy particulate water, unpeopled frame,
+  no text
