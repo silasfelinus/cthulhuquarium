@@ -53,6 +53,45 @@ and are read by the aquarium API.
 | `hue` | 0–360. Base hue for prototype rendering and art direction consistency. |
 | `games` | List. Which games this creature appears in: `cthulhuquarium`, `ruler-hooked`. |
 
+## Movement modes
+
+`behavior` is read by the renderer, so adding a value here means adding a motion to the
+canvas. Eight exist:
+
+| Value | Motion |
+|---|---|
+| `drift` | Ambles on a gentle sine. The default. |
+| `dart` | Bursts, then stops dead. |
+| `lurk` | Holds position; moves when unobserved. |
+| `school` | Moves as one body with its packmates, never independently. |
+| `anchor` | Does not move at all. The tank moves past it. |
+| `surface` | Sits at the waterline, mostly above it. |
+| `hover` | Holds depth precisely and rotates in place. |
+| `tumble` | Rotates through discrete orientations rather than turning smoothly. |
+
+Do not invent a ninth without adding the motion to the renderer in the same change — a
+species whose behavior has no implementation silently falls back to drifting, which is
+worse than being obviously broken.
+
+## Evolution chains
+
+Two optional fields, added for Silas's "magikarp to gyarados" concept: a most basic fish
+that becomes a complete killer.
+
+- `evolves_to: <slug>` — the species this one becomes.
+- `evolves_from: <slug>` — the inverse, on the target.
+
+Both halves are required and the validator enforces the pair, that the target is a higher
+tier, and that a species reached by evolution carries `unlock_cost: 0` — it is not
+purchasable, only arrived at. A dangling `evolves_to` would otherwise break the seed
+script's chain silently rather than failing.
+
+Evolution is a **gain**, never a replacement. Per the no-degradation rule, evolving must
+not remove the base species from a player's collection: both count, both stay collected.
+The base form is not consumed.
+
+Currently one chain: `parlour-goldfish` → `the-long-patience`.
+
 ## The `games` field is the whole sharing mechanism
 
 A creature tagged `[cthulhuquarium, ruler-hooked]` seeds into the shared
@@ -115,6 +154,26 @@ on the way down and stops when eaten.
 Feed creatures are not bestiary species. They have no `slug`, no field note, and are
 never collectible. If a future task needs them catalogued, they get their own file, not
 a `fish/` entry.
+
+## Concepts still to be authored
+
+Silas's 2026-08-24 concept list is fully authored — all fifteen landed, which took the
+bible from 7 to 22 species and past the 20-species MVP bar. He flagged the list itself as
+open ("more to be developed"), so this section is where the next batch lands before
+anyone writes files.
+
+Nothing is queued right now. When adding concepts here, a line of intent is enough — the
+authoring pass turns it into a file. Gaps worth filling, observed while writing the
+current set rather than assigned by anyone:
+
+- Nothing yet uses `tumble` except `the-quire`, and nothing uses `surface` except
+  `the-pleasant-island`. Two motions with one specimen each read as one-offs rather than
+  as a vocabulary.
+- Tier 1 is thin: three species, and two of them are the goldfish line's base form and a
+  minnow. The early game is where the tone gets established and it currently has the
+  least to look at.
+- Only one evolution chain exists. A second would confirm the mechanic is a system rather
+  than a special case.
 
 ## Art prompt rules
 

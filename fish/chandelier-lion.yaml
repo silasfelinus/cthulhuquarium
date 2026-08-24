@@ -1,0 +1,28 @@
+slug: chandelier-lion
+name: Chandelier Lion
+species: Pterois vespertina
+class: predator
+field_note: >
+  Every colour on it is a warning. The warning is not for you.
+quirks: >
+  Spreads its spines when admired. Admiration is measurable and it can tell.
+alignment: vain
+rarity: RARE
+stats:
+  charm: LEGENDARY
+  empathy: COMMON
+  grace: EPIC
+  might: RARE
+  wits: UNCOMMON
+tier: 3
+yield: 20
+interval: 11
+unlock_cost: 520
+behavior: hover
+hue: 24
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  an ornate lionfish silhouette hanging motionless in black water, long banded venomous
+  spines fanned wide like a chandelier frame, striped body backlit so the spines glow at
+  their edges, dark teal water, one warm amber light behind it, heavy particulate,
+  unpeopled frame, no text

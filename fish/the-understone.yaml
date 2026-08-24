@@ -1,0 +1,28 @@
+slug: the-understone
+name: The Understone
+species: Synanceia patiens
+class: predator
+field_note: >
+  Indistinguishable from the gravel until the moment it is not.
+quirks: >
+  Has been counted as scenery in every inventory taken of this tank.
+alignment: patient
+rarity: RARE
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: EPIC
+  wits: EPIC
+tier: 3
+yield: 17
+interval: 13
+unlock_cost: 430
+behavior: anchor
+hue: 40
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a lumpen encrusted rock resting on dark gravel, its underside opening into a wide
+  toothed mouth, pitted stone texture continuous with the tank floor, one small wet eye
+  catching a pale light from above, dark teal water, cold rim light along the upper
+  ridge, unpeopled frame, no text

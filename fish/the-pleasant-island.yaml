@@ -1,0 +1,28 @@
+slug: the-pleasant-island
+name: The Pleasant Island
+species: Aspidochelone amoena
+class: anomaly
+field_note: >
+  Presents as a small warm island. Visitors are encouraged to remain on the island.
+quirks: >
+  Grows palms in season. Nothing has yet been observed leaving.
+alignment: hospitable
+rarity: LEGENDARY
+stats:
+  charm: MYTHIC
+  empathy: COMMON
+  grace: RARE
+  might: LEGENDARY
+  wits: EPIC
+tier: 5
+yield: 68
+interval: 20
+unlock_cost: 3600
+behavior: surface
+hue: 64
+games: [cthulhuquarium]
+art_prompt: >
+  a small sunlit tropical island floating at the waterline with two palms and pale sand,
+  seen from below the surface so an enormous dark shelled body and long trailing limbs
+  are visible beneath it, bright warm light above the waterline and cold black water
+  below, heavy particulate, unpeopled frame, no text

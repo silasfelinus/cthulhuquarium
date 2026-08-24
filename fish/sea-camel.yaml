@@ -1,0 +1,29 @@
+slug: sea-camel
+name: Sea Camel
+species: Hippocamelus reservatus
+class: drifter
+field_note: >
+  Stores something in the hump against hard times. The something is not water.
+quirks: >
+  Hangs upright in the current with its tail curled around whatever is nearest,
+  including, on two occasions, a member of staff.
+alignment: thrifty
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: EPIC
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+yield: 11
+interval: 9
+unlock_cost: 210
+behavior: hover
+hue: 46
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a tall upright seahorse-shaped silhouette with a heavy laden hump along its back, long
+  curled prehensile tail, narrow tubular snout, ridged armoured plating, hanging
+  motionless in dark green water, one pale light from above, particulate water,
+  unpeopled frame, no text

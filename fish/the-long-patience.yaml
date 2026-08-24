@@ -1,0 +1,29 @@
+slug: the-long-patience
+name: The Long Patience
+species: Carassius domesticus
+class: predator
+field_note: >
+  This is the same fish. It was always going to be the same fish.
+quirks: >
+  Retains the tail. Staff find this the difficult part.
+alignment: obliging
+rarity: LEGENDARY
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: EPIC
+  might: MYTHIC
+  wits: EPIC
+tier: 5
+yield: 75
+interval: 16
+unlock_cost: 0
+behavior: dart
+hue: 32
+games: [cthulhuquarium, ruler-hooked]
+evolves_from: parlour-goldfish
+art_prompt: >
+  an enormous serpentine fish silhouette filling the frame end to end, heavy armoured
+  head and small dark eye, the same flowing double tail as a goldfish trailing far
+  behind it, dark teal water going black at the edges, one warm light catching the
+  length of its back, thick particulate, unpeopled frame, no text

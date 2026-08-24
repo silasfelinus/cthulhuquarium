@@ -1,0 +1,28 @@
+slug: glass-weaver
+name: Glass Weaver
+species: Pycnogonum scribens
+class: anomaly
+field_note: >
+  Its web has never caught anything. Staff report that it appears to be writing.
+quirks: >
+  Rebuilds nightly. No two arrangements have repeated.
+alignment: attentive
+rarity: EPIC
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: RARE
+  might: COMMON
+  wits: MYTHIC
+tier: 4
+yield: 34
+interval: 15
+unlock_cost: 1350
+behavior: lurk
+hue: 190
+games: [cthulhuquarium]
+art_prompt: >
+  a long-legged sea spider silhouette suspended in a fine glassy web strung between two
+  dark rocks, eight impossibly thin jointed legs, tiny compact body, the web catching one
+  pale cold light so its threads read as bright lines, dark teal water, unpeopled frame,
+  no text

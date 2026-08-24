@@ -1,0 +1,28 @@
+slug: fractal-bloom
+name: Fractal Bloom
+species: Actinia recursiva
+class: bloom
+field_note: >
+  Its spines have spines. Handling is discouraged at every scale.
+quirks: >
+  Beautiful at all magnifications, and identically dangerous at all of them.
+alignment: ornamental
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: COMMON
+  grace: LEGENDARY
+  might: RARE
+  wits: COMMON
+tier: 4
+yield: 30
+interval: 14
+unlock_cost: 1100
+behavior: anchor
+hue: 310
+games: [cthulhuquarium]
+art_prompt: >
+  a sea anemone silhouette on a dark rock, hundreds of long tapering tentacles that each
+  split into smaller tapering spines and split again, symmetrical radiating crown,
+  translucent tips lit violet from within, dark teal water, cold backlight, heavy
+  particulate, unpeopled frame, no text
