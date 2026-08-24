@@ -68,8 +68,13 @@ canvas. Eight exist:
 | `surface` | Sits at the waterline, mostly above it. |
 | `hover` | Holds depth precisely and rotates in place. |
 | `tumble` | Rotates through discrete orientations rather than turning smoothly. |
+| `cling` | On the inside of the glass rather than in the water. Renders in front of everything. |
 
-Do not invent a ninth without adding the motion to the renderer in the same change — a
+`cling` is the one that is not just a motion: a clinging species renders in front of the
+whole tank rather than within it, so it needs its own draw pass, and it is the first
+species type the player looks *at* the glass to see rather than through it.
+
+Do not invent a tenth without adding the motion to the renderer in the same change — a
 species whose behavior has no implementation silently falls back to drifting, which is
 worse than being obviously broken.
 
@@ -163,7 +168,15 @@ open ("more to be developed"), so this section is where the next batch lands bef
 anyone writes files.
 
 Nothing is queued right now. When adding concepts here, a line of intent is enough — the
-authoring pass turns it into a file. Gaps worth filling, observed while writing the
+authoring pass turns it into a file. A note on FUNCTIONAL species, now that one exists: The Sexton cleans the glass, which
+makes it the first creature valued for what it does rather than what it produces. That is
+a precedent to handle carefully — a functional species risks becoming mandatory, and a
+mandatory species is one less real choice. The rule that keeps it optional is that debris
+has three viable answers (manual clicking, the debris set, and the snail), none strictly
+best. Any future functional species needs the same treatment: give its job at least one
+other route.
+
+Gaps worth filling, observed while writing the
 current set rather than assigned by anyone:
 
 - Nothing yet uses `tumble` except `the-quire`, and nothing uses `surface` except

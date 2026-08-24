@@ -31,6 +31,7 @@ BEHAVIORS = {
     "surface",  # sits at the waterline
     "hover",    # holds depth precisely, rotates in place
     "tumble",   # rotates through discrete orientations
+    "cling",    # on the inside of the glass, not in the water
 }
 CLASSES = {
     "minnow", "angler", "drifter", "predator", "anomaly",
