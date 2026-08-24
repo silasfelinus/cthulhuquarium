@@ -81,6 +81,41 @@ The register is a museum placard written by someone who is not telling you every
 - Good: *"The light is not for you. It has never been for you."*
 - Bad: *"This wacky fish has a glowing lure that tricks its prey — watch out!"*
 
+## How weird a species may be
+
+Decided by Silas, 2026-08-24: the ceiling is **clearly-not-a-fish**.
+
+Common and uncommon tiers stay recognizable — a fish, but wrong. Rare and above may
+escalate into things that only *resemble* fish: too many joints, mostly eye, something
+wearing a fish. The restraint downstairs is what makes the escalation upstairs land, so
+do not spend the ceiling early.
+
+Two constraints hold at every tier:
+
+- **Unsettling, never gross-out.** The tone is dread and dry humor, not viscera.
+- **Still a legible silhouette.** A shape nobody can read at 256px is a failed design
+  regardless of how strange it is. If a concept only works in detail, it does not work.
+
+Nothing in the bestiary dies, and nothing the player collects is ever taken away —
+that is a game rule, not a flavor note. A species may be unsettling about death; the
+mechanics never enact it on the player's tank.
+
+## The food is alive
+
+Also decided 2026-08-24: fish food is **live and wriggling**, not pellets. Silas: *"i
+guess in that sense, something will die, but that's just because our fish food should be
+wriggling."*
+
+This matters to the bible because it is the one place the game's cheerful cruelty is
+mechanical rather than written. Nothing is ever taken from the player; the only cost in
+the game is one they pay to something else, by the handful, without comment. Keep it
+that way — the food is never described sympathetically, and it is never gore. It squirms
+on the way down and stops when eaten.
+
+Feed creatures are not bestiary species. They have no `slug`, no field note, and are
+never collectible. If a future task needs them catalogued, they get their own file, not
+a `fish/` entry.
+
 ## Art prompt rules
 
 Read `ART-PROMPTS.md` in the conductor repo before writing one. The short version, both

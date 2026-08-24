@@ -1,0 +1,29 @@
+slug: the-long-consideration
+name: The Long Consideration
+species: not applicable
+class: anomaly
+field_note: >
+  Occupies the tank the way a thought occupies a room. Declines to be measured twice.
+quirks: >
+  Has more joints than the available literature accounts for. Unfolds when it believes
+  the room is empty, and is always folded again by the time anyone looks.
+alignment: unhurried
+rarity: LEGENDARY
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: LEGENDARY
+  might: UNCOMMON
+  wits: MYTHIC
+tier: 5
+yield: 60
+interval: 18
+unlock_cost: 3200
+behavior: lurk
+hue: 258
+games: [cthulhuquarium]
+art_prompt: >
+  a tall many-jointed silhouetted shape standing upright in black water, folded like a
+  closed instrument, far too many thin segmented limbs held close to a narrow body, one
+  pale violet light behind it throwing a clean readable outline, no visible face, dark
+  teal water thick with sediment, cold rim light, unpeopled frame, no text
