@@ -1,0 +1,27 @@
+slug: ledger-crab
+name: Ledger Crab
+species: Cancer numerarius
+class: crustacean
+field_note: >
+  Counts the tank each morning and is never wrong. It has counted you.
+quirks: >
+  Taps once for each item counted. The tally has twice exceeded the tank's contents.
+alignment: exacting
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: RARE
+  wits: EPIC
+tier: 2
+yield: 13
+interval: 10
+unlock_cost: 280
+behavior: anchor
+hue: 12
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a broad flat crab silhouette on dark gravel, one claw raised mid-tap, carapace marked
+  with fine parallel scratches like tally lines, stalked eyes turned toward the viewer,
+  dark teal water, one cold light from above, particulate, unpeopled frame, no text

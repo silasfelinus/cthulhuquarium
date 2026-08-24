@@ -19,8 +19,26 @@ ROOT = Path(__file__).resolve().parents[1]
 FISH_DIR = ROOT / "fish"
 
 RARITIES = {"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC"}
-BEHAVIORS = {"drift", "dart", "lurk"}
-CLASSES = {"minnow", "angler", "drifter", "predator", "anomaly"}
+# Movement modes the renderer implements. Silas's 2026-08-24 concept list needed five
+# more than the original three: a pack that moves as one, things that never move at all,
+# something that sits at the surface, a hoverer, and a folded thing that tumbles.
+BEHAVIORS = {
+    "drift",    # ambles, gentle sine
+    "dart",     # bursts and stops
+    "lurk",     # holds position, moves when unobserved
+    "school",   # moves as one body with its packmates
+    "anchor",   # does not move; the tank moves past it
+    "surface",  # sits at the waterline
+    "hover",    # holds depth precisely, rotates in place
+    "tumble",   # rotates through discrete orientations
+}
+CLASSES = {
+    "minnow", "angler", "drifter", "predator", "anomaly",
+    "crustacean",  # shelled things
+    "bloom",       # anemone/coral-shaped, sessile, usually armed
+    "construct",   # geometric, folded, does not read as biological
+    "colony",      # a single specimen that is visibly several
+}
 GAMES = {"cthulhuquarium", "ruler-hooked"}
 STATS = ("charm", "empathy", "grace", "might", "wits")
 
@@ -29,6 +47,11 @@ REQUIRED = (
     "rarity", "stats", "tier", "yield", "interval", "unlock_cost", "behavior",
     "hue", "games", "art_prompt",
 )
+
+# Optional. `evolves_to` names the slug this species becomes; `evolves_from` is its
+# inverse. A species reached only by evolution is not purchasable, so it carries
+# unlock_cost 0 and is expected to declare evolves_from.
+OPTIONAL = ("evolves_to", "evolves_from")
 
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -115,6 +138,54 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
     return problems
 
 
+def check_evolution(files: list[Path]) -> list[str]:
+    """Evolution links must resolve, and must agree with each other.
+
+    A dangling `evolves_to` silently breaks the seed script's chain rather than
+    failing, so it is caught here instead.
+    """
+    problems: list[str] = []
+    loaded: dict[str, dict] = {}
+    for path in files:
+        try:
+            data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        except yaml.YAMLError:
+            continue
+        if isinstance(data, dict) and data.get("slug"):
+            loaded[data["slug"]] = data
+
+    for slug, data in sorted(loaded.items()):
+        target = data.get("evolves_to")
+        if target is not None:
+            if target not in loaded:
+                problems.append(f"{slug}.yaml: evolves_to `{target}` is not a known species")
+            elif loaded[target].get("evolves_from") != slug:
+                problems.append(
+                    f"{slug}.yaml: evolves_to `{target}`, but {target}.yaml does not "
+                    f"declare `evolves_from: {slug}`"
+                )
+            elif data.get("tier", 0) >= loaded[target].get("tier", 0):
+                problems.append(
+                    f"{slug}.yaml: evolves_to `{target}`, which must be a higher tier"
+                )
+
+        source = data.get("evolves_from")
+        if source is not None:
+            if source not in loaded:
+                problems.append(f"{slug}.yaml: evolves_from `{source}` is not a known species")
+            elif loaded[source].get("evolves_to") != slug:
+                problems.append(
+                    f"{slug}.yaml: evolves_from `{source}`, but {source}.yaml does not "
+                    f"declare `evolves_to: {slug}`"
+                )
+            elif data.get("unlock_cost") != 0:
+                problems.append(
+                    f"{slug}.yaml: reached by evolution, so unlock_cost must be 0 "
+                    f"(it is not purchasable)"
+                )
+    return problems
+
+
 def main() -> int:
     files = sorted(FISH_DIR.glob("*.yaml"))
     if not files:
@@ -125,6 +196,7 @@ def main() -> int:
     problems: list[str] = []
     for path in files:
         problems.extend(check(path, seen_slugs))
+    problems.extend(check_evolution(files))
 
     if problems:
         for problem in problems:
@@ -132,8 +204,13 @@ def main() -> int:
         print(f"\n{len(problems)} problem(s) across {len(files)} species", file=sys.stderr)
         return 1
 
-    shared = sum(1 for path in files if "ruler-hooked" in (yaml.safe_load(path.read_text())["games"]))
-    print(f"✓ {len(files)} species valid ({shared} shared with ruler-hooked)")
+    parsed = [yaml.safe_load(path.read_text(encoding="utf-8")) for path in files]
+    shared = sum(1 for d in parsed if "ruler-hooked" in d["games"])
+    chains = sum(1 for d in parsed if d.get("evolves_to"))
+    print(
+        f"✓ {len(files)} species valid "
+        f"({shared} shared with ruler-hooked, {chains} evolution chain(s))"
+    )
     return 0
 
 

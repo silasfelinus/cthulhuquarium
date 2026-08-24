@@ -1,0 +1,28 @@
+slug: tithe-shoal
+name: Tithe Shoal
+species: Clupea decima
+class: colony
+field_note: >
+  Recorded as one specimen. It has always been recorded as one specimen.
+quirks: >
+  Turns as a single body. One in ten is always facing the wrong way.
+alignment: collective
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: EPIC
+  grace: EPIC
+  might: RARE
+  wits: RARE
+tier: 2
+yield: 14
+interval: 8
+unlock_cost: 300
+behavior: school
+hue: 200
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a dense shoal of small identical silver fish silhouettes turning together as one mass,
+  the whole school reading as a single larger shape, one fish near the centre facing the
+  opposite direction, dark teal water, cold light from above, heavy particulate,
+  unpeopled frame, no text

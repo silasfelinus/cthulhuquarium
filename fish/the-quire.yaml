@@ -1,0 +1,29 @@
+slug: the-quire
+name: The Quire
+species: not applicable
+class: construct
+field_note: >
+  Refolds itself nightly into a shape that obeys different rules. Within a shape, the
+  rules hold.
+quirks: >
+  Moves quickly as a wedge, slowly as a star, and not at all as a cube.
+alignment: methodical
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: EPIC
+  might: UNCOMMON
+  wits: EPIC
+tier: 3
+yield: 21
+interval: 12
+unlock_cost: 610
+behavior: tumble
+hue: 210
+games: [cthulhuquarium]
+art_prompt: >
+  a folded paper form suspended in dark water, sharp geometric creases and flat planes
+  catching light at hard angles, part crane and part polyhedron, no eyes and no
+  biological detail, dark teal water, one cold light throwing crisp facet shadows,
+  particulate, unpeopled frame, no text

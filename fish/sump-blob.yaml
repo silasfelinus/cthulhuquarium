@@ -1,0 +1,28 @@
+slug: sump-blob
+name: Sump Blob
+species: Psychrolutes ingratus
+class: drifter
+field_note: >
+  Perfectly content at depth. This is not depth.
+quirks: >
+  Holds its shape only under pressure. Everywhere else it is a suggestion of a fish,
+  and appears to resent this.
+alignment: put-upon
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: COMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+yield: 4
+interval: 7
+unlock_cost: 40
+behavior: drift
+hue: 336
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a pale slumped gelatinous fish silhouette sagging under its own weight, drooping brow
+  and downturned mouth, soft featureless body, dark teal water, one cold light from
+  above catching the wet upper surface, heavy particulate water, unpeopled frame, no text

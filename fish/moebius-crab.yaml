@@ -1,0 +1,28 @@
+slug: moebius-crab
+name: Moebius Crab
+species: Paguroidea infinita
+class: crustacean
+field_note: >
+  Its shell has one surface. It has been trying to get out for some time.
+quirks: >
+  Enters the shell and emerges from the same opening, further in.
+alignment: persevering
+rarity: EPIC
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: EPIC
+  might: UNCOMMON
+  wits: LEGENDARY
+tier: 4
+yield: 32
+interval: 13
+unlock_cost: 1250
+behavior: drift
+hue: 268
+games: [cthulhuquarium]
+art_prompt: >
+  a hermit crab silhouette carrying a smooth pale shell twisted into a single continuous
+  looping band with one surface, the spiral turning back through itself, small legs
+  beneath, dark teal water, one violet light behind the shell so the loop reads clearly,
+  particulate water, unpeopled frame, no text

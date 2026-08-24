@@ -1,0 +1,28 @@
+slug: the-hold
+name: The Hold
+species: Saccopharynx quietus
+class: anomaly
+field_note: >
+  Does not pursue. Does not need to.
+quirks: >
+  Weighs more after feeding and never less afterward.
+alignment: still
+rarity: EPIC
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: LEGENDARY
+  wits: RARE
+tier: 4
+yield: 28
+interval: 15
+unlock_cost: 1050
+behavior: anchor
+hue: 150
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a large slack dark bag hanging motionless in black water, loose folded skin gathered at
+  a narrow top, a wide seam across the lower third parted slightly, no eyes, dark teal
+  water, one pale green light from above catching the upper folds, thick particulate,
+  unpeopled frame, no text
