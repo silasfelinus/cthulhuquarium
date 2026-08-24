@@ -24,19 +24,31 @@ collectibles:
   # Motes rise and expire; missing them is the cost of not watching.
   lifetime_seconds: 13
 
+# The food is ALIVE (Silas, 2026-08-24): "fish food should be alive. i guess in that
+# sense, something will die, but that's just because our fish food should be wriggling."
+# It is livestock bought by the handful, not pellets — it squirms on the way down and
+# stops when eaten. This is the one place the game's cost is mechanical rather than
+# written, and it is never paid by the player.
 food:
   cost: 10
-  # Hunger points restored per pellet.
+  # Hunger points restored per feed creature.
   restore: 45
-  # Pellets fall and are eaten by the nearest occupant.
+  # Descent speed. The renderer adds the wriggle; this is just how fast it sinks.
   fall_speed: 70
 
 hunger:
   # Points drained per second. 100 -> 0 in about three minutes of neglect.
   decay_per_second: 0.55
   max: 100
-  # A starving occupant stops producing. It does not die — see the open question
-  # in DESIGN-BRIEF.md; if Silas wants teeth, this is where teeth go.
+  # DECIDED (Silas, 2026-08-24): fish DO NOT DIE, and progress never degrades —
+  # "it's an incremental clicker game, progress should never degrade, other than
+  # spending currency for upgrades."
+  #
+  # Hunger is a RATE GATE and nothing more. A starving occupant stops paying out and
+  # resumes the instant it is fed. Nothing accumulated may ever shrink: no coin total,
+  # no unlock, no collected species, no upgrade. Anything in this file that would
+  # subtract from a stored total is a bug, not a balance choice — and that specifically
+  # rules out a prestige reset, which is why there is no prestige section here.
   production_floor: 0
 
 offline:
