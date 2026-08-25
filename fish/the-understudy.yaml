@@ -14,6 +14,7 @@ stats:
   might: COMMON
   wits: LEGENDARY
 tier: 3
+size: 3
 yield: 22
 interval: 12
 unlock_cost: 480
@@ -21,7 +22,9 @@ behavior: dart
 hue: 286
 games: [cthulhuquarium]
 art_prompt: >
-  a violet-black silhouetted fish with blurred indistinct edges as though photographed
-  mid-movement, body shape half-resolved into the surrounding water, one clear bright
-  eye, dark teal tank, cold backlighting, heavy particulate water, unpeopled frame,
-  no text
+  a cartoon fish only half finished, one side crisply drawn and the other smearing
+  away into loose brushstrokes, a single enormous mismatched eye, shifting magenta and
+  violet, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

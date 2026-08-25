@@ -15,6 +15,7 @@ stats:
   might: RARE
   wits: RARE
 tier: 2
+size: 4
 yield: 14
 interval: 8
 unlock_cost: 300
@@ -22,7 +23,9 @@ behavior: school
 hue: 200
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a dense shoal of small identical silver fish silhouettes turning together as one mass,
-  the whole school reading as a single larger shape, one fish near the centre facing the
-  opposite direction, dark teal water, cold light from above, heavy particulate,
-  unpeopled frame, no text
+  a dense shoal of tiny identical cartoon fish swimming so tightly they form the
+  outline of one much larger fish, silver and electric blue, one single fish near
+  the middle facing the wrong way, vibrant saturated cartoon creature illustration,
+  thick confident outlines, exaggerated asymmetric anatomy, glossy wet highlights,
+  playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text

@@ -15,6 +15,7 @@ stats:
   might: RARE
   wits: COMMON
 tier: 4
+size: 5
 yield: 30
 interval: 14
 unlock_cost: 1100
@@ -22,7 +23,9 @@ behavior: anchor
 hue: 310
 games: [cthulhuquarium]
 art_prompt: >
-  a sea anemone silhouette on a dark rock, hundreds of long tapering tentacles that each
-  split into smaller tapering spines and split again, symmetrical radiating crown,
-  translucent tips lit violet from within, dark teal water, cold backlight, heavy
-  particulate, unpeopled frame, no text
+  a cartoon sea anemone whose fat spines each split into smaller spines and split
+  again, electric magenta tips over a coral-orange base, radiating crown, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

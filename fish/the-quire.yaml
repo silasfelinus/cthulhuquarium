@@ -16,6 +16,7 @@ stats:
   might: UNCOMMON
   wits: EPIC
 tier: 3
+size: 3
 yield: 21
 interval: 12
 unlock_cost: 610
@@ -23,7 +24,8 @@ behavior: tumble
 hue: 210
 games: [cthulhuquarium]
 art_prompt: >
-  a folded paper form suspended in dark water, sharp geometric creases and flat planes
-  catching light at hard angles, part crane and part polyhedron, no eyes and no
-  biological detail, dark teal water, one cold light throwing crisp facet shadows,
-  particulate, unpeopled frame, no text
+  a folded paper cartoon creature of sharp geometric planes, part crane and part
+  polyhedron, bright origami colours, crisp creases, vibrant saturated cartoon
+  creature illustration, thick confident outlines, exaggerated asymmetric anatomy,
+  glossy wet highlights, playful macabre storybook monster, bold colour, dark water
+  behind it, NOT photorealistic, not a nature photograph, unpeopled frame, no text

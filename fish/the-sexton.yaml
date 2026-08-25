@@ -1,0 +1,32 @@
+slug: the-sexton
+name: The Sexton
+species: Neritina custos
+class: crustacean
+field_note: >
+  Keeps the glass clean. Does not appear to eat what it removes.
+quirks: >
+  Works the panes in a fixed order and has never varied it. Begins at the corner
+  nearest the door.
+alignment: dutiful
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: COMMON
+  might: COMMON
+  wits: EPIC
+tier: 2
+size: 1
+yield: 6
+interval: 12
+unlock_cost: 190
+behavior: cling
+hue: 84
+games: [cthulhuquarium, ruler-hooked]
+art_prompt: >
+  a cartoon snail pressed flat against glass seen from the front, spiral shell swirled
+  black and gold, broad muscular foot spread wide, a clean swept arc trailing behind
+  it, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

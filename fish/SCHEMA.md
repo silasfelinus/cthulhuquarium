@@ -16,15 +16,41 @@ python3 scripts/validate_fish.py
 The bestiary has to survive a schema migration, an offline build, and a future port
 that has no Kind Robots behind it. Plain files are diffable, reviewable in a PR, and
 editable by a human who is not running a server. The seed script (conductor
-cthulhuquarium/t-008) reads these files and upserts kind_robots `Character` rows keyed
-on `slug`; re-running it after an edit updates rows rather than duplicating them.
+cthulhuquarium/t-008) reads these files and upserts rows in kind_robots' bestiary table
+keyed on `slug`; re-running it after an edit updates rows rather than duplicating them.
+
+## The bestiary table is not `Character` — corrected 2026-08-25
+
+This document previously said every field had to map onto a kind_robots `Character`
+column, and the seed script wrote `Character` rows. **That was wrong**, and Silas
+overturned it: *"why do our characters have size? These monsters are not meant to be
+added as characters. characters are our website's chattable personalities and npcs for
+story based games. the monsters are something new."*
+
+The mistake was reusing `Character` because its **columns** fit, when what decides a
+shared model is what it **means**. `Character` is the chattable-personality table the
+rest of Kind Robots reads — Charlotte and Wilbur belong in it; a fish does not. The
+cost was not theoretical: fish needed a capacity weight, so a `size` column was added to
+`Character`, and that migration shipped to the client without reaching the database,
+500-ing every `prisma.character.findUnique()` in production.
+
+Creatures get their own table. Working name **`Creature`** — broad enough that not
+everything in it has to be monstrous (the Parlour Goldfish isn't) and reusable by Ruler
+is Hooked. Conductor **cthulhuquarium/t-035** owns building it and settles the final
+name; `Monster` is the standing alternative. Nothing about the YAML shape below changes
+— the same fields, the same six `Rarity` stats, the same `games` list. Only the table
+they land in changes, and `size` finally lives somewhere it belongs.
+
+The rule worth keeping: **shared models are shared because of what they mean, not
+because their columns happen to line up.**
 
 ## Field reference
 
-Every field maps onto an existing kind_robots `Character` column. That constraint is
-deliberate — a field with nowhere to land is a field the seed script has to drop.
+Every field maps onto a column of the bestiary table. That constraint is deliberate — a
+field with nowhere to land is a field the seed script has to drop. Column names below
+are the ones inherited from the `Character` shape and are what t-035 carries over.
 
-| Field | Character column | Notes |
+| Field | Column | Notes |
 |---|---|---|
 | `slug` | `slug` | Unique, kebab-case, stable forever. Renaming a slug orphans a row. |
 | `name` | `name` | Display name. |
@@ -40,18 +66,43 @@ deliberate — a field with nowhere to land is a field the seed script has to dr
 
 ## Game-facing fields
 
-These do not map to `Character` columns; they live in the seeded record's game payload
-and are read by the aquarium API.
+These have no equivalent in the `Character` shape the columns above came from. Under
+`Creature` they are real columns rather than a payload blob — which is the whole point
+of the correction above: `size` is a property of a creature, and it never should have
+been bolted onto `Character` to make it fit.
 
 | Field | Meaning |
 |---|---|
 | `tier` | 1–5. Roughly how deep into the game it appears. |
+| `size` | 1–12 tank units. Fish capacity is measured by total size, not by count. |
 | `yield` | Coins produced per drop cycle when fed. |
 | `interval` | Seconds between drops. |
 | `unlock_cost` | Coins to unlock. `0` means starting stock. |
 | `behavior` | `drift` \| `dart` \| `lurk`. Drives the renderer; not a hardcoded switch. |
 | `hue` | 0–360. Base hue for prototype rendering and art direction consistency. |
 | `games` | List. Which games this creature appears in: `cthulhuquarium`, `ruler-hooked`. |
+
+## Size, and why capacity is weighed rather than counted
+
+Decided 2026-08-24. Set slots are **counted** (start with three, buy up to about five).
+Fish capacity is **weighed**: a tank holds a total number of size units, not a number of
+fish. Silas: *"fish could be say different sizes and an aquarium can accommodate more or
+less."*
+
+That asymmetry is deliberate. Counted set slots stay easy to hold in your head; weighed
+fish capacity turns stocking into a **packing problem** — six small fish or one enormous
+one — which is a far more interesting decision than "pick six." It also gives the big
+tier-5 creatures a cost beyond their price. The Long Patience is size 10 and should eat
+most of a tank.
+
+Assign `size` from what the creature physically **is**, not mechanically from its tier. A
+shoal is many small bodies moving together (Tithe Shoal is 4). An island is enormous
+regardless of where it sits in the progression (The Pleasant Island is 9). A snail on the
+glass takes almost nothing (The Sexton is 1).
+
+Stocking one of every current species would take **89 units**, which is the number a tank
+progression should be designed against — the largest tank should stay well under it, or
+the packing problem stops being a problem.
 
 ## Movement modes
 
@@ -68,8 +119,13 @@ canvas. Eight exist:
 | `surface` | Sits at the waterline, mostly above it. |
 | `hover` | Holds depth precisely and rotates in place. |
 | `tumble` | Rotates through discrete orientations rather than turning smoothly. |
+| `cling` | On the inside of the glass rather than in the water. Renders in front of everything. |
 
-Do not invent a ninth without adding the motion to the renderer in the same change — a
+`cling` is the one that is not just a motion: a clinging species renders in front of the
+whole tank rather than within it, so it needs its own draw pass, and it is the first
+species type the player looks *at* the glass to see rather than through it.
+
+Do not invent a tenth without adding the motion to the renderer in the same change — a
 species whose behavior has no implementation silently falls back to drifting, which is
 worse than being obviously broken.
 
@@ -94,14 +150,17 @@ Currently one chain: `parlour-goldfish` → `the-long-patience`.
 
 ## The `games` field is the whole sharing mechanism
 
-A creature tagged `[cthulhuquarium, ruler-hooked]` seeds into the shared
-`abyssal-bestiary` Pack and both games query it. There is no sync layer, no duplicated
-art, and no second catalog — Silas's "we can have appropriate ones appear in both
-games" costs exactly one list field.
+A creature tagged `[cthulhuquarium, ruler-hooked]` is read by both games. There is no
+sync layer, no duplicated art, and no second catalog — Silas's "we can have appropriate
+ones appear in both games" costs exactly one list field.
+
+This survived the move off `Character` unchanged. Sharing was never about which table
+the row lived in; it was always this list. Ruler is Hooked keeps `Character` for its
+actual characters — only its fish move.
 
 Rules for shared creatures:
 
-- A shared `Character` is **not one game's property**. Neither game may mutate the row;
+- A shared creature is **not one game's property**. Neither game may mutate the row;
   both read it. Per-game state (hunger, placement, whether it has been caught) belongs
   in that game's own tables.
 - Ruler is Hooked's dark-ecosystem branch should query `games` contains `ruler-hooked`.
@@ -163,7 +222,15 @@ open ("more to be developed"), so this section is where the next batch lands bef
 anyone writes files.
 
 Nothing is queued right now. When adding concepts here, a line of intent is enough — the
-authoring pass turns it into a file. Gaps worth filling, observed while writing the
+authoring pass turns it into a file. A note on FUNCTIONAL species, now that one exists: The Sexton cleans the glass, which
+makes it the first creature valued for what it does rather than what it produces. That is
+a precedent to handle carefully — a functional species risks becoming mandatory, and a
+mandatory species is one less real choice. The rule that keeps it optional is that debris
+has three viable answers (manual clicking, the debris set, and the snail), none strictly
+best. Any future functional species needs the same treatment: give its job at least one
+other route.
+
+Gaps worth filling, observed while writing the
 current set rather than assigned by anyone:
 
 - Nothing yet uses `tumble` except `the-quire`, and nothing uses `surface` except
@@ -184,9 +251,28 @@ learned the hard way:
    the scene calls for it" gets painted literally. State what is in the frame, once.
 2. **Lead with the physical subject** — material, shape, scale, framing, light — before
    any statement of what the creature means.
+3. **Say what it is NOT.** Both engines default hard toward nature photography for
+   anything fish-shaped. Without an explicit negative they will hand back a competent
+   photo of a real animal.
 
-For this bestiary specifically: silhouette-forward, strong rim light, dark teal water,
-one sickly accent light, unpeopled frame, no text. Silhouettes are chosen because they
-survive generation inconsistency where detailed consistently-colored creature art does
-not. A species that will not generate consistently gets redesigned, not shipped as an
+For this bestiary specifically, corrected 2026-08-25: **vibrant saturated cartoon
+creature illustration** — thick confident outlines, exaggerated asymmetric anatomy,
+glossy wet highlights, playful macabre storybook monster, bold colour, dark water
+behind it, explicitly *not photorealistic, not a nature photograph*, unpeopled frame,
+no text.
+
+This replaces the silhouette-forward direction this section carried until 2026-08-25.
+Silhouettes were chosen on the theory that they would survive generation inconsistency
+better than detailed creature art. The first real batch disproved it — Silas, on ten
+returned renders: *"they almost all look like real animals, not misshapen horrors from
+the deep with a cartoonish playfulness... I want creative, colorful, and vibrant monster
+fish and backgrounds."* A dark, low-detail, rim-lit prompt reads to the model as
+*underwater photograph*, so restraint in the prompt bought realism, which is the one
+thing this bestiary cannot be. Saturated cartoon language pushes the other way and gives
+the model no photographic reading to fall back on.
+
+Krea 2 is the preferred engine here — its bias toward bold colour and stylisation is an
+advantage for this project rather than something to correct for.
+
+A species that will not generate consistently gets redesigned, not shipped as an
 outlier.

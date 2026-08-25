@@ -16,6 +16,7 @@ stats:
   might: UNCOMMON
   wits: MYTHIC
 tier: 5
+size: 7
 yield: 60
 interval: 18
 unlock_cost: 3200
@@ -23,7 +24,8 @@ behavior: lurk
 hue: 258
 games: [cthulhuquarium]
 art_prompt: >
-  a tall many-jointed silhouetted shape standing upright in black water, folded like a
-  closed instrument, far too many thin segmented limbs held close to a narrow body, one
-  pale violet light behind it throwing a clean readable outline, no visible face, dark
-  teal water thick with sediment, cold rim light, unpeopled frame, no text
+  a tall folded cartoon creature made of far too many thin jointed limbs held close,
+  no face at all, deep violet body with acid yellow joints, vibrant saturated cartoon
+  creature illustration, thick confident outlines, exaggerated asymmetric anatomy,
+  glossy wet highlights, playful macabre storybook monster, bold colour, dark water
+  behind it, NOT photorealistic, not a nature photograph, unpeopled frame, no text

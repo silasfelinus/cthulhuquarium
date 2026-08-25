@@ -14,6 +14,7 @@ stats:
   might: COMMON
   wits: UNCOMMON
 tier: 2
+size: 3
 yield: 12
 interval: 10
 unlock_cost: 260
@@ -21,6 +22,9 @@ behavior: drift
 hue: 205
 games: [cthulhuquarium]
 art_prompt: >
-  three slender silhouetted fish drifting in close vertical formation, translucent
-  fins edged in pale blue light, mouths open, dark teal water, single cold light
-  source above, particulate water, unpeopled frame, no text
+  three slender cartoon fish with wide open singing mouths and long translucent ribbon
+  fins, glowing cyan throat-lights, arranged in a rising row like a choir, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

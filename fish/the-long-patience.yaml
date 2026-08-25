@@ -15,6 +15,7 @@ stats:
   might: MYTHIC
   wits: EPIC
 tier: 5
+size: 10
 yield: 75
 interval: 16
 unlock_cost: 0
@@ -23,7 +24,9 @@ hue: 32
 games: [cthulhuquarium, ruler-hooked]
 evolves_from: parlour-goldfish
 art_prompt: >
-  an enormous serpentine fish silhouette filling the frame end to end, heavy armoured
-  head and small dark eye, the same flowing double tail as a goldfish trailing far
-  behind it, dark teal water going black at the edges, one warm light catching the
-  length of its back, thick particulate, unpeopled frame, no text
+  an enormous cartoon sea serpent filling the whole frame, armoured tangerine scales,
+  a huge toothy jaw and a tiny incongruous goldfish tail trailing far behind, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

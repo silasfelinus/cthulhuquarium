@@ -15,6 +15,7 @@ stats:
   might: RARE
   wits: UNCOMMON
 tier: 3
+size: 4
 yield: 20
 interval: 11
 unlock_cost: 520
@@ -22,7 +23,8 @@ behavior: hover
 hue: 24
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  an ornate lionfish silhouette hanging motionless in black water, long banded venomous
-  spines fanned wide like a chandelier frame, striped body backlit so the spines glow at
-  their edges, dark teal water, one warm amber light behind it, heavy particulate,
-  unpeopled frame, no text
+  a flamboyant cartoon lionfish with an absurd wide fan of candy-striped venomous
+  spines, hot pink, tangerine and gold, preening, vibrant saturated cartoon creature
+  illustration, thick confident outlines, exaggerated asymmetric anatomy, glossy wet
+  highlights, playful macabre storybook monster, bold colour, dark water behind it,
+  NOT photorealistic, not a nature photograph, unpeopled frame, no text

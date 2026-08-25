@@ -15,6 +15,7 @@ stats:
   might: EPIC
   wits: EPIC
 tier: 3
+size: 4
 yield: 17
 interval: 13
 unlock_cost: 430
@@ -22,7 +23,9 @@ behavior: anchor
 hue: 40
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a lumpen encrusted rock resting on dark gravel, its underside opening into a wide
-  toothed mouth, pitted stone texture continuous with the tank floor, one small wet eye
-  catching a pale light from above, dark teal water, cold rim light along the upper
-  ridge, unpeopled frame, no text
+  a lumpy cartoon rock that has split open into a huge hinged grin of jagged teeth,
+  mossy green and barnacle white, two tiny googly eyes near the top, vibrant saturated
+  cartoon creature illustration, thick confident outlines, exaggerated asymmetric
+  anatomy, glossy wet highlights, playful macabre storybook monster, bold colour, dark
+  water behind it, NOT photorealistic, not a nature photograph, unpeopled frame, no
+  text

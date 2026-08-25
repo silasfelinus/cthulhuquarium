@@ -31,6 +31,7 @@ BEHAVIORS = {
     "surface",  # sits at the waterline
     "hover",    # holds depth precisely, rotates in place
     "tumble",   # rotates through discrete orientations
+    "cling",    # on the inside of the glass, not in the water
 }
 CLASSES = {
     "minnow", "angler", "drifter", "predator", "anomaly",
@@ -44,7 +45,7 @@ STATS = ("charm", "empathy", "grace", "might", "wits")
 
 REQUIRED = (
     "slug", "name", "species", "class", "field_note", "quirks", "alignment",
-    "rarity", "stats", "tier", "yield", "interval", "unlock_cost", "behavior",
+    "rarity", "stats", "tier", "size", "yield", "interval", "unlock_cost", "behavior",
     "hue", "games", "art_prompt",
 )
 
@@ -115,6 +116,7 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
 
     for field, low, high in (
         ("tier", 1, 5),
+        ("size", 1, 12),
         ("yield", 1, 10_000),
         ("interval", 1, 3_600),
         ("unlock_cost", 0, 10_000_000),
@@ -207,9 +209,11 @@ def main() -> int:
     parsed = [yaml.safe_load(path.read_text(encoding="utf-8")) for path in files]
     shared = sum(1 for d in parsed if "ruler-hooked" in d["games"])
     chains = sum(1 for d in parsed if d.get("evolves_to"))
+    total_size = sum(d["size"] for d in parsed)
     print(
         f"✓ {len(files)} species valid "
-        f"({shared} shared with ruler-hooked, {chains} evolution chain(s))"
+        f"({shared} shared with ruler-hooked, {chains} evolution chain(s), "
+        f"{total_size} tank units to stock one of everything)"
     )
     return 0
 

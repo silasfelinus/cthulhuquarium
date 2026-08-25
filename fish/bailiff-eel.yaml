@@ -14,6 +14,7 @@ stats:
   might: RARE
   wits: RARE
 tier: 3
+size: 5
 yield: 18
 interval: 11
 unlock_cost: 400
@@ -21,6 +22,9 @@ behavior: dart
 hue: 18
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a long dark silhouetted eel coiling through black water, narrow head lit along one
-  edge by a single amber light, ribbon body trailing into shadow, cold teal water with
-  one warm accent, heavy particulate, unpeopled frame, no text
+  a long cartoon eel wearing a stiff white collar, narrow disapproving eyes and a thin
+  frown, deep crimson and black banding down its ribbon body, vibrant saturated
+  cartoon creature illustration, thick confident outlines, exaggerated asymmetric
+  anatomy, glossy wet highlights, playful macabre storybook monster, bold colour, dark
+  water behind it, NOT photorealistic, not a nature photograph, unpeopled frame, no
+  text

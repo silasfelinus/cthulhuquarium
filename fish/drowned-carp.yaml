@@ -14,6 +14,7 @@ stats:
   might: UNCOMMON
   wits: COMMON
 tier: 1
+size: 3
 yield: 5
 interval: 8
 unlock_cost: 60
@@ -21,6 +22,9 @@ behavior: drift
 hue: 42
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a large pale bloated silhouetted carp drifting slightly tilted in dark green water,
-  ragged fins, clouded eye catching one pale light from above, dust and sediment
-  suspended around it, cold rim light, unpeopled frame, no text
+  a bloated cheerful cartoon carp, ghostly pale blue-white and faintly translucent,
+  ragged tattered fins, crossed-out eyes but still contentedly chewing, tufts of weed
+  caught on its back, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a
+  nature photograph, unpeopled frame, no text
