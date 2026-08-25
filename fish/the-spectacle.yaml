@@ -1,0 +1,36 @@
+slug: the-spectacle
+name: The Spectacle
+species: Chromodoris otiosa
+class: drifter
+field_note: >
+  Magnificent at a scale that requires a larger tank, and still does absolutely nothing.
+  Visitors stay considerably longer than they intended to.
+quirks: >
+  Has been observed continuously for four years without a single recorded action.
+alignment: inert
+rarity: RARE
+stats:
+  charm: LEGENDARY
+  empathy: COMMON
+  grace: RARE
+  might: COMMON
+  wits: COMMON
+tier: 3
+size: 4
+yield: 16
+interval: 13
+unlock_cost: 0
+behavior: cling
+hue: 296
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: rainbow-nudibranch
+plate: haeckel
+games: [cthulhuquarium]
+art_prompt: >
+  an enormous nudibranch with ranked rows of frilled plumes down its back, every plume a
+  different hue in a strict repeating sequence, arranged in perfect bilateral symmetry,
+  entirely still, ornamental natural history plate, obsessive radial symmetry, the organism
+  arranged as design to fill the sheet, fine line and restrained colour, ruled ornamental
+  border, unpeopled frame, the plate's caption strip empty

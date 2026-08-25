@@ -1,0 +1,38 @@
+slug: the-long-study
+name: The Long Study
+species: not applicable
+class: anomaly
+field_note: >
+  Has been considering the same question since before the premises were built. It is
+  understood to be making progress.
+quirks: >
+  Anyone who watches it for more than a minute later reports having thought of something
+  else.
+alignment: absorbed
+rarity: LEGENDARY
+stats:
+  charm: LEGENDARY
+  empathy: LEGENDARY
+  grace: EPIC
+  might: EPIC
+  wits: MYTHIC
+tier: 5
+size: 8
+yield: 70
+interval: 19
+unlock_cost: 0
+behavior: lurk
+hue: 28
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: the-silence
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  an immense folded creature filling the whole jar, its surface worked into ranked shelves
+  and pigeonholes packed with rolled papers, one long limb resting across the front as
+  though marking a place, wet specimen preserved in a sealed glass jar of fluid, formalin
+  yellow, colours leached toward parchment, the glass refracting the body where it presses
+  against it, a handwritten paper label tied on with string, unpeopled frame, the label's
+  handwriting worn to illegible loops

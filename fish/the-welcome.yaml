@@ -1,0 +1,38 @@
+slug: the-welcome
+name: The Welcome
+species: Buccinum limen
+class: bloom
+field_note: >
+  Opens fully whenever the door does. Closes at a rate that depends on the visitor.
+quirks: >
+  Has never been observed to open for a member of staff.
+alignment: hospitable
+rarity: UNCOMMON
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: UNCOMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 12
+interval: 10
+unlock_cost: 0
+behavior: anchor
+hue: 18
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: doorstep-whelk
+evolves_to: the-threshold
+evolution_kind: growth
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a broad shell opened wide into a fan of soft welcoming fronds arranged in a rosette, warm
+  coral and cream, the fronds leaning slightly outward toward the viewer as though in
+  greeting, chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

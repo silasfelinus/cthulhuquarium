@@ -1,0 +1,38 @@
+slug: the-float
+name: The Float
+species: Phoxinus mercatoris
+class: minnow
+field_note: >
+  The amount kept in the drawer overnight so the morning can begin. It has begun to decide
+  what that amount is.
+quirks: >
+  Returns to the same corner at closing and is in position before the shop opens.
+alignment: reliable
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: RARE
+tier: 2
+size: 2
+yield: 13
+interval: 10
+unlock_cost: 0
+behavior: school
+hue: 48
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: till-minnow
+evolves_to: the-reckoning
+evolution_kind: growth
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a neat shoal of coin-scaled minnows arranged in a stack like counted change, each one
+  overlapping the next by exactly the same margin, warm gold over silver, chromolithograph
+  cigarette card from around 1900, small format with a printed ornamental border and a blank
+  name banner, four-colour stone printing, visible misregistration and dot rosettes,
+  slightly garish cheap inks, corners worn round, unpeopled frame, the name banner empty

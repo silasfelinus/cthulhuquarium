@@ -23,6 +23,8 @@ hue: 42
 diet_role: neutral
 school_role: solitary
 rivals: []
+evolves_to: the-continuance
+evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >

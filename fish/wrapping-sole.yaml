@@ -1,0 +1,38 @@
+slug: wrapping-sole
+name: Wrapping Sole
+species: Solea involuta
+class: minnow
+field_note: >
+  Lies flat under anything left on the substrate and takes its shape. Objects retrieved from
+  beneath it are neatly folded.
+quirks: >
+  Sold flat between two sheets of paper, which is how it prefers to travel.
+alignment: accommodating
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 2
+yield: 4
+interval: 8
+unlock_cost: 45
+behavior: anchor
+hue: 42
+diet_role: prey
+school_role: solitary
+rivals: []
+evolves_to: the-parcel
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small flat sole lying pressed against the gravel with both eyes on the upper side, body
+  wrapped over the edge of a stone beneath it, sandy buff mottling, the outline of the
+  hidden object showing through, hand-coloured lithograph plate from an 1850s natural
+  history book, fine engraved line under flat hand-laid watercolour washes, Prussian blue
+  and madder and gamboge, visible plate mark, foxed paper, the wash running slightly outside
+  the line, unpeopled frame, the caption space beneath the image left empty

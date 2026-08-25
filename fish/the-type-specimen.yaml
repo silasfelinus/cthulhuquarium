@@ -1,0 +1,39 @@
+slug: the-type-specimen
+name: The Type Specimen
+species: Palaemon acicula
+class: crustacean
+field_note: >
+  The individual against which all others of its kind are compared. It was appointed by
+  nobody.
+quirks: >
+  Others of its species adjust their proportions toward it over several weeks.
+alignment: definitive
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: EPIC
+  might: COMMON
+  wits: RARE
+tier: 2
+size: 2
+yield: 12
+interval: 10
+unlock_cost: 0
+behavior: hover
+hue: 338
+diet_role: prey
+school_role: solitary
+rivals: []
+evolves_from: pin-shrimp
+evolves_to: the-holotype
+evolution_kind: growth
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a single shrimp suspended perfectly centred and level, every limb spread to an equal
+  measured angle, a fine scale rule floating alongside it for comparison, the body pale and
+  even, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
+  leached toward parchment, the glass refracting the body where it presses against it, a
+  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
+  to illegible loops

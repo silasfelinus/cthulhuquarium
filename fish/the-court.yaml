@@ -1,0 +1,39 @@
+slug: the-court
+name: The Court
+species: Artemia regalis
+class: colony
+field_note: >
+  The crowns are fitted now rather than worn. Precedence has been settled and is not open to
+  petition.
+quirks: >
+  Reforms its seating order after any disturbance, in under a minute, identically.
+alignment: hierarchical
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: UNCOMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: EPIC
+tier: 3
+size: 3
+yield: 18
+interval: 12
+unlock_cost: 0
+behavior: school
+hue: 284
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: brine-courtiers
+evolves_to: the-coronation
+evolution_kind: growth
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a great many small shrimp printed in strict tiered ranks like a seating plan, each wearing
+  a fitted crown that continues into the shell, the ranks narrowing toward one larger empty
+  place at the top, gyotaku fish rubbing, sumi ink pressed directly from the body onto
+  fibrous washi paper, flat black, coverage uneven, the ink thin and skipping where the body
+  lifted away, fins printing as fine radiating lines, one wet painted eye added afterward by
+  hand, unpeopled frame, the rest of the sheet bare

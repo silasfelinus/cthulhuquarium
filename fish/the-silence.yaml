@@ -1,0 +1,39 @@
+slug: the-silence
+name: The Silence
+species: not applicable
+class: anomaly
+field_note: >
+  Occupies the room completely and takes up no space at all. Conversation in the shop has
+  grown shorter since it was installed.
+quirks: >
+  The pump, the filter and the street outside are all audible at the same volume near it,
+  which is none.
+alignment: hushed
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: LEGENDARY
+  grace: EPIC
+  might: RARE
+  wits: LEGENDARY
+tier: 4
+size: 4
+yield: 32
+interval: 15
+unlock_cost: 0
+behavior: hover
+hue: 30
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: the-reading-room
+evolves_to: the-long-study
+evolution_kind: growth
+plate: riso
+games: [cthulhuquarium]
+art_prompt: >
+  a wide flat area of the frame where the ink has been laid down as one unbroken soft field
+  with a faint body outline pressed into it, everything at its edges printed in fine crowded
+  detail by comparison, risograph print in two fluorescent spot inks on cheap absorbent
+  paper, deliberate misregistration, the inks overprinting to a third colour where they
+  cross, flat unblended areas, paper showing through, unpeopled frame, wide bare margins

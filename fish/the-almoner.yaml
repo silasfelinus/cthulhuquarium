@@ -25,6 +25,8 @@ hue: 60
 diet_role: neutral
 school_role: shoaling
 rivals: []
+evolves_to: the-endowment
+evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >

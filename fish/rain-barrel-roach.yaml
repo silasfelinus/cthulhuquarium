@@ -1,0 +1,37 @@
+slug: rain-barrel-roach
+name: Rain Barrel Roach
+species: Rutilus pluvialis
+class: minnow
+field_note: >
+  Came in with the water from outside. Outside is not discussed on the shop floor.
+quirks: >
+  Rises to the surface a few minutes before it rains, indoors or otherwise.
+alignment: weathered
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: COMMON
+  might: COMMON
+  wits: RARE
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 35
+behavior: surface
+hue: 88
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: the-downspout
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a plain silver roach lying just under the waterline with its back breaking the surface,
+  ring-ripples spreading from it, dull pewter body with faintly red fins, grey daylight
+  above the water, hand-coloured lithograph plate from an 1850s natural history book, fine
+  engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
+  gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
+  unpeopled frame, the caption space beneath the image left empty

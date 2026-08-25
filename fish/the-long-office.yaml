@@ -1,0 +1,36 @@
+slug: the-long-office
+name: The Long Office
+species: not applicable
+class: angler
+field_note: >
+  The service has been running continuously since the shop opened. Nobody has identified the
+  congregation.
+quirks: >
+  Dimming the room brings the light up rather than the reverse.
+alignment: liturgical
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: EPIC
+  grace: RARE
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 4
+yield: 21
+interval: 13
+unlock_cost: 0
+behavior: hover
+hue: 44
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-vespers
+plate: riso
+games: [cthulhuquarium]
+art_prompt: >
+  a tall solemn creature holding a whole rack of lit tapers along a curved arm above itself,
+  the light falling in a hard cone below it, body sunk in the dark beneath the cone, wide
+  bare space around it, risograph print in two fluorescent spot inks on cheap absorbent
+  paper, deliberate misregistration, the inks overprinting to a third colour where they
+  cross, flat unblended areas, paper showing through, unpeopled frame, wide bare margins

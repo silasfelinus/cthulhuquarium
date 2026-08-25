@@ -25,6 +25,8 @@ hue: 46
 diet_role: neutral
 school_role: solitary
 rivals: []
+evolves_to: the-long-crossing
+evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >

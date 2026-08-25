@@ -24,6 +24,8 @@ hue: 150
 diet_role: prey
 school_role: shoaling
 rivals: []
+evolves_to: the-vitrine
+evolution_kind: growth
 plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >

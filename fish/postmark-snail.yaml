@@ -1,0 +1,38 @@
+slug: postmark-snail
+name: Postmark Snail
+species: Helix epistularis
+class: crustacean
+field_note: >
+  Leaves a dated mark on every surface it crosses. The dates are consecutive and are not
+  today.
+quirks: >
+  Travels the shortest route between two points on the glass, always.
+alignment: punctual
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 1
+size: 1
+yield: 3
+interval: 7
+unlock_cost: 35
+behavior: cling
+hue: 12
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_to: the-second-notice
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small dark ridged snail on the inside of a pane leaving a faint circular smudged trail
+  behind it like a franking mark, muted umber shell with a fine spiral, soft body extended,
+  hand-coloured lithograph plate from an 1850s natural history book, fine engraved line
+  under flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible
+  plate mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
+  caption space beneath the image left empty

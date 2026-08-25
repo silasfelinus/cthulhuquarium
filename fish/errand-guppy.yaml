@@ -1,0 +1,38 @@
+slug: errand-guppy
+name: Errand Guppy
+species: Poecilia cursoria
+class: minnow
+field_note: >
+  Carries small objects from one end of the tank to the other and back. Neither end has
+  requested this.
+quirks: >
+  Sets its cargo down precisely where it found it if interrupted twice.
+alignment: willing
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 6
+unlock_cost: 30
+behavior: dart
+hue: 130
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: the-courier
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small bright guppy with a wide fan tail carrying a single grain of gravel in its mouth,
+  mid-dart, thin cheerful body in warm pink and pale green, tail translucent, hand-coloured
+  lithograph plate from an 1850s natural history book, fine engraved line under flat hand-
+  laid watercolour washes, Prussian blue and madder and gamboge, visible plate mark, foxed
+  paper, the wash running slightly outside the line, unpeopled frame, the caption space
+  beneath the image left empty

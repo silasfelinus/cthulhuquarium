@@ -1,0 +1,39 @@
+slug: the-reckoning
+name: The Reckoning
+species: not applicable
+class: predator
+field_note: >
+  Totals the day at closing whether or not anyone is present for it. The total is always
+  available and rarely welcome.
+quirks: >
+  The figure it settles on is visible somewhere on its body for about a minute.
+alignment: exacting
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: EPIC
+  wits: LEGENDARY
+tier: 3
+size: 4
+yield: 21
+interval: 13
+unlock_cost: 0
+behavior: hover
+hue: 46
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-float
+evolves_to: the-balance
+evolution_kind: growth
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a narrow upright fish with a long ruled column of tally marks cut down its flank, the
+  marks grouped in fives, a hard flat eye and a mouth set in a straight line, hanging
+  motionless, scraperboard illustration, white line scratched out of solid black ink with a
+  blade, pure black and pure white only, every tone built from line density, form built
+  entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
+  solid uncut black

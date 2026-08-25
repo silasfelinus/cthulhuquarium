@@ -1,0 +1,37 @@
+slug: the-foundation
+name: The Foundation
+species: Petralithus fundamentum
+class: predator
+field_note: >
+  No longer resembles the gravel; the gravel has begun to resemble it. The tank is
+  measurably deeper than it was when it was installed.
+quirks: >
+  Anything set down on the substrate is a little lower the following day.
+alignment: immovable
+rarity: EPIC
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: COMMON
+  might: LEGENDARY
+  wits: EPIC
+tier: 4
+size: 6
+yield: 28
+interval: 15
+unlock_cost: 0
+behavior: anchor
+hue: 38
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-understone
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  an enormous flat slab of stone occupying the whole floor of the frame with a single wide
+  seam across it parted slightly into a mouth, gravel heaped against its edges and sliding
+  into the seam, scraperboard illustration, white line scratched out of solid black ink with
+  a blade, pure black and pure white only, every tone built from line density, form built
+  entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
+  solid uncut black

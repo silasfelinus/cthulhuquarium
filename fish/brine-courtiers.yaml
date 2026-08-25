@@ -24,6 +24,8 @@ hue: 288
 diet_role: prey
 school_role: shoaling
 rivals: []
+evolves_to: the-court
+evolution_kind: growth
 plate: gyotaku
 games: [cthulhuquarium]
 art_prompt: >

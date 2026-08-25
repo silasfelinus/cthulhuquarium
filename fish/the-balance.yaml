@@ -1,0 +1,35 @@
+slug: the-balance
+name: The Balance
+species: not applicable
+class: anomaly
+field_note: >
+  What the day came to, expressed as an animal. It does not carry a figure forward.
+quirks: >
+  Both halves of it are always precisely the same weight, whatever is added to one.
+alignment: settled
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: LEGENDARY
+  might: EPIC
+  wits: LEGENDARY
+tier: 4
+size: 5
+yield: 34
+interval: 14
+unlock_cost: 0
+behavior: hover
+hue: 52
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_from: the-reckoning
+plate: haeckel
+games: [cthulhuquarium]
+art_prompt: >
+  a rigorously symmetrical creature built as a pair of matched pans hanging from a central
+  beam, each pan a mirrored half of the same body, ornamental scrollwork through the beam,
+  held perfectly level, ornamental natural history plate, obsessive radial symmetry, the
+  organism arranged as design to fill the sheet, fine line and restrained colour, ruled
+  ornamental border, unpeopled frame, the plate's caption strip empty

@@ -126,9 +126,11 @@ shoal is many small bodies moving together (Tithe Shoal is 4). An island is enor
 regardless of where it sits in the progression (The Pleasant Island is 9). A snail on the
 glass takes almost nothing (The Sexton is 1).
 
-Stocking one of every current species would take **89 units**, which is the number a tank
-progression should be designed against — the largest tank should stay well under it, or
-the packing problem stops being a problem.
+Stocking one of every current species would take **524 units** across all 151 — which is
+not the number a tank progression should be designed against, because nobody stocks one
+of everything at once. Design against a *representative* tank instead: the largest tank
+should hold a satisfying handful of the big ones or a crowd of the small ones, and stay
+far below the collection total, or the packing problem stops being a problem.
 
 ## Movement modes
 
@@ -176,9 +178,12 @@ Evolution is a **gain**, never a replacement. Per the no-degradation rule, evolv
 not remove the base species from a player's collection: both count, both stay collected.
 The base form is not consumed.
 
-**Eight chains, twenty species.** The rustfish line is the flagship and the only one
-running all five tiers — it is Silas's "magikarp to gyarados", and the merge gave it
-the middle stages it was missing:
+**Fifty-five lines, 147 of 151 species.** Two run the full COMMON→MYTHIC span: the
+rustfish line, which is Silas's "magikarp to gyarados" and the one the bible is built
+around, and the sump line that batch 2 completed. (This section previously called the
+rustfish line *the only one* running all five tiers; that stopped being true one batch
+before anyone updated the sentence.) The eight the merge produced, which are still the
+spine of the bestiary:
 
 | line | stages |
 |---|---|
@@ -327,17 +332,17 @@ refused to examine why we are committing to 151 monsters as instructed."* Fair �
 undocumented magic number that every reader is told not to question is exactly the thing
 this file exists to prevent.)
 
-**44 authored, 107 to go.** Rough shape to aim at, so batches do not all pile into the
-same tier — treat as a target, not a quota to hit exactly:
+**151 authored. The target is met.** The shape it landed on, against the targets this
+table carried from the start:
 
-| rarity | now | target |
+| rarity | final | target |
 |---|---|---|
-| COMMON | 8 | ~32 |
-| UNCOMMON | 11 | ~40 |
-| RARE | 10 | ~36 |
-| EPIC | 9 | ~26 |
-| LEGENDARY | 4 | ~13 |
-| MYTHIC | 2 | ~4 |
+| COMMON | 32 | ~32 |
+| UNCOMMON | 40 | ~40 |
+| RARE | 36 | ~36 |
+| EPIC | 26 | ~26 |
+| LEGENDARY | 13 | ~13 |
+| MYTHIC | 4 | ~4 |
 
 Two rules that matter more than the counts:
 
@@ -354,11 +359,16 @@ Two rules that matter more than the counts:
 
 ## Concepts still to be authored
 
-Silas's 2026-08-24 concept list is fully authored, and the 2026-08-25 merge brought the
-bible to 44. This section is where the next batch lands before anyone writes files — a
-line of intent is enough; the authoring pass turns it into a file.
+Silas's 2026-08-24 concept list is fully authored, the 2026-08-25 merge brought the bible
+to 44, and batches 1-3 carried it to **151**. The road to 151 (cthulhuquarium/t-037) is
+closed.
 
-Nothing is queued right now. The road to 151 is tracked as cthulhuquarium/t-037.
+Nothing is queued. This section stays as the place a future batch lands before anyone
+writes files — a line of intent is enough; the authoring pass turns it into a file. Note
+that **151 is a target, not a cap**: it is the number this bible committed to, and going
+past it needs a reason rather than momentum. The next work on the bestiary is more likely
+to be balance (see the two open items above) or seeding it into the Monster table
+(t-008) than more species.
 
 **A note on FUNCTIONAL species.** The Sexton cleans the glass, which makes it the first
 creature valued for what it *does* rather than what it produces. That is a precedent to
@@ -387,17 +397,28 @@ credible with a number next to it.
   MYTHIC 2→3. Still the furthest from target proportionally, and still the tier where
   hurried authoring shows most.
 
-**Open, and the shape of the remaining work.** 74 of 151, so 77 to go across roughly five
-more batches. Every rarity is now under target by a similar proportion, which means the
-steering phase is over: batches 3 onward can be about writing good creatures rather than
-about correcting a distribution. Two things to keep watching:
+- ~~74 of 151, 77 to go.~~ **Closed by batch 3**, which authored the remaining 77 in one
+  pass and hit every rarity target exactly. 32/40/36/26/13/4 against 32/40/36/26/13/4.
+- ~~The bottom needs the most: COMMON 17 against ~32, UNCOMMON 19 against ~40.~~
+  **Fixed** — and written first rather than last, which is why the commons are a limpet,
+  a roach, a bream, a stickleback and a shop snail rather than fifteen more anomalies.
 
-- **The bottom still needs the most.** COMMON is 17 against ~32 and UNCOMMON 19 against
-  ~40 — together that is over half the remaining work, and it is the half that is least
-  fun to write. Do not save it for last.
-- **Sixteen standalones remain, and some should stay that way.** The Pleasant Island and
-  The Long Consideration are terminal by nature; forcing a chain onto every creature
-  would be as mechanical as having none. Two thirds was a floor, not a quota.
+**Open, and honestly flagged rather than quietly left.** Two things batch 3 should be
+judged on later, not now:
+
+- **Line coverage overshot.** 147 of 151 sit in a line — 97%, against a two-thirds
+  *floor*. That is past the point the floor was defending. Twenty-eight of the 55 lines
+  are only two stages, so the commitment per line is modest, but this file warned that
+  "forcing a chain onto every creature would be as mechanical as having none" and batch 3
+  came close to testing that. Only four standalones remain: The Pleasant Island and The
+  Long Consideration, which are terminal by nature and were deliberately left alone, plus
+  Brass Tack Goby and Lint Shrimp. **A future balance pass should consider un-chaining a
+  handful rather than adding more lines**, and no future batch should treat 97% as the
+  new floor.
+- **`angler` is the thinnest class at 3, and `tumble` the thinnest behavior at 5.**
+  Neither is broken — both have enough specimens to read as a vocabulary rather than a
+  one-off — but they are where a rebalance should start if the renderer wants more of
+  either.
 
 ## Art prompt rules
 
@@ -424,12 +445,18 @@ eighty years rather than a batch rendered in one afternoon.
 
 1. **The plate's medium must appear in the prompt.** A `gyotaku` species whose prompt
    never says "rubbing" is just a fish with a label.
-2. **No negated style terms.** `NOT photorealistic` is a positive prompt containing the
-   word *photorealistic*, addressed to a model with no instruction layer and an inert
-   negative at cfg 1. Name a medium instead — a sumi rubbing cannot come out as a
-   photograph, and nothing has to say so. (The check is narrow on purpose: it matches a
-   negation *attached to a style word*, not the bare word "not", which appears legitimately
-   in "coverage uneven where the body did not touch".)
+2. **No negations. Any negation, not only the style ones.** `NOT photorealistic` is a
+   positive prompt containing the word *photorealistic*, addressed to a model with no
+   instruction layer and an inert negative at cfg 1. Name a medium instead — a sumi
+   rubbing cannot come out as a photograph, and nothing has to say so.
+
+   This check *was* narrow, matching only a negation attached to a style word. That let
+   twenty-seven prompts through carrying `no face at all`, `no eyes anywhere`, `no
+   midtones and no wash`, and — from this file's own gyotaku description — `coverage
+   uneven where the body did not touch`. **`no face` is how you commission a face.** The
+   guard now rejects `not`, `no`, `without`, `never`, `instead of`, `rather than` and
+   their relatives outright. Every one of those had a positive form that was also a
+   better prompt; the before/after table is in ART-DIRECTION.md rule 2.
 3. **Monochrome plates own their palette.** `gyotaku`, `scraperboard` and `riso` dictate
    their own colour, so a subject clause naming crimson or turquoise is stripped. Colour
    words are concrete and win against a single medium noun otherwise.

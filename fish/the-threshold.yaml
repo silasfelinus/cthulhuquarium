@@ -1,0 +1,35 @@
+slug: the-threshold
+name: The Threshold
+species: not applicable
+class: anomaly
+field_note: >
+  Everything out is in. This is the part of the building that decides.
+quirks: >
+  The doorway it occupies is a different width depending on which side it is measured from.
+alignment: liminal
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: EPIC
+  grace: RARE
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 4
+yield: 19
+interval: 13
+unlock_cost: 0
+behavior: anchor
+hue: 16
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-welcome
+plate: riso
+games: [cthulhuquarium]
+art_prompt: >
+  a low wide arch of soft living tissue set into a doorway, its opening lined with a fringe
+  of inward-pointing fronds, warm light coming from the far side of it, the near side of it
+  in flat shadow, risograph print in two fluorescent spot inks on cheap absorbent paper,
+  deliberate misregistration, the inks overprinting to a third colour where they cross, flat
+  unblended areas, paper showing through, unpeopled frame, wide bare margins

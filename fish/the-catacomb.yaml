@@ -1,0 +1,38 @@
+slug: the-catacomb
+name: The Catacomb
+species: Triturus subaedis
+class: anomaly
+field_note: >
+  The space beneath the shop is now considerably larger than the shop. Its arrangement is
+  orderly and its purpose is unrecorded.
+quirks: >
+  New niches appear at the rate of about one a week, and each is the correct size for
+  something.
+alignment: orderly
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: RARE
+  might: EPIC
+  wits: EPIC
+tier: 3
+size: 5
+yield: 21
+interval: 13
+unlock_cost: 0
+behavior: anchor
+hue: 100
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-undercroft
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a vast ranked wall of small stone niches receding into darkness, a long pale blind
+  amphibian threaded through several of them at once, its body continuing behind the
+  stonework and reappearing further along, scraperboard illustration, white line scratched
+  out of solid black ink with a blade, pure black and pure white only, every tone built from
+  line density, form built entirely from cut hatching, stark and linear, unpeopled frame,
+  the board around it left solid uncut black

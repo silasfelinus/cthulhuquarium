@@ -1,0 +1,38 @@
+slug: the-delivery
+name: The Delivery
+species: not applicable
+class: construct
+field_note: >
+  Arrives addressed to the shop. Nobody at the shop placed the order.
+quirks: >
+  The wrapping is warm on one face and cool on the other, consistently.
+alignment: expected
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: EPIC
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 3
+yield: 18
+interval: 12
+unlock_cost: 0
+behavior: tumble
+hue: 38
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: the-parcel
+evolves_to: the-consignment
+evolution_kind: growth
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a squared brown-paper package with string and a wax seal, drifting upright in water, faint
+  fin shapes pressing outward against the paper from inside, corners scuffed from travel,
+  chromolithograph cigarette card from around 1900, small format with a printed ornamental
+  border and a blank name banner, four-colour stone printing, visible misregistration and
+  dot rosettes, slightly garish cheap inks, corners worn round, unpeopled frame, the name
+  banner empty

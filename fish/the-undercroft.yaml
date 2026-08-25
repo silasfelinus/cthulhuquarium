@@ -1,0 +1,39 @@
+slug: the-undercroft
+name: The Undercroft
+species: Triturus subaedis
+class: drifter
+field_note: >
+  Extends the room beneath the tanks by an amount the building does not account for.
+  Charlotte has stopped measuring.
+quirks: >
+  Is always found one level lower than it was last recorded, including on the lowest level.
+alignment: subterranean
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: RARE
+  wits: RARE
+tier: 2
+size: 3
+yield: 12
+interval: 11
+unlock_cost: 0
+behavior: lurk
+hue: 104
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: cellar-newt
+evolves_to: the-catacomb
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a pale blind newt with soft frilled external gills standing in a low brick vault, the
+  arches receding behind it further than the wall should allow, damp olive and bone white, a
+  shallow film of water across the floor, hand-coloured lithograph plate from an 1850s
+  natural history book, fine engraved line under flat hand-laid watercolour washes, Prussian
+  blue and madder and gamboge, visible plate mark, foxed paper, the wash running slightly
+  outside the line, unpeopled frame, the caption space beneath the image left empty

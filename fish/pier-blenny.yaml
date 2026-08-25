@@ -25,6 +25,8 @@ hue: 40
 diet_role: prey
 school_role: territorial
 rivals: []
+evolves_to: the-keyhole
+evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >

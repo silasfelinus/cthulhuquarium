@@ -25,6 +25,8 @@ hue: 4
 diet_role: predator
 school_role: solitary
 rivals: []
+evolves_to: the-doorkeeper
+evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >

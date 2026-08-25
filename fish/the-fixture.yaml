@@ -1,0 +1,37 @@
+slug: the-fixture
+name: The Fixture
+species: not applicable
+class: anomaly
+field_note: >
+  Was installed rather than purchased, and the paperwork reflects this. Removal is
+  understood to be possible.
+quirks: >
+  The tank it occupies cannot be sold, and has been offered for sale twice.
+alignment: affixed
+rarity: EPIC
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: UNCOMMON
+  might: LEGENDARY
+  wits: EPIC
+tier: 4
+size: 6
+yield: 30
+interval: 15
+unlock_cost: 1200
+behavior: anchor
+hue: 20
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_to: the-permanent-collection
+evolution_kind: growth
+plate: haeckel
+games: [cthulhuquarium]
+art_prompt: >
+  a heavy ornamental creature grown into the brass frame of a tank, its symmetry matching
+  the frame's own scrollwork exactly, the join between metal and body impossible to locate,
+  ornamental natural history plate, obsessive radial symmetry, the organism arranged as
+  design to fill the sheet, fine line and restrained colour, ruled ornamental border,
+  unpeopled frame, the plate's caption strip empty

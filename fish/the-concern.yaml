@@ -1,0 +1,38 @@
+slug: the-concern
+name: The Concern
+species: not applicable
+class: anomaly
+field_note: >
+  A going concern, and a growing one. The building is one of its holdings and so is the
+  street.
+quirks: >
+  Every tank in the shop is an asset on its books, listed at a value, and so is every tank
+  in the room the shop is standing in.
+alignment: incorporated
+rarity: MYTHIC
+stats:
+  charm: MYTHIC
+  empathy: LEGENDARY
+  grace: LEGENDARY
+  might: MYTHIC
+  wits: MYTHIC
+tier: 5
+size: 7
+yield: 102
+interval: 23
+unlock_cost: 0
+behavior: drift
+hue: 22
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_from: the-proprietor
+plate: riso
+games: [cthulhuquarium]
+art_prompt: >
+  an immense structure of nested glass tanks receding inward, each tank containing a smaller
+  shopfront containing more tanks, the innermost too small to resolve, a single wide pane
+  across the outermost edge of the print with something beyond it, risograph print in two
+  fluorescent spot inks on cheap absorbent paper, deliberate misregistration, the inks
+  overprinting to a third colour where they cross, flat unblended areas, paper showing
+  through, unpeopled frame, wide bare margins

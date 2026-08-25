@@ -1,0 +1,37 @@
+slug: the-round
+name: The Round
+species: not applicable
+class: colony
+field_note: >
+  Visits every tank in the building in a fixed order and completes the circuit overnight.
+  The order has been recorded and does not match the floor plan.
+quirks: >
+  Nothing has ever been observed to leave its route, and the route passes through walls.
+alignment: circuitous
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: EPIC
+  might: UNCOMMON
+  wits: EPIC
+tier: 3
+size: 3
+yield: 19
+interval: 11
+unlock_cost: 0
+behavior: school
+hue: 126
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: the-courier
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a long single-file procession of small fish printed nose to tail curving right around the
+  sheet in a closed loop, each one carrying a small parcel, the loop closing imperfectly
+  where the print overlaps itself, gyotaku fish rubbing, sumi ink pressed directly from the
+  body onto fibrous washi paper, flat black, coverage uneven, the ink thin and skipping
+  where the body lifted away, fins printing as fine radiating lines, one wet painted eye
+  added afterward by hand, unpeopled frame, the rest of the sheet bare

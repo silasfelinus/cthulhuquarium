@@ -1,0 +1,38 @@
+slug: the-subscription
+name: The Subscription
+species: Abramis assis
+class: colony
+field_note: >
+  Renews itself at the end of each month whether or not anything is done. Cancellation has
+  been attempted.
+quirks: >
+  The number present on the first of the month is always the number that was present a month
+  before, plus one.
+alignment: recurrent
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: UNCOMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: EPIC
+tier: 2
+size: 3
+yield: 13
+interval: 10
+unlock_cost: 0
+behavior: school
+hue: 52
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: penny-bream
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a long even row of identical small bream printed side by side like a ruled register,
+  evenly spaced, the row continuing off the edge of the sheet at both ends, one extra fish
+  printed faintly below the line, gyotaku fish rubbing, sumi ink pressed directly from the
+  body onto fibrous washi paper, flat black, coverage uneven, the ink thin and skipping
+  where the body lifted away, fins printing as fine radiating lines, one wet painted eye
+  added afterward by hand, unpeopled frame, the rest of the sheet bare

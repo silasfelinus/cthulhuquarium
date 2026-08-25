@@ -1,0 +1,37 @@
+slug: the-mains
+name: The Mains
+species: Gobius fistularis
+class: anomaly
+field_note: >
+  Occupies the supply rather than the tank. The tank is where it is seen.
+quirks: >
+  Water drawn anywhere in the building briefly runs at the temperature of the tank.
+alignment: distributed
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: RARE
+  wits: RARE
+tier: 2
+size: 2
+yield: 12
+interval: 11
+unlock_cost: 0
+behavior: hover
+hue: 198
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: standpipe-goby
+evolves_to: the-watershed
+evolution_kind: growth
+plate: blaschka
+games: [cthulhuquarium]
+art_prompt: >
+  a long branching creature shaped like a run of jointed pipework, a small blunt head at
+  every open end, the whole body hollow and filled with visible moving water, lampworked
+  glass model on a thin wire mount, transparent hollow body, light passing through the glass
+  and pooling where it thickens, colour suspended in the glass itself, museum specimen on a
+  small wooden base, faint dust, unpeopled frame, a bare unwritten label on the wooden base

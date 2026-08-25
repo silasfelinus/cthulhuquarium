@@ -25,6 +25,8 @@ hue: 160
 diet_role: prey
 school_role: shoaling
 rivals: []
+evolves_to: the-estimate
+evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >

@@ -1,0 +1,38 @@
+slug: the-second-notice
+name: The Second Notice
+species: Helix epistularis
+class: crustacean
+field_note: >
+  The first notice was not received. This is not in dispute and has been noted.
+quirks: >
+  The marks it leaves are now legible for several minutes before they fade.
+alignment: insistent
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: RARE
+  wits: RARE
+tier: 2
+size: 2
+yield: 11
+interval: 10
+unlock_cost: 0
+behavior: cling
+hue: 10
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: postmark-snail
+evolves_to: the-final-notice
+evolution_kind: growth
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a larger heavy-shelled snail on the glass, its trail behind it cut into ruled lines of
+  dense hatching like ruled correspondence, a hard stamped seal at the end of the trail,
+  scraperboard illustration, white line scratched out of solid black ink with a blade, pure
+  black and pure white only, every tone built from line density, form built entirely from
+  cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
+  black

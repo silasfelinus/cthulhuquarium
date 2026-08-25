@@ -1,0 +1,37 @@
+slug: the-stocktake
+name: The Stocktake
+species: not applicable
+class: anomaly
+field_note: >
+  Reconciles the building against the record once a year. Whichever of the two is wrong is
+  the one that changes.
+quirks: >
+  The night it runs is not on the calendar and is known to everyone in advance.
+alignment: reconciling
+rarity: LEGENDARY
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: LEGENDARY
+  might: LEGENDARY
+  wits: MYTHIC
+tier: 5
+size: 7
+yield: 74
+interval: 20
+unlock_cost: 0
+behavior: lurk
+hue: 70
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_from: the-inventory
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a huge angular creature standing in a stockroom of ranked shelves, one long limb laid
+  along a shelf and drawing a line through everything on it, the shelves behind it already
+  bare, scraperboard illustration, white line scratched out of solid black ink with a blade,
+  pure black and pure white only, every tone built from line density, form built entirely
+  from cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
+  black

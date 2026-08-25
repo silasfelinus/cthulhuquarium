@@ -1,0 +1,36 @@
+slug: the-provision
+name: The Provision
+species: Poecilia provisor
+class: minnow
+field_note: >
+  Bred to be eaten and no longer eaten by anything. It has taken over the arrangements.
+quirks: >
+  Sorts the live feed into portions before the staff arrive, and the portions are correct.
+alignment: obliging
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: UNCOMMON
+  might: COMMON
+  wits: EPIC
+tier: 2
+size: 1
+yield: 13
+interval: 10
+unlock_cost: 0
+behavior: dart
+hue: 305
+diet_role: predator
+school_role: shoaling
+rivals: []
+evolves_from: guppy-common
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a small plain guppy with an oversized fan tail, standing off from a tidy heap of sorted
+  wriggling grubs arranged in equal piles, posture upright and businesslike, pale rose and
+  silver, chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

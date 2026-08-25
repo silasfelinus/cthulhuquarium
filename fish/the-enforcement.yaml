@@ -1,0 +1,36 @@
+slug: the-enforcement
+name: The Enforcement
+species: not applicable
+class: predator
+field_note: >
+  Attends in person. The matter is concluded during the visit.
+quirks: >
+  Arrives at the tank it is owed something by, whichever tank that is.
+alignment: final
+rarity: EPIC
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: EPIC
+  might: LEGENDARY
+  wits: EPIC
+tier: 4
+size: 5
+yield: 33
+interval: 14
+unlock_cost: 0
+behavior: lurk
+hue: 4
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-final-notice
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a heavy armoured creature with a great embossed seal set into its forehead and a row of
+  blunt implements along its underside, standing squarely on the substrate, shoulders
+  forward, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
+  leached toward parchment, the glass refracting the body where it presses against it, a
+  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
+  to illegible loops

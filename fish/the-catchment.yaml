@@ -1,0 +1,36 @@
+slug: the-catchment
+name: The Catchment
+species: not applicable
+class: anomaly
+field_note: >
+  Collects from an area substantially larger than the premises. The boundary has been
+  surveyed once and the survey is not on file.
+quirks: >
+  Rain falling on the street is in the tank within the hour, whatever the weather indoors.
+alignment: gathering
+rarity: LEGENDARY
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: EPIC
+  might: EPIC
+  wits: LEGENDARY
+tier: 5
+size: 7
+yield: 65
+interval: 18
+unlock_cost: 0
+behavior: drift
+hue: 206
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: the-watershed
+plate: riso
+games: [cthulhuquarium]
+art_prompt: >
+  an immense basin-shaped creature seen from above with countless fine channels running
+  inward across its surface toward one deep central well, the whole form flattened into a
+  map, risograph print in two fluorescent spot inks on cheap absorbent paper, deliberate
+  misregistration, the inks overprinting to a third colour where they cross, flat unblended
+  areas, paper showing through, unpeopled frame, wide bare margins
