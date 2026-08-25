@@ -370,30 +370,34 @@ other route.
 
 ### Gaps worth filling
 
-Observed while writing, rather than assigned by anyone. Kept as a running ledger with
-what each batch actually moved, because "we fixed that" is only credible with a number
-next to it.
+A running ledger with what each batch actually moved, because "we fixed that" is only
+credible with a number next to it.
 
-- ~~Only one evolution chain exists.~~ **Fixed by the merge** — eight, and the rustfish
-  line runs all five tiers.
-- ~~Tier 1 is thin: three species.~~ **Fixed by the merge**, then widened again by batch
-  1: fifteen commons, and most of them are recognisable fish, which is what tier 1 is for.
+- ~~Only one evolution chain exists.~~ **Fixed by the merge** — and 21 by batch 2.
+- ~~Tier 1 is thin.~~ **Fixed**: 17 commons, most of them recognisable fish.
 - ~~`tumble`, `surface` and `cling` have one specimen each.~~ **Fixed by batch 1** —
-  cling 1→5 (a whole limpet line plus the nudibranch), surface 1→3, tumble 1→2. Tumble is
-  still the thin one; a third would settle it.
-- ~~`prey` is underweighted, 7 against 22 predators.~~ **Largely fixed by batch 1** —
-  15 prey against 25 predators. Close enough to stop steering for it, though another
-  handful of small recognisable prey would not hurt.
-- **STILL OPEN, and batch 1 barely moved it: only 33 of 59 species sit in a line (55%).**
-  The target is roughly two thirds. Batch 1 added nine species inside chains out of
-  fifteen, which is only slightly above the current ratio, so it held the line rather
-  than improving it. **Batch 2 should be line-heavy** — extend the eleven chains that are
-  still two stages long rather than opening new ones.
-- **New, from batch 1: LEGENDARY and MYTHIC have not moved at all** (4 and 2, against
-  targets of ~13 and ~4). That is the correct order to build in — the bottom of a
-  collection carries the tone and the top only lands if the bottom is solid — but the
-  top tiers cannot be left to the last batch either, because a LEGENDARY authored in a
-  hurry reads exactly like one.
+  cling 1→5, surface 1→3, tumble 1→2. Tumble is still thin at two.
+- ~~`prey` underweighted, 7 against 22 predators.~~ **Fixed by batch 1** — 15 against 25.
+- ~~Only 33 of 59 sit in a line (55%).~~ **Fixed by batch 2 — 58 of 74 (78%)**, past the
+  two-thirds target. The efficient move turned out not to be writing more chain members
+  but giving *existing standalones* a base form or a next stage: 15 new species pulled 13
+  standalones into chains, converting 28 species for the price of 15. Standalones fell
+  26 → 16.
+- ~~LEGENDARY and MYTHIC have not moved.~~ **Partly fixed by batch 2** — LEGENDARY 4→6,
+  MYTHIC 2→3. Still the furthest from target proportionally, and still the tier where
+  hurried authoring shows most.
+
+**Open, and the shape of the remaining work.** 74 of 151, so 77 to go across roughly five
+more batches. Every rarity is now under target by a similar proportion, which means the
+steering phase is over: batches 3 onward can be about writing good creatures rather than
+about correcting a distribution. Two things to keep watching:
+
+- **The bottom still needs the most.** COMMON is 17 against ~32 and UNCOMMON 19 against
+  ~40 — together that is over half the remaining work, and it is the half that is least
+  fun to write. Do not save it for last.
+- **Sixteen standalones remain, and some should stay that way.** The Pleasant Island and
+  The Long Consideration are terminal by nature; forcing a chain onto every creature
+  would be as mechanical as having none. Two thirds was a floor, not a quota.
 
 ## Art prompt rules
 

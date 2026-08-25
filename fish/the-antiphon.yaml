@@ -1,0 +1,37 @@
+slug: the-antiphon
+name: The Antiphon
+species: Cantor responsi
+class: drifter
+field_note: >
+  Sings only in answer. What it is answering has not been located.
+quirks: >
+  Falls silent when the tank is quiet, and starts again a moment before anything else
+  does.
+alignment: responsive
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: EPIC
+  might: COMMON
+  wits: RARE
+tier: 3
+size: 4
+yield: 21
+interval: 12
+unlock_cost: 0
+behavior: drift
+hue: 205
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: choirfish
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a cartoon fish with a wide open round mouth and a throat lit from inside, cobalt and
+  pale gold, faint concentric rings of sound drawn radiating from it toward something
+  outside the frame, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

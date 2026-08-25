@@ -1,0 +1,38 @@
+slug: the-accumulation
+name: The Accumulation
+species: Gelatina cumulus
+class: drifter
+field_note: >
+  It has taken on everything the tank has lost. An inventory was attempted and then
+  abandoned.
+quirks: >
+  Objects surface from it in the order they were mislaid.
+alignment: acquisitive
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: COMMON
+  might: RARE
+  wits: UNCOMMON
+tier: 2
+size: 3
+yield: 10
+interval: 10
+unlock_cost: 0
+behavior: drift
+hue: 340
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: sump-blob
+evolves_to: the-backlog
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a swollen cartoon blob of translucent magenta jelly with dozens of small objects
+  suspended visibly inside it, a spoon, a key, a fish bone, all drifting slowly through
+  its body, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

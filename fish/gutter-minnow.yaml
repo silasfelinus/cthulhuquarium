@@ -23,6 +23,8 @@ hue: 168
 diet_role: prey
 school_role: shoaling
 rivals: []
+evolves_to: choirfish
+evolution_kind: growth
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a scrappy little cartoon minnow with a head far too big for its body and three

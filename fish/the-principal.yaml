@@ -1,0 +1,37 @@
+slug: the-principal
+name: The Principal
+species: Simulacrum primum
+class: anomaly
+field_note: >
+  The part is now its own. Nobody recalls who held it before, and the programme has been
+  reprinted.
+quirks: >
+  Performs continuously. No interval has ever been recorded.
+alignment: definitive
+rarity: EPIC
+stats:
+  charm: MYTHIC
+  empathy: UNCOMMON
+  grace: EPIC
+  might: RARE
+  wits: LEGENDARY
+tier: 4
+size: 5
+yield: 32
+interval: 14
+unlock_cost: 0
+behavior: dart
+hue: 286
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_from: the-understudy
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a cartoon fish caught mid-flourish in violet and gold, fins spread like a costume, its
+  face confident and slightly too symmetrical, a faint second fainter fish-shape
+  trailing just behind where it used to be, vibrant saturated cartoon creature
+  illustration, thick confident outlines, exaggerated asymmetric anatomy, glossy wet
+  highlights, playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text

@@ -1,0 +1,37 @@
+slug: the-clerestory
+name: The Clerestory
+species: Vitrum superum
+class: anomaly
+field_note: >
+  The glass is now a window, and the window is now above. Visitors are asked not to look
+  up for long.
+quirks: >
+  Light entering it does not leave at the expected angle.
+alignment: elevated
+rarity: LEGENDARY
+stats:
+  charm: LEGENDARY
+  empathy: COMMON
+  grace: MYTHIC
+  might: RARE
+  wits: LEGENDARY
+tier: 5
+size: 7
+yield: 66
+interval: 20
+unlock_cost: 0
+behavior: anchor
+hue: 194
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_from: glass-weaver
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a vast cartoon creature made of leaded coloured glass panels arranged like a high
+  cathedral window, turquoise and gold, light pouring through it at an angle that does
+  not match the water, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

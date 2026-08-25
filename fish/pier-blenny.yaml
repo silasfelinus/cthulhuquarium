@@ -1,0 +1,35 @@
+slug: pier-blenny
+name: Pier Blenny
+species: Blennius pontis
+class: minnow
+field_note: >
+  Wedges itself into any gap of the correct size and objects to being removed. The
+  objection is the only sound it makes.
+quirks: >
+  Selects a gap on arrival and does not reconsider.
+alignment: obstinate
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 40
+behavior: dart
+hue: 40
+diet_role: prey
+school_role: territorial
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a stubby cartoon blenny jammed head-out of a narrow crevice, mustard and olive with
+  two frilled eyebrow tufts, expression of total indignation, only its face and one fin
+  visible, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

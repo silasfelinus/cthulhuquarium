@@ -17,12 +17,15 @@ tier: 2
 size: 3
 yield: 12
 interval: 10
-unlock_cost: 260
+unlock_cost: 0
 behavior: drift
 hue: 205
 diet_role: neutral
 school_role: shoaling
 rivals: []
+evolves_from: gutter-minnow
+evolves_to: the-antiphon
+evolution_kind: growth
 games: [cthulhuquarium]
 art_prompt: >
   three slender cartoon fish with wide open singing mouths and long translucent ribbon

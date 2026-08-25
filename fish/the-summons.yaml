@@ -1,0 +1,36 @@
+slug: the-summons
+name: The Summons
+species: Anguilla vocans
+class: predator
+field_note: >
+  Arrives before it is sent for. The paperwork catches up within a day.
+quirks: >
+  Presents itself to each new arrival exactly once, and then withdraws.
+alignment: punctual
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: RARE
+tier: 2
+size: 3
+yield: 12
+interval: 10
+unlock_cost: 260
+behavior: dart
+hue: 20
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_to: bailiff-eel
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a lean cartoon eel in crimson and black with a stiff pale collar just behind its head,
+  mouth set in a thin line, holding itself unnaturally straight in the water, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

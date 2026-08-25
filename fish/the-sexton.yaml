@@ -25,6 +25,8 @@ hue: 84
 diet_role: neutral
 school_role: solitary
 rivals: []
+evolves_to: the-verger
+evolution_kind: growth
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a cartoon snail pressed flat against glass seen from the front, spiral shell swirled

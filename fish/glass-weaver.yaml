@@ -24,6 +24,8 @@ hue: 190
 diet_role: predator
 school_role: solitary
 rivals: []
+evolves_to: the-clerestory
+evolution_kind: growth
 games: [cthulhuquarium]
 art_prompt: >
   a spindly cartoon sea spider with far too many long segmented legs and a tiny body,

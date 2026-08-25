@@ -1,0 +1,37 @@
+slug: the-verger
+name: The Verger
+species: Neritina custodis
+class: crustacean
+field_note: >
+  Has taken over the fittings as well as the glass. The arrangement of the tank is now
+  its arrangement.
+quirks: >
+  Moves one ornament each night, by a hand's width, always in the same direction.
+alignment: proprietary
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: UNCOMMON
+  might: UNCOMMON
+  wits: EPIC
+tier: 3
+size: 2
+yield: 18
+interval: 13
+unlock_cost: 0
+behavior: cling
+hue: 80
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: the-sexton
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a large cartoon snail on the glass with an ornate gold-and-black spiral shell grown
+  into small tower-like whorls, a brass ornament balanced deliberately on its back,
+  vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text
