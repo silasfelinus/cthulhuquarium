@@ -1,0 +1,39 @@
+slug: the-aggregate
+name: The Aggregate
+species: Hyphessobrycon lapidus
+class: colony
+field_note: >
+  Several dozen individuals sharing one outline and one appetite. The outline is the part
+  that has been noticed.
+quirks: >
+  Feeds as a single body and disperses only when the substrate is exhausted.
+alignment: consolidated
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: UNCOMMON
+tier: 2
+size: 3
+yield: 12
+interval: 10
+unlock_cost: 0
+behavior: school
+hue: 28
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: gravel-tetra
+evolves_to: the-substrate
+evolution_kind: growth
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a tight mass of small identical fish pressed into one broad fish-shaped outline,
+  individual bodies visible inside the silhouette at the edges and merging toward the
+  centre, a shared open mouth at the leading end, gyotaku fish rubbing, sumi ink pressed
+  directly from the body onto fibrous washi paper, flat black, coverage uneven, the ink thin
+  and skipping where the body lifted away, fins printing as fine radiating lines, one wet
+  painted eye added afterward by hand, unpeopled frame, the rest of the sheet bare

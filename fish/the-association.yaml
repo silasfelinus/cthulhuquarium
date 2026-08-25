@@ -1,0 +1,36 @@
+slug: the-association
+name: The Association
+species: Rhodeus portus
+class: minnow
+field_note: >
+  The town has now been consulted. The response is on file and has not been shown to anyone.
+quirks: >
+  Its colouring shifts toward the livery of whatever municipality it is nearest.
+alignment: affiliated
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: RARE
+tier: 2
+size: 2
+yield: 12
+interval: 10
+unlock_cost: 0
+behavior: drift
+hue: 318
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: portsmouth-bitterling
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a small deep-bodied bitterling in showy civic colours with a broad striped band along its
+  flank like a sash, fins edged in a contrasting trim, posed in three-quarter view as though
+  for a portrait, chromolithograph cigarette card from around 1900, small format with a
+  printed ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

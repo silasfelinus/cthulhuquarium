@@ -24,6 +24,8 @@ hue: 40
 diet_role: predator
 school_role: territorial
 rivals: []
+evolves_to: the-foundation
+evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >

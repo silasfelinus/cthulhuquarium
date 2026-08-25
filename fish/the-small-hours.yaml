@@ -1,0 +1,38 @@
+slug: the-small-hours
+name: The Small Hours
+species: not applicable
+class: predator
+field_note: >
+  Present in the shop between two and four and at no other time. The staff have stopped
+  scheduling around it.
+quirks: >
+  Clocks in the same room agree with each other and with nothing else while it is present.
+alignment: nocturnal
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: EPIC
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 4
+yield: 21
+interval: 13
+unlock_cost: 420
+behavior: lurk
+hue: 240
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_to: the-night-watch
+evolution_kind: growth
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a long low creature crossing an empty shop floor between shelves of tanks, most of its
+  body still in the unlit part of the frame, a single narrow band of light cutting across
+  its back, scraperboard illustration, white line scratched out of solid black ink with a
+  blade, pure black and pure white only, every tone built from line density, form built
+  entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
+  solid uncut black

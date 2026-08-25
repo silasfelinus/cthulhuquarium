@@ -1,0 +1,37 @@
+slug: the-continuance
+name: The Continuance
+species: Cyprinus perseverans
+class: drifter
+field_note: >
+  Has been dead considerably longer than the shop has been open. The feeding schedule is
+  unchanged.
+quirks: >
+  Accepts food, and the food is not afterward anywhere.
+alignment: persistent
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: RARE
+  grace: COMMON
+  might: UNCOMMON
+  wits: UNCOMMON
+tier: 2
+size: 4
+yield: 12
+interval: 11
+unlock_cost: 0
+behavior: drift
+hue: 44
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: drowned-carp
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a large old carp with clouded eyes and slack drooping barbels, scales lifting at the
+  edges, holding itself upright and level in the water with obvious effort, mouth open and
+  working steadily, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses against
+  it, a handwritten paper label tied on with string, unpeopled frame, the label's
+  handwriting worn to illegible loops

@@ -1,0 +1,36 @@
+slug: the-endowment
+name: The Endowment
+species: Pagurus dotalis
+class: crustacean
+field_note: >
+  Distributes reliably more than it receives, and the difference has never been located.
+quirks: >
+  The recipients are chosen in an order that has been recorded, studied, and not explained.
+alignment: benevolent
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: EPIC
+  grace: UNCOMMON
+  might: UNCOMMON
+  wits: RARE
+tier: 3
+size: 4
+yield: 17
+interval: 12
+unlock_cost: 0
+behavior: drift
+hue: 56
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: the-almoner
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a stout hermit crab in a shell made of stacked coins, holding out one claw with a small
+  offering balanced on it, a queue of much smaller creatures waiting in an orderly line,
+  warm gold and cream, chromolithograph cigarette card from around 1900, small format with a
+  printed ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

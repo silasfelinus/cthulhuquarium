@@ -1,0 +1,37 @@
+slug: the-vigil
+name: The Vigil
+species: not applicable
+class: anomaly
+field_note: >
+  Has not stopped watching since it was brought in, including through two power failures.
+  Charlotte considers it settled in.
+quirks: >
+  Turns to face any tank whose occupant is unwell, several hours before the staff notice.
+alignment: watchful
+rarity: LEGENDARY
+stats:
+  charm: LEGENDARY
+  empathy: MYTHIC
+  grace: EPIC
+  might: EPIC
+  wits: LEGENDARY
+tier: 5
+size: 7
+yield: 68
+interval: 18
+unlock_cost: 0
+behavior: anchor
+hue: 232
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-night-watch
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  an enormous still creature almost entirely composed of open eyes at every scale, all of
+  them turned the same direction, the body beneath them barely indicated, filling the jar to
+  the glass, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
+  leached toward parchment, the glass refracting the body where it presses against it, a
+  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
+  to illegible loops

@@ -1,0 +1,38 @@
+slug: gravel-tetra
+name: Gravel Tetra
+species: Hyphessobrycon lapidus
+class: minnow
+field_note: >
+  Sifts the substrate all day and swallows a little of it each time. The quantity removed
+  has been measured and does not reconcile.
+quirks: >
+  Prefers the coarsest gravel available and will cross a tank to reach it.
+alignment: diligent
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 40
+behavior: dart
+hue: 26
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: the-aggregate
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small stout tetra nosing down into bright gravel, a puff of stirred sediment around its
+  mouth, plain olive body with one dull copper stripe along the flank, blunt cheerful face,
+  hand-coloured lithograph plate from an 1850s natural history book, fine engraved line
+  under flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible
+  plate mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
+  caption space beneath the image left empty

@@ -1,0 +1,37 @@
+slug: the-holotype
+name: The Holotype
+species: Palaemon acicula
+class: anomaly
+field_note: >
+  The description was written from this animal, so the animal cannot be wrong. The
+  description has since been amended twice.
+quirks: >
+  Measurements taken from it agree with the record, including the measurements taken before
+  the amendments.
+alignment: canonical
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: UNCOMMON
+  grace: EPIC
+  might: UNCOMMON
+  wits: LEGENDARY
+tier: 3
+size: 3
+yield: 20
+interval: 12
+unlock_cost: 0
+behavior: hover
+hue: 336
+diet_role: prey
+school_role: solitary
+rivals: []
+evolves_from: the-type-specimen
+plate: haeckel
+games: [cthulhuquarium]
+art_prompt: >
+  one shrimp rendered as a formal ornamental plate, the body ruled with fine measuring lines
+  and lettered reference points, mirrored above and below its own axis, filling the sheet as
+  pure design, ornamental natural history plate, obsessive radial symmetry, the organism
+  arranged as design to fill the sheet, fine line and restrained colour, ruled ornamental
+  border, unpeopled frame, the plate's caption strip empty

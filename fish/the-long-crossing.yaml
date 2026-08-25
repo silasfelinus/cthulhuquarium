@@ -1,0 +1,37 @@
+slug: the-long-crossing
+name: The Long Crossing
+species: Camelus marinus
+class: drifter
+field_note: >
+  Provisioned for a journey nobody has scheduled. The provisions are adequate and are still
+  not water.
+quirks: >
+  Faces the same compass direction regardless of how the tank is turned.
+alignment: provisioned
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: UNCOMMON
+  might: EPIC
+  wits: RARE
+tier: 3
+size: 5
+yield: 18
+interval: 13
+unlock_cost: 0
+behavior: hover
+hue: 42
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: sea-camel
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a long-necked fish with two heavy laden humps along its back, each lashed with cord, small
+  patient eyes and a slight sneer, standing level in open water facing away, sand gold and
+  dusty rose, chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

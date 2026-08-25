@@ -1,0 +1,36 @@
+slug: the-household
+name: The Household
+species: Perca culinaris
+class: colony
+field_note: >
+  Everything kept in the building, keeping itself. The staff are counted in the total.
+quirks: >
+  Arranges its members by seniority, and the order changes without any of them moving.
+alignment: familial
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: UNCOMMON
+  might: RARE
+  wits: RARE
+tier: 2
+size: 4
+yield: 14
+interval: 11
+unlock_cost: 0
+behavior: school
+hue: 66
+diet_role: predator
+school_role: shoaling
+rivals: []
+evolves_from: kitchen-perch
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a tight group of striped perch of graded sizes arranged like a family portrait, largest at
+  the back and smallest at the front, all facing forward and holding still, warm brass and
+  olive, chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

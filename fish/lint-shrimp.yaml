@@ -1,0 +1,36 @@
+slug: lint-shrimp
+name: Lint Shrimp
+species: Palaemon fibrosus
+class: crustacean
+field_note: >
+  Assembles itself from whatever has collected in the corners of the tank. The corners are
+  cleaned weekly.
+quirks: >
+  Two placed together become one slightly larger one within a day.
+alignment: accumulated
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 1
+size: 1
+yield: 3
+interval: 8
+unlock_cost: 25
+behavior: drift
+hue: 24
+diet_role: prey
+school_role: shoaling
+rivals: []
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small scruffy shrimp apparently built out of matted fibre and grit, legs of different
+  lengths, dusty grey-brown, a faint trail of loose fluff coming away from its back, hand-
+  coloured lithograph plate from an 1850s natural history book, fine engraved line under
+  flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
+  mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
+  caption space beneath the image left empty

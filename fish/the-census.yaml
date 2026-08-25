@@ -1,0 +1,37 @@
+slug: the-census
+name: The Census
+species: Leuciscus incertus
+class: colony
+field_note: >
+  Arranges itself into countable ranks once daily, briefly. Every count returns a different
+  number and each is correct at the time it is taken.
+quirks: >
+  Holds formation for roughly forty seconds, which is not quite long enough.
+alignment: enumerated
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: EPIC
+  might: UNCOMMON
+  wits: EPIC
+tier: 3
+size: 4
+yield: 20
+interval: 12
+unlock_cost: 0
+behavior: school
+hue: 155
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: the-estimate
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  hundreds of identical small fish printed in perfect ruled rows and columns like a table,
+  each one at the same angle, the grid slightly denser toward one corner where the rows have
+  begun to double up, gyotaku fish rubbing, sumi ink pressed directly from the body onto
+  fibrous washi paper, flat black, coverage uneven, the ink thin and skipping where the body
+  lifted away, fins printing as fine radiating lines, one wet painted eye added afterward by
+  hand, unpeopled frame, the rest of the sheet bare

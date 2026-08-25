@@ -1,0 +1,38 @@
+slug: standpipe-goby
+name: Standpipe Goby
+species: Gobius fistularis
+class: minnow
+field_note: >
+  Arrived through the supply pipe and has declined to leave by it. The pipe has since been
+  checked twice.
+quirks: >
+  Sits in the outflow facing upstream for hours at a time.
+alignment: resident
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: UNCOMMON
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 35
+behavior: lurk
+hue: 200
+diet_role: prey
+school_role: territorial
+rivals: []
+evolves_to: the-mains
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small dumpy goby braced in the mouth of a brass pipe with its blunt head just
+  protruding, fused pelvic fins gripping the rim, mottled grey and dull blue, eyes set high
+  on the head, hand-coloured lithograph plate from an 1850s natural history book, fine
+  engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
+  gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
+  unpeopled frame, the caption space beneath the image left empty

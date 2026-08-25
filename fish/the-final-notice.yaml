@@ -1,0 +1,38 @@
+slug: the-final-notice
+name: The Final Notice
+species: Helix epistularis
+class: predator
+field_note: >
+  There will not be a third. The matter now proceeds without further correspondence.
+quirks: >
+  Positions itself where it will be seen first on entering the room.
+alignment: conclusive
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: EPIC
+  wits: EPIC
+tier: 3
+size: 3
+yield: 20
+interval: 12
+unlock_cost: 0
+behavior: cling
+hue: 6
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-second-notice
+evolves_to: the-enforcement
+evolution_kind: growth
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a broad flattened shell clamped against the glass with a heavy embossed seal filling its
+  whole face, the seal cut in deep bold relief, the soft body drawn entirely inside,
+  scraperboard illustration, white line scratched out of solid black ink with a blade, pure
+  black and pure white only, every tone built from line density, form built entirely from
+  cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
+  black

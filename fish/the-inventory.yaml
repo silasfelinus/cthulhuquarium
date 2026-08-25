@@ -1,0 +1,38 @@
+slug: the-inventory
+name: The Inventory
+species: not applicable
+class: colony
+field_note: >
+  Knows what is in the building at any moment. It has always been slightly ahead of the
+  ledger.
+quirks: >
+  Counts the staff, and counts them correctly, which is how the discrepancy was found.
+alignment: comprehensive
+rarity: EPIC
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: EPIC
+  might: RARE
+  wits: MYTHIC
+tier: 4
+size: 5
+yield: 35
+interval: 15
+unlock_cost: 1350
+behavior: hover
+hue: 72
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_to: the-stocktake
+evolution_kind: growth
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a dense grid of small identical bodies printed in ruled rows and columns filling the
+  sheet, each row a different kind of creature, one cell in the grid left as bare paper,
+  gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous washi paper,
+  flat black, coverage uneven, the ink thin and skipping where the body lifted away, fins
+  printing as fine radiating lines, one wet painted eye added afterward by hand, unpeopled
+  frame, the rest of the sheet bare

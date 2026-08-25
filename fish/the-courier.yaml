@@ -1,0 +1,38 @@
+slug: the-courier
+name: The Courier
+species: Poecilia cursoria
+class: minnow
+field_note: >
+  Carries between tanks now. The staff have not established how it crosses.
+quirks: >
+  Whatever it is carrying is never the thing anyone has reported missing.
+alignment: diligent
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: EPIC
+  might: COMMON
+  wits: RARE
+tier: 2
+size: 2
+yield: 13
+interval: 9
+unlock_cost: 0
+behavior: dart
+hue: 128
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: errand-guppy
+evolves_to: the-round
+evolution_kind: growth
+plate: trade-card
+games: [cthulhuquarium]
+art_prompt: >
+  a sleek small fish with a satchel-shaped swelling along its belly and a rolled paper held
+  crosswise in its mouth, caught mid-burst with the water streaming back from it, bright
+  green and cream, chromolithograph cigarette card from around 1900, small format with a
+  printed ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty

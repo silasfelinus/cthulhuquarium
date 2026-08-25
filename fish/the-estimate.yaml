@@ -1,0 +1,39 @@
+slug: the-estimate
+name: The Estimate
+species: Leuciscus incertus
+class: minnow
+field_note: >
+  Too numerous to count and too few to disregard. The ledger records a range and revises it
+  upward.
+quirks: >
+  Splits into two smaller groups whenever anyone begins counting, and merges again after.
+alignment: approximate
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 10
+interval: 9
+unlock_cost: 0
+behavior: school
+hue: 158
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: thumbnail-dace
+evolves_to: the-census
+evolution_kind: growth
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a dense shoal of very small slender fish printed overlapping one another, so crowded that
+  individual bodies merge into a single grey mass at the centre, a few stragglers printing
+  clearly at the outer edge, gyotaku fish rubbing, sumi ink pressed directly from the body
+  onto fibrous washi paper, flat black, coverage uneven, the ink thin and skipping where the
+  body lifted away, fins printing as fine radiating lines, one wet painted eye added
+  afterward by hand, unpeopled frame, the rest of the sheet bare

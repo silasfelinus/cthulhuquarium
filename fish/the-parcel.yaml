@@ -1,0 +1,39 @@
+slug: the-parcel
+name: The Parcel
+species: Solea involuta
+class: construct
+field_note: >
+  Wraps whatever it settles on and does not unwrap. Charlotte has learned to check before
+  wrapping anything herself.
+quirks: >
+  Rotates a quarter turn at a time and only when the corner it lands on is square.
+alignment: sealed
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: RARE
+tier: 2
+size: 2
+yield: 13
+interval: 10
+unlock_cost: 0
+behavior: tumble
+hue: 40
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: wrapping-sole
+evolves_to: the-delivery
+evolution_kind: growth
+plate: gyotaku
+games: [cthulhuquarium]
+art_prompt: >
+  a flat fish folded into a neat rectangular package with sharp creased corners, a length of
+  cord crossed over it and knotted, the shape of the fish still legible through the folds,
+  gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous washi paper,
+  flat black, coverage uneven, the ink thin and skipping where the body lifted away, fins
+  printing as fine radiating lines, one wet painted eye added afterward by hand, unpeopled
+  frame, the rest of the sheet bare

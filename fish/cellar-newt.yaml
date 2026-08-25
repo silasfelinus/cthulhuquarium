@@ -25,6 +25,8 @@ hue: 100
 diet_role: prey
 school_role: solitary
 rivals: []
+evolves_to: the-undercroft
+evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >

@@ -1,0 +1,40 @@
+slug: the-keyhole
+name: The Keyhole
+species: Blennius spectator
+class: anomaly
+field_note: >
+  Occupies the one gap in the tank that affords the best view of the room. What it is
+  viewing has never been agreed.
+quirks: >
+  Vacates instantly when approached from behind, and is back in place before the observer
+  has finished turning around.
+alignment: attentive
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: RARE
+  might: COMMON
+  wits: RARE
+tier: 2
+size: 1
+yield: 9
+interval: 9
+unlock_cost: 0
+behavior: cling
+hue: 190
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: pier-blenny
+evolves_to: the-observation
+evolution_kind: growth
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a small blunt-headed fish wedged flat against the inside of the glass, one enormous round
+  eye facing outward at the viewer, body compressed to almost nothing behind it, stubby fins
+  braced against the pane, scraperboard illustration, white line scratched out of solid
+  black ink with a blade, pure black and pure white only, every tone built from line
+  density, form built entirely from cut hatching, stark and linear, unpeopled frame, the
+  board around it left solid uncut black

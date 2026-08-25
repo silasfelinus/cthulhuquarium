@@ -1,0 +1,37 @@
+slug: the-waiting-list
+name: The Waiting List
+species: not applicable
+class: colony
+field_note: >
+  Holds everything that has been asked for and not yet supplied. The list is complete and is
+  getting longer.
+quirks: >
+  Names near the top of it move down over time, steadily and without correction.
+alignment: deferred
+rarity: LEGENDARY
+stats:
+  charm: EPIC
+  empathy: LEGENDARY
+  grace: EPIC
+  might: RARE
+  wits: MYTHIC
+tier: 5
+size: 6
+yield: 66
+interval: 18
+unlock_cost: 0
+behavior: hover
+hue: 56
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: the-enquiry-desk
+plate: riso
+games: [cthulhuquarium]
+art_prompt: >
+  a very long vertical creature made of stacked ruled entries running from the top of the
+  frame to the bottom, each entry a small closed body of its own, the lowest ones printed
+  faint and the topmost printed heavy, risograph print in two fluorescent spot inks on cheap
+  absorbent paper, deliberate misregistration, the inks overprinting to a third colour where
+  they cross, flat unblended areas, paper showing through, unpeopled frame, wide bare
+  margins

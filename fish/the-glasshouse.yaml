@@ -1,0 +1,38 @@
+slug: the-glasshouse
+name: The Glasshouse
+species: not applicable
+class: bloom
+field_note: >
+  Maintains its own climate inside itself and objects to being adjusted. The climate is not
+  this one.
+quirks: >
+  Warm to stand beside in any weather, and the warmth stops precisely at its outline.
+alignment: cultivated
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: EPIC
+  might: EPIC
+  wits: RARE
+tier: 4
+size: 6
+yield: 27
+interval: 14
+unlock_cost: 1100
+behavior: anchor
+hue: 120
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_to: the-conservatory
+evolution_kind: growth
+plate: blaschka
+games: [cthulhuquarium]
+art_prompt: >
+  a large transparent domed body with an entire small garden growing inside it, tiny fronded
+  plants rooted to the inner wall, condensation gathered along the upper curve of the glass,
+  lampworked glass model on a thin wire mount, transparent hollow body, light passing
+  through the glass and pooling where it thickens, colour suspended in the glass itself,
+  museum specimen on a small wooden base, faint dust, unpeopled frame, a bare unwritten
+  label on the wooden base

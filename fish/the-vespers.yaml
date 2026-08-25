@@ -1,0 +1,39 @@
+slug: the-vespers
+name: The Vespers
+species: Helix cerea
+class: bloom
+field_note: >
+  Lights at the same hour each evening regardless of the season. The hour is not one the
+  clock keeps.
+quirks: >
+  Several kept together synchronise within about a week and do not drift afterward.
+alignment: observant
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: RARE
+  grace: UNCOMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 12
+interval: 11
+unlock_cost: 0
+behavior: anchor
+hue: 46
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: candle-snail
+evolves_to: the-long-office
+evolution_kind: growth
+plate: blaschka
+games: [cthulhuquarium]
+art_prompt: >
+  a cluster of slender tapering forms standing upright in a row like a rack of votive
+  candles, each tipped with a small suspended warm light, transparent bodies with the light
+  visible right down inside them, lampworked glass model on a thin wire mount, transparent
+  hollow body, light passing through the glass and pooling where it thickens, colour
+  suspended in the glass itself, museum specimen on a small wooden base, faint dust,
+  unpeopled frame, a bare unwritten label on the wooden base

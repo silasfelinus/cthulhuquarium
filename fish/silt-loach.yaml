@@ -24,6 +24,8 @@ hue: 36
 diet_role: prey
 school_role: solitary
 rivals: []
+evolves_to: the-undercurrent
+evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >

@@ -1,0 +1,39 @@
+slug: the-night-watch
+name: The Night Watch
+species: not applicable
+class: predator
+field_note: >
+  Keeps the premises after closing and reports nothing in the morning. There has never been
+  anything to report.
+quirks: >
+  Every tank is found topped up, fed, and in order, and the feed store is untouched.
+alignment: vigilant
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: EPIC
+  might: EPIC
+  wits: LEGENDARY
+tier: 4
+size: 5
+yield: 34
+interval: 15
+unlock_cost: 0
+behavior: hover
+hue: 236
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-small-hours
+evolves_to: the-vigil
+evolution_kind: growth
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a tall upright figure-shaped creature holding a shuttered lantern in one long limb, the
+  shutter almost closed so only a thin blade of light escapes, the rest of the board around
+  it left as solid dark, scraperboard illustration, white line scratched out of solid black
+  ink with a blade, pure black and pure white only, every tone built from line density, form
+  built entirely from cut hatching, stark and linear, unpeopled frame, the board around it
+  left solid uncut black

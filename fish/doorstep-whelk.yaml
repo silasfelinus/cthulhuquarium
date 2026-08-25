@@ -1,0 +1,37 @@
+slug: doorstep-whelk
+name: Doorstep Whelk
+species: Buccinum limen
+class: crustacean
+field_note: >
+  Found on the step most mornings, facing the door. It is brought inside each time.
+quirks: >
+  Will not cross a threshold under its own power and waits to be carried.
+alignment: expectant
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: UNCOMMON
+  grace: COMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 8
+unlock_cost: 30
+behavior: cling
+hue: 20
+diet_role: prey
+school_role: solitary
+rivals: []
+evolves_to: the-welcome
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small ridged whelk shell with a soft foot extended, sitting square on a worn stone step,
+  oriented toward the viewer, warm sandstone and dull cream, morning light across the step,
+  hand-coloured lithograph plate from an 1850s natural history book, fine engraved line
+  under flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible
+  plate mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
+  caption space beneath the image left empty

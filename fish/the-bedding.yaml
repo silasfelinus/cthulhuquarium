@@ -1,0 +1,37 @@
+slug: the-bedding
+name: The Bedding
+species: not applicable
+class: anomaly
+field_note: >
+  Everything placed in the tank is eventually incorporated at the correct depth. The depths
+  correspond to nothing anyone has identified.
+quirks: >
+  Objects recovered from it are clean, intact, and slightly warm.
+alignment: stratified
+rarity: EPIC
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: RARE
+  might: LEGENDARY
+  wits: EPIC
+tier: 4
+size: 6
+yield: 30
+interval: 15
+unlock_cost: 0
+behavior: anchor
+hue: 32
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-substrate
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a thick cross-section of layered sediment seen from the side, each band a different grain
+  and shade, small objects and shells embedded at regular intervals through the layers as
+  though filed, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses against
+  it, a handwritten paper label tied on with string, unpeopled frame, the label's
+  handwriting worn to illegible loops

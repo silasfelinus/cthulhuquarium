@@ -1,0 +1,36 @@
+slug: the-cold-snap
+name: The Cold Snap
+species: Gasterosteus frigidus
+class: colony
+field_note: >
+  Arrives all at once and holds for three days. The heating makes no observable difference
+  to it.
+quirks: >
+  Objects left in the tank during one come out dry.
+alignment: sudden
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: RARE
+  wits: RARE
+tier: 2
+size: 3
+yield: 12
+interval: 9
+unlock_cost: 0
+behavior: surface
+hue: 190
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: draught-stickleback
+plate: haeckel
+games: [cthulhuquarium]
+art_prompt: >
+  a radial burst of sharp spined sticklebacks arranged like the arms of a frost crystal,
+  every fish an identical spoke from a common centre, fine needle detail, pale blue and
+  white on the plate, ornamental natural history plate, obsessive radial symmetry, the
+  organism arranged as design to fill the sheet, fine line and restrained colour, ruled
+  ornamental border, unpeopled frame, the plate's caption strip empty

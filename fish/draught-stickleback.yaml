@@ -1,0 +1,37 @@
+slug: draught-stickleback
+name: Draught Stickleback
+species: Gasterosteus frigidus
+class: minnow
+field_note: >
+  Congregates wherever the room is coldest. The coldest part of the room moves.
+quirks: >
+  Its spines rise a little before the temperature drops rather than after.
+alignment: chilled
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: UNCOMMON
+  wits: RARE
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 40
+behavior: surface
+hue: 186
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: the-cold-snap
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small spiny stickleback hanging just below the surface with three sharp dorsal spines
+  raised, thin silver body with a cold blue flush along the belly, a faint skin of ice at
+  one edge of the water, hand-coloured lithograph plate from an 1850s natural history book,
+  fine engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
+  gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
+  unpeopled frame, the caption space beneath the image left empty

@@ -1,0 +1,37 @@
+slug: the-vitrine
+name: The Vitrine
+species: Palaemon vitreus
+class: crustacean
+field_note: >
+  Transparent to the point that its contents are the only evidence of it. The contents are
+  catalogued and the animal itself is not.
+quirks: >
+  Whatever it has most recently eaten remains visible, and arranged, for several days.
+alignment: displayed
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: RARE
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 11
+interval: 10
+unlock_cost: 0
+behavior: hover
+hue: 148
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: glass-shrimp
+plate: blaschka
+games: [cthulhuquarium]
+art_prompt: >
+  a wholly transparent shrimp with a row of small solid objects suspended in a neat line
+  inside its body, each object a different shape, the shell itself visible only where the
+  light catches an edge, lampworked glass model on a thin wire mount, transparent hollow
+  body, light passing through the glass and pooling where it thickens, colour suspended in
+  the glass itself, museum specimen on a small wooden base, faint dust, unpeopled frame, a
+  bare unwritten label on the wooden base

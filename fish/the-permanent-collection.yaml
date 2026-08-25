@@ -1,0 +1,36 @@
+slug: the-permanent-collection
+name: The Permanent Collection
+species: not applicable
+class: colony
+field_note: >
+  Everything the shop has decided to keep, keeping itself in one place. Additions are made
+  without consultation.
+quirks: >
+  An item added to it is afterward difficult to describe to anyone who has not seen it.
+alignment: accessioned
+rarity: LEGENDARY
+stats:
+  charm: LEGENDARY
+  empathy: EPIC
+  grace: LEGENDARY
+  might: EPIC
+  wits: LEGENDARY
+tier: 5
+size: 9
+yield: 72
+interval: 19
+unlock_cost: 0
+behavior: anchor
+hue: 18
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: the-fixture
+plate: haeckel
+games: [cthulhuquarium]
+art_prompt: >
+  a vast ornamental arrangement of hundreds of small preserved specimens fixed in ranked
+  concentric rings, each ring a different kind, the whole composed as a single symmetrical
+  organism filling the sheet, ornamental natural history plate, obsessive radial symmetry,
+  the organism arranged as design to fill the sheet, fine line and restrained colour, ruled
+  ornamental border, unpeopled frame, the plate's caption strip empty

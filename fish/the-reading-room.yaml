@@ -1,0 +1,38 @@
+slug: the-reading-room
+name: The Reading Room
+species: not applicable
+class: anomaly
+field_note: >
+  A quiet space that has developed an interest in what is read in it. Nothing is read in it
+  aloud any more.
+quirks: >
+  Pages turned near it are found turned back to the same place the following morning.
+alignment: studious
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: RARE
+  might: UNCOMMON
+  wits: LEGENDARY
+tier: 3
+size: 4
+yield: 20
+interval: 13
+unlock_cost: 400
+behavior: anchor
+hue: 34
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_to: the-silence
+evolution_kind: growth
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a low broad creature shaped like a reading desk with an open book form growing from its
+  upper surface, the pages part of the body, a soft slack cover of skin folded back at the
+  corners, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
+  leached toward parchment, the glass refracting the body where it presses against it, a
+  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
+  to illegible loops

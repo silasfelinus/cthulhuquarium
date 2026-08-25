@@ -1,0 +1,38 @@
+slug: candle-snail
+name: Candle Snail
+species: Helix cerea
+class: crustacean
+field_note: >
+  Produces a small steady light at the top of its shell for about four hours each evening.
+  The hours are not the same four each day.
+quirks: >
+  The light is warm to the touch and the shell is not.
+alignment: devout
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: COMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 5
+interval: 8
+unlock_cost: 55
+behavior: cling
+hue: 48
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_to: the-vespers
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a small pale tapering snail shell standing upright like a candle stub with a soft warm
+  flame-shaped light at its tip, soft body gripping the glass beneath, wax-cream shell with
+  a faint spiral, hand-coloured lithograph plate from an 1850s natural history book, fine
+  engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
+  gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
+  unpeopled frame, the caption space beneath the image left empty

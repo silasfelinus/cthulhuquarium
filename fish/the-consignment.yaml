@@ -1,0 +1,37 @@
+slug: the-consignment
+name: The Consignment
+species: not applicable
+class: construct
+field_note: >
+  A great many parcels travelling as one, each addressed and each correct. The shop has no
+  record of ordering any of them.
+quirks: >
+  New parcels appear at the back of the stack at roughly the rate the front is opened.
+alignment: consigned
+rarity: EPIC
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: EPIC
+  might: EPIC
+  wits: LEGENDARY
+tier: 4
+size: 6
+yield: 31
+interval: 15
+unlock_cost: 0
+behavior: tumble
+hue: 36
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: the-delivery
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a tall stacked column of wrapped and corded parcels of graded sizes bound together into
+  one body, each parcel bearing a written tag, the whole stack leaning very slightly, wet
+  specimen preserved in a sealed glass jar of fluid, formalin yellow, colours leached toward
+  parchment, the glass refracting the body where it presses against it, a handwritten paper
+  label tied on with string, unpeopled frame, the label's handwriting worn to illegible
+  loops

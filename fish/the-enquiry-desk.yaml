@@ -1,0 +1,37 @@
+slug: the-enquiry-desk
+name: The Enquiry Desk
+species: not applicable
+class: anomaly
+field_note: >
+  Receives questions and does not answer them. The questions are retained.
+quirks: >
+  Anything asked of it is asked again, by somebody else, within the week.
+alignment: receptive
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: EPIC
+  grace: RARE
+  might: RARE
+  wits: LEGENDARY
+tier: 4
+size: 5
+yield: 29
+interval: 14
+unlock_cost: 1150
+behavior: anchor
+hue: 58
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_to: the-waiting-list
+evolution_kind: growth
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a broad low creature with a wide flat upper surface and a single small hatch set into its
+  front, the hatch propped open, a drift of folded paper slips visible inside the body, wet
+  specimen preserved in a sealed glass jar of fluid, formalin yellow, colours leached toward
+  parchment, the glass refracting the body where it presses against it, a handwritten paper
+  label tied on with string, unpeopled frame, the label's handwriting worn to illegible
+  loops

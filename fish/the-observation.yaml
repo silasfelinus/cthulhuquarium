@@ -1,0 +1,36 @@
+slug: the-observation
+name: The Observation
+species: Blennius spectator
+class: anomaly
+field_note: >
+  No longer requires the gap. The room is the aperture now.
+quirks: >
+  Records nothing and forgets nothing, and both of these have been tested.
+alignment: unblinking
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: EPIC
+  might: UNCOMMON
+  wits: EPIC
+tier: 3
+size: 3
+yield: 19
+interval: 12
+unlock_cost: 0
+behavior: cling
+hue: 195
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: the-keyhole
+plate: scraperboard
+games: [cthulhuquarium]
+art_prompt: >
+  a wide flat creature spread across the whole inside face of the glass like a film, a
+  single vast pupil occupying most of it, faint radiating tissue at the edges holding it to
+  the pane, the shape of a room reflected in the curve of the eye, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, pure black and
+  pure white only, every tone built from line density, form built entirely from cut
+  hatching, stark and linear, unpeopled frame, the board around it left solid uncut black

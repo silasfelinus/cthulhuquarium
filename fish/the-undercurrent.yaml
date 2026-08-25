@@ -1,0 +1,38 @@
+slug: the-undercurrent
+name: The Undercurrent
+species: Cobitis subvertens
+class: drifter
+field_note: >
+  Moves the gravel from beneath without ever surfacing. The arrangement is different each
+  morning and has never once been wrong.
+quirks: >
+  Rearranges any ornament placed on the substrate into a tidier position overnight.
+alignment: industrious
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: RARE
+  wits: RARE
+tier: 2
+size: 3
+yield: 11
+interval: 10
+unlock_cost: 0
+behavior: lurk
+hue: 34
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: silt-loach
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a long pale loach almost entirely buried in bright gravel with only a ridge of its back
+  showing, the gravel above it heaped into a neat raised furrow, two soft barbels just
+  breaking the surface of the stones, warm sand and ochre, hand-coloured lithograph plate
+  from an 1850s natural history book, fine engraved line under flat hand-laid watercolour
+  washes, Prussian blue and madder and gamboge, visible plate mark, foxed paper, the wash
+  running slightly outside the line, unpeopled frame, the caption space beneath the image
+  left empty

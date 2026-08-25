@@ -1,0 +1,37 @@
+slug: the-guest-list
+name: The Guest List
+species: Ostiarius profundus
+class: anomaly
+field_note: >
+  Maintains a complete record of everything that has entered the water. The record includes
+  several entries that have not yet arrived.
+quirks: >
+  Names read from it aloud are afterward difficult to recall.
+alignment: comprehensive
+rarity: EPIC
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: EPIC
+  might: RARE
+  wits: LEGENDARY
+tier: 4
+size: 5
+yield: 31
+interval: 14
+unlock_cost: 0
+behavior: anchor
+hue: 12
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-doorkeeper
+plate: moulage
+games: [cthulhuquarium]
+art_prompt: >
+  a tall upright creature whose entire flank is ruled into a long column of ruled entry
+  lines, each line bearing a mark, the lowest third of the column still blank and waiting,
+  wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours leached
+  toward parchment, the glass refracting the body where it presses against it, a handwritten
+  paper label tied on with string, unpeopled frame, the label's handwriting worn to
+  illegible loops

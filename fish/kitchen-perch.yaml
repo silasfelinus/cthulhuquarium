@@ -1,0 +1,37 @@
+slug: kitchen-perch
+name: Kitchen Perch
+species: Perca culinaris
+class: predator
+field_note: >
+  Kept originally against the possibility of being eaten. The possibility has receded.
+quirks: >
+  Watches the preparation of food from the nearest tank and does not watch the eating.
+alignment: domestic
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: UNCOMMON
+tier: 1
+size: 2
+yield: 5
+interval: 7
+unlock_cost: 50
+behavior: lurk
+hue: 68
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_to: the-household
+evolution_kind: growth
+plate: gosse
+games: [cthulhuquarium]
+art_prompt: >
+  a chunky striped perch holding still in the shadow of a hanging copper pan, spiny dorsal
+  fin raised, dark olive banding over brass yellow, one eye turned toward the room, hand-
+  coloured lithograph plate from an 1850s natural history book, fine engraved line under
+  flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
+  mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
+  caption space beneath the image left empty
