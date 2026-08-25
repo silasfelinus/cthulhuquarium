@@ -178,6 +178,33 @@ Evolution is a **gain**, never a replacement. Per the no-degradation rule, evolv
 not remove the base species from a player's collection: both count, both stay collected.
 The base form is not consumed.
 
+**One exception, decided 2026-08-25: eggs.** Silas: *"an egg should be consumed. it isn't
+technically against my rules, as it evolves into another Monster of that size."* An egg
+bought from the shop (cthulhuquarium/t-041) **is** consumed when it hatches, unlike every
+other base form. The rule it looks like it breaks is the paragraph directly above, and the
+two reasons it does not are worth stating so nobody reverts this later:
+
+1. **Size is conserved.** N tank units of egg become at most N units of Monster. The
+   player's holdings transform rather than diminish — which is Silas's own argument, and
+   it is the same conservation the t-041 size rule already relies on.
+2. **The record survives.** Nothing the player *collects* is lost, because what is
+   collected is the entry, not the object. That is precisely the job t-031 gives the
+   Ichthyonomicon — "the record that makes everything else safe" is not a decorative
+   subtitle.
+
+Two things follow, and both bind whoever implements it:
+
+- **The hatch must be shown, never silent.** The difference between *my egg became a fish*
+  and *my egg vanished* is entirely presentation, and only the first is the rule being
+  honoured rather than merely argued.
+- **An egg is an ITEM, not a bestiary species.** It is evolution-*shaped* in the fiction
+  and in the argument above, but it is **not** an `evolves_to` edge. That field is
+  single-valued and validated — target must exist, be a higher tier, and declare the
+  reciprocal `evolves_from` — while an egg resolves to one of a pool of dozens, which the
+  edge cannot express. Modelling eggs as species would also take the bestiary to 157, and
+  151 was deliberate. Eggs follow the set-piece precedent: a thing you buy that is not a
+  creature, sharing the set pieces' trade-catalogue art lineage.
+
 **Fifty-five lines, 147 of 151 species.** Two run the full COMMON→MYTHIC span: the
 rustfish line, which is Silas's "magikarp to gyarados" and the one the bible is built
 around, and the sump line that batch 2 completed. (This section previously called the
