@@ -204,9 +204,32 @@ could be photographed. Nobody needs to notice this.
 1. **Name the medium, never the mood.** "Hand-coloured lithograph on foxed paper" is a
    prompt. "Whimsical macabre vibe" is a wish. Krea 2 has no instruction layer; only
    concrete nouns survive.
-2. **No negations, ever.** Not `NOT photorealistic`, not `no smooth gradients`. Krea 2
-   reads them as subject matter. If you do not want a photograph, name a printing process.
-   A gyotaku rubbing cannot come out as a photograph because a rubbing is not a photograph.
+2. **No negations, ever — and this means every negation, not just the style ones.**
+   Krea 2 renders the nouns and drops the word holding them off. `NOT photorealistic` is a
+   prompt containing *photorealistic*. So is `no smooth gradients`. So, more expensively,
+   is **`no face`** — which is how you commission a face.
+
+   The first version of this rule only banned negations attached to a style word, and
+   twenty-seven prompts sailed through it carrying `no face at all`, `no eyes anywhere`,
+   `no midtones and no wash`, and `coverage uneven where the body did not touch`. The
+   narrow rule needed a new noun bolted onto it every time somebody found a new way to
+   say *no*. The rule that actually holds is that **there is nothing worth saying here
+   with a negation**, because every one of those had a positive form that was also a
+   better prompt:
+
+   | was | is |
+   |---|---|
+   | `no face at all` | `a smooth blank head, unbroken skin where a face would be` |
+   | `no eyes anywhere` | `smooth blank skin across the whole upper half` |
+   | `no midtones and no wash` | `pure black and pure white only, every tone built from line density` |
+   | `coverage uneven where the body did not touch` | `coverage uneven, the ink thin and skipping where the body lifted away` |
+   | `an angle no real fish holds` | `an impossible twisted angle` |
+   | `NOT photorealistic` | *(name the medium — a rubbing cannot come out as a photograph)* |
+
+   The right column tells the model where to put paint. The left column does not. This is
+   enforced: `scripts/validate_fish.py` rejects any `art_prompt` containing `not`, `no`,
+   `without`, `never`, `instead of`, `rather than`, or their relatives, and the same guard
+   runs over the non-fish prompts in Conductor's `build_cthulhuquarium_art_queue.py`.
 3. **One plate per species, and it is recorded in the bible.** Not chosen at render time,
    not varied per attempt. It is a property of the creature, like its tier.
 4. **Palette is per plate, not per prompt.** `gosse` gets period pigments; `riso` gets two

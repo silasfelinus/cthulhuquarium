@@ -214,25 +214,34 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         # this very file specifies. A guard that flags correct writing teaches
         # people to ignore it, so this matches a negation ATTACHED TO a style word
         # and nothing else.
-        STYLE_WORDS = (r"photo(?:realistic|graph|graphic)?|realistic|render|3d|cgi|"
-                       r"digital painting|airbrush|smooth gradients?|blurry|lens blur|bokeh")
-        neg = re.search(rf"\b(?:not|no|avoid|without|never)\s+(?:a\s+|an\s+|any\s+)?"
-                        rf"(?:{STYLE_WORDS})\b", prompt, re.I)
+        # Rule 2, enforced absolutely: an art_prompt may not contain a negation
+        # of any kind. Krea 2 has no instruction-following layer and its negative
+        # prompt is inert at cfg 1, so "not photorealistic" is a prompt containing
+        # "photorealistic" and "no face" is a prompt for a face. Both of those were
+        # in this bible until 2026-08-25.
+        #
+        # The first draft of this check only caught negations attached to a style
+        # word, which let "no face at all", "no midtones and no wash", and "coverage
+        # uneven where the body did not touch" through -- twenty-seven files' worth.
+        # A narrow rule kept needing a new noun bolted onto it; the rule that
+        # actually holds is that there is nothing you can usefully say with a
+        # negation here, because the model only ever renders the nouns. Every one of
+        # those had a positive form that is also a better prompt: "a smooth blank
+        # head, unbroken skin where a face would be" tells the model where to put
+        # paint. "No face" does not.
+        #
+        # If this fires on a phrase you think is harmless, it still has to go --
+        # describe the state that IS there. "unpeopled frame" and "the caption space
+        # left empty" are the shape to copy.
+        neg = re.search(r"\b(?:not|no|without|avoid|never|nor|none|neither|"
+                        r"instead\s+of|rather\s+than|lacking|devoid\s+of|free\s+of|"
+                        r"absent)\b", prompt, re.I)
         if neg:
-            bad(f"art_prompt negates a style term ({neg.group(0)!r}) -- Krea 2 reads it "
-                f"as subject matter. Name the medium instead (ART-DIRECTION.md rule 2)")
+            bad(f"art_prompt contains a negation ({neg.group(0)!r}). Krea 2 renders "
+                f"the nouns and drops the negation, so this asks for the thing you "
+                f"meant to exclude. Say what IS there instead (ART-DIRECTION.md "
+                f"rule 2)")
 
-        # Same failure, different noun. "no lettering" is a negation of a thing the
-        # model cannot un-draw on request, so say what the surface IS instead: an
-        # empty caption strip, a blank name banner, bare margins. "unpeopled frame"
-        # is fine and stays -- it describes a state rather than forbidding a thing.
-        text_neg = re.search(r"\b(?:no|not|without|avoid)\s+(?:any\s+)?"
-                             r"(?:lettering|text|words?|writing|typography|captions?|"
-                             r"labels?|logos?|watermarks?)\b", prompt, re.I)
-        if text_neg:
-            bad(f"art_prompt negates text ({text_neg.group(0)!r}) -- Krea 2 cannot parse "
-                f"it. Describe the blank surface instead: an empty caption strip, a "
-                f"blank name banner, bare margins (ART-DIRECTION.md rule 2)")
         # Rule 1: the plate's medium has to actually be in the prompt.
         plate = data.get("plate")
         marker = {
