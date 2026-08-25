@@ -25,11 +25,12 @@ school_role: solitary
 rivals: []
 evolves_to: the-principal
 evolution_kind: growth
+plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a cartoon fish only half finished, one side crisply drawn and the other smearing
-  away into loose brushstrokes, a single enormous mismatched eye, shifting magenta and
-  violet, vibrant saturated cartoon creature illustration, thick confident outlines,
-  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
-  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
-  photograph, unpeopled frame, no text
+  a fish only half finished, one side crisply drawn and the other smearing away into
+  loose brushstrokes, a single enormous mismatched eye, shifting magenta and violet, wet
+  specimen preserved in a sealed glass jar of fluid, formalin yellow, colours leached
+  toward parchment, the glass refracting the body where it presses against it, a
+  handwritten paper label tied on with string, unpeopled frame, the label's handwriting
+  worn to illegible loops

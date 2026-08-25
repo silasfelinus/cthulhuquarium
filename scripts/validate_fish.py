@@ -58,6 +58,27 @@ SCHOOL_ROLES = {
     "territorial",  # claims space and disputes it
 }
 
+# Which visual lineage this species' art comes from. See ART-DIRECTION.md: the
+# Ichthyonomicon is a scrapbook, not a catalogue, so species recorded at different
+# times carry plates from different media. This is the whole anti-uniformity
+# mechanism -- 74 prompts sharing one style string read as a batch no matter how
+# good the string is.
+PLATES = {
+    "gosse",         # hand-coloured lithograph, 1850s -- the plain recognisable fish
+    "blaschka",      # lampworked glass model -- translucent, unpreservable things
+    "gyotaku",       # direct ink rubbing from the animal -- shoals, flat bodies
+    "trade-card",    # chromolithograph cigarette card -- the collectible middle
+    "scraperboard",  # white line cut out of black -- predators and lurkers
+    "haeckel",       # ornamental symmetry plate -- colonies, geometry
+    "moulage",       # wet specimen in a jar -- the evasive placards
+    "riso",          # two fluorescent spot inks -- MYTHIC and the unplaceable
+}
+
+# Plates whose medium dictates the palette. A colour clause in the subject fights
+# the medium and the medium usually loses, because colour words are concrete nouns
+# and "sumi ink" is only one of them.
+MONOCHROME_PLATES = {"gyotaku", "scraperboard", "riso"}
+
 # How a species is REACHED, for the ones that evolve.
 EVOLUTION_KINDS = {
     "growth",    # it simply becomes the next thing, given time and feeding
@@ -68,7 +89,7 @@ EVOLUTION_KINDS = {
 REQUIRED = (
     "slug", "name", "species", "class", "field_note", "quirks", "alignment",
     "rarity", "stats", "tier", "size", "yield", "interval", "unlock_cost", "behavior",
-    "hue", "diet_role", "school_role", "rivals", "games", "art_prompt",
+    "hue", "diet_role", "school_role", "rivals", "plate", "games", "art_prompt",
 )
 
 # Optional. `evolves_to` names the slug this species becomes; `evolves_from` is its
@@ -118,6 +139,8 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         bad(f"diet_role `{data['diet_role']}` is not one of {sorted(DIET_ROLES)}")
     if data.get("school_role") not in SCHOOL_ROLES and "school_role" in data:
         bad(f"school_role `{data['school_role']}` is not one of {sorted(SCHOOL_ROLES)}")
+    if data.get("plate") not in PLATES and "plate" in data:
+        bad(f"plate `{data['plate']}` is not one of {sorted(PLATES)}")
     if "evolution_kind" in data and data["evolution_kind"] not in EVOLUTION_KINDS:
         bad(f"evolution_kind `{data['evolution_kind']}` is not one of "
             f"{sorted(EVOLUTION_KINDS)}")
@@ -177,6 +200,64 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
             bad("field_note must not use an exclamation mark (see SCHEMA.md tone rules)")
         if len(re.findall(r"[.?]", note)) > 2:
             bad("field_note runs longer than two sentences")
+
+    # ART-DIRECTION.md rules 1 and 2, both machine-checkable.
+    prompt = str(data.get("art_prompt", ""))
+    if prompt:
+        # Rule 2: no negated STYLE TERMS. Krea 2 has no instruction layer and its
+        # negative prompt is inert at cfg 1, so `NOT photorealistic` is a positive
+        # prompt containing the word "photorealistic". Name a medium instead.
+        #
+        # Deliberately narrow. An earlier version of this check banned the bare
+        # token "not", which fired on ordinary prose -- including "coverage uneven
+        # where the body did not touch", part of the gyotaku medium description
+        # this very file specifies. A guard that flags correct writing teaches
+        # people to ignore it, so this matches a negation ATTACHED TO a style word
+        # and nothing else.
+        # Rule 2, enforced absolutely: an art_prompt may not contain a negation
+        # of any kind. Krea 2 has no instruction-following layer and its negative
+        # prompt is inert at cfg 1, so "not photorealistic" is a prompt containing
+        # "photorealistic" and "no face" is a prompt for a face. Both of those were
+        # in this bible until 2026-08-25.
+        #
+        # The first draft of this check only caught negations attached to a style
+        # word, which let "no face at all", "no midtones and no wash", and "coverage
+        # uneven where the body did not touch" through -- twenty-seven files' worth.
+        # A narrow rule kept needing a new noun bolted onto it; the rule that
+        # actually holds is that there is nothing you can usefully say with a
+        # negation here, because the model only ever renders the nouns. Every one of
+        # those had a positive form that is also a better prompt: "a smooth blank
+        # head, unbroken skin where a face would be" tells the model where to put
+        # paint. "No face" does not.
+        #
+        # If this fires on a phrase you think is harmless, it still has to go --
+        # describe the state that IS there. "unpeopled frame" and "the caption space
+        # left empty" are the shape to copy.
+        neg = re.search(r"\b(?:not|no|without|avoid|never|nor|none|neither|"
+                        r"instead\s+of|rather\s+than|lacking|devoid\s+of|free\s+of|"
+                        r"absent)\b", prompt, re.I)
+        if neg:
+            bad(f"art_prompt contains a negation ({neg.group(0)!r}). Krea 2 renders "
+                f"the nouns and drops the negation, so this asks for the thing you "
+                f"meant to exclude. Say what IS there instead (ART-DIRECTION.md "
+                f"rule 2)")
+
+        # Rule 1: the plate's medium has to actually be in the prompt.
+        plate = data.get("plate")
+        marker = {
+            "gosse": "lithograph", "blaschka": "glass model", "gyotaku": "rubbing",
+            "trade-card": "cigarette card", "scraperboard": "scraperboard",
+            "haeckel": "ornamental", "moulage": "specimen", "riso": "risograph",
+        }.get(plate)
+        if marker and marker not in prompt.lower():
+            bad(f"plate is `{plate}` but art_prompt never names its medium "
+                f"({marker!r}) -- the lineage has to survive into the prompt")
+        if plate in MONOCHROME_PLATES:
+            for colour in ("crimson", "scarlet", "magenta", "turquoise", "tangerine",
+                           "cobalt", "oxblood", "gamboge", "iridescent"):
+                if colour in prompt.lower():
+                    bad(f"plate `{plate}` dictates its own palette, but art_prompt "
+                        f"names `{colour}` -- strip the colour, the medium supplies it")
 
     return problems
 

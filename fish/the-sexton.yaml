@@ -27,11 +27,12 @@ school_role: solitary
 rivals: []
 evolves_to: the-verger
 evolution_kind: growth
+plate: trade-card
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a cartoon snail pressed flat against glass seen from the front, spiral shell swirled
-  black and gold, broad muscular foot spread wide, a clean swept arc trailing behind
-  it, vibrant saturated cartoon creature illustration, thick confident outlines,
-  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
-  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
-  photograph, unpeopled frame, no text
+  a snail pressed flat against glass seen from the front, spiral shell swirled black and
+  gold, broad muscular foot spread wide, a clean swept arc trailing behind it,
+  chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border and a blank name banner, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
+  unpeopled frame, the name banner empty
