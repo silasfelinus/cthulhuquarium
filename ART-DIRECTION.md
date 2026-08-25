@@ -182,6 +182,23 @@ recorded by someone with no access to any of the above.
 
 ---
 
+## The non-fish assets
+
+Backgrounds, set pieces, the characters and the screens are not specimens, so they do not
+carry a `plate` field — but they follow the same principle, and they get their own
+lineages for the same reason.
+
+| asset | lineage |
+|---|---|
+| **Backgrounds** (the tank interiors) | Hand-coloured lithograph, matching `gosse`, because the tank is the thing Gosse's readers were building. They are the one surface every plate sits against, so they take the plainest lineage on purpose — a background with a strong medium of its own would fight seventy-four different foregrounds. |
+| **Set pieces** (brass fittings, aerator, scraper) | Victorian **trade-catalogue engraving**: a product plate from a supplier's list, isolated on white, drawn to sell rather than to describe. Line engraving with hatched shading and a catalogue number's worth of blank space beneath. These are things you *buy*, and this is what things you buy looked like. |
+| **Charlotte and Wilbur** | **Studio carte-de-visite photograph**, hand-tinted. Albumen print on card, the sitter posed against a painted backdrop with a headrest just out of frame, tinting applied to cheeks and lips only. It is the one lineage that is a *photograph* — because they are people, and because a photograph of a person among eighty years of drawn specimens is quietly the point. |
+| **Screens** (shop interior, bestiary wall) | Same carte-de-visite stock, but as an **interior view**: the long exposure, the slightly wrong verticals of a wide plate camera, everything still because it had to hold still. |
+
+Charlotte and Wilbur being photographed while every creature is drawn is not decoration.
+The specimens are records made by hand of things that could not be photographed. The staff
+could be photographed. Nobody needs to notice this.
+
 ## Rules
 
 1. **Name the medium, never the mood.** "Hand-coloured lithograph on foxed paper" is a

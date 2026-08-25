@@ -221,6 +221,18 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         if neg:
             bad(f"art_prompt negates a style term ({neg.group(0)!r}) -- Krea 2 reads it "
                 f"as subject matter. Name the medium instead (ART-DIRECTION.md rule 2)")
+
+        # Same failure, different noun. "no lettering" is a negation of a thing the
+        # model cannot un-draw on request, so say what the surface IS instead: an
+        # empty caption strip, a blank name banner, bare margins. "unpeopled frame"
+        # is fine and stays -- it describes a state rather than forbidding a thing.
+        text_neg = re.search(r"\b(?:no|not|without|avoid)\s+(?:any\s+)?"
+                             r"(?:lettering|text|words?|writing|typography|captions?|"
+                             r"labels?|logos?|watermarks?)\b", prompt, re.I)
+        if text_neg:
+            bad(f"art_prompt negates text ({text_neg.group(0)!r}) -- Krea 2 cannot parse "
+                f"it. Describe the blank surface instead: an empty caption strip, a "
+                f"blank name banner, bare margins (ART-DIRECTION.md rule 2)")
         # Rule 1: the plate's medium has to actually be in the prompt.
         plate = data.get("plate")
         marker = {
