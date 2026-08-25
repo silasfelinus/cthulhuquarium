@@ -28,11 +28,12 @@ rivals: []
 evolves_from: elder-rustfish
 evolves_to: the-founding-rustfish
 evolution_kind: growth
+plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  an oversized cartoon rustfish in hot rust-orange and bone with extra eyes opening along
-  its flank and tail, each one a different size, all of them wide awake, the original
-  two half-closed, vibrant saturated cartoon creature illustration, thick confident
-  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
-  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
-  photograph, unpeopled frame, no text
+  an oversized rustfish in hot rust-orange and bone with extra eyes opening along its
+  flank and tail, each one a different size, all of them wide awake, the original two
+  half-closed, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses
+  against it, a handwritten paper label tied on with string, unpeopled frame, no
+  lettering

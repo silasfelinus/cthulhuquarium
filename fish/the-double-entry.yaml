@@ -27,11 +27,11 @@ rivals: []
 evolves_from: ledger-crab
 evolves_to: moebius-crab
 evolution_kind: growth
+plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a cartoon crab with two perfectly identical mirrored halves in rust and brass, a
-  matching claw on each side held at the same angle, a faint second outline shadowing
-  every limb, vibrant saturated cartoon creature illustration, thick confident outlines,
-  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
-  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
-  photograph, unpeopled frame, no text
+  a crab with two perfectly identical mirrored halves in rust , a matching claw on each
+  side held at the same angle, a faint second outline shadowing every limb, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, no midtones
+  and no wash, form built entirely from cut hatching, stark and linear, unpeopled frame,
+  no lettering

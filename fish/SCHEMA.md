@@ -401,35 +401,49 @@ about correcting a distribution. Two things to keep watching:
 
 ## Art prompt rules
 
-Read `ART-PROMPTS.md` in the conductor repo before writing one. The short version, both
-learned the hard way:
+**Read `ART-DIRECTION.md` before writing one.** It carries the reasoning; this is the
+contract.
 
-1. **No conditionals.** Krea 2 has no instruction-following layer; "include X only when
-   the scene calls for it" gets painted literally. State what is in the frame, once.
-2. **Lead with the physical subject** — material, shape, scale, framing, light — before
-   any statement of what the creature means.
-3. **Say what it is NOT.** Both engines default hard toward nature photography for
-   anything fish-shaped. Without an explicit negative they will hand back a competent
-   photo of a real animal.
+Every species declares a **`plate`** — which of eight visual lineages its art comes from.
+The Ichthyonomicon is a *scrapbook*, not a catalogue: species recorded at different times
+carry plates from different media, so the bestiary looks like a collection assembled over
+eighty years rather than a batch rendered in one afternoon.
 
-For this bestiary specifically, corrected 2026-08-25: **vibrant saturated cartoon
-creature illustration** — thick confident outlines, exaggerated asymmetric anatomy,
-glossy wet highlights, playful macabre storybook monster, bold colour, dark water
-behind it, explicitly *not photorealistic, not a nature photograph*, unpeopled frame,
-no text.
+| plate | medium | used for |
+|---|---|---|
+| `gosse` | hand-coloured lithograph, 1850s | recognisable fish, the commons |
+| `blaschka` | lampworked glass model on a wire mount | translucent, unpreservable things |
+| `gyotaku` | direct ink rubbing pressed from the animal | shoals, flat bodies |
+| `trade-card` | chromolithograph cigarette card, c.1900 | the collectible middle |
+| `scraperboard` | white line cut out of solid black | predators and lurkers |
+| `haeckel` | ornamental symmetry plate | colonies, geometry, anomalies |
+| `moulage` | wet specimen in a jar of fluid | the evasive placards, high rarity |
+| `riso` | two fluorescent spot inks, misregistered | MYTHIC and the unplaceable |
 
-This replaces the silhouette-forward direction this section carried until 2026-08-25.
-Silhouettes were chosen on the theory that they would survive generation inconsistency
-better than detailed creature art. The first real batch disproved it — Silas, on ten
-returned renders: *"they almost all look like real animals, not misshapen horrors from
-the deep with a cartoonish playfulness... I want creative, colorful, and vibrant monster
-fish and backgrounds."* A dark, low-detail, rim-lit prompt reads to the model as
-*underwater photograph*, so restraint in the prompt bought realism, which is the one
-thing this bestiary cannot be. Saturated cartoon language pushes the other way and gives
-the model no photographic reading to fall back on.
+### The three rules the validator enforces
 
-Krea 2 is the preferred engine here — its bias toward bold colour and stylisation is an
-advantage for this project rather than something to correct for.
+1. **The plate's medium must appear in the prompt.** A `gyotaku` species whose prompt
+   never says "rubbing" is just a fish with a label.
+2. **No negated style terms.** `NOT photorealistic` is a positive prompt containing the
+   word *photorealistic*, addressed to a model with no instruction layer and an inert
+   negative at cfg 1. Name a medium instead — a sumi rubbing cannot come out as a
+   photograph, and nothing has to say so. (The check is narrow on purpose: it matches a
+   negation *attached to a style word*, not the bare word "not", which appears legitimately
+   in "coverage uneven where the body did not touch".)
+3. **Monochrome plates own their palette.** `gyotaku`, `scraperboard` and `riso` dictate
+   their own colour, so a subject clause naming crimson or turquoise is stripped. Colour
+   words are concrete and win against a single medium noun otherwise.
 
-A species that will not generate consistently gets redesigned, not shipped as an
-outlier.
+### Two rules the validator cannot check
+
+4. **Name the medium, never the mood.** "Hand-coloured lithograph on foxed paper" is a
+   prompt. "Whimsical macabre vibe" is a wish.
+5. **Keep the imperfection** — foxing, misregistration, uneven ink, plate scratches, dust
+   on the glass. Surface perfection is itself a tell; real printed things have a process
+   and processes leave marks.
+
+### What does not vary
+
+The **placard register**. Whatever the plate, the field note is still two dry sentences
+from someone not telling you everything. Eight visual lineages and one voice reads as *one
+collector*. The reverse would read as noise.

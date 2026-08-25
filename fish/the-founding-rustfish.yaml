@@ -28,11 +28,12 @@ rivals: []
 evolves_from: the-unlidded-rustfish
 evolves_to: the-long-patience
 evolution_kind: growth
+plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  an enormous ornate cartoon rustfish in corroded gold and deep rust, fins like heavy
-  drapery, ringed by a faint halo of smaller rustfish-shaped afterimages that do not
-  quite line up with it, vibrant saturated cartoon creature illustration, thick
-  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
-  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
-  a nature photograph, unpeopled frame, no text
+  an enormous ornate rustfish in corroded gold and deep rust, fins like heavy drapery,
+  ringed by a faint halo of smaller rustfish-shaped afterimages that do not quite line
+  up with it, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses
+  against it, a handwritten paper label tied on with string, unpeopled frame, no
+  lettering

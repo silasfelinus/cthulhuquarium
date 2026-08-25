@@ -26,11 +26,12 @@ school_role: solitary
 rivals: []
 evolves_from: the-reading-bell
 evolution_kind: growth
+plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
-  a glowing cartoon jellyfish whose violet bell carries two distinct kinds of luminous
+  a glowing jellyfish whose violet bell carries two distinct kinds of luminous
   handwriting, one sprawling and one small and precise in the gaps, magenta and cyan,
-  ribbon tendrils curling below, vibrant saturated cartoon creature illustration, thick
-  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
-  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
-  a nature photograph, unpeopled frame, no text
+  ribbon tendrils curling below, lampworked glass model on a thin wire mount,
+  transparent hollow body, light passing through the glass and pooling where it
+  thickens, colour suspended in the glass itself, museum specimen on a small wooden
+  base, faint dust, unpeopled frame, no lettering

@@ -27,11 +27,11 @@ rivals: []
 evolves_from: the-backlog
 evolves_to: the-manifest
 evolution_kind: breeding
+plate: moulage
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a big slack cartoon bag-creature hanging still, no eyes anywhere, a wide seam across
-  its lower half parted into a grin, deep indigo with a sickly green interior glow,
-  vibrant saturated cartoon creature illustration, thick confident outlines,
-  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
-  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
-  photograph, unpeopled frame, no text
+  a big slack bag-creature hanging still, no eyes anywhere, a wide seam across its lower
+  half parted into a grin, deep indigo with a sickly green interior glow, wet specimen
+  preserved in a sealed glass jar of fluid, formalin yellow, colours leached toward
+  parchment, the glass refracting the body where it presses against it, a handwritten
+  paper label tied on with string, unpeopled frame, no lettering
