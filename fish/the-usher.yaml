@@ -1,0 +1,35 @@
+slug: the-usher
+name: The Usher
+species: Ostiarius abyssi
+class: predator
+field_note: >
+  Positions itself between each new arrival and the rest of the tank until satisfied.
+  Nobody has established the criteria.
+quirks: >
+  Escorts every new specimen once, never twice, and never by the same route.
+alignment: procedural
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: EPIC
+tier: 2
+size: 2
+yield: 11
+interval: 10
+unlock_cost: 270
+behavior: hover
+hue: 4
+diet_role: predator
+school_role: solitary
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a narrow upright cartoon fish with a stiff high collar of fins and a long sombre face,
+  oxblood and charcoal, one fin extended sideways as though indicating a direction,
+  vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

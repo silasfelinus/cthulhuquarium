@@ -1,0 +1,37 @@
+slug: folding-fry
+name: Folding Fry
+species: Plicatus minor
+class: construct
+field_note: >
+  Turns in quarter-steps and never smoothly. The intermediate positions are not observed
+  because they are not occupied.
+quirks: >
+  Unfolds completely once a day. Nobody has recorded what is inside.
+alignment: creased
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 1
+size: 1
+yield: 5
+interval: 8
+unlock_cost: 60
+behavior: tumble
+hue: 208
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: the-quire
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a small cartoon fish made of sharply folded paper planes in cobalt and white, hard
+  creases and flat facets instead of curves, caught mid-turn at an angle no real fish
+  holds, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

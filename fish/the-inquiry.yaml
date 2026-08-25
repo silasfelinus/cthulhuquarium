@@ -1,0 +1,37 @@
+slug: the-inquiry
+name: The Inquiry
+species: Ictalurus quaerens
+class: anomaly
+field_note: >
+  The whiskers are now the larger part of the animal. Staff have stopped specifying
+  which end is being fed.
+quirks: >
+  Extends one whisker toward each new arrival, once, and does not repeat the gesture.
+alignment: thorough
+rarity: RARE
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: RARE
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 5
+yield: 18
+interval: 13
+unlock_cost: 0
+behavior: lurk
+hue: 50
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: old-catfish
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a vast tangle of cartoon catfish whiskers filling the frame in gold and olive,
+  hundreds of them coiling and probing, a small blunt body barely visible somewhere in
+  the middle of its own moustache, vibrant saturated cartoon creature illustration,
+  thick confident outlines, exaggerated asymmetric anatomy, glossy wet highlights,
+  playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text

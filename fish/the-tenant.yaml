@@ -1,0 +1,37 @@
+slug: the-tenant
+name: The Tenant
+species: Patella conductor
+class: crustacean
+field_note: >
+  Has expanded. The lease was never formalised and cannot now be produced.
+quirks: >
+  Grows only at the edges, and only where nobody is looking.
+alignment: established
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: COMMON
+  might: RARE
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 9
+interval: 10
+unlock_cost: 0
+behavior: cling
+hue: 186
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: pane-limpet
+evolves_to: the-freeholder
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a broad cartoon limpet spread across a pane, shell grown lopsided and patched in
+  mismatched teal and rust as though extended in stages, frilled margin creeping outward
+  at one corner, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

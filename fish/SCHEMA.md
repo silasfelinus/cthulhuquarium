@@ -370,25 +370,30 @@ other route.
 
 ### Gaps worth filling
 
-Observed while writing, rather than assigned by anyone. The first three were logged
-before the merge; the merge fixed two of them outright, which is recorded here rather
-than quietly deleted, because "what the merge actually bought us" is worth knowing.
+Observed while writing, rather than assigned by anyone. Kept as a running ledger with
+what each batch actually moved, because "we fixed that" is only credible with a number
+next to it.
 
-- ~~Only one evolution chain exists.~~ **Fixed by the merge** — eight now, and the
-  rustfish line runs all five tiers.
-- ~~Tier 1 is thin: three species.~~ **Fixed by the merge** — eight, and five of them
-  are recognisable fish, which is what tier 1 is for.
-- **Still open: `tumble` and `surface` have one specimen each** (`the-quire` and
-  `the-pleasant-island`). Two motions with a single user apiece read as one-offs rather
-  than as a vocabulary. `cling` now has one too (`the-sexton`). Any batch of new
-  species should spend some of its budget here rather than adding a fourth drifter.
-- **New, from the merge: only 20 of 44 species sit in a line.** The target is roughly
-  two thirds. Extending an existing line is usually better than starting a new one —
-  three chains are still two stages long and want a third.
-- **New: `prey` is underweighted** — 7 species against 22 predators. The food chain
-  reads top-heavy, and t-025's rivalry system has little to work with at the bottom of
-  it. Cheap to fix, since prey species are mostly small recognisable fish, which tier 1
-  wants more of anyway.
+- ~~Only one evolution chain exists.~~ **Fixed by the merge** — eight, and the rustfish
+  line runs all five tiers.
+- ~~Tier 1 is thin: three species.~~ **Fixed by the merge**, then widened again by batch
+  1: fifteen commons, and most of them are recognisable fish, which is what tier 1 is for.
+- ~~`tumble`, `surface` and `cling` have one specimen each.~~ **Fixed by batch 1** —
+  cling 1→5 (a whole limpet line plus the nudibranch), surface 1→3, tumble 1→2. Tumble is
+  still the thin one; a third would settle it.
+- ~~`prey` is underweighted, 7 against 22 predators.~~ **Largely fixed by batch 1** —
+  15 prey against 25 predators. Close enough to stop steering for it, though another
+  handful of small recognisable prey would not hurt.
+- **STILL OPEN, and batch 1 barely moved it: only 33 of 59 species sit in a line (55%).**
+  The target is roughly two thirds. Batch 1 added nine species inside chains out of
+  fifteen, which is only slightly above the current ratio, so it held the line rather
+  than improving it. **Batch 2 should be line-heavy** — extend the eleven chains that are
+  still two stages long rather than opening new ones.
+- **New, from batch 1: LEGENDARY and MYTHIC have not moved at all** (4 and 2, against
+  targets of ~13 and ~4). That is the correct order to build in — the bottom of a
+  collection carries the tone and the top only lands if the bottom is solid — but the
+  top tiers cannot be left to the last batch either, because a LEGENDARY authored in a
+  hurry reads exactly like one.
 
 ## Art prompt rules
 

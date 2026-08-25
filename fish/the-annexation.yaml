@@ -1,0 +1,37 @@
+slug: the-annexation
+name: The Annexation
+species: Cambarus imperator
+class: crustacean
+field_note: >
+  The culvert now answers to it. Nobody has explained the arrangement to the water
+  board.
+quirks: >
+  Rearranges the gravel into borders overnight. The borders are respected.
+alignment: sovereign
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: COMMON
+  might: EPIC
+  wits: RARE
+tier: 3
+size: 5
+yield: 19
+interval: 12
+unlock_cost: 0
+behavior: anchor
+hue: 10
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: marsh-sovereign-crawdad
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a colossal cartoon crawdad seated on a ridge of gravel arranged into neat borders,
+  scarlet and burnt orange plating, four raised claws of different sizes, tiny crown-
+  like spines along its back, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text
