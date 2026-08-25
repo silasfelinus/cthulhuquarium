@@ -20,6 +20,11 @@ interval: 9
 unlock_cost: 120
 behavior: lurk
 hue: 96
+diet_role: predator
+school_role: solitary
+rivals: [chandelier-lion]
+evolves_to: the-seven-lights
+evolution_kind: growth
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a rotund cartoon anglerfish with an enormous grinning underbite of crooked

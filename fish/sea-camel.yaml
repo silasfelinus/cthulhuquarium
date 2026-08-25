@@ -22,6 +22,9 @@ interval: 9
 unlock_cost: 210
 behavior: hover
 hue: 46
+diet_role: neutral
+school_role: solitary
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   an upright cartoon seahorse-camel with a heavy lumpy hump on its back, ridged armour

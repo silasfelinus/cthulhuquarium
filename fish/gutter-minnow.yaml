@@ -20,6 +20,9 @@ interval: 6
 unlock_cost: 0
 behavior: drift
 hue: 168
+diet_role: prey
+school_role: shoaling
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a scrappy little cartoon minnow with a head far too big for its body and three

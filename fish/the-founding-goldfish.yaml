@@ -1,0 +1,38 @@
+slug: the-founding-goldfish
+name: The Founding Goldfish
+species: Carassius primus
+class: anomaly
+field_note: >
+  Predates the Portsmouth Fishmongers' current charter by an uncomfortable margin.
+  Charlotte declines to discuss the founding paperwork in its presence.
+quirks: >
+  Smaller goldfish arrange themselves around it without being fed there.
+alignment: foundational
+rarity: EPIC
+stats:
+  charm: MYTHIC
+  empathy: LEGENDARY
+  grace: LEGENDARY
+  might: RARE
+  wits: LEGENDARY
+tier: 4
+size: 6
+yield: 35
+interval: 15
+unlock_cost: 0
+behavior: hover
+hue: 36
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: the-unlidded-goldfish
+evolves_to: the-long-patience
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an enormous ornate cartoon goldfish in burnished gold and deep orange, fins like heavy
+  drapery, ringed by a faint halo of smaller goldfish-shaped afterimages that do not
+  quite line up with it, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text

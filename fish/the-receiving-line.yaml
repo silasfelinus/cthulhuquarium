@@ -1,0 +1,37 @@
+slug: the-receiving-line
+name: The Receiving Line
+species: Melanocetus processio
+class: anomaly
+field_note: >
+  Several Foyers, end to end, welcoming something in. What is being welcomed has not
+  made it to the placard yet.
+quirks: >
+  The far end cannot be reached. The count of arches is nine from every angle.
+alignment: expectant
+rarity: MYTHIC
+stats:
+  charm: EPIC
+  empathy: COMMON
+  grace: MYTHIC
+  might: MYTHIC
+  wits: RARE
+tier: 5
+size: 6
+yield: 105
+interval: 24
+unlock_cost: 0
+behavior: anchor
+hue: 38
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-foyer
+evolution_kind: breeding
+games: [cthulhuquarium]
+art_prompt: >
+  a row of cartoon archway-creatures in perfect alignment receding into the dark, gold
+  and teal, each one smaller than the last, warm light dimming with distance, the
+  furthest barely a glow, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text

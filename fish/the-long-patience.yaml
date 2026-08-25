@@ -21,8 +21,11 @@ interval: 16
 unlock_cost: 0
 behavior: dart
 hue: 32
+diet_role: predator
+school_role: solitary
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
-evolves_from: parlour-goldfish
+evolves_from: the-founding-goldfish
 art_prompt: >
   an enormous cartoon sea serpent filling the whole frame, armoured tangerine scales,
   a huge toothy jaw and a tiny incongruous goldfish tail trailing far behind, vibrant

@@ -1,0 +1,37 @@
+slug: the-auditor
+name: The Auditor
+species: Scriba abyssi
+class: construct
+field_note: >
+  Circles the tank at fixed intervals, pauses at each occupant exactly as long as
+  required, and moves on. No fish has ever been found wanting.
+quirks: >
+  The interval is exact. The pause is not the same length for every resident.
+alignment: impartial
+rarity: EPIC
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: RARE
+  wits: MYTHIC
+tier: 4
+size: 4
+yield: 33
+interval: 14
+unlock_cost: 1400
+behavior: hover
+hue: 8
+diet_role: predator
+school_role: solitary
+rivals: [the-committee]
+evolves_to: the-reconciliation
+evolution_kind: breeding
+games: [cthulhuquarium]
+art_prompt: >
+  a severe upright cartoon creature with a stack of flat plate-like fins down its spine
+  like bound ledgers, oxblood and brass, one narrow unblinking eye, held perfectly
+  level, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

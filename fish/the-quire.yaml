@@ -22,6 +22,9 @@ interval: 12
 unlock_cost: 610
 behavior: tumble
 hue: 210
+diet_role: neutral
+school_role: shoaling
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a folded paper cartoon creature of sharp geometric planes, part crane and part

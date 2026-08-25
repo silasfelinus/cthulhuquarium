@@ -1,0 +1,37 @@
+slug: crawdad-common
+name: Ditch Crawdad
+species: Cambarus fossae
+class: crustacean
+field_note: >
+  Found wherever water forgets to keep moving. Its claims to territory are entirely
+  sincere and entirely unenforceable.
+quirks: >
+  Backs into any gap narrower than itself and considers the matter settled.
+alignment: indignant
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 8
+unlock_cost: 55
+behavior: dart
+hue: 18
+diet_role: prey
+school_role: territorial
+rivals: []
+evolves_to: marsh-sovereign-crawdad
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a stumpy cartoon crawdad with wildly mismatched claws, one absurdly larger than the
+  other, rust-red and tangerine carapace, tiny furious eyes on crooked stalks, both
+  claws raised at nothing, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text

@@ -1,0 +1,35 @@
+slug: the-harbors-due
+name: The Harbor's Due
+species: Debitum portus
+class: construct
+field_note: >
+  Shaped like a stack of unpaid invoices and moves like one too, slowly and always
+  toward you. Settling the account has never once worked.
+quirks: >
+  Advances only when unobserved, and only ever in the same direction.
+alignment: owed
+rarity: LEGENDARY
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: LEGENDARY
+  wits: RARE
+tier: 5
+size: 5
+yield: 62
+interval: 18
+unlock_cost: 3400
+behavior: anchor
+hue: 204
+diet_role: predator
+school_role: territorial
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a towering cartoon creature built from overlapping rectangular paper-like fins stacked
+  askew, bone-white and cold blue, leaning slightly forward, no face anywhere on it,
+  vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

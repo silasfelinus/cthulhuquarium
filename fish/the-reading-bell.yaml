@@ -1,0 +1,37 @@
+slug: the-reading-bell
+name: The Reading Bell
+species: Aurelia scripta
+class: drifter
+field_note: >
+  The patterns across its bell have begun to resemble handwriting. No language on record
+  matches, and several have been ruled out politely.
+quirks: >
+  The markings differ each morning. Nobody has photographed the same page twice.
+alignment: legible
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: LEGENDARY
+  grace: EPIC
+  might: COMMON
+  wits: EPIC
+tier: 3
+size: 3
+yield: 19
+interval: 13
+unlock_cost: 0
+behavior: drift
+hue: 276
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: drifting-bell
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a glowing cartoon jellyfish whose violet bell is covered in looping luminous script-
+  like marks that are not any alphabet, magenta and cyan, long ribbon tendrils curling
+  below, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

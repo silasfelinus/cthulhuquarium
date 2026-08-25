@@ -21,8 +21,12 @@ interval: 6
 unlock_cost: 30
 behavior: drift
 hue: 32
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolution_kind: growth
 games: [cthulhuquarium, ruler-hooked]
-evolves_to: the-long-patience
+evolves_to: goldfish-elder
 art_prompt: >
   a plain cheerful cartoon goldfish with a flowing double tail, bright tangerine,
   entirely unremarkable and rather pleased about it, vibrant saturated cartoon

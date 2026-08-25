@@ -21,6 +21,9 @@ interval: 10
 unlock_cost: 280
 behavior: anchor
 hue: 12
+diet_role: neutral
+school_role: territorial
+rivals: [bailiff-eel]
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a broad cartoon crab with tally-mark scratches carved across its shell, one claw

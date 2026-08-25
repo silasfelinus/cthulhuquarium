@@ -20,6 +20,9 @@ interval: 11
 unlock_cost: 400
 behavior: dart
 hue: 18
+diet_role: predator
+school_role: territorial
+rivals: [ledger-crab]
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a long cartoon eel wearing a stiff white collar, narrow disapproving eyes and a thin

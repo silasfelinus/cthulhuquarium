@@ -20,6 +20,9 @@ interval: 8
 unlock_cost: 60
 behavior: drift
 hue: 42
+diet_role: neutral
+school_role: solitary
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a bloated cheerful cartoon carp, ghostly pale blue-white and faintly translucent,

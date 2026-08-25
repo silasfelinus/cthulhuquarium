@@ -1,0 +1,39 @@
+slug: goldfish-elder
+name: Elder Goldfish
+species: Carassius senex
+class: minnow
+field_note: >
+  Outlived three owners, two decorative castles, and one entire ecosystem of tankmates.
+  No retirement plan exists for a fish this patient.
+quirks: >
+  Occupies the exact centre of the tank and lets the others arrange themselves around
+  it.
+alignment: unhurried
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 8
+interval: 9
+unlock_cost: 0
+behavior: drift
+hue: 32
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: parlour-goldfish
+evolves_to: the-unlidded-goldfish
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a heavy overgrown cartoon goldfish, tangerine and cream, trailing an absurdly long
+  ceremonial tail far bigger than it needs, expression of total unbothered composure,
+  vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

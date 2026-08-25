@@ -21,6 +21,9 @@ interval: 11
 unlock_cost: 520
 behavior: hover
 hue: 24
+diet_role: predator
+school_role: solitary
+rivals: [lamplight-angler]
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a flamboyant cartoon lionfish with an absurd wide fan of candy-striped venomous

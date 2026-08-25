@@ -1,0 +1,37 @@
+slug: sardine-common
+name: Harbor Sardine
+species: Clupea concordis
+class: minnow
+field_note: >
+  Silver, identical to its neighbour, and correct that no one will ever tell them apart.
+  This is not considered a tragedy by the sardine.
+quirks: >
+  Turns when the shoal turns, roughly half a second before the shoal turns.
+alignment: uniform
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 45
+behavior: school
+hue: 200
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: tithe-shoal
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a small cartoon sardine with one enormous mirror-bright eye, sleek silver-blue torpedo
+  body, a dozen identical siblings blurred behind it all facing the same direction,
+  vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

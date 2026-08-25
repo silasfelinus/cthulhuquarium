@@ -1,0 +1,37 @@
+slug: the-single-fish
+name: The Single Fish
+species: Clupea unus
+class: colony
+field_note: >
+  Officially one fish. The paperwork was filed before anyone counted properly, and the
+  paperwork is not being revisited.
+quirks: >
+  Answers to the singular. Is fed as one animal, and the portion is correct.
+alignment: plural
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: EPIC
+  grace: UNCOMMON
+  might: COMMON
+  wits: RARE
+tier: 3
+size: 4
+yield: 20
+interval: 11
+unlock_cost: 0
+behavior: school
+hue: 198
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: tithe-shoal
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  one enormous cartoon fish whose entire body is made of hundreds of tiny silver
+  sardines packed tight, seams visible where they meet, one single eye formed by a gap
+  in the crowd, electric blue and mercury, vibrant saturated cartoon creature
+  illustration, thick confident outlines, exaggerated asymmetric anatomy, glossy wet
+  highlights, playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text

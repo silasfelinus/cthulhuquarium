@@ -22,6 +22,9 @@ interval: 7
 unlock_cost: 40
 behavior: drift
 hue: 336
+diet_role: neutral
+school_role: solitary
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a droopy cartoon blobfish with an enormous sad nose and sagging jowls, bubblegum
