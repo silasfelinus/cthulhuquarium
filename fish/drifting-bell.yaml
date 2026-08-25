@@ -1,0 +1,37 @@
+slug: drifting-bell
+name: Drifting Bell
+species: Aurelia vagans
+class: drifter
+field_note: >
+  Drifts, and occasionally pulses. Has never been observed going anywhere in particular,
+  which the staff have decided not to find concerning.
+quirks: >
+  Pulses twice whenever the room lights change, then resumes.
+alignment: untroubled
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: RARE
+  might: COMMON
+  wits: COMMON
+tier: 2
+size: 2
+yield: 9
+interval: 11
+unlock_cost: 230
+behavior: drift
+hue: 284
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_to: the-reading-bell
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a translucent cartoon jellyfish glowing lilac and electric blue from within, domed
+  bell squashed slightly off-centre, a tangle of ribbon tendrils trailing far below in
+  loose curls, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

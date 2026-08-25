@@ -1,0 +1,37 @@
+slug: the-reconciliation
+name: The Reconciliation
+species: Concordia abyssi
+class: anomaly
+field_note: >
+  Exists only in the moment two ledgers finally agree. Has been seen exactly as often as
+  that happens, which is rarely and briefly.
+quirks: >
+  Cannot be photographed. Two observers never agree on how long it stayed.
+alignment: balanced
+rarity: MYTHIC
+stats:
+  charm: RARE
+  empathy: MYTHIC
+  grace: EPIC
+  might: RARE
+  wits: MYTHIC
+tier: 5
+size: 4
+yield: 95
+interval: 22
+unlock_cost: 0
+behavior: hover
+hue: 50
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: the-auditor
+evolution_kind: breeding
+games: [cthulhuquarium]
+art_prompt: >
+  two overlapping cartoon Auditor-shapes merging into one perfectly symmetrical
+  creature, brass and white-gold, the seam between them blazing with light, both halves
+  finally identical, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

@@ -1,0 +1,37 @@
+slug: the-committee
+name: The Committee
+species: Anguilla consilium
+class: colony
+field_note: >
+  Now numbers between three and eleven heads depending on the count and who is doing it.
+  All votes are unanimous.
+quirks: >
+  The count differs by observer and never by more than eight.
+alignment: unanimous
+rarity: EPIC
+stats:
+  charm: COMMON
+  empathy: RARE
+  grace: UNCOMMON
+  might: LEGENDARY
+  wits: LEGENDARY
+tier: 4
+size: 4
+yield: 29
+interval: 15
+unlock_cost: 0
+behavior: anchor
+hue: 86
+diet_role: predator
+school_role: territorial
+rivals: [the-auditor]
+evolves_from: the-testimony
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a thick coiled cartoon eel body branching into a bouquet of small identical heads,
+  acid-green and charcoal, every head wearing the same expression and angled very
+  slightly differently, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

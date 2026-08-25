@@ -20,6 +20,9 @@ interval: 12
 unlock_cost: 480
 behavior: dart
 hue: 286
+diet_role: predator
+school_role: solitary
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a cartoon fish only half finished, one side crisply drawn and the other smearing

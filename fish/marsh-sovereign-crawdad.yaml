@@ -1,0 +1,37 @@
+slug: marsh-sovereign-crawdad
+name: Marsh Sovereign
+species: Cambarus rex
+class: crustacean
+field_note: >
+  Has claimed the entire drainage culvert as sovereign territory. The culvert has not
+  been informed and would not object if it could.
+quirks: >
+  Holds both claws wide at anything that approaches, including the feeding hand.
+alignment: imperious
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: COMMON
+  might: RARE
+  wits: UNCOMMON
+tier: 2
+size: 3
+yield: 13
+interval: 10
+unlock_cost: 0
+behavior: anchor
+hue: 12
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: crawdad-common
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a huge armoured cartoon crawdad on a heap of silt, two enormous scarlet claws held
+  wide like a crown, crooked spines along its back, small darting shapes fleeing at the
+  edges of the frame, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

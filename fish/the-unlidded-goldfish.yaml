@@ -1,0 +1,38 @@
+slug: the-unlidded-goldfish
+name: The Unlidded Goldfish
+species: Carassius vigilans
+class: anomaly
+field_note: >
+  Blinks now, which is understood to be new. No one on staff will confirm what it was
+  doing with its eyes before.
+quirks: >
+  Blinks in a fixed order, flank first, and never all at once.
+alignment: watchful
+rarity: RARE
+stats:
+  charm: LEGENDARY
+  empathy: RARE
+  grace: RARE
+  might: UNCOMMON
+  wits: RARE
+tier: 3
+size: 3
+yield: 19
+interval: 12
+unlock_cost: 0
+behavior: hover
+hue: 34
+diet_role: neutral
+school_role: shoaling
+rivals: []
+evolves_from: goldfish-elder
+evolves_to: the-founding-goldfish
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an oversized cartoon goldfish in hot orange and cream with extra eyes opening along
+  its flank and tail, each one a different size, all of them wide awake, the original
+  two half-closed, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

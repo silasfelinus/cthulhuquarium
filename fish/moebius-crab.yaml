@@ -21,6 +21,9 @@ interval: 13
 unlock_cost: 1250
 behavior: drift
 hue: 268
+diet_role: neutral
+school_role: solitary
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a cartoon hermit crab carrying a shell twisted into one continuous looping band that

@@ -43,16 +43,39 @@ CLASSES = {
 GAMES = {"cthulhuquarium", "ruler-hooked"}
 STATS = ("charm", "empathy", "grace", "might", "wits")
 
+# What a species EATS. Drives the rivalry and feeding systems (t-025 decision 2):
+# a predator and its prey sharing a tank is the authored half of rivalry.
+DIET_ROLES = {"prey", "predator", "neutral"}
+
+# How a species relates to OTHER FISH. Deliberately NOT the same vocabulary as
+# `behavior`, which is how it moves on screen -- the two overlapped on "school" and
+# "anchor" when this merged in from the rarity-grouped bible, and a species can
+# perfectly well shoal socially while drifting visually. Renamed at the merge so the
+# two axes can never be read as the same field.
+SCHOOL_ROLES = {
+    "shoaling",     # wants company; pays better with packmates present
+    "solitary",     # indifferent to neighbours
+    "territorial",  # claims space and disputes it
+}
+
+# How a species is REACHED, for the ones that evolve.
+EVOLUTION_KINDS = {
+    "growth",    # it simply becomes the next thing, given time and feeding
+    "breeding",  # requires two parents (t-029)
+    "secret",    # requires a hidden individual-stat roll (t-029)
+}
+
 REQUIRED = (
     "slug", "name", "species", "class", "field_note", "quirks", "alignment",
     "rarity", "stats", "tier", "size", "yield", "interval", "unlock_cost", "behavior",
-    "hue", "games", "art_prompt",
+    "hue", "diet_role", "school_role", "rivals", "games", "art_prompt",
 )
 
 # Optional. `evolves_to` names the slug this species becomes; `evolves_from` is its
 # inverse. A species reached only by evolution is not purchasable, so it carries
-# unlock_cost 0 and is expected to declare evolves_from.
-OPTIONAL = ("evolves_to", "evolves_from")
+# unlock_cost 0 and is expected to declare evolves_from. `evolution_kind` says HOW,
+# and is required on anything carrying `evolves_to`.
+OPTIONAL = ("evolves_to", "evolves_from", "evolution_kind")
 
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -91,6 +114,24 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         bad(f"rarity `{data['rarity']}` is not one of {sorted(RARITIES)}")
     if data.get("behavior") not in BEHAVIORS and "behavior" in data:
         bad(f"behavior `{data['behavior']}` is not one of {sorted(BEHAVIORS)}")
+    if data.get("diet_role") not in DIET_ROLES and "diet_role" in data:
+        bad(f"diet_role `{data['diet_role']}` is not one of {sorted(DIET_ROLES)}")
+    if data.get("school_role") not in SCHOOL_ROLES and "school_role" in data:
+        bad(f"school_role `{data['school_role']}` is not one of {sorted(SCHOOL_ROLES)}")
+    if "evolution_kind" in data and data["evolution_kind"] not in EVOLUTION_KINDS:
+        bad(f"evolution_kind `{data['evolution_kind']}` is not one of "
+            f"{sorted(EVOLUTION_KINDS)}")
+    if data.get("evolves_to") and "evolution_kind" not in data:
+        bad("has `evolves_to` but no `evolution_kind` -- say HOW it is reached")
+
+    rivals = data.get("rivals")
+    if isinstance(rivals, list):
+        if slug in rivals:
+            bad("rivals lists the species itself")
+        if len(set(rivals)) != len(rivals):
+            bad("rivals contains a duplicate")
+    elif "rivals" in data:
+        bad("rivals must be a list (use [] for none)")
 
     stats = data.get("stats")
     if isinstance(stats, dict):
@@ -140,6 +181,29 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
     return problems
 
 
+def check_rivals(loaded: dict[str, dict]) -> list[str]:
+    """Rivalries must resolve, and must be mutual.
+
+    A one-sided rivalry is almost always a typo rather than a design statement --
+    the tank cannot show A squabbling with B while B ignores A -- so this insists
+    on both halves the same way the evolution check insists on both halves of a
+    chain. Add the reciprocal entry rather than deleting the first one.
+    """
+    problems: list[str] = []
+    for slug, data in sorted(loaded.items()):
+        for rival in data.get("rivals") or []:
+            if rival not in loaded:
+                problems.append(
+                    f"{slug}.yaml: rivals names `{rival}`, which is not a known species"
+                )
+            elif slug not in (loaded[rival].get("rivals") or []):
+                problems.append(
+                    f"{slug}.yaml: rivals `{rival}`, but {rival}.yaml does not list "
+                    f"`{slug}` back -- rivalry is mutual"
+                )
+    return problems
+
+
 def check_evolution(files: list[Path]) -> list[str]:
     """Evolution links must resolve, and must agree with each other.
 
@@ -185,6 +249,8 @@ def check_evolution(files: list[Path]) -> list[str]:
                     f"{slug}.yaml: reached by evolution, so unlock_cost must be 0 "
                     f"(it is not purchasable)"
                 )
+
+    problems.extend(check_rivals(loaded))
     return problems
 
 

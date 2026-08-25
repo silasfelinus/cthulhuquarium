@@ -1,0 +1,37 @@
+slug: old-catfish
+name: Whiskered Elder
+species: Ictalurus senex
+class: predator
+field_note: >
+  Its whiskers have grown long enough to count as a separate exhibit. Visitors are asked
+  not to feed either the fish or the whiskers.
+quirks: >
+  The whiskers move independently of the fish and appear to arrive first.
+alignment: ancient
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: COMMON
+  might: UNCOMMON
+  wits: RARE
+tier: 2
+size: 3
+yield: 12
+interval: 11
+unlock_cost: 0
+behavior: lurk
+hue: 48
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: catfish-common
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an immense cartoon catfish whose whiskers fill the whole frame, dozens of them coiling
+  and looping in gold and deep green, the body itself small and half-hidden behind its
+  own moustache, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

@@ -21,6 +21,9 @@ interval: 20
 unlock_cost: 3600
 behavior: surface
 hue: 64
+diet_role: predator
+school_role: territorial
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a cheerful little cartoon tropical island with two palm trees and bright sand above

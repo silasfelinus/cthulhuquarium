@@ -21,6 +21,9 @@ interval: 14
 unlock_cost: 1100
 behavior: anchor
 hue: 310
+diet_role: predator
+school_role: territorial
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a cartoon sea anemone whose fat spines each split into smaller spines and split

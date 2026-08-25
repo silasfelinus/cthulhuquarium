@@ -21,6 +21,9 @@ interval: 13
 unlock_cost: 430
 behavior: anchor
 hue: 40
+diet_role: predator
+school_role: territorial
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a lumpy cartoon rock that has split open into a huge hinged grin of jagged teeth,

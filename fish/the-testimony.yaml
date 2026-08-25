@@ -1,0 +1,38 @@
+slug: the-testimony
+name: The Testimony
+species: Anguilla concors
+class: predator
+field_note: >
+  Has grown a second head. Both heads agree on everything, which the staff find more
+  unsettling than if they argued.
+quirks: >
+  Both heads turn together. Neither has been observed looking at the other.
+alignment: unanimous
+rarity: RARE
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: RARE
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 3
+yield: 18
+interval: 12
+unlock_cost: 0
+behavior: lurk
+hue: 88
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: culvert-eel
+evolves_to: the-committee
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a cartoon eel with two identical heads on one neck, acid-green and charcoal, both
+  wearing the same flat expression and facing the same way, coiling out of a rusted
+  pipe, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

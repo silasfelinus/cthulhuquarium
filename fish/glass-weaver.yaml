@@ -21,6 +21,9 @@ interval: 15
 unlock_cost: 1350
 behavior: lurk
 hue: 190
+diet_role: predator
+school_role: solitary
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a spindly cartoon sea spider with far too many long segmented legs and a tiny body,

@@ -1,0 +1,34 @@
+slug: guppy-common
+name: Feeder Guppy
+species: Poecilia oblata
+class: minnow
+field_note: >
+  Sold by the dozen, replaced by the dozen, and the only fish in this ledger whose price
+  has never once increased.
+quirks: >
+  Approaches anything that enters the water, including the net.
+alignment: obliging
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: COMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 3
+interval: 6
+unlock_cost: 0
+behavior: drift
+hue: 310
+diet_role: prey
+school_role: shoaling
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a tiny cartoon guppy almost entirely fan tail, hot pink and violet ribbons streaming
+  behind a body the size of a thumbnail, cheerful vacant expression, vibrant saturated
+  cartoon creature illustration, thick confident outlines, exaggerated asymmetric
+  anatomy, glossy wet highlights, playful macabre storybook monster, bold colour, dark
+  water behind it, NOT photorealistic, not a nature photograph, unpeopled frame, no text

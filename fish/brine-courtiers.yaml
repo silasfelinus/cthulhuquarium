@@ -21,6 +21,9 @@ interval: 9
 unlock_cost: 240
 behavior: school
 hue: 288
+diet_role: prey
+school_role: shoaling
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a cluster of tiny cartoon brine shrimp each wearing a small crown, arranged in neat

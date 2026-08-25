@@ -1,0 +1,37 @@
+slug: culvert-eel
+name: Culvert Eel
+species: Anguilla tubi
+class: predator
+field_note: >
+  Lives in the pipe, and has always lived in the pipe. Predates the pipe, if pressed on
+  the subject, which it will not be.
+quirks: >
+  Emerges to exactly the same length each time and no further.
+alignment: entrenched
+rarity: UNCOMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: UNCOMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 10
+interval: 10
+unlock_cost: 250
+behavior: lurk
+hue: 92
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_to: the-testimony
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a cartoon eel leaning out of a rusted pipe mouth, only head and forebody showing,
+  acid-green and charcoal banding, a great many small teeth arranged in a flat
+  unimpressed line, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

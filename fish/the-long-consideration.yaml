@@ -22,6 +22,9 @@ interval: 18
 unlock_cost: 3200
 behavior: lurk
 hue: 258
+diet_role: predator
+school_role: solitary
+rivals: []
 games: [cthulhuquarium]
 art_prompt: >
   a tall folded cartoon creature made of far too many thin jointed limbs held close,

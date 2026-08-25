@@ -1,0 +1,38 @@
+slug: the-seven-lights
+name: The Seven Lights
+species: Melanocetus candelabrum
+class: angler
+field_note: >
+  Now carries seven lights instead of one. The resemblance to a dining fixture is
+  coincidental, and the resemblance to teeth is not.
+quirks: >
+  Lights the seven in sequence, never together, and always ending on the shortest.
+alignment: hospitable
+rarity: RARE
+stats:
+  charm: EPIC
+  empathy: COMMON
+  grace: RARE
+  might: RARE
+  wits: RARE
+tier: 3
+size: 3
+yield: 21
+interval: 12
+unlock_cost: 0
+behavior: lurk
+hue: 104
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_from: lamplight-angler
+evolves_to: the-foyer
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a bulbous cartoon anglerfish crowned with seven glowing bulbs on bent brass stalks
+  arranged like a chandelier, hot lime and gold light pouring off them, an enormous
+  crooked grin of mismatched teeth below, vibrant saturated cartoon creature
+  illustration, thick confident outlines, exaggerated asymmetric anatomy, glossy wet
+  highlights, playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text

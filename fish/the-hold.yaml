@@ -21,6 +21,9 @@ interval: 15
 unlock_cost: 1050
 behavior: anchor
 hue: 150
+diet_role: predator
+school_role: territorial
+rivals: []
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a big slack cartoon bag-creature hanging still, no eyes anywhere, a wide seam across

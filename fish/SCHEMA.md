@@ -77,10 +77,36 @@ been bolted onto `Character` to make it fit.
 | `size` | 1–12 tank units. Fish capacity is measured by total size, not by count. |
 | `yield` | Coins produced per drop cycle when fed. |
 | `interval` | Seconds between drops. |
-| `unlock_cost` | Coins to unlock. `0` means starting stock. |
-| `behavior` | `drift` \| `dart` \| `lurk`. Drives the renderer; not a hardcoded switch. |
+| `unlock_cost` | Coins to unlock. `0` means starting stock **or** reached only by evolution. |
+| `behavior` | How it **moves**. One of the nine modes below. Drives the renderer; not a hardcoded switch. |
 | `hue` | 0–360. Base hue for prototype rendering and art direction consistency. |
+| `diet_role` | `prey` \| `predator` \| `neutral`. What it eats, and what eats it. |
+| `school_role` | `shoaling` \| `solitary` \| `territorial`. How it relates to other fish. |
+| `rivals` | List of slugs it squabbles with. Mutual and validated — see below. |
 | `games` | List. Which games this creature appears in: `cthulhuquarium`, `ruler-hooked`. |
+
+### `diet_role`, `school_role`, `rivals` — the social layer
+
+These arrived with the 2026-08-25 bible merge and feed t-025's rivalry system and
+t-027's feeding. `diet_role` is the authored half of rivalry: a predator and its prey
+in one tank is a squabble waiting to happen, without anyone hand-listing the pair.
+
+**`school_role` is not `behavior`.** It was called `school_role: school | solitary |
+anchor` in the bible it came from, which collided with `behavior`'s own `school` and
+`anchor` values and invited exactly the wrong reading. They are different axes: a
+species can shoal *socially* while drifting *visually*. Renamed at the merge to
+`shoaling | solitary | territorial` so the two can never be confused again.
+
+**Rivalry is mutual and the validator enforces it.** A one-sided entry is nearly
+always a typo — the tank cannot render A squabbling with B while B ignores A — so
+`rivals` on one species requires the reciprocal entry on the other. Add the other
+half; don't delete the first.
+
+Keep authored rivalries scarce. Three exist (Lamplight Angler ↔ Chandelier Lion, both
+competing light-bearers; Ledger Crab ↔ Bailiff Eel, a jurisdictional dispute; The
+Committee ↔ The Auditor, which needs no explanation). Most rivalry should emerge from
+`diet_role` and tank composition rather than from this list — a bible where every
+species names a rival is one where rivalry means nothing.
 
 ## Size, and why capacity is weighed rather than counted
 
@@ -136,6 +162,10 @@ that becomes a complete killer.
 
 - `evolves_to: <slug>` — the species this one becomes.
 - `evolves_from: <slug>` — the inverse, on the target.
+- `evolution_kind:` — **required on anything carrying `evolves_to`.** Says *how* it is
+  reached: `growth` (time and feeding), `breeding` (two parents, t-029), or `secret`
+  (a hidden individual-stat roll, t-029). A chain link with no stated mechanism is a
+  design hole that only shows up when someone tries to implement it.
 
 Both halves are required and the validator enforces the pair, that the target is a higher
 tier, and that a species reached by evolution carries `unlock_cost: 0` — it is not
@@ -146,7 +176,25 @@ Evolution is a **gain**, never a replacement. Per the no-degradation rule, evolv
 not remove the base species from a player's collection: both count, both stay collected.
 The base form is not consumed.
 
-Currently one chain: `parlour-goldfish` → `the-long-patience`.
+**Eight chains, twenty species.** The goldfish line is the flagship and the only one
+running all five tiers — it is Silas's "magikarp to gyarados", and the merge gave it
+the middle stages it was missing:
+
+| line | stages |
+|---|---|
+| Goldfish | Parlour Goldfish → Elder Goldfish → The Unlidded Goldfish → The Founding Goldfish → **The Long Patience** |
+| Angler | Lamplight Angler → The Seven Lights → The Foyer → **The Receiving Line** |
+| Sardine | Harbor Sardine → Tithe Shoal → **The Single Fish** |
+| Eel | Culvert Eel → The Testimony → **The Committee** |
+| Bell | Drifting Bell → **The Reading Bell** |
+| Catfish | Bottom Catfish → **Whiskered Elder** |
+| Crawdad | Ditch Crawdad → **Marsh Sovereign** |
+| Auditor | The Auditor → **The Reconciliation** |
+
+A line is worth more than the same number of standalone species: it gives the player a
+reason to keep one fish rather than trade up, and it is where the collection stops
+being a shopping list. Prefer extending a line to inventing an unrelated creature when
+both would fill the same slot.
 
 ## The `games` field is the whole sharing mechanism
 
@@ -214,33 +262,109 @@ Feed creatures are not bestiary species. They have no `slug`, no field note, and
 never collectible. If a future task needs them catalogued, they get their own file, not
 a `fish/` entry.
 
+## The 2026-08-25 merge, and what it dropped
+
+Two bibles were written against the same task by two sessions working in parallel,
+sharing **zero** slugs. One lived here (23 species, one file each); the other lived in
+`conductor/projects/cthulhuquarium/fish/` grouped by rarity (24 species), written there
+because that session's GitHub access was scoped without this repo. Neither was wrong —
+the cross-repo handoff protocol had no step for "check whether the canonical artifact
+is already being written."
+
+They were merged rather than one being picked, on Silas's call. This format won (it is
+where every other document points, it is validated, and it carries the economy fields
+the game actually needs); the other bible's **structure** won, which was the better
+half of it: it was built as evolution lines running COMMON→MYTHIC, and that backbone is
+now the bible's.
+
+**Three of its species were dropped as duplicates, not as rejects:**
+
+| dropped | because |
+|---|---|
+| `goldfish-common` | `parlour-goldfish` is the same fish, better written, and already the line's base |
+| `minnow-common` (Culvert Minnow) | `gutter-minnow` is the same fish |
+| `lure-bearer-uncommon` | `lamplight-angler` is the same anglerfish; *"The light is not for you"* beats *"Carries its own light so visitors don't need one"* |
+
+**One was renamed:** its "The Chandelier" collided with this bible's existing
+`chandelier-lion` at the same rarity. It became **The Seven Lights**, which its own
+field note had already handed us.
+
+**Three lines were spliced rather than run in parallel**, because both bibles had
+independently invented them: the goldfish line (this bible's base and terminus, the
+other's two middle stages), the angler line, and the sardine/shoal line. Splicing kept
+every distinct creature and produced longer chains than either bible had alone.
+
+Everything else ported unchanged in substance — field notes kept verbatim where they
+passed the tone rules, three tightened from three sentences to two, and every art
+prompt rewritten from the rejected silhouette direction to the cartoon one.
+
+## The target is 151
+
+Silas, 2026-08-25: *"a real game should have at least 100 fish, but I think 151 is the
+right number for…reasons :)"* The reasons are not in dispute.
+
+**44 authored, 107 to go.** Rough shape to aim at, so batches do not all pile into the
+same tier — treat as a target, not a quota to hit exactly:
+
+| rarity | now | target |
+|---|---|---|
+| COMMON | 8 | ~32 |
+| UNCOMMON | 11 | ~40 |
+| RARE | 10 | ~36 |
+| EPIC | 9 | ~26 |
+| LEGENDARY | 4 | ~13 |
+| MYTHIC | 2 | ~4 |
+
+Two rules that matter more than the counts:
+
+1. **Roughly two thirds of species should sit in an evolution line.** Currently 20 of
+   44 do, which is too few. A line is the thing that makes a collection feel designed
+   rather than accumulated, and it is cheaper to author well — the second and third
+   stages come from asking "and then what happens to it", which is a far better prompt
+   than a blank page.
+2. **The weirdness ceiling still holds at every batch.** COMMON stays recognisably a
+   fish. Authoring 107 species is exactly the pressure that pushes every new common
+   toward being strange, and a bible whose bottom tier is all anomalies has spent the
+   escalation it needs upstairs. If a batch's commons are getting weird, that is the
+   signal to write more boring fish, not fewer.
+
 ## Concepts still to be authored
 
-Silas's 2026-08-24 concept list is fully authored — all fifteen landed, which took the
-bible from 7 to 22 species and past the 20-species MVP bar. He flagged the list itself as
-open ("more to be developed"), so this section is where the next batch lands before
-anyone writes files.
+Silas's 2026-08-24 concept list is fully authored, and the 2026-08-25 merge brought the
+bible to 44. This section is where the next batch lands before anyone writes files — a
+line of intent is enough; the authoring pass turns it into a file.
 
-Nothing is queued right now. When adding concepts here, a line of intent is enough — the
-authoring pass turns it into a file. A note on FUNCTIONAL species, now that one exists: The Sexton cleans the glass, which
-makes it the first creature valued for what it does rather than what it produces. That is
-a precedent to handle carefully — a functional species risks becoming mandatory, and a
-mandatory species is one less real choice. The rule that keeps it optional is that debris
-has three viable answers (manual clicking, the debris set, and the snail), none strictly
+Nothing is queued right now. The road to 151 is tracked as cthulhuquarium/t-037.
+
+**A note on FUNCTIONAL species.** The Sexton cleans the glass, which makes it the first
+creature valued for what it *does* rather than what it produces. That is a precedent to
+handle carefully — a functional species risks becoming mandatory, and a mandatory
+species is one less real choice. The rule that keeps it optional is that debris has
+three viable answers (manual clicking, the debris set, and the snail), none strictly
 best. Any future functional species needs the same treatment: give its job at least one
 other route.
 
-Gaps worth filling, observed while writing the
-current set rather than assigned by anyone:
+### Gaps worth filling
 
-- Nothing yet uses `tumble` except `the-quire`, and nothing uses `surface` except
-  `the-pleasant-island`. Two motions with one specimen each read as one-offs rather than
-  as a vocabulary.
-- Tier 1 is thin: three species, and two of them are the goldfish line's base form and a
-  minnow. The early game is where the tone gets established and it currently has the
-  least to look at.
-- Only one evolution chain exists. A second would confirm the mechanic is a system rather
-  than a special case.
+Observed while writing, rather than assigned by anyone. The first three were logged
+before the merge; the merge fixed two of them outright, which is recorded here rather
+than quietly deleted, because "what the merge actually bought us" is worth knowing.
+
+- ~~Only one evolution chain exists.~~ **Fixed by the merge** — eight now, and the
+  goldfish line runs all five tiers.
+- ~~Tier 1 is thin: three species.~~ **Fixed by the merge** — eight, and five of them
+  are recognisable fish, which is what tier 1 is for.
+- **Still open: `tumble` and `surface` have one specimen each** (`the-quire` and
+  `the-pleasant-island`). Two motions with a single user apiece read as one-offs rather
+  than as a vocabulary. `cling` now has one too (`the-sexton`). Any batch of new
+  species should spend some of its budget here rather than adding a fourth drifter.
+- **New, from the merge: only 20 of 44 species sit in a line.** The target is roughly
+  two thirds. Extending an existing line is usually better than starting a new one —
+  three chains are still two stages long and want a third.
+- **New: `prey` is underweighted** — 7 species against 22 predators. The food chain
+  reads top-heavy, and t-025's rivalry system has little to work with at the bottom of
+  it. Cheap to fix, since prey species are mostly small recognisable fish, which tier 1
+  wants more of anyway.
 
 ## Art prompt rules
 
