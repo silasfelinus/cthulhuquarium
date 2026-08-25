@@ -35,7 +35,7 @@ cost was not theoretical: fish needed a capacity weight, so a `size` column was 
 500-ing every `prisma.character.findUnique()` in production.
 
 Creatures get their own table. Working name **`Creature`** — broad enough that not
-everything in it has to be monstrous (the Parlour Goldfish isn't) and reusable by Ruler
+everything in it has to be monstrous (the Parlour Rustfish isn't) and reusable by Ruler
 is Hooked. Conductor **cthulhuquarium/t-035** owns building it and settles the final
 name; `Monster` is the standing alternative. Nothing about the YAML shape below changes
 — the same fields, the same six `Rarity` stats, the same `games` list. Only the table
@@ -176,13 +176,13 @@ Evolution is a **gain**, never a replacement. Per the no-degradation rule, evolv
 not remove the base species from a player's collection: both count, both stay collected.
 The base form is not consumed.
 
-**Eight chains, twenty species.** The goldfish line is the flagship and the only one
+**Eight chains, twenty species.** The rustfish line is the flagship and the only one
 running all five tiers — it is Silas's "magikarp to gyarados", and the merge gave it
 the middle stages it was missing:
 
 | line | stages |
 |---|---|
-| Goldfish | Parlour Goldfish → Elder Goldfish → The Unlidded Goldfish → The Founding Goldfish → **The Long Patience** |
+| Rustfish | Parlour Rustfish → Elder Rustfish → The Unlidded Rustfish → The Founding Rustfish → **The Long Patience** |
 | Angler | Lamplight Angler → The Seven Lights → The Foyer → **The Receiving Line** |
 | Sardine | Harbor Sardine → Tithe Shoal → **The Single Fish** |
 | Eel | Culvert Eel → The Testimony → **The Committee** |
@@ -190,6 +190,17 @@ the middle stages it was missing:
 | Catfish | Bottom Catfish → **Whiskered Elder** |
 | Crawdad | Ditch Crawdad → **Marsh Sovereign** |
 | Auditor | The Auditor → **The Reconciliation** |
+
+**On the name.** This line was the Goldfish line until 2026-08-25, when Silas called
+goldfish *"a terrible terrible name"* and offered Brassfish or Rustfish. Rustfish, because
+brass is already the aquarium's fitting material — every set piece is brass — so spending
+that word on the starter fish wastes a distinctive term on the least distinctive creature.
+Rust is oxidation, which is time made visible, which is what a line ending in The Long
+Patience is actually about. "Parlour Rustfish" is also the better joke: rust in a parlour
+is *wrong*. The palette moved with the name (hue 32→22, gold→corroded rust) because a fish
+named for oxidation rendered in bright gold is incoherent. `Carassius domesticus` stayed on
+both ends of the line — the taxonomy still says domestic carp, which is the whole gag
+against *"The ocean is a container."*
 
 A line is worth more than the same number of standalone species: it gives the player a
 reason to keep one fish rather than trade up, and it is where the collection stops
@@ -281,7 +292,7 @@ now the bible's.
 
 | dropped | because |
 |---|---|
-| `goldfish-common` | `parlour-goldfish` is the same fish, better written, and already the line's base |
+| `goldfish-common` | `parlour-rustfish` (then `parlour-goldfish`) is the same fish, better written, and already the line's base |
 | `minnow-common` (Culvert Minnow) | `gutter-minnow` is the same fish |
 | `lure-bearer-uncommon` | `lamplight-angler` is the same anglerfish; *"The light is not for you"* beats *"Carries its own light so visitors don't need one"* |
 
@@ -290,7 +301,7 @@ now the bible's.
 field note had already handed us.
 
 **Three lines were spliced rather than run in parallel**, because both bibles had
-independently invented them: the goldfish line (this bible's base and terminus, the
+independently invented them: the rustfish line (this bible's base and terminus, the
 other's two middle stages), the angler line, and the sardine/shoal line. Splicing kept
 every distinct creature and produced longer chains than either bible had alone.
 
@@ -301,7 +312,20 @@ prompt rewritten from the rejected silhouette direction to the cartoon one.
 ## The target is 151
 
 Silas, 2026-08-25: *"a real game should have at least 100 fish, but I think 151 is the
-right number for…reasons :)"* The reasons are not in dispute.
+right number for…reasons :)"*
+
+**The reason, stated plainly so nobody has to guess:** 151 is the number of original
+Pokémon, Mew included. This is a monster-collecting game and that is the number a
+monster-collecting game commits to. Do not round it to 150 for tidiness and do not
+propose 200 for scope — the specific number is the point, and it is the reason evolution
+lines matter more here than raw species count. A collection of 151 unrelated creatures is
+a list; 151 across roughly forty lines is a Pokédex.
+
+(This was originally recorded as an unexplained in-joke. Silas: *"Make it explicit. The
+joke was for you, not for me to read ten days from now that each agent communicates they
+refused to examine why we are committing to 151 monsters as instructed."* Fair — an
+undocumented magic number that every reader is told not to question is exactly the thing
+this file exists to prevent.)
 
 **44 authored, 107 to go.** Rough shape to aim at, so batches do not all pile into the
 same tier — treat as a target, not a quota to hit exactly:
@@ -351,7 +375,7 @@ before the merge; the merge fixed two of them outright, which is recorded here r
 than quietly deleted, because "what the merge actually bought us" is worth knowing.
 
 - ~~Only one evolution chain exists.~~ **Fixed by the merge** — eight now, and the
-  goldfish line runs all five tiers.
+  rustfish line runs all five tiers.
 - ~~Tier 1 is thin: three species.~~ **Fixed by the merge** — eight, and five of them
   are recognisable fish, which is what tier 1 is for.
 - **Still open: `tumble` and `surface` have one specimen each** (`the-quire` and

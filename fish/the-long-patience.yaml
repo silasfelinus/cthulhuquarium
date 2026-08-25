@@ -20,15 +20,15 @@ yield: 75
 interval: 16
 unlock_cost: 0
 behavior: dart
-hue: 32
+hue: 20
 diet_role: predator
 school_role: solitary
 rivals: []
 games: [cthulhuquarium, ruler-hooked]
-evolves_from: the-founding-goldfish
+evolves_from: the-founding-rustfish
 art_prompt: >
-  an enormous cartoon sea serpent filling the whole frame, armoured tangerine scales,
-  a huge toothy jaw and a tiny incongruous goldfish tail trailing far behind, vibrant
+  an enormous cartoon sea serpent filling the whole frame, armoured rust-red scales,
+  a huge toothy jaw and a tiny incongruous rustfish tail trailing far behind, vibrant
   saturated cartoon creature illustration, thick confident outlines, exaggerated
   asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
   colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled

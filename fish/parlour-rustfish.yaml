@@ -1,5 +1,5 @@
-slug: parlour-goldfish
-name: Parlour Goldfish
+slug: parlour-rustfish
+name: Parlour Rustfish
 species: Carassius domesticus
 class: minnow
 field_note: >
@@ -20,15 +20,16 @@ yield: 3
 interval: 6
 unlock_cost: 30
 behavior: drift
-hue: 32
+hue: 22
 diet_role: neutral
 school_role: shoaling
 rivals: []
 evolution_kind: growth
 games: [cthulhuquarium, ruler-hooked]
-evolves_to: goldfish-elder
+evolves_to: elder-rustfish
 art_prompt: >
-  a plain cheerful cartoon goldfish with a flowing double tail, bright tangerine,
+  a plain cheerful cartoon rustfish with a flowing double tail, rust-orange with a
+  dull copper sheen,
   entirely unremarkable and rather pleased about it, vibrant saturated cartoon
   creature illustration, thick confident outlines, exaggerated asymmetric anatomy,
   glossy wet highlights, playful macabre storybook monster, bold colour, dark water
