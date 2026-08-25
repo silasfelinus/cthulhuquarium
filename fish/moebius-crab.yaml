@@ -18,12 +18,13 @@ tier: 4
 size: 4
 yield: 32
 interval: 13
-unlock_cost: 1250
+unlock_cost: 0
 behavior: drift
 hue: 268
 diet_role: neutral
 school_role: solitary
 rivals: []
+evolves_from: the-double-entry
 games: [cthulhuquarium]
 art_prompt: >
   a cartoon hermit crab carrying a shell twisted into one continuous looping band that

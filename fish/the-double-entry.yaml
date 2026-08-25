@@ -1,0 +1,37 @@
+slug: the-double-entry
+name: The Double Entry
+species: Cancer duplex
+class: crustacean
+field_note: >
+  Every movement it makes is recorded twice, once in each direction. The totals agree.
+quirks: >
+  Carries two identical claws and uses them alternately, never together.
+alignment: balanced
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: RARE
+  might: RARE
+  wits: EPIC
+tier: 3
+size: 3
+yield: 19
+interval: 12
+unlock_cost: 0
+behavior: anchor
+hue: 16
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: ledger-crab
+evolves_to: moebius-crab
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a cartoon crab with two perfectly identical mirrored halves in rust and brass, a
+  matching claw on each side held at the same angle, a faint second outline shadowing
+  every limb, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

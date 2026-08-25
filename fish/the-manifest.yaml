@@ -1,0 +1,37 @@
+slug: the-manifest
+name: The Manifest
+species: Index omnium
+class: anomaly
+field_note: >
+  Everything the tank has ever held, listed in order. The list is longer than the tank
+  has been in use.
+quirks: >
+  New entries appear at the top. The staff have stopped reading downward.
+alignment: exhaustive
+rarity: MYTHIC
+stats:
+  charm: EPIC
+  empathy: RARE
+  grace: MYTHIC
+  might: MYTHIC
+  wits: MYTHIC
+tier: 5
+size: 7
+yield: 102
+interval: 23
+unlock_cost: 0
+behavior: anchor
+hue: 148
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: the-hold
+evolution_kind: breeding
+games: [cthulhuquarium]
+art_prompt: >
+  a towering cartoon creature shaped like an unrolled ledger scroll standing on end,
+  jade and old paper, its surface covered in glowing rows of entries receding upward out
+  of frame, a single wide eye set into the parchment, vibrant saturated cartoon creature
+  illustration, thick confident outlines, exaggerated asymmetric anatomy, glossy wet
+  highlights, playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text

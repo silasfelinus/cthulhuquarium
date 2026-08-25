@@ -24,6 +24,8 @@ hue: 12
 diet_role: neutral
 school_role: territorial
 rivals: [bailiff-eel]
+evolves_to: the-double-entry
+evolution_kind: growth
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a broad cartoon crab with tally-mark scratches carved across its shell, one claw

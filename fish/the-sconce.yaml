@@ -1,0 +1,37 @@
+slug: the-sconce
+name: The Sconce
+species: Pterois candela
+class: predator
+field_note: >
+  Carries a single light and holds it perfectly still. The stillness is the notable
+  part.
+quirks: >
+  The light does not dim when the room lights are raised.
+alignment: attentive
+rarity: UNCOMMON
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: RARE
+  might: UNCOMMON
+  wits: UNCOMMON
+tier: 2
+size: 2
+yield: 11
+interval: 11
+unlock_cost: 240
+behavior: hover
+hue: 28
+diet_role: predator
+school_role: solitary
+rivals: []
+evolves_to: chandelier-lion
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a small cartoon lionfish with a modest fan of candy-striped spines and one steady
+  flame-coloured light held out on a single stalk, tangerine and cream, absolutely
+  motionless, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

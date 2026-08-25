@@ -1,0 +1,36 @@
+slug: the-first-demand
+name: The First Demand
+species: Petitio prima
+class: construct
+field_note: >
+  Politely worded and correctly addressed. The tone does not survive into the second.
+quirks: >
+  Approaches once and withdraws, and the distance is shorter each time.
+alignment: courteous
+rarity: EPIC
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: EPIC
+  wits: RARE
+tier: 4
+size: 4
+yield: 29
+interval: 15
+unlock_cost: 1300
+behavior: anchor
+hue: 200
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_to: the-harbors-due
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an angular cartoon creature built from a few crisp folded paper sheets in bone white
+  and cold blue, edges still sharp and uncreased, leaning very slightly forward, no
+  face, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

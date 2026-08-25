@@ -1,0 +1,37 @@
+slug: the-backlog
+name: The Backlog
+species: Gelatina restantia
+class: anomaly
+field_note: >
+  Everything the tank has lost is now inside it, arranged. Nothing has been returned.
+quirks: >
+  The arrangement changes overnight and is always more orderly than before.
+alignment: pending
+rarity: RARE
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: RARE
+  might: EPIC
+  wits: EPIC
+tier: 3
+size: 5
+yield: 20
+interval: 13
+unlock_cost: 0
+behavior: anchor
+hue: 336
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: the-accumulation
+evolves_to: the-hold
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a huge cartoon mass of deep pink jelly with its contents sorted into neat labelled
+  rows inside it, hundreds of small objects in tidy ranks, glowing faintly from within,
+  vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

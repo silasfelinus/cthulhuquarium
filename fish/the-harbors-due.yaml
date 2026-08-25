@@ -19,12 +19,13 @@ tier: 5
 size: 5
 yield: 62
 interval: 18
-unlock_cost: 3400
+unlock_cost: 0
 behavior: anchor
 hue: 204
 diet_role: predator
 school_role: territorial
 rivals: []
+evolves_from: the-first-demand
 games: [cthulhuquarium]
 art_prompt: >
   a towering cartoon creature built from overlapping rectangular paper-like fins stacked

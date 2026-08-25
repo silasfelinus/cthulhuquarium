@@ -1,0 +1,36 @@
+slug: the-efflorescence
+name: The Efflorescence
+species: Anthozoa perfecta
+class: bloom
+field_note: >
+  The bloom has finished. Staff had not established that it was capable of finishing.
+quirks: >
+  Opened once, fully, and has not closed. Nothing has been observed to enter it since.
+alignment: consummate
+rarity: LEGENDARY
+stats:
+  charm: MYTHIC
+  empathy: RARE
+  grace: LEGENDARY
+  might: EPIC
+  wits: EPIC
+tier: 5
+size: 8
+yield: 64
+interval: 19
+unlock_cost: 0
+behavior: anchor
+hue: 306
+diet_role: predator
+school_role: territorial
+rivals: []
+evolves_from: fractal-bloom
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an enormous cartoon anemone opened completely flat like a struck bell, hundreds of
+  magenta and orange tendrils splayed in perfect radial symmetry, a dark still centre
+  that reflects nothing, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text

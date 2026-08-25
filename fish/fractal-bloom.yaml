@@ -24,6 +24,8 @@ hue: 310
 diet_role: predator
 school_role: territorial
 rivals: []
+evolves_to: the-efflorescence
+evolution_kind: growth
 games: [cthulhuquarium]
 art_prompt: >
   a cartoon sea anemone whose fat spines each split into smaller spines and split

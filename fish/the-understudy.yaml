@@ -23,6 +23,8 @@ hue: 286
 diet_role: predator
 school_role: solitary
 rivals: []
+evolves_to: the-principal
+evolution_kind: growth
 games: [cthulhuquarium]
 art_prompt: >
   a cartoon fish only half finished, one side crisply drawn and the other smearing
