@@ -1,5 +1,5 @@
-slug: goldfish-elder
-name: Elder Goldfish
+slug: elder-rustfish
+name: Elder Rustfish
 species: Carassius senex
 class: minnow
 field_note: >
@@ -22,16 +22,16 @@ yield: 8
 interval: 9
 unlock_cost: 0
 behavior: drift
-hue: 32
+hue: 22
 diet_role: neutral
 school_role: shoaling
 rivals: []
-evolves_from: parlour-goldfish
-evolves_to: the-unlidded-goldfish
+evolves_from: parlour-rustfish
+evolves_to: the-unlidded-rustfish
 evolution_kind: growth
 games: [cthulhuquarium]
 art_prompt: >
-  a heavy overgrown cartoon goldfish, tangerine and cream, trailing an absurdly long
+  a heavy overgrown cartoon rustfish, deep rust and bone, trailing an absurdly long
   ceremonial tail far bigger than it needs, expression of total unbothered composure,
   vibrant saturated cartoon creature illustration, thick confident outlines, exaggerated
   asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold

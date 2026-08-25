@@ -1,5 +1,5 @@
-slug: the-unlidded-goldfish
-name: The Unlidded Goldfish
+slug: the-unlidded-rustfish
+name: The Unlidded Rustfish
 species: Carassius vigilans
 class: anomaly
 field_note: >
@@ -21,16 +21,16 @@ yield: 19
 interval: 12
 unlock_cost: 0
 behavior: hover
-hue: 34
+hue: 24
 diet_role: neutral
 school_role: shoaling
 rivals: []
-evolves_from: goldfish-elder
-evolves_to: the-founding-goldfish
+evolves_from: elder-rustfish
+evolves_to: the-founding-rustfish
 evolution_kind: growth
 games: [cthulhuquarium]
 art_prompt: >
-  an oversized cartoon goldfish in hot orange and cream with extra eyes opening along
+  an oversized cartoon rustfish in hot rust-orange and bone with extra eyes opening along
   its flank and tail, each one a different size, all of them wide awake, the original
   two half-closed, vibrant saturated cartoon creature illustration, thick confident
   outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
