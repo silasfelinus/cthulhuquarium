@@ -23,7 +23,10 @@ behavior: surface
 hue: 64
 games: [cthulhuquarium]
 art_prompt: >
-  a small sunlit tropical island floating at the waterline with two palms and pale sand,
-  seen from below the surface so an enormous dark shelled body and long trailing limbs
-  are visible beneath it, bright warm light above the waterline and cold black water
-  below, heavy particulate, unpeopled frame, no text
+  a cheerful little cartoon tropical island with two palm trees and bright sand above
+  the waterline, and directly beneath it an enormous grinning shelled monster with
+  long trailing limbs, warm sunny colours above and lurid green below, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

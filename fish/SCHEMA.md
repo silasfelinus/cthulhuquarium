@@ -16,15 +16,41 @@ python3 scripts/validate_fish.py
 The bestiary has to survive a schema migration, an offline build, and a future port
 that has no Kind Robots behind it. Plain files are diffable, reviewable in a PR, and
 editable by a human who is not running a server. The seed script (conductor
-cthulhuquarium/t-008) reads these files and upserts kind_robots `Character` rows keyed
-on `slug`; re-running it after an edit updates rows rather than duplicating them.
+cthulhuquarium/t-008) reads these files and upserts rows in kind_robots' bestiary table
+keyed on `slug`; re-running it after an edit updates rows rather than duplicating them.
+
+## The bestiary table is not `Character` — corrected 2026-08-25
+
+This document previously said every field had to map onto a kind_robots `Character`
+column, and the seed script wrote `Character` rows. **That was wrong**, and Silas
+overturned it: *"why do our characters have size? These monsters are not meant to be
+added as characters. characters are our website's chattable personalities and npcs for
+story based games. the monsters are something new."*
+
+The mistake was reusing `Character` because its **columns** fit, when what decides a
+shared model is what it **means**. `Character` is the chattable-personality table the
+rest of Kind Robots reads — Charlotte and Wilbur belong in it; a fish does not. The
+cost was not theoretical: fish needed a capacity weight, so a `size` column was added to
+`Character`, and that migration shipped to the client without reaching the database,
+500-ing every `prisma.character.findUnique()` in production.
+
+Creatures get their own table. Working name **`Creature`** — broad enough that not
+everything in it has to be monstrous (the Parlour Goldfish isn't) and reusable by Ruler
+is Hooked. Conductor **cthulhuquarium/t-035** owns building it and settles the final
+name; `Monster` is the standing alternative. Nothing about the YAML shape below changes
+— the same fields, the same six `Rarity` stats, the same `games` list. Only the table
+they land in changes, and `size` finally lives somewhere it belongs.
+
+The rule worth keeping: **shared models are shared because of what they mean, not
+because their columns happen to line up.**
 
 ## Field reference
 
-Every field maps onto an existing kind_robots `Character` column. That constraint is
-deliberate — a field with nowhere to land is a field the seed script has to drop.
+Every field maps onto a column of the bestiary table. That constraint is deliberate — a
+field with nowhere to land is a field the seed script has to drop. Column names below
+are the ones inherited from the `Character` shape and are what t-035 carries over.
 
-| Field | Character column | Notes |
+| Field | Column | Notes |
 |---|---|---|
 | `slug` | `slug` | Unique, kebab-case, stable forever. Renaming a slug orphans a row. |
 | `name` | `name` | Display name. |
@@ -40,8 +66,10 @@ deliberate — a field with nowhere to land is a field the seed script has to dr
 
 ## Game-facing fields
 
-These do not map to `Character` columns; they live in the seeded record's game payload
-and are read by the aquarium API.
+These have no equivalent in the `Character` shape the columns above came from. Under
+`Creature` they are real columns rather than a payload blob — which is the whole point
+of the correction above: `size` is a property of a creature, and it never should have
+been bolted onto `Character` to make it fit.
 
 | Field | Meaning |
 |---|---|
@@ -122,14 +150,17 @@ Currently one chain: `parlour-goldfish` → `the-long-patience`.
 
 ## The `games` field is the whole sharing mechanism
 
-A creature tagged `[cthulhuquarium, ruler-hooked]` seeds into the shared
-`abyssal-bestiary` Pack and both games query it. There is no sync layer, no duplicated
-art, and no second catalog — Silas's "we can have appropriate ones appear in both
-games" costs exactly one list field.
+A creature tagged `[cthulhuquarium, ruler-hooked]` is read by both games. There is no
+sync layer, no duplicated art, and no second catalog — Silas's "we can have appropriate
+ones appear in both games" costs exactly one list field.
+
+This survived the move off `Character` unchanged. Sharing was never about which table
+the row lived in; it was always this list. Ruler is Hooked keeps `Character` for its
+actual characters — only its fish move.
 
 Rules for shared creatures:
 
-- A shared `Character` is **not one game's property**. Neither game may mutate the row;
+- A shared creature is **not one game's property**. Neither game may mutate the row;
   both read it. Per-game state (hunger, placement, whether it has been caught) belongs
   in that game's own tables.
 - Ruler is Hooked's dark-ecosystem branch should query `games` contains `ruler-hooked`.
@@ -220,9 +251,28 @@ learned the hard way:
    the scene calls for it" gets painted literally. State what is in the frame, once.
 2. **Lead with the physical subject** — material, shape, scale, framing, light — before
    any statement of what the creature means.
+3. **Say what it is NOT.** Both engines default hard toward nature photography for
+   anything fish-shaped. Without an explicit negative they will hand back a competent
+   photo of a real animal.
 
-For this bestiary specifically: silhouette-forward, strong rim light, dark teal water,
-one sickly accent light, unpeopled frame, no text. Silhouettes are chosen because they
-survive generation inconsistency where detailed consistently-colored creature art does
-not. A species that will not generate consistently gets redesigned, not shipped as an
+For this bestiary specifically, corrected 2026-08-25: **vibrant saturated cartoon
+creature illustration** — thick confident outlines, exaggerated asymmetric anatomy,
+glossy wet highlights, playful macabre storybook monster, bold colour, dark water
+behind it, explicitly *not photorealistic, not a nature photograph*, unpeopled frame,
+no text.
+
+This replaces the silhouette-forward direction this section carried until 2026-08-25.
+Silhouettes were chosen on the theory that they would survive generation inconsistency
+better than detailed creature art. The first real batch disproved it — Silas, on ten
+returned renders: *"they almost all look like real animals, not misshapen horrors from
+the deep with a cartoonish playfulness... I want creative, colorful, and vibrant monster
+fish and backgrounds."* A dark, low-detail, rim-lit prompt reads to the model as
+*underwater photograph*, so restraint in the prompt bought realism, which is the one
+thing this bestiary cannot be. Saturated cartoon language pushes the other way and gives
+the model no photographic reading to fall back on.
+
+Krea 2 is the preferred engine here — its bias toward bold colour and stylisation is an
+advantage for this project rather than something to correct for.
+
+A species that will not generate consistently gets redesigned, not shipped as an
 outlier.
