@@ -1,0 +1,49 @@
+# The fish bible is the canonical source of truth for every creature in
+# Cthulhuquarium and for Ruler is Hooked's shared catches, and the database is
+# downstream of it. A malformed entry here becomes a malformed row there, so it
+# gets caught at PR time rather than at seed time.
+#
+# This workflow exists because the bible USED to be guarded from the conductor
+# repo, which validated a copy of it that lived over there. That copy is what
+# let two bibles diverge (cthulhuquarium/t-036) -- a second canon with a second
+# validator is not redundancy, it is drift with a green check on it. The bible
+# lives here now, so its guard lives here too.
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  fish-bible:
+    name: Fish bible schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      # Enforces the whole schema contract: required fields, the rarity/behavior/
+      # class/diet/social enums, tier and size bounds, the two machine-checkable
+      # tone rules, evolution chains resolving in both directions, and rivalry
+      # being mutual.
+      - name: Validate the bible
+        run: python3 scripts/validate_fish.py
+
+      # The DESIGN-BRIEF MVP bar was 20 species. The target is 151
+      # (cthulhuquarium/t-037). This floor only catches a catastrophic deletion
+      # -- raise it as batches land if it ever stops being a floor worth having.
+      - name: Species floor
+        run: |
+          count=$(ls fish/*.yaml | wc -l)
+          echo "$count species in the bible"
+          if [ "$count" -lt 20 ]; then
+            echo "::error::bible has $count species, under the MVP bar of 20"
+            exit 1
+          fi
