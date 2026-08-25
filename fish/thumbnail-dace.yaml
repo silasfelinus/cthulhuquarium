@@ -1,0 +1,35 @@
+slug: thumbnail-dace
+name: Thumbnail Dace
+species: Leuciscus unguis
+class: minnow
+field_note: >
+  Small enough that the tank's population is recorded as an estimate. The estimate has
+  never been revised downward.
+quirks: >
+  Moves only when startled, and is startled constantly.
+alignment: skittish
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 3
+interval: 6
+unlock_cost: 0
+behavior: dart
+hue: 160
+diet_role: prey
+school_role: shoaling
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a minute cartoon fish barely larger than its own eye, mint and pewter, fins flared
+  mid-panic, the blurred suggestion of a dozen more scattering behind it, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

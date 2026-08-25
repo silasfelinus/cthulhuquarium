@@ -1,0 +1,36 @@
+slug: the-marginalia
+name: The Marginalia
+species: Aurelia respondens
+class: drifter
+field_note: >
+  Something has written back. The second hand is smaller and considerably neater.
+quirks: >
+  The two scripts never overlap. Neither has been observed being written.
+alignment: annotated
+rarity: EPIC
+stats:
+  charm: RARE
+  empathy: MYTHIC
+  grace: EPIC
+  might: COMMON
+  wits: MYTHIC
+tier: 4
+size: 4
+yield: 30
+interval: 14
+unlock_cost: 0
+behavior: drift
+hue: 270
+diet_role: neutral
+school_role: solitary
+rivals: []
+evolves_from: the-reading-bell
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a glowing cartoon jellyfish whose violet bell carries two distinct kinds of luminous
+  handwriting, one sprawling and one small and precise in the gaps, magenta and cyan,
+  ribbon tendrils curling below, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text

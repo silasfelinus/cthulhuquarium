@@ -1,0 +1,36 @@
+slug: the-freeholder
+name: The Freeholder
+species: Patella dominus
+class: crustacean
+field_note: >
+  Owns the pane outright. The tank is described in the ledger as an outbuilding.
+quirks: >
+  Other clinging species arrange themselves at a fixed distance from it.
+alignment: entitled
+rarity: RARE
+stats:
+  charm: RARE
+  empathy: COMMON
+  grace: UNCOMMON
+  might: EPIC
+  wits: RARE
+tier: 3
+size: 4
+yield: 20
+interval: 12
+unlock_cost: 0
+behavior: cling
+hue: 182
+diet_role: neutral
+school_role: territorial
+rivals: []
+evolves_from: the-tenant
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an enormous cartoon limpet covering most of the glass, shell built up in uneven ridged
+  storeys like a squat tower, teal and brass, a clear ring of bare pane around it that
+  nothing else occupies, vibrant saturated cartoon creature illustration, thick
+  confident outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful
+  macabre storybook monster, bold colour, dark water behind it, NOT photorealistic, not
+  a nature photograph, unpeopled frame, no text

@@ -27,6 +27,7 @@ school_role: territorial
 rivals: []
 evolves_from: crawdad-common
 evolution_kind: growth
+evolves_to: the-annexation
 games: [cthulhuquarium]
 art_prompt: >
   a huge armoured cartoon crawdad on a heap of silt, two enormous scarlet claws held

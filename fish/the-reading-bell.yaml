@@ -27,6 +27,7 @@ school_role: solitary
 rivals: []
 evolves_from: drifting-bell
 evolution_kind: growth
+evolves_to: the-marginalia
 games: [cthulhuquarium]
 art_prompt: >
   a glowing cartoon jellyfish whose violet bell is covered in looping luminous script-

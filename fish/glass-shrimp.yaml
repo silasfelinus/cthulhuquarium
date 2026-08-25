@@ -1,0 +1,34 @@
+slug: glass-shrimp
+name: Glass Shrimp
+species: Palaemon vitreus
+class: crustacean
+field_note: >
+  Entirely transparent except for the last meal, which is not.
+quirks: >
+  The visible portion travels through it over several hours and is then gone.
+alignment: candid
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: COMMON
+  grace: RARE
+  might: COMMON
+  wits: COMMON
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 50
+behavior: drift
+hue: 150
+diet_role: prey
+school_role: shoaling
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a wholly transparent cartoon shrimp drawn in thin bright outline only, with one vivid
+  magenta lump of half-digested something suspended clearly inside its middle, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

@@ -1,0 +1,37 @@
+slug: the-waterline
+name: The Waterline
+species: Alburnus continuus
+class: colony
+field_note: >
+  A continuous band of fry held at the meniscus, of constant thickness. New arrivals are
+  absorbed without ceremony.
+quirks: >
+  The band reforms within seconds of being broken, at exactly the same thickness.
+alignment: unbroken
+rarity: UNCOMMON
+stats:
+  charm: UNCOMMON
+  empathy: RARE
+  grace: RARE
+  might: COMMON
+  wits: RARE
+tier: 2
+size: 3
+yield: 12
+interval: 9
+unlock_cost: 0
+behavior: surface
+hue: 174
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_from: skimmer-fry
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  an unbroken ribbon of hundreds of tiny cartoon fish packed shoulder to shoulder along
+  the water surface, mint and silver, running the full width of the frame at perfectly
+  even thickness, vibrant saturated cartoon creature illustration, thick confident
+  outlines, exaggerated asymmetric anatomy, glossy wet highlights, playful macabre
+  storybook monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

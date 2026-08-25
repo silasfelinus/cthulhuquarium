@@ -27,6 +27,7 @@ school_role: territorial
 rivals: []
 evolves_from: catfish-common
 evolution_kind: growth
+evolves_to: the-inquiry
 games: [cthulhuquarium]
 art_prompt: >
   an immense cartoon catfish whose whiskers fill the whole frame, dozens of them coiling

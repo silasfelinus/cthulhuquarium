@@ -19,12 +19,13 @@ tier: 3
 size: 3
 yield: 21
 interval: 12
-unlock_cost: 610
+unlock_cost: 0
 behavior: tumble
 hue: 210
 diet_role: neutral
 school_role: shoaling
 rivals: []
+evolves_from: folding-fry
 games: [cthulhuquarium]
 art_prompt: >
   a folded paper cartoon creature of sharp geometric planes, part crane and part

@@ -1,0 +1,35 @@
+slug: rainbow-nudibranch
+name: Rainbow Nudibranch
+species: Chromodoris otiosa
+class: drifter
+field_note: >
+  Spectacular, and entirely inert. The placard was written at length and then reduced to
+  this.
+quirks: >
+  Does nothing. The staff have watched carefully and are confident.
+alignment: decorative
+rarity: UNCOMMON
+stats:
+  charm: EPIC
+  empathy: COMMON
+  grace: RARE
+  might: COMMON
+  wits: COMMON
+tier: 2
+size: 1
+yield: 8
+interval: 11
+unlock_cost: 200
+behavior: cling
+hue: 300
+diet_role: neutral
+school_role: solitary
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a small gorgeous cartoon sea slug on the glass, banded in every colour at once with a
+  crown of frilled gills and two blunt horns, luminous and immaculate, doing absolutely
+  nothing, vibrant saturated cartoon creature illustration, thick confident outlines,
+  exaggerated asymmetric anatomy, glossy wet highlights, playful macabre storybook
+  monster, bold colour, dark water behind it, NOT photorealistic, not a nature
+  photograph, unpeopled frame, no text

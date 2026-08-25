@@ -1,0 +1,36 @@
+slug: portsmouth-bitterling
+name: Portsmouth Bitterling
+species: Rhodeus portus
+class: minnow
+field_note: >
+  Named for the town, which has not been consulted. Charlotte considers the association
+  settled.
+quirks: >
+  Spawns only inside the shell of something else, and is not particular about whether it
+  is vacant.
+alignment: presumptuous
+rarity: COMMON
+stats:
+  charm: UNCOMMON
+  empathy: COMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 1
+size: 1
+yield: 4
+interval: 7
+unlock_cost: 45
+behavior: drift
+hue: 320
+diet_role: prey
+school_role: shoaling
+rivals: []
+games: [cthulhuquarium]
+art_prompt: >
+  a small round cartoon fish in iridescent rose and violet nosing hopefully into the
+  opening of a much larger occupied shell, entirely unbothered by the occupant, vibrant
+  saturated cartoon creature illustration, thick confident outlines, exaggerated
+  asymmetric anatomy, glossy wet highlights, playful macabre storybook monster, bold
+  colour, dark water behind it, NOT photorealistic, not a nature photograph, unpeopled
+  frame, no text

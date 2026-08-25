@@ -1,0 +1,37 @@
+slug: skimmer-fry
+name: Skimmer Fry
+species: Alburnus limitis
+class: minnow
+field_note: >
+  Feeds at the waterline and never below it. Whatever it is avoiding, it avoids
+  thoroughly.
+quirks: >
+  Will not descend, even when the food does.
+alignment: wary
+rarity: COMMON
+stats:
+  charm: COMMON
+  empathy: UNCOMMON
+  grace: UNCOMMON
+  might: COMMON
+  wits: UNCOMMON
+tier: 1
+size: 1
+yield: 4
+interval: 6
+unlock_cost: 25
+behavior: surface
+hue: 178
+diet_role: prey
+school_role: shoaling
+rivals: []
+evolves_to: the-waterline
+evolution_kind: growth
+games: [cthulhuquarium]
+art_prompt: >
+  a tiny cartoon fish riding the underside of the water surface, upturned mouth breaking
+  through, silver-mint body with an oversized worried eye, the bright meniscus line
+  cutting across the top of the frame, vibrant saturated cartoon creature illustration,
+  thick confident outlines, exaggerated asymmetric anatomy, glossy wet highlights,
+  playful macabre storybook monster, bold colour, dark water behind it, NOT
+  photorealistic, not a nature photograph, unpeopled frame, no text
