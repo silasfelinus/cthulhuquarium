@@ -96,31 +96,11 @@ jobs:
     hash: 13979e32c2b1
     engine: wan
     submitted: '2026-09-30T09:23:34Z'
-  plates/screen-arrival:
-    job: 32264
-    hash: bb3986130215
-    engine: flux
-    submitted: '2026-09-30T07:46:10Z'
   plates/set-peace-ward:
     job: 32273
     hash: a705c59dfb16
     engine: flux
     submitted: '2026-09-30T08:27:25Z'
-  plates/upgrade-drops:
-    job: 32272
-    hash: b3a878f38f62
-    engine: flux
-    submitted: '2026-09-30T08:27:24Z'
-  plates/upgrade-food:
-    job: 32271
-    hash: 9b650691dc45
-    engine: flux
-    submitted: '2026-09-30T08:27:24Z'
-  portraits/wilbur-stint-alarmed:
-    job: 32299
-    hash: 2ddfcfe90cab
-    engine: flux
-    submitted: '2026-09-30T09:38:27Z'
   sprites/candle-snail:
     job: 32088
     hash: b7b405547963
@@ -871,6 +851,11 @@ jobs:
     hash: 5d95c563936f
     engine: wan
     submitted: '2026-09-30T08:03:04Z'
+  videos/screen-arrival:
+    job: 32308
+    hash: 6dd4608da197
+    engine: wan
+    submitted: '2026-09-30T12:26:21Z'
   videos/screen-finale:
     job: 32265
     hash: c9bb3c654ce0
