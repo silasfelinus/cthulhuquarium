@@ -5,6 +5,7 @@
     characters/raw/<who>-hero.webp  -> characters/portraits/hero/<who>.webp     full plate, 720px tall
     backgrounds/raw/<key>.webp      -> backgrounds/built/<key>.webp             1280px wide
     story/raw/<key>.webp            -> story/built/<key>.webp                   1280px wide
+    videos/raw/<key>.webp           -> videos/built/<key>.webp                  640px wide, animated
 
 Portraits are cut out because they stand in front of the dialogue box and the tank;
 the hero plates and backgrounds keep their painted backdrops.
@@ -18,7 +19,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageSequence
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_sprites import cutout_image  # noqa: E402
@@ -67,6 +68,23 @@ def main() -> int:
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 fit(Image.open(raw).convert("RGB"), width=1280).save(dest, "WEBP", quality=80, method=6)
                 built += 1
+
+    # WAN delivers 832px animated WebPs of 3.5-7 MB; the game shows them no wider than
+    # the dialogue plate (~770px CSS, far less on a phone), so they ship at 640px and
+    # a lighter quality, every frame and its timing kept.
+    for raw in sorted((ROOT / "videos/raw").glob("*.webp")):
+        dest = ROOT / "videos/built" / f"{raw.stem}.webp"
+        if fresh(dest):
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            with Image.open(raw) as clip:
+                durations = []
+                frames = []
+                for frame in ImageSequence.Iterator(clip):
+                    durations.append(frame.info.get("duration", 62))
+                    frames.append(fit(frame.convert("RGB"), width=640))
+            frames[0].save(dest, "WEBP", save_all=True, append_images=frames[1:],
+                           duration=durations, loop=0, quality=60, method=4)
+            built += 1
 
     print(f"{built} built")
     return 0
