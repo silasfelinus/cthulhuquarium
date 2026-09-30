@@ -38,10 +38,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small spiny stickleback in strict side profile facing right, whole body visible, three sharp dorsal spines standing fully raised, thin silver body with a cold
-    blue flush along the belly, a fine white rime of frost along the spine tips, alert
-    round eye, hand-coloured lithograph linework and flat watercolour wash on the body,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a stickleback with three tall separate needle spines standing straight up from its
+    back, each spine a thin sharp spike apart from the others, their tips white with
+    frost, a single small slender fish in strict side profile facing right, whole body
+    visible, thin silver body with a cold blue flush along the belly, a small low soft
+    fin near the tail, alert round eye, hand-coloured lithograph linework and flat
+    watercolour wash on the body, isolated on a plain flat charcoal studio backdrop,
+    even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A little silver weathervane for your tank. It always knows where the fresh air is, and it looks so smart with its spines up.

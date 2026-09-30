@@ -21,6 +21,11 @@ jobs:
     hash: 13f6a9472b2f
     engine: wan
     submitted: '2026-09-30T18:44:34Z'
+  clips/catfish-common:
+    job: 32335
+    hash: 6539e8eeb2a2
+    engine: wan
+    submitted: '2026-09-30T19:37:47Z'
   clips/cellar-newt:
     job: 32330
     hash: 5d8414470ca6
@@ -41,11 +46,16 @@ jobs:
     hash: 23dc8d252dcf
     engine: wan
     submitted: '2026-09-30T18:44:39Z'
-  sprites/catfish-common:
-    job: 32334
-    hash: 66c109428f66
-    engine: flux
-    submitted: '2026-09-30T18:46:02Z'
+  clips/drifting-bell:
+    job: 32337
+    hash: 9aad88633e13
+    engine: wan
+    submitted: '2026-09-30T19:37:49Z'
+  clips/errand-guppy:
+    job: 32339
+    hash: e0e9c1c14738
+    engine: wan
+    submitted: '2026-09-30T19:37:51Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -57,28 +67,18 @@ jobs:
     engine: flux
     submitted: '2026-09-30T07:44:57Z'
   sprites/draught-stickleback:
-    job: 32096
-    hash: dc286e463584
+    job: 32340
+    hash: 5e19a6f81c58
     engine: flux
-    submitted: '2026-09-30T07:44:58Z'
-  sprites/drifting-bell:
-    job: 32097
-    hash: 759d59e3fdcb
-    engine: flux
-    submitted: '2026-09-30T07:44:59Z'
+    submitted: '2026-09-30T19:39:32Z'
   sprites/drowned-carp:
-    job: 32098
-    hash: eb4ce1f6ba10
+    job: 32341
+    hash: 998f500e8182
     engine: flux
-    submitted: '2026-09-30T07:44:59Z'
+    submitted: '2026-09-30T19:39:32Z'
   sprites/elder-rustfish:
     job: 32099
     hash: 93d66347db65
-    engine: flux
-    submitted: '2026-09-30T07:45:00Z'
-  sprites/errand-guppy:
-    job: 32100
-    hash: 9ffc58d8008a
     engine: flux
     submitted: '2026-09-30T07:45:00Z'
   sprites/folding-fry:
