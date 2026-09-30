@@ -46,16 +46,46 @@ jobs:
     hash: 23dc8d252dcf
     engine: wan
     submitted: '2026-09-30T18:44:39Z'
+  clips/draught-stickleback:
+    job: 32342
+    hash: 1c2149c19ea5
+    engine: wan
+    submitted: '2026-09-30T20:31:33Z'
   clips/drifting-bell:
     job: 32337
     hash: 9aad88633e13
     engine: wan
     submitted: '2026-09-30T19:37:49Z'
+  clips/drowned-carp:
+    job: 32343
+    hash: 2129efefe728
+    engine: wan
+    submitted: '2026-09-30T20:31:34Z'
   clips/errand-guppy:
     job: 32339
     hash: e0e9c1c14738
     engine: wan
     submitted: '2026-09-30T19:37:51Z'
+  clips/folding-fry:
+    job: 32344
+    hash: 814bf94db20e
+    engine: wan
+    submitted: '2026-09-30T20:31:35Z'
+  clips/glass-shrimp:
+    job: 32345
+    hash: e6d34a0f1612
+    engine: wan
+    submitted: '2026-09-30T20:31:36Z'
+  clips/gravel-tetra:
+    job: 32346
+    hash: 5951342373eb
+    engine: wan
+    submitted: '2026-09-30T20:31:37Z'
+  clips/guppy-common:
+    job: 32347
+    hash: 92bc28fd3190
+    engine: wan
+    submitted: '2026-09-30T20:31:38Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -66,24 +96,9 @@ jobs:
     hash: d2dd893b9710
     engine: flux
     submitted: '2026-09-30T07:44:57Z'
-  sprites/draught-stickleback:
-    job: 32340
-    hash: 5e19a6f81c58
-    engine: flux
-    submitted: '2026-09-30T19:39:32Z'
-  sprites/drowned-carp:
-    job: 32341
-    hash: 998f500e8182
-    engine: flux
-    submitted: '2026-09-30T19:39:32Z'
   sprites/elder-rustfish:
     job: 32099
     hash: 93d66347db65
-    engine: flux
-    submitted: '2026-09-30T07:45:00Z'
-  sprites/folding-fry:
-    job: 32101
-    hash: e0e387ab48fa
     engine: flux
     submitted: '2026-09-30T07:45:00Z'
   sprites/fractal-bloom:
@@ -91,26 +106,11 @@ jobs:
     hash: e05b68b54323
     engine: flux
     submitted: '2026-09-30T07:45:01Z'
-  sprites/glass-shrimp:
-    job: 32103
-    hash: a6e02cbb7b5c
-    engine: flux
-    submitted: '2026-09-30T07:45:01Z'
   sprites/glass-weaver:
     job: 32104
     hash: 763e8e083aab
     engine: flux
     submitted: '2026-09-30T07:45:02Z'
-  sprites/gravel-tetra:
-    job: 32105
-    hash: 24179195d369
-    engine: flux
-    submitted: '2026-09-30T07:45:02Z'
-  sprites/guppy-common:
-    job: 32106
-    hash: 8bef3aff5e8a
-    engine: flux
-    submitted: '2026-09-30T07:45:03Z'
   sprites/gutter-minnow:
     job: 32107
     hash: 307eee69b336
