@@ -37,3 +37,12 @@ art_prompt: >
   colours leached toward parchment, the glass refracting the body where it presses
   against it, a handwritten paper label tied on with string, unpeopled frame, the
   label's handwriting worn to illegible loops
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single oversized rustfish in strict side profile facing right, whole body in
+    frame, hot rust-orange and bone, extra eyes opening along its flank and tail in a
+    row, each a different size, all wide awake, its original two eyes half-closed, wet
+    wax moulage specimen, glistening, colours leached slightly toward parchment,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

@@ -36,3 +36,12 @@ art_prompt: >
   flat black, coverage uneven, the ink thin and skipping where the body lifted away, fins
   printing as fine radiating lines, one wet painted eye added afterward by hand, unpeopled
   frame, the rest of the sheet bare
+sprite:
+  motion: breathe
+  prompt: >
+    the whole colony as one compact rectangular mass of small identical bodies
+    packed in ruled rows and columns, each row a different kind of small creature,
+    one cell in the grid left empty, sumi ink rubbing of the colony cut out along
+    its outline, flat black ink with uneven coverage, fins printing as fine
+    radiating lines, a single painted eye on each body, isolated on a plain flat
+    pale grey studio backdrop, even soft light, crisp clean silhouette edge

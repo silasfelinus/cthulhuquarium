@@ -34,3 +34,12 @@ art_prompt: >
   body onto fibrous washi paper, flat black, coverage uneven, the ink thin and skipping
   where the body lifted away, fins printing as fine radiating lines, one wet painted eye
   added afterward by hand, unpeopled frame, the rest of the sheet bare
+sprite:
+  motion: ripple
+  prompt: >
+    a single compact court of tiny brine shrimp drawn as one mass, stacked in neat
+    stepped tiers of precedence with the largest at the top, each with a small pointed
+    crown, a slender segmented body, fine feathery legs and a forked tail, sumi ink
+    rubbing of the whole court cut out along its outline, flat black ink thinning at the
+    edges, legs printing as fine radiating lines, one painted eye apiece, isolated on a
+    plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

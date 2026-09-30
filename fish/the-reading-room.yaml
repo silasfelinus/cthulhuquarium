@@ -36,3 +36,12 @@ art_prompt: >
   leached toward parchment, the glass refracting the body where it presses against it, a
   handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
   to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single low broad creature shaped like a reading desk, an open book form
+    growing from its sloped upper surface, the pages pale skin with faint lines, a
+    soft slack cover of skin folded back at the corners, stubby legs at the base,
+    warm tan and cream body, wet wax moulage specimen, glistening, isolated on a
+    plain flat pale grey studio backdrop, even soft light, crisp clean silhouette
+    edge

@@ -37,3 +37,12 @@ art_prompt: >
   detail by comparison, risograph print in two fluorescent spot inks on cheap absorbent
   paper, deliberate misregistration, the inks overprinting to a third colour where they
   cross, flat unblended areas, paper showing through, unpeopled frame, wide bare margins
+sprite:
+  motion: breathe
+  prompt: >
+    a single soft rounded body shaped like a broad hush, one unbroken smooth field of
+    flat ink with a faint fish outline pressed into it, its rim crowded with fine busy
+    printed detail by contrast, a small quiet closed eye, risograph print surface in two
+    fluorescent spot inks, flat unblended areas, slight misregistration at the edges,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

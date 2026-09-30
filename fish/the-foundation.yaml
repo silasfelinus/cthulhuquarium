@@ -35,3 +35,13 @@ art_prompt: >
   a blade, pure black and pure white only, every tone built from line density, form built
   entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
   solid uncut black
+sprite:
+  motion: breathe
+  prompt: >
+    a single enormous flat slab-bodied creature of heavy stone resting low and wide,
+    one long seam across its front edge parted slightly into a wide thin mouth, a
+    few pebbles caught in the lip of the seam, weathered bedding lines running
+    across its whole mass, white scraperboard hatching cut out of solid black, the
+    top face bright with dense cut line, the mouth a deep black gap, isolated on a
+    plain flat pale grey studio backdrop, even soft light, crisp clean silhouette
+    edge

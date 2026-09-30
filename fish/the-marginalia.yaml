@@ -35,3 +35,12 @@ art_prompt: >
   transparent hollow body, light passing through the glass and pooling where it
   thickens, colour suspended in the glass itself, museum specimen on a small wooden
   base, faint dust, unpeopled frame, a bare unwritten label on the wooden base
+sprite:
+  motion: pulse
+  prompt: >
+    a single glowing jellyfish upright with its bell at the top, the violet bell
+    carrying two kinds of luminous handwriting, one large and sprawling in magenta,
+    the other tiny and precise in cyan filling the gaps between, long ribbon
+    tendrils curling below, lampworked glass model body, clear glass bell with
+    colour suspended inside, isolated on a plain flat charcoal studio backdrop, even
+    soft light, crisp clean silhouette edge

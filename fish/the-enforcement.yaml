@@ -34,3 +34,12 @@ art_prompt: >
   leached toward parchment, the glass refracting the body where it presses against it, a
   handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
   to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single heavy armoured creature seen from the side facing right, whole body in
+    frame, standing squarely on thick legs with shoulders forward, a great embossed
+    seal set into its forehead, a row of blunt implements along its underside, wet
+    wax moulage specimen, glistening, colours leached toward parchment, isolated on
+    a plain flat pale grey studio backdrop, even soft light, crisp clean silhouette
+    edge

@@ -34,3 +34,10 @@ art_prompt: >
   scratched out of solid black ink with a blade, pure black and pure white only, every tone
   built from line density, form built entirely from cut hatching, stark and linear,
   unpeopled frame, the board around it left solid uncut black
+sprite:
+  motion: undulate
+  prompt: >
+    a single lean eel in strict side profile facing right, whole body in frame, held
+    unnaturally straight, a stiff pale collar ringing its neck just behind the head, a
+    mouth set in a thin formal line, a small fixed eye, white line scraperboard surface
+    cut from solid black, long parallel hatching down the body, isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

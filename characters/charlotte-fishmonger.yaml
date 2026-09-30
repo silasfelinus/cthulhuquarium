@@ -1,0 +1,91 @@
+# Charlotte Fishmonger -- canonical character design.
+#
+# Redesigned 2026-09-30 at Silas's direction: "Charlotte is supposed to be a gothic
+# mistress primadonna old woman. Our current mockup looks like a nobody." The first
+# carte-de-visite portrait (art/cthulhuquarium-char-charlotte-fishmonger.webp) read as
+# an anonymous Victorian lady; this sheet replaces it.
+#
+# The personality is unchanged from DESIGN-BRIEF.md decision 5 -- dreadfully cheerful,
+# in charge, delighted you are here, entirely unharmed. What changed is that she now
+# LOOKS like the person who runs this place: an aging gothic prima donna who has never
+# once left the stage, dressed in mourning for nobody in particular, wearing the shop's
+# stock as jewellery. She is the most immaculate thing in the building.
+#
+# Rules that still hold: she never mentions Wilbur's injuries, never hints at the
+# finale, and never references the book her name comes from.
+slug: charlotte-fishmonger
+name: Charlotte Fishmonger
+role: Proprietress of the Cthulhuquarium, of the Portsmouth Fishmongers
+design:
+  age: late seventies, and magnificent about it
+  silhouette: >
+    Tall and upright as a candlestick. A towering silver-white pompadour, a black
+    high-necked mourning gown with enormous leg-of-mutton sleeves and a bustle, and a
+    silver eel-headed cane. Readable from across a room, which is how she prefers it.
+  face: >
+    Sharp aquiline nose, high painted brows, heavy-lidded delighted eyes rimmed in kohl,
+    beauty mark, oxblood lips in a wide gracious prima donna smile. Powdered, rouged,
+    and completely composed.
+  costume: >
+    Black silk taffeta mourning gown with jet-bead fringe and a scatter of fish-scale
+    sequins; a cameo brooch carved with an octopus at her throat; black lace fingerless
+    gloves; rings on every finger, one of them a tiny sealed aquarium with something
+    moving in it; jet hatpins in her hair, one topped with a preserved seahorse; a
+    lorgnette on a chain.
+  palette: jet black, bone white, oxblood, tarnished silver, one note of aquarium green
+  props: [eel-headed cane, lorgnette, a feather fan, a brass tin of fish food]
+  manner: >
+    Every gesture is a curtain call. She presents things. She does not point, she
+    unveils. Her delight is sincere, total and entirely about the shop.
+lineage: >
+  Hand-tinted carte-de-visite photograph (ART-DIRECTION.md, "The non-fish assets"):
+  albumen print, painted backdrop, tint laid on cheeks, lips and the green of the
+  tanks. Dialogue portraits are the same sitting, cut out against a flat backdrop.
+art:
+  # The same sitting throughout: every prompt restates the whole design so each render
+  # arrives at the same woman. Portraits are cut out for the dialogue box, so they sit
+  # on a flat backdrop; the hero plate keeps the studio's painted backdrop.
+  base: >-
+    Charlotte Fishmonger, a grand gothic prima donna in her late seventies, towering
+    silver-white pompadour pierced with jet hatpins one topped with a tiny preserved
+    seahorse, sharp aquiline nose, high painted brows, heavy-lidded eyes rimmed in kohl,
+    a beauty mark, oxblood lips, powdered and rouged, high-necked black silk taffeta
+    mourning gown with enormous leg-of-mutton sleeves, jet-bead fringe and a scatter of
+    fish-scale sequins, a cameo brooch carved with an octopus at her throat, black lace
+    fingerless gloves, rings on every finger
+  medium: >-
+    hand-tinted albumen carte-de-visite photograph, rich deep blacks and warm sepia,
+    painted tint on her cheeks and lips, crisp studio focus
+  hero:
+    size: 832x1216
+    prompt: >-
+      full-length studio portrait of {base}, standing with one gloved hand raised in a
+      theatrical flourish and the other resting on a silver cane with an eel's head for a
+      handle, bustle and train pooled around her, a painted studio backdrop of a gaslit
+      aquarium hall with rows of murky green tanks, {medium}
+  portraits:
+    welcome:
+      prompt: >-
+        waist-up portrait of {base}, both arms spread wide in grand welcome, beaming a
+        wide gracious smile, head tilted graciously, {medium}, isolated on a plain flat
+        pale grey studio backdrop, even soft light
+    delighted:
+      prompt: >-
+        waist-up portrait of {base}, gloved hands clasped at her breast in rapture, eyes
+        closed with pleasure, laughing a delighted laugh, {medium}, isolated on a plain
+        flat pale grey studio backdrop, even soft light
+    presenting:
+      prompt: >-
+        waist-up portrait of {base}, one arm extended gracefully to the right palm up,
+        unveiling something off to the side like a curtain call, a proud radiant smile,
+        {medium}, isolated on a plain flat pale grey studio backdrop, even soft light
+    confiding:
+      prompt: >-
+        waist-up portrait of {base}, leaning in conspiratorially behind an open black
+        feather fan, one kohl-rimmed eye glittering over its edge, a sly private smile,
+        {medium}, isolated on a plain flat pale grey studio backdrop, even soft light
+    lorgnette:
+      prompt: >-
+        waist-up portrait of {base}, peering appraisingly through a silver lorgnette held
+        up to her eyes, one painted brow arched high, lips pursed in amused approval,
+        {medium}, isolated on a plain flat pale grey studio backdrop, even soft light

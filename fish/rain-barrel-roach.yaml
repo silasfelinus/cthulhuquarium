@@ -35,3 +35,12 @@ art_prompt: >
   engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
   gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
   unpeopled frame, the caption space beneath the image left empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single plain silver roach in strict side profile facing right, whole body in
+    frame, dull pewter body, faintly red fins and a red ring around the eye, back held
+    flat and level as though just under the waterline, a few beads of rain caught on its
+    dorsal fin, hand-coloured lithograph linework and flat watercolour wash on the body,
+    isolated on a plain flat charcoal studio backdrop, even soft light, crisp clean
+    silhouette edge

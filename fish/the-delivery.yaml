@@ -36,3 +36,12 @@ art_prompt: >
   border and a blank name banner, four-colour stone printing, visible misregistration and
   dot rosettes, slightly garish cheap inks, corners worn round, unpeopled frame, the name
   banner empty
+sprite:
+  motion: rigid
+  prompt: >
+    a single squared brown wrapped package, whole package in frame, tied with
+    crossed string and a round wax seal, faint fin shapes pressing outward against
+    the wrapping from inside, scuffed rounded corners, chromolithograph cigarette
+    card illustration style, flat bright stone-printed inks with slight
+    misregistration and dot rosettes on the body, isolated on a plain flat pale grey
+    studio backdrop, even soft light, crisp clean silhouette edge

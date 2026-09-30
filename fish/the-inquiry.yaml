@@ -36,3 +36,13 @@ art_prompt: >
   black and pure white only, every tone built from line density, form built entirely from
   cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
   black
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single small blunt catfish in strict side profile facing right, whole body in
+    frame, a huge mass of long coiling whiskers sprouting from its snout and
+    streaming forward, far larger than the body, one whisker reaching out longer and
+    straighter than the rest, a small stubby tail at the back, white scraperboard
+    line cut from solid black ink, each whisker a crisp bright stroke, isolated on a
+    plain flat pale grey studio backdrop, even soft light, crisp clean silhouette
+    edge

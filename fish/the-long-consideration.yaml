@@ -34,3 +34,12 @@ art_prompt: >
   parchment, the glass refracting the body where it presses against it, a handwritten paper
   label tied on with string, unpeopled frame, the label's handwriting worn to illegible
   loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single tall folded creature made of far too many thin jointed limbs held tight
+    against its narrow upright body, joints stacked in a long zigzag column, a
+    smooth blank oval head at the top, deep violet skin with acid yellow knuckles at
+    every joint, wet wax moulage specimen, glistening, a slick highlight running
+    down each folded limb, isolated on a plain flat pale grey studio backdrop, even
+    soft light, crisp clean silhouette edge

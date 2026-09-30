@@ -35,3 +35,14 @@ art_prompt: >
   card from around 1900, small format with a printed ornamental border and a blank name
   banner, four-colour stone printing, visible misregistration and dot rosettes, slightly
   garish cheap inks, corners worn round, unpeopled frame, the name banner empty
+sprite:
+  motion: ripple
+  prompt: >
+    a single upright seahorse-like creature in strict side profile facing right,
+    whole body in frame, a heavy lumpy camel hump rising on its back, ridged armour
+    rings down its sandy gold body with teal shading, a long tubular snout, a small
+    fluttering dorsal fin, its tail curled into a tight spiral beneath it,
+    chromolithograph cigarette card illustration style, flat bright stone-printed
+    inks with slight misregistration and dot rosettes on the body, isolated on a
+    plain flat pale grey studio backdrop, even soft light, crisp clean silhouette
+    edge

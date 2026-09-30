@@ -34,3 +34,11 @@ art_prompt: >
   history plate, obsessive radial symmetry, the organism arranged as design to fill the
   sheet, fine line and restrained colour, ruled ornamental border, unpeopled frame, the
   plate's caption strip empty
+sprite:
+  motion: sway
+  prompt: >
+    a single sea anemone upright rooted at the bottom on a squat coral-orange base, a
+    radiating crown of fat spines that each split into smaller spines and split again,
+    electric magenta tips at every branch, obsessive radial symmetry, ornamental natural
+    history line and restrained flat colour on the body, isolated on a plain flat pale
+    grey studio backdrop, even soft light, crisp clean silhouette edge

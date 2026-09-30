@@ -35,3 +35,12 @@ art_prompt: >
   colours leached toward parchment, the glass refracting the body where it presses against
   it, a handwritten paper label tied on with string, unpeopled frame, the label's
   handwriting worn to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single thick block of layered sediment seen from the side, whole body in
+    frame, each band a different grain and shade from pale sand to dark silt, small
+    shells and trinkets embedded at even intervals through the layers as though
+    filed, a slow soft bulge to its top surface, wet wax moulage specimen,
+    glistening, colours leached toward parchment, isolated on a plain flat pale grey
+    studio backdrop, even soft light, crisp clean silhouette edge

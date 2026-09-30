@@ -36,3 +36,12 @@ art_prompt: >
   blue and slate, ornamental natural history plate, obsessive radial symmetry, the organism
   arranged as design to fill the sheet, fine line and restrained colour, ruled ornamental
   border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: ripple
+  prompt: >
+    a single radial branching creature seen face-on, hundreds of fine tributaries
+    converging on one dark round centre, arranged in perfect symmetry like a river
+    system drawn as an animal, pale blue and slate, the branches finest at the rim,
+    ornamental natural history plate surface, fine line and restrained colour, isolated
+    on a plain flat charcoal studio backdrop, even soft light, crisp clean silhouette
+    edge

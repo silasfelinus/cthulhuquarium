@@ -35,3 +35,13 @@ art_prompt: >
   ornamental natural history plate, obsessive radial symmetry, the organism arranged as
   design to fill the sheet, fine line and restrained colour, ruled ornamental border,
   unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: breathe
+  prompt: >
+    a single heavy squat creature shaped as a solid block of brass scrollwork, its
+    body curling outward in mirrored volutes on the left and right, a flat base of
+    fused metal and flesh at the bottom, tarnished gold scrolls shading into warm
+    fleshy amber where the body shows through, ornamental natural history drawing,
+    perfect bilateral symmetry, fine engraved line and restrained colour on the
+    body, isolated on a plain flat pale grey studio backdrop, even soft light, crisp
+    clean silhouette edge

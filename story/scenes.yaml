@@ -1,0 +1,312 @@
+# Cthulhuquarium -- the scenes where Charlotte and Wilbur appear.
+#
+# Silas, 2026-09-30: "intro tutorial, with special *see text and images from the two
+# main characters during special moments including the intro*." And, from the systems
+# design (SYSTEMS.md, 2026-08-24): characters appear at the beginning, at select
+# screens, and at milestone interstitials -- "a milestone does not unlock a background;
+# a milestone causes Charlotte to appear, and she gives you the background."
+#
+# This file is the canon. kind_robots renders it (utils/cthulhuquariumStory.ts mirrors
+# it -- regenerate with scripts/sync_cthulhuquarium_story.mjs there, never hand-edit
+# the mirror).
+#
+# SHAPE
+#   scenes.<id>.trigger    what fires it (intro | first_* | milestone:<id> | ...)
+#   scenes.<id>.plate      optional full-width scene plate shown above the dialogue
+#   scenes.<id>.background milestone scenes only: the background Charlotte hands over
+#   scenes.<id>.beats[]    speaker (charlotte|wilbur), pose (see POSES), text,
+#                          focus (optional UI target to highlight),
+#                          await (optional player action that advances the beat)
+#
+# POSES -- each is a cut-out dialogue portrait (characters/*.yaml, art: portraits):
+#   charlotte: welcome, delighted, presenting, confiding, lorgnette
+#   wilbur:    greeting, explaining, wince, hopeful, alarmed
+#
+# VOICE RULES (DESIGN-BRIEF.md decision 5; these are hard rules, not taste):
+#   - Charlotte is dreadfully cheerful, sincerely and without a crack. She presents;
+#     she never explains. She never mentions Wilbur's injuries.
+#   - Wilbur is earnest, competent, and the only one who understands the tanks. His
+#     stutter is characterisation and never the reason a line is funny. The joke lands
+#     on the situation or on Charlotte, never on him. He never mentions his injuries.
+#   - Nobody hints at the finale. Nobody references the book their names come from.
+#   - Short. A voice that speaks too often becomes a tooltip.
+
+scenes:
+  intro:
+    trigger: intro
+    plate: screen-arrival
+    # The intro walks the player through their first purchase, so it stands in for
+    # first_unlock; that scene is marked seen when the intro finishes.
+    covers: [first_unlock]
+    beats:
+      - speaker: charlotte
+        pose: welcome
+        text: >-
+          Come in, come in, out of all that. Whatever it is out there, it will keep.
+          Everything out is in, as we say.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Charlotte Fishmonger, of the Portsmouth Fishmongers, and this is my
+          Cthulhuquarium. You have the look of someone who needs something to look after.
+      - speaker: charlotte
+        pose: delighted
+        text: Wilbur will show you. Wilbur shows everyone.
+      - speaker: wilbur
+        pose: greeting
+        focus: tank
+        text: >-
+          H-hello. This tank is yours now. It's empty, which is the best way for a tank
+          to start.
+      - speaker: charlotte
+        pose: presenting
+        focus: shop
+        await: unlock
+        text: >-
+          The first one is on the house. Choose something from the shop, darling;
+          anything marked free.
+      - speaker: wilbur
+        pose: explaining
+        focus: feed
+        await: feed
+        text: >-
+          It's in. They get hungry, and when one does, press Feed and the hungriest gets
+          seen to first. Go on, I'll watch.
+      - speaker: wilbur
+        pose: hopeful
+        text: There. That is most of it, honestly. A fed tank is a calm tank.
+      - speaker: charlotte
+        pose: delighted
+        focus: coins
+        text: >-
+          And a calm tank pays, darling. Coins rise up out of the water all on their own.
+          Nobody knows why. Nobody has ever needed to.
+      - speaker: wilbur
+        pose: explaining
+        focus: clean
+        text: >-
+          Things settle on the bottom. Some of it is gravel. When the meter fills up,
+          Clean brings it back down, and they work better for it.
+      - speaker: charlotte
+        pose: presenting
+        focus: shop
+        text: >-
+          Every creature we stock is for sale, and we stock a great many.
+          Choose something else when you can. Choose several.
+      - speaker: wilbur
+        pose: explaining
+        focus: bestiary
+        text: >-
+          Everything you keep goes in the book, and it stays there even after it's gone.
+          Especially after.
+      - speaker: charlotte
+        pose: confiding
+        text: >-
+          The more of them you know, the more of the building opens up to you. I shall
+          be around. I am always around.
+      - speaker: wilbur
+        pose: wince
+        text: I'll be in the back. Do call if anything gets out.
+
+  first_unlock:
+    trigger: first_unlock
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          Your first purchase. I remember mine. Wilbur will carry it out; Wilbur carries
+          everything out.
+      - speaker: wilbur
+        pose: wince
+        text: It's in. It's settling. Maybe give the glass a minute before you tap it.
+
+  first_hatch:
+    trigger: first_hatch
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: A birth, in my shop. Somebody fetch a ribbon.
+      - speaker: wilbur
+        pose: hopeful
+        text: >-
+          It hatched healthy. They mostly hatch as what was in the egg. This one did.
+          I checked twice.
+
+  first_breed:
+    trigger: first_breed
+    beats:
+      - speaker: wilbur
+        pose: alarmed
+        text: They've made another one. I was there for it. I'll write it up properly.
+      - speaker: charlotte
+        pose: confiding
+        text: Love, darling. It comes for all of us in the end.
+
+  bestiary_complete:
+    trigger: bestiary_complete
+    beats:
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Every one. Every single creature this house has ever sold, and you have known
+          them all. I have been waiting years for someone like you.
+      - speaker: wilbur
+        pose: hopeful
+        text: The book's full. I didn't think anyone would. Thank you for looking after them.
+
+  # --- Milestone interstitials: Charlotte appears and hands over a background. -----
+  # One per economy.yaml milestone. `background` names an entry in
+  # backgrounds/backgrounds.yaml.
+
+  milestone_bestiary_5:
+    trigger: milestone:bestiary_5
+    background: kelp-stair
+    beats:
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Five species. You have a collector's eye. Have the Kelp Stair, and a little
+          more room besides. It was my mother's; she won't be needing it.
+  milestone_bestiary_10:
+    trigger: milestone:bestiary_10
+    background: sunken-pantry
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          Ten. Now you are a regular. Regulars get the Pantry. Everything in it was put
+          by for a winter that went on longer than expected.
+  milestone_bestiary_15:
+    trigger: milestone:bestiary_15
+    background: drowned-chapel
+    beats:
+      - speaker: charlotte
+        pose: confiding
+        text: >-
+          Fifteen. The Chapel, then. Very peaceful. The congregation is still in there,
+          but they keep to themselves.
+      - speaker: wilbur
+        pose: explaining
+        text: They like the pews. Leave them the pews.
+  milestone_bestiary_20:
+    trigger: milestone:bestiary_20
+    background: wreck-of-the-portsmouth
+    beats:
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Twenty. You may have the Portsmouth. The Fishmongers' own ship. It went down
+          with all our best stock, and the stock has been doing splendidly since.
+  milestone_bestiary_25:
+    trigger: milestone:bestiary_25
+    background: sorting-office
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          Twenty-five. The Sorting Office. Everything that was ever posted here arrived
+          eventually. Some of it is still arriving.
+  milestone_bestiary_35:
+    trigger: milestone:bestiary_35
+    background: counting-house
+    beats:
+      - speaker: charlotte
+        pose: lorgnette
+        text: >-
+          Thirty-five. The Counting House. Every account in it balances. I had it
+          audited, and then I had the auditor put in a tank.
+  milestone_bestiary_50:
+    trigger: milestone:bestiary_50
+    background: flooded-conservatory
+    beats:
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Fifty, darling. Fifty. The Conservatory is yours. It was built to keep the
+          weather out and it has been keeping the water in ever since.
+  milestone_bestiary_70:
+    trigger: milestone:bestiary_70
+    background: catacomb
+    beats:
+      - speaker: charlotte
+        pose: confiding
+        text: >-
+          Seventy. You've earned the Catacomb. Lovely acoustics. Terrible neighbours,
+          very quiet.
+      - speaker: wilbur
+        pose: wince
+        text: I've put down fresh gravel. It keeps getting rearranged.
+  milestone_bestiary_95:
+    trigger: milestone:bestiary_95
+    background: abyssal-plain
+    beats:
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Ninety-five. The Plain, from the very bottom of things. We had it brought up
+          in one piece. It was the only way it would come.
+  milestone_bestiary_125:
+    trigger: milestone:bestiary_125
+    background: opera-house
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          A hundred and twenty-five. Then you shall have my Opera House. I sang there,
+          once, for a very large audience. They are still applauding, in their way.
+  milestone_bestiary_151:
+    trigger: milestone:bestiary_151
+    background: the-reading-room
+    beats:
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          All of them. The Reading Room, where the book is kept. You belong in it now.
+  milestone_first_full_tank:
+    trigger: milestone:first_full_tank
+    background: public-baths
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          A full house. Nothing pleases me more. Have the Baths, darling, they are made
+          for crowds.
+      - speaker: wilbur
+        pose: explaining
+        text: It'll get tight. They sort out their own order. Usually.
+  milestone_first_evolution:
+    trigger: milestone:first_evolution
+    background: hatchery
+    beats:
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          It's changed. It's still yours, it's the same animal. There's just more of
+          it now, in directions.
+      - speaker: charlotte
+        pose: lorgnette
+        text: >-
+          Growth. How marvellous. Have the Hatchery, darling; it is where we keep the
+          ones that have not decided yet.
+  milestone_first_spotless_tank:
+    trigger: milestone:first_spotless_tank
+    background: scullery
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: Spotless. I could eat off it. Have the Scullery, you clearly know what to do with one.
+      - speaker: wilbur
+        pose: hopeful
+        text: It looked really good. I noticed.
+  milestone_first_rivalry_resolved:
+    trigger: milestone:first_rivalry_resolved
+    background: duelling-ground
+    beats:
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          You separated them. That was the right thing. They'd have gone on until one
+          of them was a different shape.
+      - speaker: charlotte
+        pose: presenting
+        text: A peacemaker. Have the Duelling Ground, darling. Nobody is using it now.

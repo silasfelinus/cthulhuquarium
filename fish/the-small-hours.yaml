@@ -36,3 +36,12 @@ art_prompt: >
   blade, pure black and pure white only, every tone built from line density, form built
   entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
   solid uncut black
+sprite:
+  motion: undulate
+  prompt: >
+    a single long low creature in strict side profile facing right, whole body in frame,
+    a sleek elongated body close to the ground on short splayed limbs, one narrow bright
+    band of light cutting across the middle of its back, the rest of it deep dense
+    hatching, a small patient eye, white line scraperboard surface cut from solid black,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

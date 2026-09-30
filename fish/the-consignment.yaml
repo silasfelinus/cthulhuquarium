@@ -35,3 +35,11 @@ art_prompt: >
   parchment, the glass refracting the body where it presses against it, a handwritten paper
   label tied on with string, unpeopled frame, the label's handwriting worn to illegible
   loops
+sprite:
+  motion: rigid
+  prompt: >
+    a single tall stacked column of wrapped and corded parcels of graded sizes bound
+    into one body, whole stack in frame, each parcel carrying a small tied tag, the
+    whole column leaning very slightly, twine crossing every face, wet wax moulage
+    specimen, glistening, colours leached toward parchment, isolated on a plain flat
+    pale grey studio backdrop, even soft light, crisp clean silhouette edge

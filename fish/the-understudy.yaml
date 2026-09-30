@@ -34,3 +34,11 @@ art_prompt: >
   toward parchment, the glass refracting the body where it presses against it, a
   handwritten paper label tied on with string, unpeopled frame, the label's handwriting
   worn to illegible loops
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single fish in strict side profile facing right, whole body in frame, the front
+    half crisply finished with neat scales and fins, the rear half smearing into loose
+    soft strokes, one enormous mismatched eye, shifting magenta and violet, wet wax
+    moulage specimen, glistening, colours leached toward parchment, isolated on a plain
+    flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

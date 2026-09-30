@@ -33,3 +33,12 @@ art_prompt: >
   held perfectly level, ornamental natural history plate, obsessive radial symmetry, the
   organism arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: breathe
+  prompt: >
+    a single rigorously symmetrical creature facing the viewer, whole body in frame,
+    a straight central beam with ornamental scrollwork running through it, a matched
+    pan hanging from each end, each pan a mirrored half of the same small body with
+    one eye apiece, both held perfectly level, ornamental natural history linework,
+    fine precise line and restrained colour, obsessive symmetry, isolated on a plain
+    flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

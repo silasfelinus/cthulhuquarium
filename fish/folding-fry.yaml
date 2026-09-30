@@ -35,3 +35,12 @@ art_prompt: >
   directly from the body onto fibrous washi paper, flat black, coverage uneven, the ink thin
   and skipping where the body lifted away, fins printing as fine radiating lines, one wet
   painted eye added afterward by hand, unpeopled frame, the rest of the sheet bare
+sprite:
+  motion: rigid
+  prompt: >
+    a single small fish built entirely of sharply folded flat facets and hard creases
+    like origami, caught at a crisp quarter-turn with its planes angled, a pointed fan
+    tail of pleated folds, sumi ink rubbing of the folded fish cut out along its
+    outline, flat black on each facet with pale bare creases between, one painted eye,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

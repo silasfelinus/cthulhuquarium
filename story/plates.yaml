@@ -1,0 +1,16 @@
+# Scene plates shown above the dialogue in story/scenes.yaml (`plate:`).
+# Lineage: the screens' carte-de-visite interior view (ART-DIRECTION.md, "The non-fish
+# assets") -- the same stock as screen-shop and screen-bestiary, so the finale's plate,
+# which uses it too, arrives in a register the player already trusts.
+plates:
+  - key: screen-arrival
+    size: 1344x768
+    prompt: >-
+      interior view of a cramped Victorian curiosity shop seen from just inside its front
+      door, rain streaming down the door's glass panes at the edges of the frame, a
+      dripping umbrella stand, a long aisle of glowing murky green aquarium tanks
+      stretching away into warm gaslight, stuffed fish in glass cases on the walls, far
+      down the aisle a tall woman in a black gown with a towering white pompadour raising
+      one arm in welcome, long exposure stillness, the slightly converging verticals of a
+      wide plate camera, hand-tinted albumen carte-de-visite photograph, warm sepia, deep
+      blacks, painted green tint in the tanks

@@ -35,3 +35,11 @@ art_prompt: >
   black and pure white only, every tone built from line density, form built entirely from
   cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
   black
+sprite:
+  motion: breathe
+  prompt: >
+    a single enormous limpet as seen pressed against aquarium glass from the inside,
+    its shell built up in uneven ridged storeys like a squat stepped tower, each
+    storey with a thick overhanging rim, a broad flat foot sealed to the pane around
+    the base, white scraperboard hatching cut from solid black, bright line on each
+    ledge, deep black shadow under every rim, isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

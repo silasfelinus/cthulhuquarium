@@ -35,3 +35,12 @@ art_prompt: >
   differently, ornamental natural history plate, obsessive radial symmetry, the organism
   arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: sway
+  prompt: >
+    a single thick coiled eel body rooted upright at the bottom, whole body in
+    frame, its neck branching into a bouquet of seven small identical heads,
+    acid-green and charcoal skin, every head wearing the same expression and angled
+    very slightly differently, ornamental natural history linework, fine precise
+    line and restrained colour, obsessive symmetry, isolated on a plain flat pale
+    grey studio backdrop, even soft light, crisp clean silhouette edge

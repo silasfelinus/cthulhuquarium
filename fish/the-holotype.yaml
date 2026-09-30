@@ -35,3 +35,13 @@ art_prompt: >
   pure design, ornamental natural history plate, obsessive radial symmetry, the organism
   arranged as design to fill the sheet, fine line and restrained colour, ruled ornamental
   border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single slender shrimp in strict side profile facing right, whole body in
+    frame, the translucent segmented body ruled with fine measuring ticks along its
+    length, tiny lettered reference points at each joint, long straight antennae
+    swept back in parallel lines, a fanned tail, ornamental natural history drawing,
+    exact symmetrical segments, fine sepia line and restrained pale coral wash on
+    the body, isolated on a plain flat charcoal studio backdrop, even soft light,
+    crisp clean silhouette edge
