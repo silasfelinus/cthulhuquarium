@@ -27,6 +27,46 @@ from build_sprites import cutout_image  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def trim_paper(image: Image.Image, limit: float = 0.08) -> Image.Image:
+    """Cut away a pale printed-paper margin (lithograph plates sometimes arrive with
+    one, and a gibberish caption in it) from any edge, up to `limit` of that edge.
+    A row or column counts as paper when nearly all of it is light and unsaturated."""
+    rgb = image.convert("RGB")
+    small = rgb.resize((max(1, rgb.width // 4), max(1, rgb.height // 4)))
+    hsv = small.convert("HSV")
+    w, h = small.size
+    px, hs = small.load(), hsv.load()
+
+    def paper(points) -> bool:
+        pts = list(points)
+        light = sum(1 for x, y in pts if sum(px[x, y]) / 3 > 200 and hs[x, y][1] < 60)
+        return light >= 0.6 * len(pts)
+
+    top = 0
+    while top < h * limit and paper((x, top) for x in range(w)):
+        top += 1
+    bottom = h
+    while h - bottom < h * limit and paper((x, bottom - 1) for x in range(w)):
+        bottom -= 1
+    left = 0
+    while left < w * limit and paper((left, y) for y in range(h)):
+        left += 1
+    right = w
+    while w - right < w * limit and paper((right - 1, y) for y in range(h)):
+        right -= 1
+    if (top, left, bottom, right) == (0, 0, h, w):
+        return image
+    # The scan runs at quarter size, so shave a few more real pixels off any edge it
+    # moved, or a sliver of the caption survives.
+    pad = 8
+    return image.crop((
+        left * 4 + (pad if left else 0),
+        top * 4 + (pad if top else 0),
+        right * 4 - (pad if right < w else 0),
+        bottom * 4 - (pad if bottom < h else 0),
+    ))
+
+
 def fit(image: Image.Image, *, width: int | None = None, height: int | None = None) -> Image.Image:
     scale = (width / image.width) if width else (height / image.height)
     return image.resize((round(image.width * scale), round(image.height * scale)), Image.LANCZOS)
@@ -66,7 +106,12 @@ def main() -> int:
             dest = ROOT / out_dir / f"{raw.stem}.webp"
             if fresh(dest):
                 dest.parent.mkdir(parents=True, exist_ok=True)
-                fit(Image.open(raw).convert("RGB"), width=1280).save(dest, "WEBP", quality=80, method=6)
+                image = Image.open(raw).convert("RGB")
+                # Backgrounds fill the tank edge to edge, so a paper margin is a flaw;
+                # story plates are objects drawn on the paper, so theirs is kept.
+                if src_dir == "backgrounds/raw":
+                    image = trim_paper(image)
+                fit(image, width=1280).save(dest, "WEBP", quality=80, method=6)
                 built += 1
 
     # WAN delivers 832px animated WebPs of 3.5-7 MB; the game shows them no wider than

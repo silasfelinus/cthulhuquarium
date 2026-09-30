@@ -11,16 +11,6 @@ jobs:
     hash: 82a88bd944a4
     engine: flux
     submitted: '2026-09-30T07:46:06Z'
-  backgrounds/counting-house:
-    job: 32254
-    hash: 03a54accc581
-    engine: flux
-    submitted: '2026-09-30T07:46:05Z'
-  backgrounds/drowned-chapel:
-    job: 32251
-    hash: 6dfd8b0978a7
-    engine: flux
-    submitted: '2026-09-30T07:46:04Z'
   backgrounds/duelling-ground:
     job: 32263
     hash: f2f5f4d5dbe8
@@ -41,11 +31,6 @@ jobs:
     hash: 0dd16bfef0f9
     engine: flux
     submitted: '2026-09-30T07:46:07Z'
-  backgrounds/parlour:
-    job: 32309
-    hash: 98929dc16f87
-    engine: flux
-    submitted: '2026-09-30T13:26:24Z'
   backgrounds/public-baths:
     job: 32260
     hash: 2add1974e3e2
@@ -56,26 +41,11 @@ jobs:
     hash: e68735dbd6eb
     engine: flux
     submitted: '2026-09-30T07:46:09Z'
-  backgrounds/sorting-office:
-    job: 32253
-    hash: 29046cf4901c
-    engine: flux
-    submitted: '2026-09-30T07:46:05Z'
-  backgrounds/sunken-pantry:
-    job: 32250
-    hash: 2ff25470c9a6
-    engine: flux
-    submitted: '2026-09-30T07:46:04Z'
   backgrounds/the-reading-room:
     job: 32259
     hash: b6dd304c2a28
     engine: flux
     submitted: '2026-09-30T07:46:08Z'
-  backgrounds/wreck-of-the-portsmouth:
-    job: 32252
-    hash: 2c58efa174dc
-    engine: flux
-    submitted: '2026-09-30T07:46:05Z'
   clips/bailiff-eel:
     job: 32281
     hash: 060872d1e951
