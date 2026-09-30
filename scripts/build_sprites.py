@@ -73,7 +73,29 @@ def load_species(slugs: list[str] | None) -> list[dict]:
 def cutout(raw: Path, session) -> Image.Image:
     cut = cutout_image(Image.open(raw), session)
     scale = LONG_EDGE / max(cut.size)
-    return cut.resize((max(1, round(cut.width * scale)), max(1, round(cut.height * scale))), Image.LANCZOS)
+    cut = cut.resize((max(1, round(cut.width * scale)), max(1, round(cut.height * scale))), Image.LANCZOS)
+    return with_rim(cut)
+
+
+# A faint pale rim, so a black-bodied creature (every scraperboard species, the
+# ink rubbings) still reads against dark water at 60px -- SCHEMA.md sprite rule 5.
+# Light enough that a pale creature just looks slightly lit from behind.
+RIM_PX = 2
+RIM_RGBA = (225, 240, 232, 110)
+
+
+def with_rim(sprite: Image.Image) -> Image.Image:
+    from PIL import ImageFilter
+
+    pad = RIM_PX + 1
+    canvas = Image.new("RGBA", (sprite.width + 2 * pad, sprite.height + 2 * pad))
+    canvas.paste(sprite, (pad, pad))
+    alpha = canvas.getchannel("A").point(lambda v: 255 if v > 40 else 0)
+    grown = alpha.filter(ImageFilter.MaxFilter(RIM_PX * 2 + 1)).filter(ImageFilter.GaussianBlur(0.8))
+    rim = Image.new("RGBA", canvas.size, RIM_RGBA[:3] + (0,))
+    rim.putalpha(grown.point(lambda v: v * RIM_RGBA[3] // 255))
+    rim.alpha_composite(canvas)
+    return rim
 
 
 def cutout_image(image: Image.Image, session) -> Image.Image:

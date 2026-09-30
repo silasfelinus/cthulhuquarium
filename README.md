@@ -29,6 +29,15 @@ What lives here is everything that must outlive any one implementation:
 | `economy/balance.yaml` | Every tunable number. Retuning the game is a commit to this file. |
 | `scripts/validate_fish.py` | Schema validation. Run it before committing a species. |
 | `prototype-2020/` | The original p5.js sketch, archived. It ran; it just never became a game. |
+| `characters/` | Charlotte and Wilbur: canonical designs and the prompts for their portraits. |
+| `story/` | `scenes.yaml` (the intro and every special moment), `barks.yaml` (screen and event lines), `plates.yaml` (scene plates). |
+| `backgrounds/` | The sixteen tank interiors, one per milestone. |
+| `videos/` | Looping clips animated from stills (WAN image-to-video). |
+| `sprites/` | Cut-out in-tank sprites and their animated previews, built from `sprites/raw/`. |
+| `art/jobs.yaml` | What is in flight on the render box. See `docs/asset-pipeline.md` "Sprites". |
+
+`scripts/deliver.sh` takes whatever the render box has finished from the queue to the
+game in one command.
 
 Keeping the bestiary in plain files means it survives a schema migration, an offline
 build, and a future port that has no Kind Robots behind it. The seed script upserts
