@@ -101,6 +101,8 @@ backgrounds:
   # Second pass: catacomb and public-baths still came back as water you look DOWN
   # at ("passage" and "swimming bath" imply a pool), and the hatchery arrived in a
   # heavy wooden frame; those three now put the camera on the drowned floor.
+  # Third pass: public-baths kept rendering a drained pool, so it drops every
+  # pool word; scullery and duelling-ground (first pass: dry) take the same lead.
   - key: flooded-conservatory
     name: The Flooded Conservatory
     unlock: bestiary_50
@@ -163,16 +165,16 @@ backgrounds:
     name: The Public Baths
     unlock: first_full_tank
     prompt: >
-      an underwater view from a camera resting on the drowned floor, looking straight
-      along it, the whole swimming-bath hall sunk deep under turquoise water that fills it
-      from floor to roof, every wall and ceiling submerged, the water's silver surface far
-      overhead out of view, drifting motes and blue-green haze, a drowned Victorian public
-      baths hall seen from down on its tiled floor, white glazed tiles and a blue mosaic
-      border up the walls, a row of little wooden changing cubicles along the back, a
-      diving board jutting out into the water at the left, brass rails at the right, open
-      clear turquoise water through the middle, hand-coloured lithograph plate, engraved
-      line and flat washes of tile white, cobalt and pale aqua, all of it deep underwater,
-      edge to edge water with the full picture filling the view
+      a diver's view deep underwater inside a sunken Victorian tiled hall that lies on the
+      sea bed, filled from floor to roof with turquoise sea water, the camera floating in
+      the middle of the water, white glazed tiles and a blue mosaic frieze up the walls
+      with ribbons of green seaweed growing between them, a row of little wooden cubicle
+      doors along the back wall, brass rails on the right wall, streams of silver bubbles
+      rising, shafts of light slanting down through the water from a glass roof far above,
+      small fish-shaped shadows in the distance, open turquoise water through the middle,
+      hand-coloured lithograph plate, engraved line and flat washes of tile white, cobalt
+      and pale aqua, all of it deep underwater, edge to edge water with the full picture
+      filling the view
   - key: hatchery
     name: The Hatchery
     unlock: first_evolution
@@ -191,17 +193,27 @@ backgrounds:
     name: The Scullery
     unlock: first_spotless_tank
     prompt: >
-      the inside of an aquarium tank furnished as a spotless Victorian scullery, a deep
-      white stone sink and a wooden draining board at the left, scrubbed flagstone floor,
-      rows of gleaming copper pans hanging on the back wall, a scrubbing brush and a bar
-      of yellow soap on a ledge at right, clear bright water through the middle, hand-coloured
-      lithograph plate, engraved line and flat washes of scrubbed white, copper and soft blue
+      an underwater view from a camera resting on the drowned floor, looking straight
+      along it, the whole scullery sunk deep under clear pale blue water that fills it
+      from floor to roof, every wall and ceiling submerged, the water's silver surface far
+      overhead out of view, drifting motes and blue-green haze, a drowned spotless
+      Victorian scullery, a deep white stone sink and a wooden draining board at the left,
+      a scrubbed flagstone floor, rows of gleaming copper pans hanging on the back wall
+      and swaying in the water, a scrubbing brush and a bar of yellow soap on a ledge at
+      right, clear bright water through the middle, hand-coloured lithograph plate,
+      engraved line and flat washes of scrubbed white, copper and soft blue, all of it
+      deep underwater, edge to edge water with the full picture filling the view
   - key: duelling-ground
     name: The Duelling Ground
     unlock: first_rivalry_resolved
     prompt: >
-      the inside of an aquarium tank set as a sunken duelling ground, a low fallen stone
-      wall running across the floor from front to back dividing it in two, a pair of
-      crossed rusted sabres planted in the sand at the left, two weathered marker posts
-      at either end, pale reeds at the edges, open water through the middle, hand-coloured
-      lithograph plate, engraved line and flat washes of rust, sand and grey-green
+      an underwater view from a camera resting on the drowned floor, looking straight
+      along it, the whole walled duelling yard sunk deep under grey-green water that fills
+      it from floor to roof, every wall and ceiling submerged, the water's silver surface
+      far overhead out of view, drifting motes and blue-green haze, a drowned duelling
+      ground on the sea bed, a low fallen stone wall running across the silty floor from
+      front to back dividing it in two, a pair of crossed rusted sabres planted in the
+      sand at the left, two weathered marker posts at either end, pale reeds swaying at
+      the edges, open water through the middle, hand-coloured lithograph plate, engraved
+      line and flat washes of rust, sand and grey-green, all of it deep underwater, edge
+      to edge water with the full picture filling the view
