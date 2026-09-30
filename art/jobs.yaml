@@ -36,21 +36,16 @@ jobs:
     hash: f56c02182b84
     engine: flux
     submitted: '2026-09-30T07:46:08Z'
-  backgrounds/kelp-stair:
-    job: 32249
-    hash: 8d0ae58b567a
-    engine: flux
-    submitted: '2026-09-30T07:46:03Z'
   backgrounds/opera-house:
     job: 32258
     hash: 0dd16bfef0f9
     engine: flux
     submitted: '2026-09-30T07:46:07Z'
   backgrounds/parlour:
-    job: 32248
-    hash: e8b9d44a171f
+    job: 32309
+    hash: 98929dc16f87
     engine: flux
-    submitted: '2026-09-30T07:46:03Z'
+    submitted: '2026-09-30T13:26:24Z'
   backgrounds/public-baths:
     job: 32260
     hash: 2add1974e3e2
@@ -96,11 +91,6 @@ jobs:
     hash: 13979e32c2b1
     engine: wan
     submitted: '2026-09-30T09:23:34Z'
-  plates/set-peace-ward:
-    job: 32273
-    hash: a705c59dfb16
-    engine: flux
-    submitted: '2026-09-30T08:27:25Z'
   sprites/candle-snail:
     job: 32088
     hash: b7b405547963
@@ -846,31 +836,11 @@ jobs:
     hash: b92fbf8ba436
     engine: wan
     submitted: '2026-09-30T09:53:37Z'
-  videos/ichthyonomicon:
-    job: 32267
-    hash: 5d95c563936f
-    engine: wan
-    submitted: '2026-09-30T08:03:04Z'
   videos/screen-arrival:
     job: 32308
     hash: 6dd4608da197
     engine: wan
     submitted: '2026-09-30T12:26:21Z'
-  videos/screen-finale:
-    job: 32265
-    hash: c9bb3c654ce0
-    engine: wan
-    submitted: '2026-09-30T08:03:02Z'
-  videos/screen-shop:
-    job: 32266
-    hash: f65e7fdc34cf
-    engine: wan
-    submitted: '2026-09-30T08:03:03Z'
-  videos/set-coin-collector:
-    job: 32268
-    hash: 425886722af9
-    engine: wan
-    submitted: '2026-09-30T08:03:05Z'
   videos/wilbur-stint-hero:
     job: 32301
     hash: da869432cae0

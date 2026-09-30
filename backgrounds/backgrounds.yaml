@@ -22,13 +22,19 @@ backgrounds:
   - key: parlour
     name: The Parlour Tank
     unlock: default
+    # Re-prompted 2026-09-30: the first render came back as a flat sandbox diorama
+    # with a painter's signature scrawled in a corner, weaker than the placeholder
+    # it would replace. This one leads with depth and brass, and asks for a clean
+    # unsigned plate.
     prompt: >
-      the inside of a Victorian parlour aquarium seen through its front glass, a bed of
-      pale river gravel and scattered cockle shells across the floor, a small plaster
-      ruined temple and a sprig of green weed at the left, a curl of brass air-pipe at
-      the right, the back glass showing a dim gaslit curiosity shop beyond in soft
-      focus, wide calm stretch of clear green-grey water through the middle of the view, hand-coloured lithograph plate, fine engraved line under flat watercolour
-      washes, Prussian blue and sap green water, foxed paper edges
+      the deep green inside of an old Victorian parlour aquarium seen through its front
+      glass, tall tarnished brass pipes and valves rising up the left side trailing strings
+      of bubbles, two old brass diving helmets half sunk in pale gravel at the right, soft
+      shafts of light slanting down through the water from the surface above, a bed of
+      pale river gravel and cockle shells across the floor, wide open clear green water
+      through the middle of the view, hand-coloured lithograph plate, fine engraved line
+      under flat watercolour washes, Prussian blue and sap green water, a clean unsigned
+      plate with plain margins
   - key: kelp-stair
     name: The Kelp Stair
     unlock: bestiary_5
