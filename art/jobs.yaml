@@ -86,6 +86,16 @@ jobs:
     hash: 92bc28fd3190
     engine: wan
     submitted: '2026-09-30T20:31:38Z'
+  clips/kitchen-perch:
+    job: 32349
+    hash: 45706a8adb69
+    engine: wan
+    submitted: '2026-09-30T21:24:26Z'
+  clips/lamplight-angler:
+    job: 32350
+    hash: eef831299095
+    engine: wan
+    submitted: '2026-09-30T21:24:27Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -112,30 +122,20 @@ jobs:
     engine: flux
     submitted: '2026-09-30T07:45:02Z'
   sprites/gutter-minnow:
-    job: 32107
-    hash: 307eee69b336
+    job: 32353
+    hash: 3c125e6feb09
     engine: flux
-    submitted: '2026-09-30T07:45:03Z'
-  sprites/kitchen-perch:
-    job: 32108
-    hash: 339b33a4d5c0
-    engine: flux
-    submitted: '2026-09-30T07:45:03Z'
-  sprites/lamplight-angler:
-    job: 32109
-    hash: 8f8da75d1950
-    engine: flux
-    submitted: '2026-09-30T07:45:04Z'
+    submitted: '2026-09-30T21:25:25Z'
   sprites/ledger-crab:
-    job: 32110
-    hash: 7c8670fc8975
+    job: 32354
+    hash: 9d8da67113e0
     engine: flux
-    submitted: '2026-09-30T07:45:04Z'
+    submitted: '2026-09-30T21:25:26Z'
   sprites/lint-shrimp:
-    job: 32111
-    hash: a6eb62090d2f
+    job: 32355
+    hash: 18be0593010a
     engine: flux
-    submitted: '2026-09-30T07:45:05Z'
+    submitted: '2026-09-30T21:25:26Z'
   sprites/marsh-sovereign-crawdad:
     job: 32112
     hash: fd30df770ee3

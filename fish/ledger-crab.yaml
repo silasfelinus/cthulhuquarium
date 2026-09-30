@@ -37,11 +37,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single broad crab seen from the front, rows of tally-mark scratches carved across
-    its shell in neat bundles of five, one claw raised mid-count, brick red and cream
-    shell, stalked eyes fixed forward, legs braced out to both sides, chromolithograph
-    cigarette card chromolithograph print, bold flat inks with slight misregistration on the
-    body, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a crab whose broad shell is covered in black tally marks, rows of four upright
+    strokes crossed by a fifth diagonal stroke, drawn boldly across the whole back of
+    the shell like a prisoner counting days on a wall, a single broad crab seen from the
+    front, one claw raised mid-count, brick red and cream shell, stalked eyes fixed
+    forward, legs braced out to both sides, chromolithograph cigarette card print, bold
+    flat inks with slight misregistration on the body, isolated on a plain flat pale
+    grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A born bookkeeper, darling. The most scrupulous accounts in the building, and you will never lose track of anything again.

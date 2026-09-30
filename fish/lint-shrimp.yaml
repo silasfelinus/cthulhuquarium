@@ -37,10 +37,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small scruffy shrimp in strict side profile facing right, whole body visible, a body built out of matted fibre and grit, legs of different lengths, pale
-    dusty grey-brown fuzz, a few loose wisps of fluff lifting from its back,
-    hand-coloured lithograph linework and flat watercolour wash on the body, isolated on
-    a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a shrimp made entirely of a clump of fluffy grey dryer lint, its whole body a soft
+    fuzzy felted ball of dust and fibres with loose wisps and threads sticking out
+    everywhere, a single small scruffy shrimp shape in strict side profile facing right,
+    whole body visible, legs of different lengths made of twisted threads, pale dusty
+    grey-brown fuzz, hand-coloured lithograph linework and flat watercolour wash on the
+    body, isolated on a plain flat charcoal studio backdrop, even soft light, strong
+    crisp silhouette
 voices:
   charlotte: >-
     A thrifty little creature, made from what the rest of us would throw away. I do adore good housekeeping in a pet.
