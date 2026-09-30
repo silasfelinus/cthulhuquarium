@@ -161,11 +161,6 @@ jobs:
     hash: 22ca03e6f165
     engine: flux
     submitted: '2026-09-30T07:46:01Z'
-  sprites/bailiff-eel:
-    job: 32085
-    hash: a90512fef3be
-    engine: flux
-    submitted: '2026-09-30T07:44:54Z'
   sprites/brass-tack-goby:
     job: 32086
     hash: eb57b1bfc52f
