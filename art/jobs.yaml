@@ -121,6 +121,31 @@ jobs:
     hash: 6e55b0c3016d
     engine: wan
     submitted: '2026-09-30T22:20:28Z'
+  clips/pier-blenny:
+    job: 32366
+    hash: aedead501c62
+    engine: wan
+    submitted: '2026-09-30T23:17:41Z'
+  clips/pin-shrimp:
+    job: 32367
+    hash: 0baa72caaef6
+    engine: wan
+    submitted: '2026-09-30T23:17:41Z'
+  clips/portsmouth-bitterling:
+    job: 32368
+    hash: b0982f6d4f78
+    engine: wan
+    submitted: '2026-09-30T23:17:42Z'
+  clips/postmark-snail:
+    job: 32369
+    hash: f65599329051
+    engine: wan
+    submitted: '2026-09-30T23:17:43Z'
+  clips/rain-barrel-roach:
+    job: 32370
+    hash: 690cb90bba5c
+    engine: wan
+    submitted: '2026-09-30T23:17:44Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -162,35 +187,10 @@ jobs:
     engine: flux
     submitted: '2026-09-30T07:45:06Z'
   sprites/penny-bream:
-    job: 32117
-    hash: 62787ae18fff
+    job: 32371
+    hash: 4ca1ad577880
     engine: flux
-    submitted: '2026-09-30T07:45:07Z'
-  sprites/pier-blenny:
-    job: 32118
-    hash: a8cacef68250
-    engine: flux
-    submitted: '2026-09-30T07:45:08Z'
-  sprites/pin-shrimp:
-    job: 32119
-    hash: 74a1b2b23e28
-    engine: flux
-    submitted: '2026-09-30T07:45:08Z'
-  sprites/portsmouth-bitterling:
-    job: 32120
-    hash: 04e6f66b9149
-    engine: flux
-    submitted: '2026-09-30T07:45:08Z'
-  sprites/postmark-snail:
-    job: 32121
-    hash: d5646fa72e42
-    engine: flux
-    submitted: '2026-09-30T07:45:09Z'
-  sprites/rain-barrel-roach:
-    job: 32122
-    hash: 405662b40614
-    engine: flux
-    submitted: '2026-09-30T07:45:09Z'
+    submitted: '2026-09-30T23:18:57Z'
   sprites/rainbow-nudibranch:
     job: 32123
     hash: 5acbc1f87338
