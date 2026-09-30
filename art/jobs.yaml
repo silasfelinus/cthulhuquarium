@@ -116,21 +116,11 @@ jobs:
     hash: 9b650691dc45
     engine: flux
     submitted: '2026-09-30T08:27:24Z'
-  portraits/charlotte-fishmonger-confiding:
-    job: 32288
-    hash: 942af61eb381
-    engine: flux
-    submitted: '2026-09-30T09:24:21Z'
   portraits/charlotte-fishmonger-lorgnette:
     job: 32289
     hash: b05610463574
     engine: flux
     submitted: '2026-09-30T09:24:21Z'
-  portraits/charlotte-fishmonger-presenting:
-    job: 32287
-    hash: 264fd1525f0d
-    engine: flux
-    submitted: '2026-09-30T09:24:20Z'
   portraits/wilbur-stint-alarmed:
     job: 32299
     hash: 2ddfcfe90cab
