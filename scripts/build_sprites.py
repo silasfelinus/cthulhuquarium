@@ -196,6 +196,7 @@ def main() -> int:
     for fish in load_species(args.slugs or None):
         slug = fish["slug"]
         motion = (fish.get("sprite") or {}).get("motion", "tailbeat")
+        faces_left = (fish.get("sprite") or {}).get("faces") == "left"
         static_path = OUT / f"{slug}.webp"
         raw = RAW / f"{slug}.webp"
         if not args.anim_only and (args.force or not static_path.exists()):
@@ -206,7 +207,13 @@ def main() -> int:
                 from rembg import new_session
 
                 session = new_session("isnet-general-use")
-            cutout(raw, session).save(static_path, "WEBP", quality=88, method=6)
+            sprite = cutout(raw, session)
+            # The tank mirrors sprites by direction of travel and assumes the
+            # art faces right; a render that came back facing left is flipped
+            # once here (sprite.faces: left, set on review).
+            if faces_left:
+                sprite = sprite.transpose(Image.FLIP_LEFT_RIGHT)
+            sprite.save(static_path, "WEBP", quality=88, method=6)
         if not static_path.exists():
             missing += 1
             continue

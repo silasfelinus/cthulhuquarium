@@ -290,6 +290,8 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         if not isinstance(sprite, dict):
             bad("sprite must be a mapping with `motion` and `prompt`")
         else:
+            if sprite.get("faces", "right") not in ("left", "right"):
+                bad("sprite.faces must be `left` or `right` (default right)")
             if sprite.get("motion") not in SPRITE_MOTIONS:
                 bad(f"sprite.motion `{sprite.get('motion')}` is not one of "
                     f"{sorted(SPRITE_MOTIONS)}")

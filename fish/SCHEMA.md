@@ -175,6 +175,7 @@ sprite:
 |---|---|
 | `sprite.motion` | How the body moves in place. One of `tailbeat`, `undulate`, `ripple`, `pulse`, `sway`, `breathe`, `rigid`. |
 | `sprite.prompt` | Written for *this* creature. Not the card prompt with a suffix bolted on. |
+| `sprite.faces` | Optional, `left` or `right` (default). Set on review when a render came back facing the wrong way; `build_sprites.py` mirrors it so every built sprite faces right. Review with `scripts/contact_sheet.py`. |
 
 `motion` is not `behavior`. `behavior` is the path the creature takes through the tank;
 `motion` is what its body does while taking it. A `lurk` angler still `tailbeat`s; a
