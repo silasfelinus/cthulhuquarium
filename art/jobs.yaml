@@ -16,21 +16,36 @@ jobs:
     hash: 13979e32c2b1
     engine: wan
     submitted: '2026-09-30T09:23:34Z'
-  sprites/candle-snail:
-    job: 32327
-    hash: 033e4ccc6530
-    engine: flux
-    submitted: '2026-09-30T17:53:44Z'
+  clips/candle-snail:
+    job: 32328
+    hash: 13f6a9472b2f
+    engine: wan
+    submitted: '2026-09-30T18:44:34Z'
+  clips/cellar-newt:
+    job: 32330
+    hash: 5d8414470ca6
+    engine: wan
+    submitted: '2026-09-30T18:44:36Z'
+  clips/crawdad-common:
+    job: 32331
+    hash: e5e2ec9f90e6
+    engine: wan
+    submitted: '2026-09-30T18:44:37Z'
+  clips/culvert-eel:
+    job: 32332
+    hash: 3f3628515682
+    engine: wan
+    submitted: '2026-09-30T18:44:38Z'
+  clips/doorstep-whelk:
+    job: 32333
+    hash: 23dc8d252dcf
+    engine: wan
+    submitted: '2026-09-30T18:44:39Z'
   sprites/catfish-common:
-    job: 32089
-    hash: 2c9ee50c34bf
+    job: 32334
+    hash: 66c109428f66
     engine: flux
-    submitted: '2026-09-30T07:44:56Z'
-  sprites/cellar-newt:
-    job: 32090
-    hash: 54c710372f91
-    engine: flux
-    submitted: '2026-09-30T07:44:56Z'
+    submitted: '2026-09-30T18:46:02Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -41,21 +56,6 @@ jobs:
     hash: d2dd893b9710
     engine: flux
     submitted: '2026-09-30T07:44:57Z'
-  sprites/crawdad-common:
-    job: 32093
-    hash: 0558317707e1
-    engine: flux
-    submitted: '2026-09-30T07:44:57Z'
-  sprites/culvert-eel:
-    job: 32094
-    hash: 692d22a652cf
-    engine: flux
-    submitted: '2026-09-30T07:44:58Z'
-  sprites/doorstep-whelk:
-    job: 32095
-    hash: 7f0c8889c906
-    engine: flux
-    submitted: '2026-09-30T07:44:58Z'
   sprites/draught-stickleback:
     job: 32096
     hash: dc286e463584

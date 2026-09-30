@@ -37,6 +37,7 @@ art_prompt: >
   unpeopled frame, the board around it left solid uncut black
 sprite:
   motion: undulate
+  faces: left
   prompt: >
     a single thick-bodied eel in strict side profile facing right, whole body visible,
     a broad blunt head with a long flat unimpressed mouth lined with a great many small
