@@ -38,9 +38,12 @@ art_prompt: >
   the line, unpeopled frame, the caption space beneath the image left empty
 sprite:
   motion: tailbeat
+  # Re-prompted 2026-09-30: the first render barely showed its whiskers, the one
+  # thing that makes it read as a catfish. They now lead.
   prompt: >
-    a single broad flat-headed catfish in strict side profile facing right, whole body visible, four long droopy whiskers curling down from its lip like a moustache,
-    olive and mustard mottled skin, heavy half-lidded eye, wide mouth turned down in
+    a catfish with four very long thick drooping whiskers like a walrus moustache,
+    hanging down from its lip well below its chin, a single broad flat-headed catfish in
+    strict side profile facing right, whole body visible, olive and mustard mottled skin, heavy half-lidded eye, wide mouth turned down in
     permanent complaint, low heavy belly and a small rounded tail, hand-coloured
     lithograph linework and flat watercolour wash on the body, isolated on a plain flat
     pale grey studio backdrop, even soft light, strong crisp silhouette
