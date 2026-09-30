@@ -1,51 +1,41 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
-  backgrounds/abyssal-plain:
-    job: 32257
-    hash: a044bde597f3
-    engine: flux
-    submitted: '2026-09-30T07:46:07Z'
   backgrounds/catacomb:
-    job: 32256
-    hash: 82a88bd944a4
+    job: 32311
+    hash: fd57bc2078f2
     engine: flux
-    submitted: '2026-09-30T07:46:06Z'
+    submitted: '2026-09-30T15:21:20Z'
   backgrounds/duelling-ground:
     job: 32263
     hash: f2f5f4d5dbe8
     engine: flux
     submitted: '2026-09-30T07:46:09Z'
   backgrounds/flooded-conservatory:
-    job: 32255
-    hash: af6bbf1860e7
+    job: 32310
+    hash: 6a39f46ae78f
     engine: flux
-    submitted: '2026-09-30T07:46:06Z'
+    submitted: '2026-09-30T15:21:19Z'
   backgrounds/hatchery:
     job: 32261
     hash: f56c02182b84
     engine: flux
     submitted: '2026-09-30T07:46:08Z'
   backgrounds/opera-house:
-    job: 32258
-    hash: 0dd16bfef0f9
+    job: 32312
+    hash: cc9b3ccbb7ec
     engine: flux
-    submitted: '2026-09-30T07:46:07Z'
+    submitted: '2026-09-30T15:21:20Z'
   backgrounds/public-baths:
-    job: 32260
-    hash: 2add1974e3e2
+    job: 32313
+    hash: 4d46880a7c67
     engine: flux
-    submitted: '2026-09-30T07:46:08Z'
+    submitted: '2026-09-30T15:21:21Z'
   backgrounds/scullery:
     job: 32262
     hash: e68735dbd6eb
     engine: flux
     submitted: '2026-09-30T07:46:09Z'
-  backgrounds/the-reading-room:
-    job: 32259
-    hash: b6dd304c2a28
-    engine: flux
-    submitted: '2026-09-30T07:46:08Z'
   clips/bailiff-eel:
     job: 32281
     hash: 060872d1e951
