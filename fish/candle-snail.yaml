@@ -38,13 +38,17 @@ art_prompt: >
   unpeopled frame, the caption space beneath the image left empty
 sprite:
   motion: breathe
+  # Re-prompted 2026-09-30: the first render drew an ordinary garden snail with a
+  # coiled round shell and no flame. The candle now leads.
   prompt: >
-    a single small snail as seen pressed against aquarium glass, its pale tapering shell
-    standing upright like a candle stub, a soft steady warm flame-shaped glow sitting on
-    the very tip of the shell, wax-cream shell with a faint spiral, soft translucent
-    foot spread flat against the pane at the bottom, hand-coloured lithograph linework
-    and flat watercolour wash on the body, isolated on a plain flat charcoal studio
-    backdrop, even soft light, strong crisp silhouette
+    a snail whose shell is a tall narrow upright white wax church candle, the shell a
+    straight smooth cylinder standing vertically on the snail's back, a small warm
+    orange candle flame burning at the very top of the shell with a soft glow around
+    it, a few drips of melted wax running down the shell, the soft pale translucent
+    snail body with two short feelers at the bottom, a single creature seen from the
+    side, hand-coloured lithograph linework and flat watercolour wash on the body,
+    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Every evening it lights itself, like a little votive in the window. I find it tremendously restful to sit beside.

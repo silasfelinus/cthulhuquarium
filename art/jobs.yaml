@@ -1,21 +1,6 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
-  backgrounds/duelling-ground:
-    job: 32325
-    hash: cf74087ad9eb
-    engine: flux
-    submitted: '2026-09-30T17:03:37Z'
-  backgrounds/public-baths:
-    job: 32323
-    hash: 944e989fbb4e
-    engine: flux
-    submitted: '2026-09-30T17:03:36Z'
-  backgrounds/scullery:
-    job: 32324
-    hash: 0ddf3ff690cb
-    engine: flux
-    submitted: '2026-09-30T17:03:37Z'
   clips/bailiff-eel:
     job: 32281
     hash: 060872d1e951
@@ -32,10 +17,10 @@ jobs:
     engine: wan
     submitted: '2026-09-30T09:23:34Z'
   sprites/candle-snail:
-    job: 32088
-    hash: b7b405547963
+    job: 32327
+    hash: 033e4ccc6530
     engine: flux
-    submitted: '2026-09-30T07:44:55Z'
+    submitted: '2026-09-30T17:53:44Z'
   sprites/catfish-common:
     job: 32089
     hash: 2c9ee50c34bf
