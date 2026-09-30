@@ -90,6 +90,7 @@ REQUIRED = (
     "slug", "name", "species", "class", "field_note", "quirks", "alignment",
     "rarity", "stats", "tier", "size", "yield", "interval", "unlock_cost", "behavior",
     "hue", "diet_role", "school_role", "rivals", "plate", "games", "art_prompt",
+    "sprite",
 )
 
 # Optional. `evolves_to` names the slug this species becomes; `evolves_from` is its
@@ -97,6 +98,21 @@ REQUIRED = (
 # unlock_cost 0 and is expected to declare evolves_from. `evolution_kind` says HOW,
 # and is required on anything carrying `evolves_to`.
 OPTIONAL = ("evolves_to", "evolves_from", "evolution_kind")
+
+# The in-tank sprite register (SCHEMA.md "Sprites"). `motion` is the body's own
+# movement, played by build_sprites.py and the swim canvas -- not `behavior`.
+SPRITE_MOTIONS = {"tailbeat", "undulate", "ripple", "pulse", "sway", "breathe", "rigid"}
+SPRITE_BACKDROPS = ("pale grey studio backdrop", "charcoal studio backdrop")
+
+NEGATION = re.compile(r"\b(?:not|no|without|avoid|never|nor|none|neither|"
+                      r"instead\s+of|rather\s+than|lacking|devoid\s+of|free\s+of|"
+                      r"absent)\b", re.I)
+
+PLATE_MARKERS = {
+    "gosse": "lithograph", "blaschka": "glass model", "gyotaku": "rubbing",
+    "trade-card": "cigarette card", "scraperboard": "scraperboard",
+    "haeckel": "ornamental", "moulage": "specimen", "riso": "risograph",
+}
 
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -233,9 +249,7 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         # If this fires on a phrase you think is harmless, it still has to go --
         # describe the state that IS there. "unpeopled frame" and "the caption space
         # left empty" are the shape to copy.
-        neg = re.search(r"\b(?:not|no|without|avoid|never|nor|none|neither|"
-                        r"instead\s+of|rather\s+than|lacking|devoid\s+of|free\s+of|"
-                        r"absent)\b", prompt, re.I)
+        neg = NEGATION.search(prompt)
         if neg:
             bad(f"art_prompt contains a negation ({neg.group(0)!r}). Krea 2 renders "
                 f"the nouns and drops the negation, so this asks for the thing you "
@@ -244,11 +258,7 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
 
         # Rule 1: the plate's medium has to actually be in the prompt.
         plate = data.get("plate")
-        marker = {
-            "gosse": "lithograph", "blaschka": "glass model", "gyotaku": "rubbing",
-            "trade-card": "cigarette card", "scraperboard": "scraperboard",
-            "haeckel": "ornamental", "moulage": "specimen", "riso": "risograph",
-        }.get(plate)
+        marker = PLATE_MARKERS.get(plate)
         if marker and marker not in prompt.lower():
             bad(f"plate is `{plate}` but art_prompt never names its medium "
                 f"({marker!r}) -- the lineage has to survive into the prompt")
@@ -258,6 +268,31 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
                 if colour in prompt.lower():
                     bad(f"plate `{plate}` dictates its own palette, but art_prompt "
                         f"names `{colour}` -- strip the colour, the medium supplies it")
+
+    sprite = data.get("sprite")
+    if sprite is not None:
+        if not isinstance(sprite, dict):
+            bad("sprite must be a mapping with `motion` and `prompt`")
+        else:
+            if sprite.get("motion") not in SPRITE_MOTIONS:
+                bad(f"sprite.motion `{sprite.get('motion')}` is not one of "
+                    f"{sorted(SPRITE_MOTIONS)}")
+            sp = " ".join(str(sprite.get("prompt") or "").split())
+            if not sp:
+                bad("sprite.prompt is empty")
+            else:
+                neg = NEGATION.search(sp)
+                if neg:
+                    bad(f"sprite.prompt contains a negation ({neg.group(0)!r}) -- say what IS "
+                        f"there (ART-DIRECTION.md rule 2)")
+                if not any(b in sp.lower() for b in SPRITE_BACKDROPS):
+                    bad("sprite.prompt must name its plain flat backdrop "
+                        f"({' or '.join(SPRITE_BACKDROPS)}) so the cut-out can key against it")
+                marker = PLATE_MARKERS.get(data.get("plate"))
+                if marker and marker not in sp.lower():
+                    bad(f"sprite.prompt never names the plate's medium ({marker!r})")
+                if sp == " ".join(prompt.split()):
+                    bad("sprite.prompt is the card prompt -- the sprite is its own register")
 
     return problems
 

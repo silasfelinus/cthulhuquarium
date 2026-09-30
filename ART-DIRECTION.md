@@ -195,6 +195,14 @@ lineages for the same reason.
 | **Charlotte and Wilbur** | **Studio carte-de-visite photograph**, hand-tinted. Albumen print on card, the sitter posed against a painted backdrop with a headrest just out of frame, tinting applied to cheeks and lips only. It is the one lineage that is a *photograph* — because they are people, and because a photograph of a person among eighty years of drawn specimens is quietly the point. |
 | **Screens** (shop interior, bestiary wall) | Same carte-de-visite stock, but as an **interior view**: the long exposure, the slightly wrong verticals of a wide plate camera, everything still because it had to hold still. |
 
+**Redesigned 2026-09-30.** Silas: *"Charlotte is supposed to be a gothic mistress
+primadonna old woman. Our current mockup looks like a nobody. Same with Wilbur, who should
+be a long haired partially balding bespectacled sad sack with a cast and multiple bandaids
+and injuries because he tends to the horrible fish."* The medium stays the carte-de-visite;
+the sitters changed. Their canonical designs, and the five dialogue poses each, are in
+`characters/charlotte-fishmonger.yaml` and `characters/wilbur-stint.yaml`. Every portrait
+prompt restates the full design so each render arrives at the same person.
+
 Charlotte and Wilbur being photographed while every creature is drawn is not decoration.
 The specimens are records made by hand of things that could not be photographed. The staff
 could be photographed. Nobody needs to notice this.

@@ -36,3 +36,12 @@ art_prompt: >
   light passing through the glass and pooling where it thickens, colour suspended in the
   glass itself, museum specimen on a small wooden base, faint dust, unpeopled frame, a bare
   unwritten label on the wooden base
+sprite:
+  motion: breathe
+  prompt: >
+    a single long hollow vertical creature shaped like a length of downpipe, whole
+    body in frame, its upper end flared wide like a hopper, a steady column of
+    falling water visible through its transparent body, cool pale tones, as a
+    lampworked glass model, clear hollow glass with the colour suspended inside it,
+    light gathering where the glass thickens, isolated on a plain flat charcoal
+    studio backdrop, even soft light, crisp clean silhouette edge

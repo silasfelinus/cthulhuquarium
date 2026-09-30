@@ -35,3 +35,12 @@ art_prompt: >
   the light in the water, ornamental natural history plate, obsessive radial symmetry, the
   organism arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: breathe
+  prompt: >
+    a single vast upright creature shaped like a tall pointed cathedral window,
+    whole body in frame, built from leaded panels of turquoise and gold glass, dark
+    lead lines tracing the ribs, light blazing through the panels from within,
+    ornamental natural history linework, fine precise line and restrained colour,
+    obsessive symmetry, isolated on a plain flat charcoal studio backdrop, even soft
+    light, crisp clean silhouette edge

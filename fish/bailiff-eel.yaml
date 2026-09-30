@@ -32,3 +32,12 @@ art_prompt: >
   with a blade, pure black and pure white only, every tone built from line density, form
   built entirely from cut hatching, stark and linear, unpeopled frame, the board around it
   left solid uncut black
+sprite:
+  motion: undulate
+  prompt: >
+    a single long ribbon-bodied eel in strict side profile facing right, whole body in
+    frame, a stiff upright starched collar ringing its neck just behind the head, a
+    narrow hooded disapproving eye and a thin downturned frown, crisp even bands running
+    the length of its body to a tapering tail, white line scratched out of solid black
+    scraperboard across the whole body, form built from cut hatching, isolated on a
+    plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

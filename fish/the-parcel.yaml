@@ -37,3 +37,12 @@ art_prompt: >
   flat black, coverage uneven, the ink thin and skipping where the body lifted away, fins
   printing as fine radiating lines, one wet painted eye added afterward by hand, unpeopled
   frame, the rest of the sheet bare
+sprite:
+  motion: rigid
+  prompt: >
+    a single flat fish folded into a neat rectangular package with sharp creased
+    corners, a length of cord crossed over it and knotted on top, the head and tail
+    fin peeking out of the folds, sumi ink rubbing of the fish cut out along its
+    outline, flat black ink with uneven coverage, fins printing as fine radiating
+    lines, a single painted eye, isolated on a plain flat pale grey studio backdrop,
+    even soft light, crisp clean silhouette edge

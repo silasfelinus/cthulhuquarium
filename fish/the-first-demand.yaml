@@ -35,3 +35,13 @@ art_prompt: >
   formalin yellow, colours leached toward parchment, the glass refracting the body where it
   presses against it, a handwritten paper label tied on with string, unpeopled frame, the
   label's handwriting worn to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single angular creature built from a few crisp folded sheets in bone white and
+    cold blue, standing upright on two folded points and leaning slightly forward,
+    sharp clean edges on every fold, a blank folded sheet for a head tilted politely
+    toward the viewer, wet wax moulage specimen, glistening, the folds slick and
+    softly translucent at their thin edges, faint blue shadow in each crease,
+    isolated on a plain flat charcoal studio backdrop, even soft light, crisp clean
+    silhouette edge

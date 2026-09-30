@@ -34,3 +34,12 @@ art_prompt: >
   card from around 1900, small format with a printed ornamental border and a blank name
   banner, four-colour stone printing, visible misregistration and dot rosettes, slightly
   garish cheap inks, corners worn round, unpeopled frame, the name banner empty
+sprite:
+  motion: breathe
+  prompt: >
+    a single broad crab seen from the front, rows of tally-mark scratches carved across
+    its shell in neat bundles of five, one claw raised mid-count, brick red and cream
+    shell, stalked eyes fixed forward, legs braced out to both sides, chromolithograph
+    cigarette card illustration style, bold flat inks with slight misregistration on the
+    body, isolated on a plain flat pale grey studio backdrop, even soft light, crisp
+    clean silhouette edge

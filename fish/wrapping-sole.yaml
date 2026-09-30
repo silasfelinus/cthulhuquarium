@@ -36,3 +36,11 @@ art_prompt: >
   history book, fine engraved line under flat hand-laid watercolour washes, Prussian blue
   and madder and gamboge, visible plate mark, foxed paper, the wash running slightly outside
   the line, unpeopled frame, the caption space beneath the image left empty
+sprite:
+  motion: ripple
+  prompt: >
+    a single small flat sole seen from above facing right, whole body in frame, both
+    eyes on the upper side, a thin oval body with a fringe of fin all round its edge,
+    one edge neatly folded over like wrapping, sandy buff mottling, hand-coloured
+    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
+    charcoal studio backdrop, even soft light, crisp clean silhouette edge

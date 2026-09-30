@@ -35,3 +35,12 @@ art_prompt: >
   pure black and pure white only, every tone built from line density, form built entirely
   from cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
   black
+sprite:
+  motion: breathe
+  prompt: >
+    a single huge angular creature standing in side view facing right, whole body in
+    frame, a hard faceted body like stacked crates, one very long jointed limb extended
+    straight ahead as though ruling a line, a narrow level eye slit, white line
+    scraperboard surface cut from solid black, dense crisp hatching on every plane,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

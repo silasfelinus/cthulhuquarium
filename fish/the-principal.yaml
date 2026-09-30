@@ -36,3 +36,12 @@ art_prompt: >
   fluid, formalin yellow, colours leached toward parchment, the glass refracting the
   body where it presses against it, a handwritten paper label tied on with string,
   unpeopled frame, the label's handwriting worn to illegible loops
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single showy fish in strict side profile facing right, whole body in frame,
+    violet body with gold trim, fins flung wide like a stage costume mid-flourish, a
+    confident face that is slightly too symmetrical, a long gold-edged tail, wet wax
+    moulage specimen, glistening, a slick highlight along the spread fins, isolated
+    on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

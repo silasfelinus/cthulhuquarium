@@ -36,3 +36,12 @@ art_prompt: >
   body onto fibrous washi paper, flat black, coverage uneven, the ink thin and skipping
   where the body lifted away, fins printing as fine radiating lines, one wet painted eye
   added afterward by hand, unpeopled frame, the rest of the sheet bare
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single small deep-bodied bream in strict side profile facing right, whole body in
+    frame, evenly spaced scales in neat ruled rows like a register, a tidy forked tail,
+    fins printing as fine radiating lines, sumi ink rubbing of the fish cut out along
+    its outline, flat black, coverage thin where the body lifted, one wet painted eye,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

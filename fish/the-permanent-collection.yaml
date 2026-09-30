@@ -34,3 +34,12 @@ art_prompt: >
   organism filling the sheet, ornamental natural history plate, obsessive radial symmetry,
   the organism arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: breathe
+  prompt: >
+    the whole collection as one round symmetrical mass of hundreds of small
+    preserved specimens fixed in ranked concentric rings, tiny shells, fins, and
+    curled fish in alternating bands, a single larger specimen at the centre,
+    ornamental natural history drawing, obsessive radial symmetry, fine line and
+    restrained colour on the body, muted ivory, sepia, and sage, isolated on a plain
+    flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

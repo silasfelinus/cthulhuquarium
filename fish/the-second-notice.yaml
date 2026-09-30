@@ -36,3 +36,12 @@ art_prompt: >
   black and pure white only, every tone built from line density, form built entirely from
   cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
   black
+sprite:
+  motion: breathe
+  prompt: >
+    a single heavy-shelled snail as seen pressed against aquarium glass from the front,
+    broad muscular foot spread flat, a thick spiral shell cut with ruled lines like
+    correspondence, a hard round stamped seal mark on the shell's crown, short alert
+    tentacles, white line scraperboard surface cut from solid black, dense hatching,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

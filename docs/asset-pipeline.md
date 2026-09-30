@@ -84,3 +84,38 @@ misread of the concept. It just needs to be lit *for the size it will be seen at
 - Results land as `ArtImage` rows in Kind Robots (18439 here) and as files in
   `projects/process/`, routed onward by `distribute_images.py`.
 - Generated art is covered by the standing 2026-07-06 rule — no per-image approval needed.
+
+---
+
+## Sprites, story art and backgrounds (2026-09-30)
+
+Silas: *"cthulhuquarium deserves a real roster of fish, with animation, and invisible
+background... custom, bespoke listings, static image and then animated."* The card
+register above stays the card. The tank gets its own:
+
+| Step | Command | Output |
+|---|---|---|
+| 1. Author | `sprite:` block per species (`fish/SCHEMA.md` "Sprites"), `characters/*.yaml`, `backgrounds/backgrounds.yaml`, `story/plates.yaml` | the canon |
+| 2. Render | `python3 scripts/render_art.py --list`, then `python3 scripts/render_art.py all --par 3` | `*/raw/*.png`, resumable: an existing raw is skipped, delete one to redo it |
+| 3. Cut out + animate | `python3 scripts/build_sprites.py` | `sprites/<slug>.webp` (transparent, 320px) and `sprites/anim/<slug>.webp` (looping preview) |
+| 4. Story art | `python3 scripts/build_story_art.py` | cut-out portraits, hero plates, 1280px backgrounds and scene plates |
+| 5. Deliver | in kind_robots: `node scripts/sync_cthulhuquarium_canon.mjs ../cthulhuquarium` | bundled assets + `utils/cthulhuquariumCanon.generated.ts` |
+
+**Why cut out locally rather than ask the model for transparency.** A diffusion model
+asked for "transparent" paints a checkerboard (conductor's
+`build_ruler_hooked_art_queue.py` found this first). Every sprite prompt instead ends on
+a named flat studio backdrop, and `rembg`'s `isnet-general-use` model removes it. Pale
+grey for dark or saturated creatures, charcoal for pale, glassy and glowing ones. The
+scraperboard plate is black-bodied, so it always takes pale grey.
+
+**Why the animation is maths, not frames.** Each species declares a `sprite.motion`
+(`tailbeat`, `undulate`, `ripple`, `pulse`, `sway`, `breathe`, `rigid`). The deformation
+is a strip-wise travelling wave defined once in `build_sprites.py` (`MOTIONS`, `deform`)
+and mirrored number-for-number in kind_robots `utils/cthulhuquariumSprites.ts`. The game
+ships only the static sprite and plays the motion live, so 151 animated species cost 151
+small files rather than 151 sprite sheets; the animated WebP previews here are the same
+function baked to frames, for listings outside the game.
+
+**Engine.** `render_art.py` defaults to `flux` (schnell). If the box's krea2 is healthy
+it can be tried per run with `--engine krea2`; compare on a handful before switching the
+whole roster.

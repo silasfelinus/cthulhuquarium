@@ -36,3 +36,12 @@ art_prompt: >
   paper, flat black, coverage uneven, the ink thin and skipping where the body lifted away,
   fins printing as fine radiating lines, one wet painted eye added afterward by hand,
   unpeopled frame, the rest of the sheet bare
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single tiny fish in strict side profile facing right, whole body in frame, a
+    sharply upturned mouth and a flat straight back made for riding just under the
+    surface, an oversized worried eye, a slender tail, sumi ink rubbing of the
+    creature cut out along its outline, flat black ink with patchy coverage, fins
+    printing as fine radiating lines, one wet hand-painted eye, isolated on a plain
+    flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

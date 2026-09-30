@@ -35,3 +35,11 @@ art_prompt: >
   leached toward parchment, the glass refracting the body where it presses against it, a
   handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
   to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single enormous rounded creature almost entirely composed of open eyes at every
+    scale, all turned to the right, the soft pale body between them barely visible,
+    large eyes at the centre and tiny ones at the rim, wet wax moulage specimen,
+    glistening, formalin yellow, colours leached toward parchment, isolated on a plain
+    flat charcoal studio backdrop, even soft light, crisp clean silhouette edge

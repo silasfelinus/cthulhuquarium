@@ -34,3 +34,12 @@ art_prompt: >
   white on the plate, ornamental natural history plate, obsessive radial symmetry, the
   organism arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: rigid
+  prompt: >
+    the whole cold snap as one radial burst, whole form in frame, a dozen identical
+    spined sticklebacks arranged as the arms of a frost crystal, every fish an equal
+    spoke from a common centre, needle-fine spines, pale blue and white, ornamental
+    natural history linework, fine precise line and restrained colour, obsessive
+    symmetry, isolated on a plain flat charcoal studio backdrop, even soft light,
+    crisp clean silhouette edge

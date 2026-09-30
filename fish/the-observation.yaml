@@ -34,3 +34,11 @@ art_prompt: >
   illustration, white line scratched out of solid black ink with a blade, pure black and
   pure white only, every tone built from line density, form built entirely from cut
   hatching, stark and linear, unpeopled frame, the board around it left solid uncut black
+sprite:
+  motion: breathe
+  prompt: >
+    a single wide flat creature spread like a film as seen pressed against aquarium
+    glass from the inside, one vast round pupil taking up most of its body, a curved
+    reflection of a room in the eye, fine radiating tissue fringing the edges where
+    it grips the pane, white scraperboard line cut from solid black ink, radiating
+    cut lines around the great eye, isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

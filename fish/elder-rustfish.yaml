@@ -38,3 +38,12 @@ art_prompt: >
   hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
   mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
   caption space beneath the image left empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single heavy overgrown rustfish in strict side profile facing right, whole body in
+    frame, deep rust body with bone-pale scales at the edges, an absurdly long
+    ceremonial tail trailing out behind it in heavy folds, placid half-closed eye and a
+    set composed mouth, hand-coloured lithograph linework and flat watercolour wash on
+    the body, isolated on a plain flat pale grey studio backdrop, even soft light, crisp
+    clean silhouette edge

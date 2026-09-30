@@ -37,3 +37,12 @@ art_prompt: >
   ink with a blade, pure black and pure white only, every tone built from line density, form
   built entirely from cut hatching, stark and linear, unpeopled frame, the board around it
   left solid uncut black
+sprite:
+  motion: breathe
+  prompt: >
+    a single tall upright figure-shaped creature with a long narrow body, one long
+    limb held out holding a shuttered lantern, the shutter nearly closed so a thin
+    blade of light cuts across its chest, a hooded head bowed slightly, white
+    scraperboard line cut from solid black ink, the light blade a bright stroke
+    across dense dark hatching, isolated on a plain flat pale grey studio backdrop,
+    even soft light, crisp clean silhouette edge

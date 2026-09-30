@@ -38,3 +38,12 @@ art_prompt: >
   black ink with a blade, pure black and pure white only, every tone built from line
   density, form built entirely from cut hatching, stark and linear, unpeopled frame, the
   board around it left solid uncut black
+sprite:
+  motion: breathe
+  prompt: >
+    a single small blunt-headed blenny as seen pressed against aquarium glass from
+    the inside, one enormous round eye facing straight out at the viewer, the body
+    squeezed thin behind it, four stubby fins braced flat against the pane, white
+    scraperboard hatching cut from solid black ink, the great eye a bright ring
+    around a deep black pupil, isolated on a plain flat pale grey studio backdrop,
+    even soft light, crisp clean silhouette edge

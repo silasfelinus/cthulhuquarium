@@ -35,3 +35,11 @@ art_prompt: >
   formalin yellow, colours leached toward parchment, the glass refracting the body where it
   presses against it, a handwritten paper label tied on with string, unpeopled frame, the
   label's handwriting worn to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single tall composed creature in the shape of a figure standing upright behind
+    a broad ledge of its own flesh, two long hands resting flat on the ledge, the
+    head a smooth unbroken dome above a high stiff collar, grey-green skin with a
+    darker waistcoat band, wet wax moulage specimen, glistening, isolated on a plain
+    flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

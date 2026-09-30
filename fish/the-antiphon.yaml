@@ -35,3 +35,12 @@ art_prompt: >
   the frame, ornamental natural history plate, obsessive radial symmetry, the organism
   arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single deep-bodied fish in strict side profile facing right, whole body in
+    frame, cobalt body with pale gold fins, a wide round open mouth, its throat
+    glowing softly from inside, faint concentric rings patterned on its flank like
+    drawn sound, ornamental natural history linework, fine precise line and
+    restrained colour, obsessive symmetry, isolated on a plain flat charcoal studio
+    backdrop, even soft light, crisp clean silhouette edge

@@ -36,3 +36,12 @@ art_prompt: >
   yellow, colours leached toward parchment, the glass refracting the body where it presses
   against it, a handwritten paper label tied on with string, unpeopled frame, the label's
   handwriting worn to illegible loops
+sprite:
+  motion: breathe
+  prompt: >
+    a single immense folded creature squatting low and wide, its front worked into
+    ranked shelves and pigeonholes packed with rolled papers, one long thin limb
+    laid across the front as though marking a place, a small hooded head bowed over
+    it, dusty brown skin with cream paper rolls, wet wax moulage specimen,
+    glistening, isolated on a plain flat pale grey studio backdrop, even soft light,
+    crisp clean silhouette edge

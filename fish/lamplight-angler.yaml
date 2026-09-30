@@ -34,3 +34,12 @@ art_prompt: >
   format with a printed ornamental border and a blank name banner, four-colour stone
   printing, visible misregistration and dot rosettes, slightly garish cheap inks,
   corners worn round, unpeopled frame, the name banner empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single rotund anglerfish in strict side profile facing right, whole body in frame,
+    an enormous grinning underbite of crooked mismatched teeth, a fat glowing lantern
+    bulb drooping on a bent stalk over its brow, hot lime-green glow against a deep plum
+    body, stubby fins, chromolithograph cigarette card illustration style, bold flat
+    inks with slight misregistration on the body, isolated on a plain flat pale grey
+    studio backdrop, even soft light, crisp clean silhouette edge

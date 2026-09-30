@@ -1,0 +1,178 @@
+# Cthulhuquarium tank backgrounds.
+#
+# Silas, 2026-09-30: "real backgrounds." Until now the tank had one plate (the
+# parlour) drawn under a water gradient at 82-93% opacity, so what the player
+# actually saw was a dark teal wash. These are the interiors of the tank itself --
+# what you see through the front glass, behind the fish.
+#
+# One default, plus one per economy.yaml milestone: "a milestone does not unlock a
+# background; a milestone causes Charlotte to appear, and she gives you the background"
+# (SYSTEMS.md). The handover lines live in story/scenes.yaml.
+#
+# LINEAGE (ART-DIRECTION.md "The non-fish assets"): hand-coloured lithograph, the
+# plainest lineage on purpose, because these sit behind 151 different foregrounds.
+# Every prompt therefore names the lithograph and keeps the midground open: the fish
+# swim through the middle two-thirds of the frame, so the interest lives at the floor,
+# the edges and the far back, and the centre is open water.
+#
+# Size 1344x768 (the tank stage is 16:9). No negations (ART-DIRECTION.md rule 2).
+defaults:
+  size: 1344x768
+backgrounds:
+  - key: parlour
+    name: The Parlour Tank
+    unlock: default
+    prompt: >
+      the inside of a Victorian parlour aquarium seen through its front glass, a bed of
+      pale river gravel and scattered cockle shells across the floor, a small plaster
+      ruined temple and a sprig of green weed at the left, a curl of brass air-pipe at
+      the right, the back glass showing a dim gaslit curiosity shop beyond in soft
+      focus, wide calm stretch of clear green-grey water through the middle of the
+      frame, hand-coloured lithograph plate, fine engraved line under flat watercolour
+      washes, Prussian blue and sap green water, foxed paper edges
+  - key: kelp-stair
+    name: The Kelp Stair
+    unlock: bestiary_5
+    prompt: >
+      the inside of an aquarium tank planted as a kelp forest, tall golden-brown kelp
+      stalks rising from a rocky stepped floor at both edges, their fronds leaning in at
+      the top, shafts of pale light falling through the surface, open clear water down
+      the centre, a stone stair of flat slabs climbing the far back into the murk,
+      hand-coloured lithograph plate, engraved line and flat washes of ochre, sap green
+      and Prussian blue, foxed paper
+  - key: sunken-pantry
+    name: The Sunken Pantry
+    unlock: bestiary_10
+    prompt: >
+      the inside of an aquarium tank furnished as a drowned Victorian pantry, shelves of
+      stoppered preserving jars and blue-and-white crockery along both side walls, a
+      scrubbed deal table half-sunk in silt on the floor at left, a copper pan and a
+      ladle resting on the gravel, open clear green water through the middle, a small
+      barred larder window glowing faintly at the back, hand-coloured lithograph plate,
+      fine engraved line, flat washes of copper, delft blue and bottle green
+  - key: drowned-chapel
+    name: The Drowned Chapel
+    unlock: bestiary_15
+    prompt: >
+      the inside of an aquarium tank built as a flooded village chapel, two rows of
+      wooden pews receding along the silted floor, stone columns at the edges wrapped in
+      weed, a tall pointed stained-glass window at the far back throwing pale coloured
+      light down into the water, open water through the nave, hand-coloured lithograph
+      plate, engraved line with flat washes of madder, gamboge and cold blue, foxed
+      paper
+  - key: wreck-of-the-portsmouth
+    name: The Wreck of the Portsmouth
+    unlock: bestiary_20
+    prompt: >
+      the inside of an aquarium tank holding the broken hull of an old wooden sailing
+      ship, ribbed timbers curving up both sides, a fallen mast lying diagonally across
+      the sandy floor, barrels and a ship's lantern among the ballast stones, a figurehead
+      of a smiling fishwife at the right, open green water through the hold, hand-coloured
+      lithograph plate, engraved line and flat washes of umber, sea green and Prussian blue
+  - key: sorting-office
+    name: The Sorting Office
+    unlock: bestiary_25
+    prompt: >
+      the inside of an aquarium tank furnished as a drowned Victorian post office sorting
+      room, walls of wooden pigeonholes stuffed with swollen letters at both sides, a
+      red pillar box half buried in the gravel at left, parcels tied with string drifting
+      on the floor, a round clock face high on the back wall, open clear water through
+      the middle, hand-coloured lithograph plate, engraved line, flat washes of post-box
+      red, oak brown and grey-green
+  - key: counting-house
+    name: The Counting House
+    unlock: bestiary_35
+    prompt: >
+      the inside of an aquarium tank furnished as a drowned counting house, tall clerks'
+      desks and stools along the side walls, stacks of green-bound ledgers on the floor,
+      a brass balance scale at the right, an iron safe with its door ajar at the back
+      spilling coins across the gravel, open water through the centre, hand-coloured
+      lithograph plate, engraved line with flat washes of bottle green, brass and ink
+      black
+  - key: flooded-conservatory
+    name: The Flooded Conservatory
+    unlock: bestiary_50
+    prompt: >
+      the inside of an aquarium tank that is a flooded Victorian glasshouse, curved
+      white-painted iron ribs and panes arching overhead, drowned palms and ferns in
+      terracotta pots along both edges, a tiled path running back across the floor to a
+      little fountain, soft daylight through the glass roof far above the surface, open
+      green water through the middle, hand-coloured lithograph plate, engraved line and
+      flat washes of viridian, terracotta and pale gold
+  - key: catacomb
+    name: The Catacomb
+    unlock: bestiary_70
+    prompt: >
+      the inside of an aquarium tank built as a flooded catacomb passage, rows of arched
+      stone burial niches along both walls holding tidy stacks of pale bones and skulls,
+      a low vaulted ceiling, a guttering candle stub on a ledge at left, the passage
+      receding into darkness at the back, open still water through the middle,
+      hand-coloured lithograph plate, engraved line and flat washes of bone, sepia and
+      cold blue-grey
+  - key: abyssal-plain
+    name: The Abyssal Plain
+    unlock: bestiary_95
+    prompt: >
+      the inside of an aquarium tank holding a slice of the deep sea floor, a flat plain
+      of fine grey ooze stretching back to a dim horizon, glass sponges and stalked sea
+      lilies scattered at the edges, tracks and trails pressed into the silt, a few faint
+      points of blue light far in the dark distance, deep indigo water above, open
+      water through the middle, hand-coloured lithograph plate, engraved line and flat
+      washes of indigo, slate and pale bioluminescent blue
+  - key: opera-house
+    name: Charlotte's Opera House
+    unlock: bestiary_125
+    prompt: >
+      the inside of an aquarium tank furnished as a drowned Victorian opera house seen
+      from the stalls, a proscenium arch with heavy red velvet curtains drawn back at the
+      far back, gilded boxes stacked along both side walls, rows of velvet seats on the
+      silted floor, a great chandelier hanging from the top of the frame, open water
+      through the middle, hand-coloured lithograph plate, engraved line and flat washes
+      of crimson, gilt and deep green
+  - key: the-reading-room
+    name: The Reading Room
+    unlock: bestiary_151
+    prompt: >
+      the inside of an aquarium tank furnished as a drowned domed library reading room,
+      curved walls of bookcases along both sides, a round reading desk on the floor with
+      one enormous open book lying on it, green-shaded reading lamps glowing along the
+      shelves, a domed skylight at the top of the frame, open clear water through the
+      middle, hand-coloured lithograph plate, engraved line and flat washes of leather
+      brown, lamp green and gold
+  - key: public-baths
+    name: The Public Baths
+    unlock: first_full_tank
+    prompt: >
+      the inside of an aquarium tank built as a Victorian public swimming bath, white
+      glazed tiles and a blue mosaic border along the walls, a row of little wooden
+      changing cubicles along the back, a diving board projecting from the left, brass
+      rails and steps at the right, open clear turquoise water through the middle,
+      hand-coloured lithograph plate, engraved line and flat washes of tile white, cobalt
+      and pale aqua
+  - key: hatchery
+    name: The Hatchery
+    unlock: first_evolution
+    prompt: >
+      the inside of an aquarium tank furnished as a Victorian fish hatchery, wooden
+      racks of shallow trays and rows of bell jars along both sides, strings of pale eggs
+      clinging to the glass, a brass thermometer and a copper tap at the back wall, a
+      bed of clean gravel on the floor, open green water through the middle, hand-coloured
+      lithograph plate, engraved line with flat washes of amber, copper and sap green
+  - key: scullery
+    name: The Scullery
+    unlock: first_spotless_tank
+    prompt: >
+      the inside of an aquarium tank furnished as a spotless Victorian scullery, a deep
+      white stone sink and a wooden draining board at the left, scrubbed flagstone floor,
+      rows of gleaming copper pans hanging on the back wall, a scrubbing brush and a bar
+      of yellow soap on a ledge at right, clear bright water through the middle, hand-coloured
+      lithograph plate, engraved line and flat washes of scrubbed white, copper and soft blue
+  - key: duelling-ground
+    name: The Duelling Ground
+    unlock: first_rivalry_resolved
+    prompt: >
+      the inside of an aquarium tank set as a sunken duelling ground, a low fallen stone
+      wall running across the floor from front to back dividing it in two, a pair of
+      crossed rusted sabres planted in the sand at the left, two weathered marker posts
+      at either end, pale reeds at the edges, open water through the middle, hand-coloured
+      lithograph plate, engraved line and flat washes of rust, sand and grey-green

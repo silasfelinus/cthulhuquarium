@@ -36,3 +36,13 @@ art_prompt: >
   cigarette card from around 1900, small format with a printed ornamental border and a blank
   name banner, four-colour stone printing, visible misregistration and dot rosettes,
   slightly garish cheap inks, corners worn round, unpeopled frame, the name banner empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single small minnow in strict side profile facing right, whole body in frame,
+    its flank covered in round coin-shaped scales laid in exact overlapping rows
+    like counted change, warm gold scales over a bright silver belly, a neat forked
+    tail, a small alert black eye, chromolithograph cigarette card illustration
+    style on the body, bold outline, flat printed colour with fine dot rosettes,
+    isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean
+    silhouette edge

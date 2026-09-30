@@ -35,3 +35,11 @@ art_prompt: >
   flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
   mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
   caption space beneath the image left empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single chunky perch in strict side profile facing right, whole body in frame,
+    spiny dorsal fin raised, dark olive vertical bands over brass yellow flanks, one eye
+    rolled toward the viewer with a watchful look, stout forked tail, hand-coloured
+    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
+    pale grey studio backdrop, even soft light, crisp clean silhouette edge

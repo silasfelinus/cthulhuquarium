@@ -36,3 +36,11 @@ art_prompt: >
   under flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible
   plate mark, foxed paper, the wash running slightly outside the line, unpeopled frame, the
   caption space beneath the image left empty
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single small stout tetra in strict side profile facing right, whole body in frame,
+    blunt cheerful face with a coarse grain of gravel held at its lips, plain olive body
+    with one dull copper stripe running the length of the flank, small forked tail,
+    hand-coloured lithograph linework and flat watercolour wash on the body, isolated on
+    a plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

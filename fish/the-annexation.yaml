@@ -35,3 +35,11 @@ art_prompt: >
   illustration, white line scratched out of solid black ink with a blade, pure black and
   pure white only, every tone built from line density, form built entirely from cut
   hatching, stark and linear, unpeopled frame, the board around it left solid uncut black
+sprite:
+  motion: breathe
+  prompt: >
+    a single colossal crawdad seen from the side facing right, whole body in frame,
+    heavy segmented armour plating, four raised claws each a different size, a ridge
+    of tiny crown-like spines running along its back, long sweeping antennae,
+    scraperboard rendering, crisp white lines cut into solid black, form built
+    entirely from hatched cut marks, isolated on a plain flat pale grey studio backdrop, even soft light, crisp clean silhouette edge

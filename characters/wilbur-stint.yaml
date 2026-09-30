@@ -1,0 +1,88 @@
+# Wilbur Stint -- canonical character design.
+#
+# Redesigned 2026-09-30 at Silas's direction: "a long haired partially balding
+# bespectacled sad sack with a cast and multiple bandaids and injuries because he tends
+# to the horrible fish." The first portrait read as a generic young clerk; this sheet
+# replaces it.
+#
+# He LOOKS like a sad sack. He is not written as one: DESIGN-BRIEF.md's dignity rule
+# is a hard rule and it governs every line he says. He really tries, he is competent,
+# he is the only person in the building who understands what is in the tanks, and the
+# humour lands on the situation or on Charlotte's obliviousness -- never on him. His
+# stutter is characterisation, never a punchline. Nobody mentions his injuries. Ever.
+slug: wilbur-stint
+name: Wilbur Stint
+role: Assistant, and the one who actually reaches into the tanks
+design:
+  age: late twenties, looks forty by the end of a shift
+  silhouette: >
+    Gangly, stooped, shoulders up around his ears. Long lank hair past his shoulders
+    hanging from a crown that is visibly going bald. Round spectacles. One arm in a
+    plaster cast and sling. Rubber waders. A long-handled net held like a lance.
+  face: >
+    Long gentle face, earnest worried eyes magnified by the spectacles, a hopeful
+    uncertain smile that arrives late. One lens cracked and mended with tape.
+  injuries: >
+    Right forearm in a grubby plaster cast covered in pencilled tide-marks and one clear
+    set of toothmarks; sticking plasters across the nose, chin and forehead; three
+    fingers of the left hand bandaged together; a fresh scratch on the cheek. New
+    plasters appear on him over the course of the game. Nobody remarks on it.
+  costume: >
+    Rolled shirtsleeves, a buttoned waistcoat missing one button, a stained canvas
+    fishmonger's apron repurposed as the sling, rubber waders, a pencil behind the ear.
+  palette: faded ochre, putty, bandage white, plaster grey, algae green at the cuffs
+  props: [long-handled net, a clipboard, a tin bucket, a jar with something in it]
+  manner: >
+    Careful, precise, apologetic, brave in small increments. He demonstrates things
+    with his good hand.
+lineage: >
+  Hand-tinted carte-de-visite photograph, same stock and studio as Charlotte -- the
+  same photographer, the same week. Dialogue portraits are that sitting, cut out.
+art:
+  base: >-
+    Wilbur Stint, a gangly stooped young aquarium assistant in his late twenties, long
+    lank brown hair hanging past his shoulders from a visibly balding crown, round wire
+    spectacles with one lens cracked and mended with tape, a long gentle face with
+    earnest worried eyes, sticking plasters across his nose, chin and forehead, a fresh
+    scratch on one cheek, his right forearm in a grubby plaster cast marked with pencilled
+    tide-lines and a set of toothmarks, held in a sling made from a stained canvas
+    fishmonger's apron, three fingers of his left hand bandaged together, rolled
+    shirtsleeves and a waistcoat missing a button, a pencil behind his ear
+  medium: >-
+    hand-tinted albumen carte-de-visite photograph, warm sepia and deep blacks, painted
+    tint on his cheeks and the white of the plasters, crisp studio focus
+  hero:
+    size: 832x1216
+    prompt: >-
+      full-length studio portrait of {base}, standing in rubber waders beside a bubbling
+      murky green aquarium tank where something large shifts, a long-handled net held
+      carefully upright in his good hand like a lance, shoulders hunched, attempting a
+      brave hopeful smile, a painted studio backdrop of a gaslit aquarium hall, {medium}
+  portraits:
+    greeting:
+      prompt: >-
+        waist-up portrait of {base}, raising his bandaged left hand in a small shy wave,
+        a hopeful lopsided smile arriving late, {medium}, isolated on a plain flat pale
+        grey studio backdrop, even soft light
+    explaining:
+      prompt: >-
+        waist-up portrait of {base}, holding up a small brass tin of fish food in his
+        bandaged hand to show it, earnest concentrating expression, eyebrows raised
+        helpfully, {medium}, isolated on a plain flat pale grey studio backdrop, even soft
+        light
+    wince:
+      prompt: >-
+        waist-up portrait of {base}, flinching with a pained brave grimace, shoulders
+        hunched up to his ears, a brand-new plaster on his thumb, {medium}, isolated on a
+        plain flat pale grey studio backdrop, even soft light
+    hopeful:
+      prompt: >-
+        waist-up portrait of {base}, clutching a clipboard to his chest with his good
+        hand, a small shy genuinely pleased smile, eyes bright behind the cracked
+        spectacles, {medium}, isolated on a plain flat pale grey studio backdrop, even soft
+        light
+    alarmed:
+      prompt: >-
+        waist-up portrait of {base}, eyes wide with alarm behind his spectacles, leaning
+        back, his long hair swinging, the net raised defensively across his body,
+        {medium}, isolated on a plain flat pale grey studio backdrop, even soft light

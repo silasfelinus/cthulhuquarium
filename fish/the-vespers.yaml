@@ -37,3 +37,11 @@ art_prompt: >
   hollow body, light passing through the glass and pooling where it thickens, colour
   suspended in the glass itself, museum specimen on a small wooden base, faint dust,
   unpeopled frame, a bare unwritten label on the wooden base
+sprite:
+  motion: sway
+  prompt: >
+    a single slender tapering form standing upright rooted at the bottom like a votive
+    candle, a small suspended warm light at its tip, the light visible right down inside
+    its transparent body, a fine ribbed stem, lampworked glass model, light pooling
+    where the glass thickens, colour suspended in the glass, isolated on a plain flat
+    charcoal studio backdrop, even soft light, crisp clean silhouette edge

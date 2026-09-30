@@ -34,3 +34,12 @@ art_prompt: >
   nothing, ornamental natural history plate, obsessive radial symmetry, the organism
   arranged as design to fill the sheet, fine line and restrained colour, ruled
   ornamental border, unpeopled frame, the plate's caption strip empty
+sprite:
+  motion: sway
+  prompt: >
+    a single enormous anemone rooted upright at the bottom, whole body in frame, its
+    disc opened completely flat and tilted toward the viewer, hundreds of magenta
+    and orange tendrils splayed in perfect radial symmetry, a dark still centre,
+    ornamental natural history linework, fine precise line and restrained colour,
+    obsessive symmetry, isolated on a plain flat pale grey studio backdrop, even
+    soft light, crisp clean silhouette edge

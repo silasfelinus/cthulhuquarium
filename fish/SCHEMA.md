@@ -157,6 +157,65 @@ Do not invent a tenth without adding the motion to the renderer in the same chan
 species whose behavior has no implementation silently falls back to drifting, which is
 worse than being obviously broken.
 
+## Sprites — the second register
+
+`art_prompt` is the **card**: atmosphere, a plate, a mount, a jar, heavy negative space.
+It is right for the Ichthyonomicon and wrong in the water — `docs/asset-pipeline.md`
+measured it: a card drawn at 60px in the tank is a postage stamp with a fish on it. Every
+species therefore carries a second, bespoke prompt for the thing that actually swims.
+
+```yaml
+sprite:
+  motion: tailbeat
+  prompt: >
+    a single deep-bodied bream in strict side profile facing right, ...
+```
+
+| Field | Notes |
+|---|---|
+| `sprite.motion` | How the body moves in place. One of `tailbeat`, `undulate`, `ripple`, `pulse`, `sway`, `breathe`, `rigid`. |
+| `sprite.prompt` | Written for *this* creature. Not the card prompt with a suffix bolted on. |
+
+`motion` is not `behavior`. `behavior` is the path the creature takes through the tank;
+`motion` is what its body does while taking it. A `lurk` angler still `tailbeat`s; a
+`drift` bell `pulse`s; an `anchor` crab `breathe`s.
+
+| motion | body | for |
+|---|---|---|
+| `tailbeat` | front still, tail does the work | anything shaped like a fish |
+| `undulate` | one travelling wave, nose to tail | eels, worms, long things |
+| `ripple` | fine fast wave at small amplitude | rays, nudibranchs, frills, skirts |
+| `pulse` | bell squeezes, trailing parts follow late | jellies, bells, siphonophores |
+| `sway` | rooted base, the crown moves | stalked, rooted, planted things |
+| `breathe` | a slow swell | crabs, snails, limpets, lumps, buildings |
+| `rigid` | holds still; the renderer rotates it | `tumble` species, hard geometry |
+
+### The sprite prompt contract
+
+`scripts/build_sprites.py` cuts every sprite out of its render and plays `motion` on it,
+so the render has to be cut-out-able and animatable. Every sprite prompt:
+
+1. **One creature, whole, with margin.** One individual even for a `school` species — the
+   tank draws the shoal. (A species that *is* a collective, like the Brine Courtiers, is
+   drawn as the collective, because that is the one creature.)
+2. **The view the motion needs.** Swimmers in strict side profile **facing right** — the
+   tail is where `tailbeat` puts the movement. Bells upright, bell at the top. Rooted
+   things upright, base at the bottom. Glass-clingers as seen through the glass.
+3. **A plain flat backdrop, named.** `isolated on a plain flat pale grey studio backdrop`
+   for dark or saturated creatures, `plain flat charcoal studio backdrop` for pale, glassy
+   or glowing ones. The cut-out step keys against it; a scene behind the creature ends up
+   glued to it.
+4. **The plate survives as a surface, not a setting.** The lithograph is in the line and
+   the wash on the body, the glass is in the body, the rubbing is the ink on the fish —
+   the paper, the mount, the jar and the label are the card's and stay there. The same
+   marker word the validator checks on `art_prompt` must appear here too.
+5. **Legible at 60px.** Strong clear silhouette, even soft light across the whole body,
+   interior value in the shape. The card is allowed to fade into black water. The sprite
+   is going to be *put into* black water.
+6. **No negations.** Same rule, same validator, same reason as `art_prompt`.
+
+The sprite pipeline, end to end, is in `docs/asset-pipeline.md` ("Sprites").
+
 ## Evolution chains
 
 Two optional fields, added for Silas's "magikarp to gyarados" concept: a most basic fish
