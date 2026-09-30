@@ -9,6 +9,7 @@ Collects every render the canon asks for:
     backgrounds backgrounds/backgrounds.yaml              -> backgrounds/raw/<key>.webp
     plates      story/plates.yaml                         -> story/raw/<key>.webp
     videos      videos/videos.yaml (WAN image-to-video)   -> videos/raw/<key>.webp  (animated)
+    clips       every fish, from its sprite render (WAN)  -> clips/raw/<slug>.webp  (animated)
 
 A video is submitted only once its source still exists, so `submit` after each
 `harvest` sends the clips whose stills just arrived.
@@ -47,13 +48,26 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "art" / "jobs.yaml"
-GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos")
+GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos", "clips")
 # flux schnell follows layout instructions (side profile, flat backdrop) reliably
 # for isolated subjects; override per run with --engine.
 DEFAULT_ENGINE = "flux"
 # Below the Daily Dream lane (200) and Mandarin curriculum art (80): this queue is
 # large and patient, and should never hold up time-sensitive work.
 PRIORITY = 20
+# Fish clips come after every still: the sprite itself is what the tank needs.
+CLIP_PRIORITY = 10
+
+# What each body motion (fish/SCHEMA.md "Sprites") looks like as a clip prompt.
+FISH_CLIP_MOTION = {
+    "tailbeat": "the fish swims steadily in place, its tail sweeping side to side and its fins rippling",
+    "undulate": "the long body ripples in a slow travelling wave from head to tail as it swims in place",
+    "ripple": "the fins and frilled edges ripple in fine fast waves as it hangs in the water",
+    "pulse": "the bell contracts and relaxes in a slow rhythmic pulse, the trailing parts swaying behind",
+    "sway": "it sways gently from its base, the upper parts drifting in a slow current",
+    "breathe": "it breathes slowly, its body swelling and settling, small parts stirring",
+    "rigid": "it turns slowly in place, catching the light on its hard edges",
+}
 
 
 def _flat(text: str) -> str:
@@ -88,6 +102,25 @@ def jobs() -> list[dict]:
     for plate in yaml.safe_load((ROOT / "story/plates.yaml").read_text())["plates"]:
         out.append({"group": "plates", "id": plate["key"], "size": plate.get("size", "1344x768"),
                     "prompt": _flat(plate["prompt"]), "dest": ROOT / "story/raw" / f"{plate['key']}.webp"})
+    # Every fish also gets a real swimming clip, animated from its own sprite
+    # render (WAN image-to-video), submitted the moment that render exists.
+    # build_fish_clips.py cuts the backdrop out of every frame, so the result
+    # is an animated, transparent specimen for listings and the book; the
+    # tank keeps its lighter procedural motion.
+    for path in sorted((ROOT / "fish").glob("*.yaml")):
+        fish = yaml.safe_load(path.read_text())
+        sprite = fish.get("sprite") or {}
+        if not sprite.get("prompt"):
+            continue
+        wide = sprite.get("motion") in ("tailbeat", "undulate", "ripple")
+        width, height = (832, 576) if wide else (640, 640)
+        out.append({"group": "clips", "id": fish["slug"],
+                    "prompt": _flat(f"{FISH_CLIP_MOTION.get(sprite.get('motion'), FISH_CLIP_MOTION['tailbeat'])}, "
+                                    f"{fish['name']}, the plain flat studio backdrop perfectly still, "
+                                    f"the creature staying centred in view"),
+                    "size": f"{width}x{height}", "seconds": 3, "fps": 16, "priority": CLIP_PRIORITY,
+                    "source": ROOT / "sprites/raw" / f"{fish['slug']}.webp",
+                    "dest": ROOT / "clips/raw" / f"{fish['slug']}.webp"})
     vids = yaml.safe_load((ROOT / "videos/videos.yaml").read_text())
     for clip in vids["videos"]:
         spec = {**vids["defaults"], **clip}
@@ -157,7 +190,7 @@ def submit_video(job: dict, core) -> int:
         "firstImageBase64": video_first_frame(job["source"], job["size"]),
         "width": width, "height": height, "fps": job["fps"],
         "durationSeconds": job["seconds"], "loop": True, "outputFormat": "webp",
-        "projectSlug": "cthulhuquarium", "priority": PRIORITY, "isPublic": True,
+        "projectSlug": "cthulhuquarium", "priority": job.get("priority", PRIORITY), "isPublic": True,
     }
     status, resp = core.http_json("POST", f"{core.KR_BASE_URL}/api/video/generate", body, timeout=120)
     if status not in (200, 201) or not resp or not resp.get("success"):
@@ -175,7 +208,7 @@ def submit(todo: list[dict], core, engine: str, manifest: dict) -> None:
         current = manifest.get(job["key"])
         if current and current.get("hash") == job["hash"]:
             continue
-        if job["group"] == "videos":
+        if job["group"] in ("videos", "clips"):
             if not job["source"].exists():
                 waiting += 1
                 continue
@@ -214,7 +247,7 @@ def harvest(core, manifest: dict, by_key: dict) -> None:
         art = resp["data"]["job"]
         if art["status"] == "DONE" and art.get("artImageId"):
             data = base64.b64decode(core.fetch_image_b64(art["artImageId"]))
-            if job["group"] == "videos":
+            if job["group"] in ("videos", "clips"):
                 job["dest"].parent.mkdir(parents=True, exist_ok=True)
                 job["dest"].write_bytes(data)
             else:

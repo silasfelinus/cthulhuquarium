@@ -46,10 +46,11 @@ art:
   # arrives at the same woman. Portraits are cut out for the dialogue box, so they sit
   # on a flat backdrop; the hero plate keeps the studio's painted backdrop.
   base: >-
-    Charlotte Fishmonger, a grand gothic prima donna in her late seventies, towering
+    Charlotte Fishmonger, a grand gothic prima donna of seventy-eight, an old woman with
+    a deeply lined powdered face, crow's feet, soft jowls and a crepey throat, towering
     silver-white pompadour pierced with jet hatpins one topped with a tiny preserved
     seahorse, sharp aquiline nose, high painted brows, heavy-lidded eyes rimmed in kohl,
-    a beauty mark, oxblood lips, powdered and rouged, high-necked black silk taffeta
+    a beauty mark, oxblood lips, rouged cheeks, a warm theatrical smile, high-necked black silk taffeta
     mourning gown with enormous leg-of-mutton sleeves, jet-bead fringe and a scatter of
     fish-scale sequins, a cameo brooch carved with an octopus at her throat, black lace
     fingerless gloves, rings on every finger
@@ -59,8 +60,8 @@ art:
   hero:
     size: 832x1216
     prompt: >-
-      full-length studio portrait of {base}, standing with one gloved hand raised in a
-      theatrical flourish and the other resting on a silver cane with an eel's head for a
+      full-length studio portrait of {base}, beaming with delight at the viewer, standing
+      with one gloved hand raised in a theatrical flourish and the other resting on a silver cane with an eel's head for a
       handle, bustle and train pooled around her, a painted studio backdrop of a gaslit
       aquarium hall with rows of murky green tanks, {medium}
   portraits:

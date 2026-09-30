@@ -81,11 +81,26 @@ jobs:
     hash: 2c58efa174dc
     engine: flux
     submitted: '2026-09-30T07:46:05Z'
+  clips/bailiff-eel:
+    job: 32281
+    hash: 060872d1e951
+    engine: wan
+    submitted: '2026-09-30T09:23:32Z'
+  clips/brass-tack-goby:
+    job: 32282
+    hash: 636c0f7bf381
+    engine: wan
+    submitted: '2026-09-30T09:23:33Z'
+  clips/brine-courtiers:
+    job: 32283
+    hash: 13979e32c2b1
+    engine: wan
+    submitted: '2026-09-30T09:23:34Z'
   heroes/charlotte-fishmonger-hero:
-    job: 32236
-    hash: 6fb4587f3ca9
+    job: 32284
+    hash: a291570c23ae
     engine: flux
-    submitted: '2026-09-30T07:45:57Z'
+    submitted: '2026-09-30T09:24:19Z'
   heroes/wilbur-stint-hero:
     job: 32242
     hash: 02d9c79160cb
@@ -112,30 +127,30 @@ jobs:
     engine: flux
     submitted: '2026-09-30T08:27:24Z'
   portraits/charlotte-fishmonger-confiding:
-    job: 32240
-    hash: 02bfdaa9e1db
+    job: 32288
+    hash: 942af61eb381
     engine: flux
-    submitted: '2026-09-30T07:45:59Z'
+    submitted: '2026-09-30T09:24:21Z'
   portraits/charlotte-fishmonger-delighted:
-    job: 32238
-    hash: bf641a3b8f4e
+    job: 32286
+    hash: b685fce7b376
     engine: flux
-    submitted: '2026-09-30T07:45:58Z'
+    submitted: '2026-09-30T09:24:20Z'
   portraits/charlotte-fishmonger-lorgnette:
-    job: 32241
-    hash: b662146d0d92
+    job: 32289
+    hash: b05610463574
     engine: flux
-    submitted: '2026-09-30T07:46:00Z'
+    submitted: '2026-09-30T09:24:21Z'
   portraits/charlotte-fishmonger-presenting:
-    job: 32239
-    hash: 23e18d2a3a97
+    job: 32287
+    hash: 264fd1525f0d
     engine: flux
-    submitted: '2026-09-30T07:45:59Z'
+    submitted: '2026-09-30T09:24:20Z'
   portraits/charlotte-fishmonger-welcome:
-    job: 32237
-    hash: 543d6970eff1
+    job: 32285
+    hash: a829bb85b139
     engine: flux
-    submitted: '2026-09-30T07:45:58Z'
+    submitted: '2026-09-30T09:24:19Z'
   portraits/wilbur-stint-alarmed:
     job: 32247
     hash: 7bc9077178bf
