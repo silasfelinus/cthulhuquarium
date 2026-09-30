@@ -2,35 +2,25 @@
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
   backgrounds/catacomb:
-    job: 32311
-    hash: fd57bc2078f2
+    job: 32314
+    hash: 381ba2df4e5d
     engine: flux
-    submitted: '2026-09-30T15:21:20Z'
+    submitted: '2026-09-30T16:13:36Z'
   backgrounds/duelling-ground:
     job: 32263
     hash: f2f5f4d5dbe8
     engine: flux
     submitted: '2026-09-30T07:46:09Z'
-  backgrounds/flooded-conservatory:
-    job: 32310
-    hash: 6a39f46ae78f
-    engine: flux
-    submitted: '2026-09-30T15:21:19Z'
   backgrounds/hatchery:
-    job: 32261
-    hash: f56c02182b84
+    job: 32316
+    hash: 8de6957b5e36
     engine: flux
-    submitted: '2026-09-30T07:46:08Z'
-  backgrounds/opera-house:
-    job: 32312
-    hash: cc9b3ccbb7ec
-    engine: flux
-    submitted: '2026-09-30T15:21:20Z'
+    submitted: '2026-09-30T16:13:37Z'
   backgrounds/public-baths:
-    job: 32313
-    hash: 4d46880a7c67
+    job: 32315
+    hash: 28c20aaf0230
     engine: flux
-    submitted: '2026-09-30T15:21:21Z'
+    submitted: '2026-09-30T16:13:36Z'
   backgrounds/scullery:
     job: 32262
     hash: e68735dbd6eb

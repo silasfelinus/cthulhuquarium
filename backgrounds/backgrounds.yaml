@@ -98,6 +98,9 @@ backgrounds:
   # rendered as DRY rooms with a pool in them ("flooded" read as "has water in
   # it"). A tank backdrop must be seen from inside the water, so these four lead
   # with the whole room submerged, as the-reading-room and abyssal-plain did.
+  # Second pass: catacomb and public-baths still came back as water you look DOWN
+  # at ("passage" and "swimming bath" imply a pool), and the hatchery arrived in a
+  # heavy wooden frame; those three now put the camera on the drowned floor.
   - key: flooded-conservatory
     name: The Flooded Conservatory
     unlock: bestiary_50
@@ -114,14 +117,15 @@ backgrounds:
     name: The Catacomb
     unlock: bestiary_70
     prompt: >
-      an entirely underwater view, the whole room drowned and filled to the ceiling with
-      clear cold grey-blue water, seen from within the water, drifting motes and a soft
-      blue-green haze, light rippling down through the water from the surface far above,
-      the inside of a drowned catacomb passage, rows of arched stone burial niches along
-      both walls holding tidy stacks of pale bones and skulls, a low vaulted ceiling close
-      overhead, the passage receding into dark water at the back, open still water through
-      the middle, hand-coloured lithograph plate, engraved line and flat washes of bone,
-      sepia and cold blue-grey
+      an underwater view from a camera resting on the drowned floor, looking straight
+      along it, the whole catacomb sunk deep under cold grey-blue water that fills it from
+      floor to roof, every wall and ceiling submerged, the water's silver surface far
+      overhead out of view, drifting motes and blue-green haze, a drowned catacomb
+      passage, rows of arched stone burial niches along both walls holding tidy stacks of
+      pale bones and skulls, a low vaulted ceiling close overhead, the passage receding
+      into dark water at the back, open still water through the middle, hand-coloured
+      lithograph plate, engraved line and flat washes of bone, sepia and cold blue-grey,
+      all of it deep underwater, edge to edge water with the full picture filling the view
   - key: abyssal-plain
     name: The Abyssal Plain
     unlock: bestiary_95
@@ -159,24 +163,30 @@ backgrounds:
     name: The Public Baths
     unlock: first_full_tank
     prompt: >
-      an entirely underwater view, the whole room drowned and filled to the ceiling with
-      clear turquoise water, seen from within the water, drifting motes and a soft blue-green
-       haze, light rippling down through the water from the surface far above, the
-      inside of a drowned Victorian public swimming bath, the whole hall sunk under the
-      water up to its roof beams, white glazed tiles and a blue mosaic border along the
-      walls, a row of little wooden changing cubicles along the back, a diving board
-      jutting out into the water at the left, brass rails and steps at the right, open
+      an underwater view from a camera resting on the drowned floor, looking straight
+      along it, the whole swimming-bath hall sunk deep under turquoise water that fills it
+      from floor to roof, every wall and ceiling submerged, the water's silver surface far
+      overhead out of view, drifting motes and blue-green haze, a drowned Victorian public
+      baths hall seen from down on its tiled floor, white glazed tiles and a blue mosaic
+      border up the walls, a row of little wooden changing cubicles along the back, a
+      diving board jutting out into the water at the left, brass rails at the right, open
       clear turquoise water through the middle, hand-coloured lithograph plate, engraved
-      line and flat washes of tile white, cobalt and pale aqua
+      line and flat washes of tile white, cobalt and pale aqua, all of it deep underwater,
+      edge to edge water with the full picture filling the view
   - key: hatchery
     name: The Hatchery
     unlock: first_evolution
     prompt: >
-      the inside of an aquarium tank furnished as a Victorian fish hatchery, wooden
-      racks of shallow trays and rows of bell jars along both sides, strings of pale eggs
-      clinging to the glass, a brass thermometer and a copper tap at the back wall, a
-      bed of clean gravel on the floor, open green water through the middle, hand-coloured
-      lithograph plate, engraved line with flat washes of amber, copper and sap green
+      an underwater view from a camera resting on the drowned floor, looking straight
+      along it, the whole hatchery room sunk deep under green water that fills it from
+      floor to roof, every wall and ceiling submerged, the water's silver surface far
+      overhead out of view, drifting motes and blue-green haze, a drowned Victorian fish
+      hatchery, wooden racks of shallow trays and rows of bell jars along both sides,
+      strings of pale eggs drifting in the water, a brass thermometer and a copper tap at
+      the back wall, a bed of clean gravel on the floor, open green water through the
+      middle, hand-coloured lithograph plate, engraved line with flat washes of amber,
+      copper and sap green, all of it deep underwater, edge to edge water with the full
+      picture filling the view
   - key: scullery
     name: The Scullery
     unlock: first_spotless_tank
