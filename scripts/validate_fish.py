@@ -90,7 +90,7 @@ REQUIRED = (
     "slug", "name", "species", "class", "field_note", "quirks", "alignment",
     "rarity", "stats", "tier", "size", "yield", "interval", "unlock_cost", "behavior",
     "hue", "diet_role", "school_role", "rivals", "plate", "games", "art_prompt",
-    "sprite",
+    "sprite", "voices",
 )
 
 # Optional. `evolves_to` names the slug this species becomes; `evolves_from` is its
@@ -268,6 +268,22 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
                 if colour in prompt.lower():
                     bad(f"plate `{plate}` dictates its own palette, but art_prompt "
                         f"names `{colour}` -- strip the colour, the medium supplies it")
+
+    voices = data.get("voices")
+    if voices is not None:
+        if not isinstance(voices, dict) or set(voices) != {"charlotte", "wilbur"}:
+            bad("voices must have exactly `charlotte` and `wilbur`")
+        else:
+            for who, line in voices.items():
+                text = " ".join(str(line or "").split())
+                if not text:
+                    bad(f"voices.{who} is empty")
+                elif len(text.split()) > 30:
+                    bad(f"voices.{who} runs {len(text.split())} words; the limit is 30")
+                if re.search(r"\b(hands?|fingers?|bandage|plasters?|cast|injur\w*|wounds?)\b",
+                             text, re.I):
+                    bad(f"voices.{who} mentions hands or injuries -- nobody ever does "
+                        f"(DESIGN-BRIEF.md decision 5)")
 
     sprite = data.get("sprite")
     if sprite is not None:

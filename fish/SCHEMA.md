@@ -323,6 +323,37 @@ Rules for shared creatures:
 - Removing a creature from the bible sets `isActive: false` on its row. Never DELETE —
   someone's save may reference it.
 
+## Voices — Charlotte sells it, Wilbur keeps it
+
+Every species carries two lines in the staff's voices, so each listing is written for
+the creature it lists rather than filled from a template:
+
+```yaml
+voices:
+  charlotte: >-
+    Her shop pitch. Shown on the shop card, before the player owns it.
+  wilbur: >-
+    His care note. Shown on the tank card, once it is theirs.
+```
+
+These are the two characters of DESIGN-BRIEF.md decision 5 and
+`characters/*.yaml`, and their rules are hard rules:
+
+- **Charlotte** is dreadfully cheerful, sincerely and without a crack. She *sells*:
+  price-free, benefit-forward, delighted. She never explains what the creature does
+  wrong, never mentions Wilbur's injuries, and never gives away the field note — the
+  placard is revealed on purchase and she must not spend it first. One or two
+  sentences, at most 30 words.
+- **Wilbur** is earnest, competent, and the only one who understands the tanks. His
+  line is practical handling advice that shows he knows this animal: when to feed it,
+  where not to put your hand, what it does at night. The joke lives in what the advice
+  implies, never in him. He never mentions his own injuries, never complains, and his
+  stutter appears in at most one line in ten and never as the point of the line. One
+  or two sentences, at most 30 words.
+- Neither hints at the finale or references the book their names come from.
+- Neither repeats the field note or the quirks verbatim. The placard is the third
+  voice; three voices saying the same thing is one voice.
+
 ## Tone rules for `field_note`
 
 The register is a museum placard written by someone who is not telling you everything.
