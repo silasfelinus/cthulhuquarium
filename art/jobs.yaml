@@ -121,16 +121,6 @@ jobs:
     hash: 2ddfcfe90cab
     engine: flux
     submitted: '2026-09-30T09:38:27Z'
-  portraits/wilbur-stint-hopeful:
-    job: 32298
-    hash: f7c574b600a1
-    engine: flux
-    submitted: '2026-09-30T09:38:26Z'
-  portraits/wilbur-stint-wince:
-    job: 32297
-    hash: 087bfa714cd2
-    engine: flux
-    submitted: '2026-09-30T09:38:26Z'
   sprites/candle-snail:
     job: 32088
     hash: b7b405547963
