@@ -96,16 +96,6 @@ jobs:
     hash: 13979e32c2b1
     engine: wan
     submitted: '2026-09-30T09:23:34Z'
-  heroes/charlotte-fishmonger-hero:
-    job: 32284
-    hash: a291570c23ae
-    engine: flux
-    submitted: '2026-09-30T09:24:19Z'
-  heroes/wilbur-stint-hero:
-    job: 32294
-    hash: 9ef614d5c1d9
-    engine: flux
-    submitted: '2026-09-30T09:38:24Z'
   plates/screen-arrival:
     job: 32264
     hash: bb3986130215
@@ -131,11 +121,6 @@ jobs:
     hash: 942af61eb381
     engine: flux
     submitted: '2026-09-30T09:24:21Z'
-  portraits/charlotte-fishmonger-delighted:
-    job: 32286
-    hash: b685fce7b376
-    engine: flux
-    submitted: '2026-09-30T09:24:20Z'
   portraits/charlotte-fishmonger-lorgnette:
     job: 32289
     hash: b05610463574
@@ -146,11 +131,6 @@ jobs:
     hash: 264fd1525f0d
     engine: flux
     submitted: '2026-09-30T09:24:20Z'
-  portraits/charlotte-fishmonger-welcome:
-    job: 32285
-    hash: a829bb85b139
-    engine: flux
-    submitted: '2026-09-30T09:24:19Z'
   portraits/wilbur-stint-alarmed:
     job: 32299
     hash: 2ddfcfe90cab
@@ -916,6 +896,11 @@ jobs:
     hash: 321bc82be006
     engine: flux
     submitted: '2026-09-30T07:45:57Z'
+  videos/charlotte-fishmonger-hero:
+    job: 32300
+    hash: b92fbf8ba436
+    engine: wan
+    submitted: '2026-09-30T09:53:37Z'
   videos/ichthyonomicon:
     job: 32267
     hash: 5d95c563936f
@@ -936,3 +921,8 @@ jobs:
     hash: 425886722af9
     engine: wan
     submitted: '2026-09-30T08:03:05Z'
+  videos/wilbur-stint-hero:
+    job: 32301
+    hash: da869432cae0
+    engine: wan
+    submitted: '2026-09-30T10:05:45Z'
