@@ -94,26 +94,34 @@ backgrounds:
       spilling coins across the gravel, open water through the centre, hand-coloured
       lithograph plate, engraved line with flat washes of bottle green, brass and ink
       black
+  # 2026-09-30: flooded-conservatory, catacomb, opera-house and public-baths first
+  # rendered as DRY rooms with a pool in them ("flooded" read as "has water in
+  # it"). A tank backdrop must be seen from inside the water, so these four lead
+  # with the whole room submerged, as the-reading-room and abyssal-plain did.
   - key: flooded-conservatory
     name: The Flooded Conservatory
     unlock: bestiary_50
     prompt: >
-      the inside of an aquarium tank that is a flooded Victorian glasshouse, curved
-      white-painted iron ribs and panes arching overhead, drowned palms and ferns in
-      terracotta pots along both edges, a tiled path running back across the floor to a
-      little fountain, soft daylight through the glass roof far above the surface, open
-      green water through the middle, hand-coloured lithograph plate, engraved line and
-      flat washes of viridian, terracotta and pale gold
+      an entirely underwater view, the whole room drowned and filled to the ceiling with
+      clear green water, seen from within the water, drifting motes and a soft blue-green
+      haze, light rippling down through the water from the surface far above, the inside
+      of a drowned Victorian glasshouse, curved white-painted iron ribs and panes arching
+      overhead under the water, drowned palms and ferns in terracotta pots swaying along
+      both edges, a sunken tiled path running back across the floor to a little stone
+      fountain, open green water through the middle, hand-coloured lithograph plate,
+      engraved line and flat washes of viridian, terracotta and pale gold
   - key: catacomb
     name: The Catacomb
     unlock: bestiary_70
     prompt: >
-      the inside of an aquarium tank built as a flooded catacomb passage, rows of arched
-      stone burial niches along both walls holding tidy stacks of pale bones and skulls,
-      a low vaulted ceiling, a guttering candle stub on a ledge at left, the passage
-      receding into darkness at the back, open still water through the middle,
-      hand-coloured lithograph plate, engraved line and flat washes of bone, sepia and
-      cold blue-grey
+      an entirely underwater view, the whole room drowned and filled to the ceiling with
+      clear cold grey-blue water, seen from within the water, drifting motes and a soft
+      blue-green haze, light rippling down through the water from the surface far above,
+      the inside of a drowned catacomb passage, rows of arched stone burial niches along
+      both walls holding tidy stacks of pale bones and skulls, a low vaulted ceiling close
+      overhead, the passage receding into dark water at the back, open still water through
+      the middle, hand-coloured lithograph plate, engraved line and flat washes of bone,
+      sepia and cold blue-grey
   - key: abyssal-plain
     name: The Abyssal Plain
     unlock: bestiary_95
@@ -128,12 +136,15 @@ backgrounds:
     name: Charlotte's Opera House
     unlock: bestiary_125
     prompt: >
-      the inside of an aquarium tank furnished as a drowned Victorian opera house seen
-      from the stalls, a proscenium arch with heavy red velvet curtains drawn back at the
-      far back, gilded boxes stacked along both side walls, rows of velvet seats on the
-      silted floor, a great chandelier hanging from the top of the view, open water
-      through the middle, hand-coloured lithograph plate, engraved line and flat washes
-      of crimson, gilt and deep green
+      an entirely underwater view, the whole room drowned and filled to the ceiling with
+      clear deep green water, seen from within the water, drifting motes and a soft blue-green
+       haze, light rippling down through the water from the surface far above, the
+      inside of a drowned Victorian opera house seen from the stalls, a proscenium arch
+      with heavy red velvet curtains drifting in the water at the far back, gilded boxes
+      stacked along both side walls, rows of velvet seats half buried in silt on the
+      floor, a great chandelier hanging in the water at the top of the view, open water
+      through the middle, hand-coloured lithograph plate, engraved line and flat washes of
+      crimson, gilt and deep green
   - key: the-reading-room
     name: The Reading Room
     unlock: bestiary_151
@@ -148,12 +159,15 @@ backgrounds:
     name: The Public Baths
     unlock: first_full_tank
     prompt: >
-      the inside of an aquarium tank built as a Victorian public swimming bath, white
-      glazed tiles and a blue mosaic border along the walls, a row of little wooden
-      changing cubicles along the back, a diving board projecting from the left, brass
-      rails and steps at the right, open clear turquoise water through the middle,
-      hand-coloured lithograph plate, engraved line and flat washes of tile white, cobalt
-      and pale aqua
+      an entirely underwater view, the whole room drowned and filled to the ceiling with
+      clear turquoise water, seen from within the water, drifting motes and a soft blue-green
+       haze, light rippling down through the water from the surface far above, the
+      inside of a drowned Victorian public swimming bath, the whole hall sunk under the
+      water up to its roof beams, white glazed tiles and a blue mosaic border along the
+      walls, a row of little wooden changing cubicles along the back, a diving board
+      jutting out into the water at the left, brass rails and steps at the right, open
+      clear turquoise water through the middle, hand-coloured lithograph plate, engraved
+      line and flat washes of tile white, cobalt and pale aqua
   - key: hatchery
     name: The Hatchery
     unlock: first_evolution
