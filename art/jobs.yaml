@@ -96,6 +96,21 @@ jobs:
     hash: bb3986130215
     engine: flux
     submitted: '2026-09-30T07:46:10Z'
+  plates/set-peace-ward:
+    job: 32273
+    hash: a705c59dfb16
+    engine: flux
+    submitted: '2026-09-30T08:27:25Z'
+  plates/upgrade-drops:
+    job: 32272
+    hash: b3a878f38f62
+    engine: flux
+    submitted: '2026-09-30T08:27:24Z'
+  plates/upgrade-food:
+    job: 32271
+    hash: 9b650691dc45
+    engine: flux
+    submitted: '2026-09-30T08:27:24Z'
   portraits/charlotte-fishmonger-confiding:
     job: 32240
     hash: 02bfdaa9e1db

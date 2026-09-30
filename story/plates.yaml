@@ -14,3 +14,28 @@ plates:
       one arm in welcome, long exposure stillness, the slightly converging verticals of a
       wide plate camera, hand-tinted albumen carte-de-visite photograph, warm sepia, deep
       blacks, painted green tint in the tanks
+
+  # Purchasables take the set-piece lineage (ART-DIRECTION.md "The non-fish assets"):
+  # a Victorian trade-catalogue engraving, drawn to sell rather than to describe.
+  - key: upgrade-food
+    size: 1024x1024
+    prompt: >-
+      a squat Victorian tin of premium aquarium feed with an ornate embossed lid prised
+      half open, fat glossy grubs heaped inside and one climbing over the rim, a small
+      brass measuring scoop resting against it, Victorian trade-catalogue engraving,
+      fine line engraving with hatched shading, isolated on white paper with a blank
+      catalogue margin beneath
+  - key: upgrade-drops
+    size: 1024x1024
+    prompt: >-
+      an ornate brass clockwork feeding hopper with a crank handle and a fluted spout,
+      a governor of spinning brass balls on top, a stream of small pellets tumbling
+      from the spout, Victorian trade-catalogue engraving, fine line engraving with
+      hatched shading, isolated on white paper with a blank catalogue margin beneath
+  - key: set-peace-ward
+    size: 1024x1024
+    prompt: >-
+      a small ornate brass aquarium partition screen of pierced fretwork panels on
+      hinged feet, a tiny engraved olive branch on its central panel, Victorian
+      trade-catalogue engraving, fine line engraving with hatched shading, isolated on
+      white paper with a blank catalogue margin beneath
