@@ -213,6 +213,11 @@ so the render has to be cut-out-able and animatable. Every sprite prompt:
    interior value in the shape. The card is allowed to fade into black water. The sprite
    is going to be *put into* black water.
 6. **No negations.** Same rule, same validator, same reason as `art_prompt`.
+7. **Pass the Kind Robots prompt contract.** The queue rejects prompts server-side
+   (`server/utils/artPromptContract.ts` in kind_robots). The ones sprite prompts trip
+   are `frame` in any sense ("whole body visible", not "in frame"), `clean silhouette`
+   ("strong silhouette"), and `card illustration` ("cigarette card chromolithograph
+   print"). The validator catches these three.
 
 The sprite pipeline, end to end, is in `docs/asset-pipeline.md` ("Sprites").
 
