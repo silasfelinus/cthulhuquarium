@@ -39,15 +39,18 @@ lineage: >
   Hand-tinted carte-de-visite photograph, same stock and studio as Charlotte -- the
   same photographer, the same week. Dialogue portraits are that sitting, cut out.
 art:
+  # Order matters: the first render (2026-09-30) kept only "young assistant" and
+  # "hopeful smile" and dropped every injury and the bald crown, which were buried
+  # mid-sentence. The defining traits now lead, in plain words the model knows.
   base: >-
-    Wilbur Stint, a gangly stooped young aquarium assistant in his late twenties, long
-    lank brown hair hanging past his shoulders from a visibly balding crown, round wire
-    spectacles with one lens cracked and mended with tape, a long gentle face with
-    earnest worried eyes, sticking plasters across his nose, chin and forehead, a fresh
-    scratch on one cheek, his right forearm in a grubby plaster cast marked with pencilled
-    tide-lines and a set of toothmarks, held in a sling made from a stained canvas
-    fishmonger's apron, three fingers of his left hand bandaged together, rolled
-    shirtsleeves and a waistcoat missing a button, a pencil behind his ear
+    Wilbur Stint, a weary injured sad-sack man with his right arm in a thick white
+    plaster cast held in a sling, several adhesive bandages stuck across his nose,
+    forehead and chin, a bald patch on the top of his head with long lank stringy brown
+    hair hanging past his shoulders around it, round wire spectacles with one lens
+    cracked and taped, a long droopy melancholy face with tired baggy eyes, stubble,
+    three fingers of his left hand wrapped in gauze bandage, a scratch on one cheek,
+    gangly and stooped with hunched shoulders, rumpled rolled shirtsleeves and a
+    shabby waistcoat missing a button, a pencil behind his ear
   medium: >-
     hand-tinted albumen carte-de-visite photograph, warm sepia and deep blacks, painted
     tint on his cheeks and the white of the plasters, crisp studio focus
@@ -56,8 +59,8 @@ art:
     prompt: >-
       full-length studio portrait of {base}, standing in rubber waders beside a bubbling
       murky green aquarium tank where something large shifts, a long-handled net held
-      carefully upright in his good hand like a lance, shoulders hunched, attempting a
-      brave hopeful smile, a painted studio backdrop of a gaslit aquarium hall, {medium}
+      carefully upright in his good left hand like a lance, shoulders hunched, a
+      mournful long-suffering expression with only the faintest brave smile, a painted studio backdrop of a gaslit aquarium hall, {medium}
   portraits:
     greeting:
       prompt: >-
