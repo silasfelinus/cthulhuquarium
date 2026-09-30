@@ -8,6 +8,10 @@ Collects every render the canon asks for:
     heroes      characters/<who>.yaml art.hero            -> characters/raw/<who>-hero.webp
     backgrounds backgrounds/backgrounds.yaml              -> backgrounds/raw/<key>.webp
     plates      story/plates.yaml                         -> story/raw/<key>.webp
+    videos      videos/videos.yaml (WAN image-to-video)   -> videos/raw/<key>.webp  (animated)
+
+A video is submitted only once its source still exists, so `submit` after each
+`harvest` sends the clips whose stills just arrived.
 
 The render box is a home gaming PC that renders when it is free, so rendering is
 two steps that need not happen in the same session:
@@ -43,7 +47,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "art" / "jobs.yaml"
-GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates")
+GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos")
 # flux schnell follows layout instructions (side profile, flat backdrop) reliably
 # for isolated subjects; override per run with --engine.
 DEFAULT_ENGINE = "flux"
@@ -84,6 +88,13 @@ def jobs() -> list[dict]:
     for plate in yaml.safe_load((ROOT / "story/plates.yaml").read_text())["plates"]:
         out.append({"group": "plates", "id": plate["key"], "size": plate.get("size", "1344x768"),
                     "prompt": _flat(plate["prompt"]), "dest": ROOT / "story/raw" / f"{plate['key']}.webp"})
+    vids = yaml.safe_load((ROOT / "videos/videos.yaml").read_text())
+    for clip in vids["videos"]:
+        spec = {**vids["defaults"], **clip}
+        out.append({"group": "videos", "id": clip["key"], "prompt": _flat(clip["prompt"]),
+                    "size": f"{spec['width']}x{spec['height']}", "seconds": spec["seconds"],
+                    "fps": spec["fps"], "source": ROOT / clip["source"],
+                    "dest": ROOT / "videos/raw" / f"{clip['key']}.webp"})
     for job in out:
         job["key"] = f"{job['group']}/{job['id']}"
         job["hash"] = hashlib.sha1(f"{job['prompt']}|{job['size']}".encode()).hexdigest()[:12]
@@ -121,11 +132,57 @@ def to_webp(data: bytes, dest: Path) -> None:
     Image.open(io.BytesIO(data)).convert("RGB").save(dest, "WEBP", quality=94, method=6)
 
 
+def video_first_frame(source: Path, size: str) -> str:
+    """The source still, cover-cropped to the clip's size, as a PNG data URI."""
+    import io
+
+    from PIL import Image
+
+    width, height = (int(v) for v in size.split("x"))
+    image = Image.open(source).convert("RGB")
+    scale = max(width / image.width, height / image.height)
+    image = image.resize((round(image.width * scale), round(image.height * scale)), Image.LANCZOS)
+    left = (image.width - width) // 2
+    top = (image.height - height) // 2
+    image = image.crop((left, top, left + width, top + height))
+    buffer = io.BytesIO()
+    image.save(buffer, "PNG")
+    return "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode("ascii")
+
+
+def submit_video(job: dict, core) -> int:
+    width, height = (int(v) for v in job["size"].split("x"))
+    body = {
+        "engine": "wan", "promptString": job["prompt"], "negativePrompt": "",
+        "firstImageBase64": video_first_frame(job["source"], job["size"]),
+        "width": width, "height": height, "fps": job["fps"],
+        "durationSeconds": job["seconds"], "loop": True, "outputFormat": "webp",
+        "projectSlug": "cthulhuquarium", "priority": PRIORITY, "isPublic": True,
+    }
+    status, resp = core.http_json("POST", f"{core.KR_BASE_URL}/api/video/generate", body, timeout=120)
+    if status not in (200, 201) or not resp or not resp.get("success"):
+        raise RuntimeError(f"video enqueue failed: HTTP {status} {resp and resp.get('message')}")
+    data = resp.get("data") or {}
+    job_id = data.get("jobId") or (data.get("job") or {}).get("id")
+    if not job_id:
+        raise RuntimeError(f"video enqueue returned no job id: {str(resp)[:200]}")
+    return int(job_id)
+
+
 def submit(todo: list[dict], core, engine: str, manifest: dict) -> None:
-    sent = 0
+    sent = waiting = 0
     for job in todo:
         current = manifest.get(job["key"])
         if current and current.get("hash") == job["hash"]:
+            continue
+        if job["group"] == "videos":
+            if not job["source"].exists():
+                waiting += 1
+                continue
+            job_id = submit_video(job, core)
+            manifest[job["key"]] = {"job": job_id, "hash": job["hash"], "engine": "wan",
+                                    "submitted": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+            sent += 1
             continue
         entry = {"prompt": job["prompt"], "size": job["size"], "engine": engine, "project": "cthulhuquarium",
                  "priority": PRIORITY,
@@ -140,7 +197,7 @@ def submit(todo: list[dict], core, engine: str, manifest: dict) -> None:
             save_manifest(manifest)
             print(f"  submitted {sent}", flush=True)
     save_manifest(manifest)
-    print(f"submitted {sent}")
+    print(f"submitted {sent}" + (f" ({waiting} videos still waiting on their source still)" if waiting else ""))
 
 
 def harvest(core, manifest: dict, by_key: dict) -> None:
@@ -156,7 +213,12 @@ def harvest(core, manifest: dict, by_key: dict) -> None:
             continue
         art = resp["data"]["job"]
         if art["status"] == "DONE" and art.get("artImageId"):
-            to_webp(base64.b64decode(core.fetch_image_b64(art["artImageId"])), job["dest"])
+            data = base64.b64decode(core.fetch_image_b64(art["artImageId"]))
+            if job["group"] == "videos":
+                job["dest"].parent.mkdir(parents=True, exist_ok=True)
+                job["dest"].write_bytes(data)
+            else:
+                to_webp(data, job["dest"])
             manifest.pop(key)
             done += 1
             print(f"  harvested {key} (ArtImage {art['artImageId']})", flush=True)

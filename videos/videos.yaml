@@ -1,0 +1,68 @@
+# Cthulhuquarium moving pictures: short looping clips animated from a still.
+#
+# Silas, 2026-09-30: "Don't worry if the art and videos aren't generated ... it should
+# all be submitted and will get to it when it happens." So every clip is described
+# here, and scripts/render_art.py submits each one as soon as its source still exists
+# (`submit videos`), then harvests the animated WebP like any other render.
+#
+# Engine: Kind Robots' WAN image-to-video (POST /api/video/generate). The still is
+# the first frame; the prompt describes only what MOVES, in the still's own medium,
+# because the model already has the picture. Keep motion small: these loop, and a
+# loop that travels far snaps back visibly. No negations (ART-DIRECTION.md rule 2).
+#
+# source: a path in this repo. Clips whose source is a raw render wait for it.
+defaults:
+  width: 832
+  height: 480
+  seconds: 4
+  fps: 16
+videos:
+  - key: screen-finale
+    source: videos/sources/screen-finale.webp
+    use: the finale reveal, in place of the still
+    prompt: >-
+      the enormous eye beyond the window drifts slowly across the glass, pauses the way a
+      visitor pauses at a tank already seen today, and moves on, faint dust turning in
+      the lamplight, the room perfectly still, hand-tinted albumen photograph
+  - key: screen-shop
+    source: videos/sources/screen-shop.webp
+    use: behind the intro's opening beats and the shop header
+    prompt: >-
+      gaslight flickers softly along the aisle, water in the tanks ripples and catches
+      the light, a small dark shape turns slowly in the nearest tank, dust drifting,
+      hand-tinted albumen photograph
+  - key: ichthyonomicon
+    source: videos/sources/ichthyonomicon.webp
+    use: the Ichthyonomicon cover when the book is opened
+    prompt: >-
+      the heavy book breathes, its pages lifting and settling a little as if something
+      inside turned over in its sleep, candlelight flickering across the cover, slow
+      and quiet
+  - key: set-coin-collector
+    source: videos/sources/set-coin-collector.webp
+    use: the Roaming Collector set piece card
+    prompt: >-
+      the little brass automaton trundles in place, its gears turning, its arm dipping
+      and lifting in a tidy collecting motion, engraved catalogue plate
+  - key: screen-arrival
+    source: story/raw/screen-arrival.webp
+    use: the intro's first beat
+    prompt: >-
+      rain streams down the door's glass panes, gaslight flickers down the long aisle,
+      water glows and ripples in the tanks, the tall woman at the far end lifts her arm
+      a little higher in welcome, hand-tinted albumen photograph
+  - key: charlotte-fishmonger-hero
+    source: characters/raw/charlotte-fishmonger-hero.webp
+    use: Charlotte's full-length plate in the intro and the character card
+    prompt: >-
+      she breathes slowly and lifts her chin, a slow gracious blink, the jet beads and
+      sequins on her gown catching the gaslight, her raised hand turning a little in a
+      theatrical flourish, the painted backdrop still, hand-tinted albumen photograph
+  - key: wilbur-stint-hero
+    source: characters/raw/wilbur-stint-hero.webp
+    use: Wilbur's full-length plate in the intro and the character card
+    prompt: >-
+      he shifts his weight from one foot to the other, pushes his spectacles up his nose
+      and tries a brave smile, the net held upright in his good arm swaying slightly,
+      something large turning slowly in the green tank beside him, hand-tinted albumen
+      photograph
