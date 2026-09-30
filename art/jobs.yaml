@@ -901,3 +901,23 @@ jobs:
     hash: 321bc82be006
     engine: flux
     submitted: '2026-09-30T07:45:57Z'
+  videos/ichthyonomicon:
+    job: 32267
+    hash: 5d95c563936f
+    engine: wan
+    submitted: '2026-09-30T08:03:04Z'
+  videos/screen-finale:
+    job: 32265
+    hash: c9bb3c654ce0
+    engine: wan
+    submitted: '2026-09-30T08:03:02Z'
+  videos/screen-shop:
+    job: 32266
+    hash: f65e7fdc34cf
+    engine: wan
+    submitted: '2026-09-30T08:03:03Z'
+  videos/set-coin-collector:
+    job: 32268
+    hash: 425886722af9
+    engine: wan
+    submitted: '2026-09-30T08:03:05Z'
