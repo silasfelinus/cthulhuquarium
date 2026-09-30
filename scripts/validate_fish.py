@@ -291,6 +291,14 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
                 marker = PLATE_MARKERS.get(data.get("plate"))
                 if marker and marker not in sp.lower():
                     bad(f"sprite.prompt never names the plate's medium ({marker!r})")
+                # Kind Robots' server-side prompt contract (server/utils/
+                # artPromptContract.ts) rejects these at enqueue; catch them here.
+                contract = re.search(r"\bframes?\b|\bclean\s+silhouette\b|"
+                                     r"\bcard\s+(?:illustration|artwork|composition|art)\b", sp, re.I)
+                if contract:
+                    bad(f"sprite.prompt uses {contract.group(0)!r}, which the Kind Robots "
+                        f"prompt contract rejects (say 'visible', 'strong silhouette', "
+                        f"'cigarette card chromolithograph print')")
                 if sp == " ".join(prompt.split()):
                     bad("sprite.prompt is the card prompt -- the sprite is its own register")
 

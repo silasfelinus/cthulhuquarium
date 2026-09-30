@@ -38,9 +38,8 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single crab seen from the front, whole body in frame, two perfectly identical
+    a single crab seen from the front, whole body visible, two perfectly identical
     mirrored halves, a matching claw on each side held at exactly the same angle, a
     faint second outline shadowing every limb, scraperboard rendering, crisp white
     lines cut into solid black, form built entirely from hatched cut marks, isolated
-    on a plain flat pale grey studio backdrop, even soft light, crisp clean
-    silhouette edge
+    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette

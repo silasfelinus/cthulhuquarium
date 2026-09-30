@@ -12,7 +12,7 @@
 # LINEAGE (ART-DIRECTION.md "The non-fish assets"): hand-coloured lithograph, the
 # plainest lineage on purpose, because these sit behind 151 different foregrounds.
 # Every prompt therefore names the lithograph and keeps the midground open: the fish
-# swim through the middle two-thirds of the frame, so the interest lives at the floor,
+# swim through the middle two-thirds of the view, so the interest lives at the floor,
 # the edges and the far back, and the centre is open water.
 #
 # Size 1344x768 (the tank stage is 16:9). No negations (ART-DIRECTION.md rule 2).
@@ -27,8 +27,7 @@ backgrounds:
       pale river gravel and scattered cockle shells across the floor, a small plaster
       ruined temple and a sprig of green weed at the left, a curl of brass air-pipe at
       the right, the back glass showing a dim gaslit curiosity shop beyond in soft
-      focus, wide calm stretch of clear green-grey water through the middle of the
-      frame, hand-coloured lithograph plate, fine engraved line under flat watercolour
+      focus, wide calm stretch of clear green-grey water through the middle of the view, hand-coloured lithograph plate, fine engraved line under flat watercolour
       washes, Prussian blue and sap green water, foxed paper edges
   - key: kelp-stair
     name: The Kelp Stair
@@ -126,7 +125,7 @@ backgrounds:
       the inside of an aquarium tank furnished as a drowned Victorian opera house seen
       from the stalls, a proscenium arch with heavy red velvet curtains drawn back at the
       far back, gilded boxes stacked along both side walls, rows of velvet seats on the
-      silted floor, a great chandelier hanging from the top of the frame, open water
+      silted floor, a great chandelier hanging from the top of the view, open water
       through the middle, hand-coloured lithograph plate, engraved line and flat washes
       of crimson, gilt and deep green
   - key: the-reading-room
@@ -136,7 +135,7 @@ backgrounds:
       the inside of an aquarium tank furnished as a drowned domed library reading room,
       curved walls of bookcases along both sides, a round reading desk on the floor with
       one enormous open book lying on it, green-shaded reading lamps glowing along the
-      shelves, a domed skylight at the top of the frame, open clear water through the
+      shelves, a domed skylight at the top of the view, open clear water through the
       middle, hand-coloured lithograph plate, engraved line and flat washes of leather
       brown, lamp green and gold
   - key: public-baths
