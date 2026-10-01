@@ -39,11 +39,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single creature made of hollow clear glass tubes joined at bent elbow joints, the
-    tubes branching into three arms, each arm ending in a small blunt fish head with two
-    eyes, pale blue-green water swirling inside the tubes, lampworked glass model body,
-    light pooling bright at each elbow joint, isolated on a plain flat charcoal studio
-    backdrop, even soft light, strong crisp silhouette
+    three small blunt fish heads on the ends of three bent clear glass pipes, the pipes
+    branching from one thick central glass pipe and joined at sharp elbow joints, the
+    whole creature made of glass pipework, two eyes on each fish head, pale blue-green
+    water inside the pipes, lampworked glass model, light pooling bright at each elbow
+    joint, isolated on a plain flat charcoal studio backdrop, even soft light, strong
+    crisp silhouette
 voices:
   charlotte: >-
     A sweet little goby with a real feel for the plumbing. It is connected, darling,

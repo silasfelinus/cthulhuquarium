@@ -396,6 +396,46 @@ jobs:
     hash: 5fb1122cee7f
     engine: wan
     submitted: '2026-10-01T12:42:51Z'
+  clips/the-freeholder:
+    job: 32499
+    hash: c28615df81ed
+    engine: wan
+    submitted: '2026-10-01T13:54:07Z'
+  clips/the-household:
+    job: 32500
+    hash: 05c5b0c277d4
+    engine: wan
+    submitted: '2026-10-01T13:54:08Z'
+  clips/the-keyhole:
+    job: 32501
+    hash: 716cfb3fd2ce
+    engine: wan
+    submitted: '2026-10-01T13:54:09Z'
+  clips/the-long-study:
+    job: 32502
+    hash: 6abeb105dcbe
+    engine: wan
+    submitted: '2026-10-01T13:54:10Z'
+  clips/the-manifest:
+    job: 32504
+    hash: 3c0b4b0fa645
+    engine: wan
+    submitted: '2026-10-01T13:54:12Z'
+  clips/the-observation:
+    job: 32505
+    hash: b3a637f8f5be
+    engine: wan
+    submitted: '2026-10-01T13:54:13Z'
+  clips/the-principal:
+    job: 32506
+    hash: 947451b1f7d1
+    engine: wan
+    submitted: '2026-10-01T13:54:14Z'
+  clips/the-reading-room:
+    job: 32507
+    hash: 2c297b6bfe22
+    engine: wan
+    submitted: '2026-10-01T13:54:15Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -456,11 +496,6 @@ jobs:
     hash: 0a7f01393a6b
     engine: flux
     submitted: '2026-09-30T07:45:28Z'
-  sprites/the-freeholder:
-    job: 32469
-    hash: 79954b4b9618
-    engine: flux
-    submitted: '2026-10-01T11:56:22Z'
   sprites/the-glasshouse:
     job: 32170
     hash: 3d2d3ff44c35
@@ -486,11 +521,6 @@ jobs:
     hash: 6653b998986d
     engine: flux
     submitted: '2026-09-30T07:45:31Z'
-  sprites/the-household:
-    job: 32470
-    hash: cb487be1534b
-    engine: flux
-    submitted: '2026-10-01T11:56:23Z'
   sprites/the-inquiry:
     job: 32176
     hash: 3282386e38c4
@@ -501,11 +531,6 @@ jobs:
     hash: 34509b656f2f
     engine: flux
     submitted: '2026-09-30T07:45:32Z'
-  sprites/the-keyhole:
-    job: 32471
-    hash: e388d09dd8eb
-    engine: flux
-    submitted: '2026-10-01T11:56:23Z'
   sprites/the-long-consideration:
     job: 32179
     hash: ad8baada4a0a
@@ -526,21 +551,11 @@ jobs:
     hash: b48be2bfbcbd
     engine: flux
     submitted: '2026-09-30T07:45:34Z'
-  sprites/the-long-study:
-    job: 32472
-    hash: 6f402bc35bd2
-    engine: flux
-    submitted: '2026-10-01T11:56:23Z'
   sprites/the-mains:
-    job: 32473
-    hash: 3939efb7f3c4
+    job: 32508
+    hash: d4bbbc9e419c
     engine: flux
-    submitted: '2026-10-01T11:56:24Z'
-  sprites/the-manifest:
-    job: 32474
-    hash: a481b74f0505
-    engine: flux
-    submitted: '2026-10-01T11:56:24Z'
+    submitted: '2026-10-01T13:55:57Z'
   sprites/the-marginalia:
     job: 32186
     hash: a36a5b0a2e19
@@ -551,11 +566,6 @@ jobs:
     hash: a25fbfe90ec0
     engine: flux
     submitted: '2026-09-30T07:45:36Z'
-  sprites/the-observation:
-    job: 32475
-    hash: 5afe911f4f9e
-    engine: flux
-    submitted: '2026-10-01T11:56:25Z'
   sprites/the-parcel:
     job: 32189
     hash: b9445f4041b8
@@ -571,11 +581,6 @@ jobs:
     hash: 9bd4cddda23f
     engine: flux
     submitted: '2026-09-30T07:45:38Z'
-  sprites/the-principal:
-    job: 32476
-    hash: f356e9bf31e7
-    engine: flux
-    submitted: '2026-10-01T11:56:25Z'
   sprites/the-proprietor:
     job: 32193
     hash: 47183a49b761
@@ -596,11 +601,6 @@ jobs:
     hash: 2760e4553fc2
     engine: flux
     submitted: '2026-09-30T07:45:40Z'
-  sprites/the-reading-room:
-    job: 32477
-    hash: 9ec05b60c99d
-    engine: flux
-    submitted: '2026-10-01T11:56:26Z'
   sprites/the-receiving-line:
     job: 32198
     hash: e799045e0013
