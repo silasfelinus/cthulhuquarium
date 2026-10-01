@@ -292,6 +292,8 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         else:
             if sprite.get("faces", "right") not in ("left", "right"):
                 bad("sprite.faces must be `left` or `right` (default right)")
+            if not isinstance(sprite.get("mass", False), bool):
+                bad("sprite.mass must be true or false (default false)")
             if sprite.get("motion") not in SPRITE_MOTIONS:
                 bad(f"sprite.motion `{sprite.get('motion')}` is not one of "
                     f"{sorted(SPRITE_MOTIONS)}")

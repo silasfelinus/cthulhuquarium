@@ -38,6 +38,7 @@ art_prompt: >
   frame, the rest of the sheet bare
 sprite:
   motion: breathe
+  mass: true
   prompt: >
     the whole colony as one compact rectangular mass of small identical bodies
     packed in ruled rows and columns, each row a different kind of small creature,

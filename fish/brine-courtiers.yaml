@@ -36,6 +36,7 @@ art_prompt: >
   added afterward by hand, unpeopled frame, the rest of the sheet bare
 sprite:
   motion: ripple
+  mass: true
   prompt: >
     a single compact court of tiny brine shrimp drawn as one mass, stacked in neat
     stepped tiers of precedence with the largest at the top, each with a small pointed

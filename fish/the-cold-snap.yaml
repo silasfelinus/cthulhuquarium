@@ -36,6 +36,7 @@ art_prompt: >
   ornamental border, unpeopled frame, the plate's caption strip empty
 sprite:
   motion: rigid
+  mass: true
   prompt: >
     the whole cold snap as one radial burst, whole form in view, a dozen identical
     spined sticklebacks arranged as the arms of a frost crystal, every fish an equal
