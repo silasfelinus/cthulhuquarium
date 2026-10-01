@@ -38,12 +38,13 @@ art_prompt: >
 sprite:
   motion: ripple
   prompt: >
-    a single small plump sea slug seen from above as it rests pressed flat against
-    aquarium glass, its soft body banded in every colour at once, a neat crown of
-    frilled gills standing on its back and two blunt horns at the front, a smooth
-    frilled skirt around its foot, ornamental natural history linework, fine precise
-    line and restrained colour, obsessive symmetry, isolated on a plain flat pale
-    grey studio backdrop, even soft light, strong crisp silhouette
+    a rainbow sea slug striped in bold bands of red, orange, yellow, green, blue and
+    violet running across its whole body like a rainbow flag, a single small plump sea
+    slug in side view crawling to the right with its head and two blunt horns at the
+    right end, a neat crown of frilled gills standing on its back, a smooth frilled
+    skirt around its foot, ornamental natural history linework, fine precise line,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Every colour at once, on one small slug, and it holds perfectly still so you can

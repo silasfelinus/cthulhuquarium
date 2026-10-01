@@ -121,6 +121,11 @@ jobs:
     hash: 6e55b0c3016d
     engine: wan
     submitted: '2026-09-30T22:20:28Z'
+  clips/penny-bream:
+    job: 32372
+    hash: 2110eabcbe0d
+    engine: wan
+    submitted: '2026-10-01T00:13:33Z'
   clips/pier-blenny:
     job: 32366
     hash: aedead501c62
@@ -146,6 +151,21 @@ jobs:
     hash: 690cb90bba5c
     engine: wan
     submitted: '2026-09-30T23:17:44Z'
+  clips/sardine-common:
+    job: 32374
+    hash: 982085e7dea9
+    engine: wan
+    submitted: '2026-10-01T00:13:35Z'
+  clips/silt-loach:
+    job: 32376
+    hash: 2d04ef1ad5f3
+    engine: wan
+    submitted: '2026-10-01T00:13:37Z'
+  clips/skimmer-fry:
+    job: 32377
+    hash: 2a32f9adda64
+    engine: wan
+    submitted: '2026-10-01T00:13:38Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -186,36 +206,16 @@ jobs:
     hash: be257930057a
     engine: flux
     submitted: '2026-09-30T07:45:06Z'
-  sprites/penny-bream:
-    job: 32371
-    hash: 4ca1ad577880
-    engine: flux
-    submitted: '2026-09-30T23:18:57Z'
   sprites/rainbow-nudibranch:
-    job: 32123
-    hash: 5acbc1f87338
+    job: 32378
+    hash: c4d6a07df133
     engine: flux
-    submitted: '2026-09-30T07:45:10Z'
-  sprites/sardine-common:
-    job: 32124
-    hash: 4d37f99cbcfd
-    engine: flux
-    submitted: '2026-09-30T07:45:10Z'
+    submitted: '2026-10-01T00:14:31Z'
   sprites/sea-camel:
-    job: 32125
-    hash: cbc2433bdc82
+    job: 32379
+    hash: 4312f39e9334
     engine: flux
-    submitted: '2026-09-30T07:45:10Z'
-  sprites/silt-loach:
-    job: 32126
-    hash: cee1e15a89eb
-    engine: flux
-    submitted: '2026-09-30T07:45:11Z'
-  sprites/skimmer-fry:
-    job: 32127
-    hash: 21e16b3e3d8c
-    engine: flux
-    submitted: '2026-09-30T07:45:11Z'
+    submitted: '2026-10-01T00:14:32Z'
   sprites/standpipe-goby:
     job: 32128
     hash: 3127370c1107
