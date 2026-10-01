@@ -36,6 +36,7 @@ art_prompt: >
   unpeopled frame, the board around it left solid uncut black
 sprite:
   motion: undulate
+  faces: left
   prompt: >
     a single lean eel in strict side profile facing right, whole body visible, held
     unnaturally straight, a stiff pale collar ringing its neck just behind the head, a
