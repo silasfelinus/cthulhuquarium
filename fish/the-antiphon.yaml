@@ -37,6 +37,7 @@ art_prompt: >
   ornamental border, unpeopled frame, the plate's caption strip empty
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     a single deep-bodied fish in strict side profile facing right, whole body visible, cobalt body with pale gold fins, a wide round open mouth, its throat
     glowing softly from inside, faint concentric rings patterned on its flank like
