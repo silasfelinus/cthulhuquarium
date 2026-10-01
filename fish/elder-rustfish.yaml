@@ -41,10 +41,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single heavy overgrown rustfish in strict side profile facing right, whole body visible, deep rust body with bone-pale scales at the edges, an absurdly long
-    ceremonial tail trailing out behind it in heavy folds, placid half-closed eye and a
-    set composed mouth, hand-coloured lithograph linework and flat watercolour wash on
-    the body, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a rustfish with an enormously long flowing tail twice the length of its body, the
+    tail trailing far out behind it in long heavy rippling folds like a royal train, a
+    single heavy overgrown rustfish in strict side profile facing right, whole body
+    visible, deep rust body with bone-pale scales at the edges, placid half-closed eye
+    and a set composed mouth, hand-coloured lithograph linework and flat watercolour
+    wash on the body, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     A fish of real distinction. That tail took years to grow and it wears it like a train. Every good tank deserves an elder.
