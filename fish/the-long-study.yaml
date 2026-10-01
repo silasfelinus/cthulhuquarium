@@ -30,21 +30,20 @@ evolves_from: the-silence
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  an immense folded creature filling the whole jar, its surface worked into ranked shelves
-  and pigeonholes packed with rolled papers, one long limb resting across the front as
-  though marking a place, wet specimen preserved in a sealed glass jar of fluid, formalin
-  yellow, colours leached toward parchment, the glass refracting the body where it presses
-  against it, a handwritten paper label tied on with string, unpeopled frame, the label's
-  handwriting worn to illegible loops
+  an immense folded creature filling the whole jar, its surface worked into ranked
+  shelves and pigeonholes packed with rolled papers, one long limb resting across the
+  front, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
+  leached toward parchment, the glass refracting the body where it presses against it, a
+  handwritten paper label tied on with string, unpeopled frame, the label's handwriting
+  worn to illegible loops
 sprite:
   motion: breathe
   prompt: >
-    a single immense folded creature squatting low and wide, its front worked into
-    ranked shelves and pigeonholes packed with rolled papers, one long thin limb
-    laid across the front as though marking a place, a small hooded head bowed over
-    it, dusty brown skin with cream paper rolls, wet wax moulage specimen,
-    glistening, isolated on a plain flat pale grey studio backdrop, even soft light,
-    strong crisp silhouette
+    a single immense creature squatting low and wide, its front grown into rows of small
+    square shelves and pigeonholes packed with rolled cream paper scrolls, one long thin
+    limb laid flat across the middle row, a small hooded head bowed low over the limb,
+    dusty brown skin, wet wax moulage specimen, glistening, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A true scholar, with its own library built right in and every pigeonhole full.

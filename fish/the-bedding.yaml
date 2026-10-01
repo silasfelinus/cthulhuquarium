@@ -29,20 +29,21 @@ evolves_from: the-substrate
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a thick cross-section of layered sediment seen from the side, each band a different grain
-  and shade, small objects and shells embedded at regular intervals through the layers as
-  though filed, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
-  colours leached toward parchment, the glass refracting the body where it presses against
-  it, a handwritten paper label tied on with string, unpeopled frame, the label's
-  handwriting worn to illegible loops
+  a thick cross-section of layered sediment seen from the side, each band a different
+  grain and shade, small objects and shells embedded at regular intervals through the
+  layers, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses
+  against it, a handwritten paper label tied on with string, unpeopled frame, the
+  label's handwriting worn to illegible loops
 sprite:
   motion: breathe
   prompt: >
-    a single thick block of layered sediment seen from the side, whole body visible, each band a different grain and shade from pale sand to dark silt, small
-    shells and trinkets embedded at even intervals through the layers as though
-    filed, a slow soft bulge to its top surface, wet wax moulage specimen,
-    glistening, colours leached toward parchment, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a single thick block of layered sediment seen from the side, whole body visible,
+    each band a different grain and shade from pale sand to dark silt, small shells and
+    trinkets embedded at even intervals through the layers, a slow soft bulge to its top
+    surface, wet wax moulage specimen, glistening, colours leached toward parchment,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     The comfiest floor a tank could ask for, deep and soft and wonderfully

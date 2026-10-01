@@ -31,19 +31,21 @@ evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a bulbous anglerfish crowned with seven glowing bulbs on bent brass stalks arranged
-  like a chandelier, hot lime and gold light pouring off them, an enormous crooked grin
-  of mismatched teeth below, chromolithograph cigarette card from around 1900, small
-  format with a printed ornamental border and a blank name banner, four-colour stone
-  printing, visible misregistration and dot rosettes, slightly garish cheap inks,
-  corners worn round, unpeopled frame, the name banner empty
+  a bulbous anglerfish crowned with seven glowing bulbs on bent brass stalks spreading
+  out in a fan, hot lime and gold light pouring off them, an enormous crooked grin of
+  mismatched teeth below, chromolithograph cigarette card from around 1900, small format
+  with a printed ornamental border and a blank name banner, four-colour stone printing,
+  visible misregistration and dot rosettes, slightly garish cheap inks, corners worn
+  round, unpeopled frame, the name banner empty
 sprite:
   motion: tailbeat
   prompt: >
-    a single bulbous anglerfish in strict side profile facing right, whole body visible, seven glowing bulbs on bent brass stalks rising from its head like a
-    chandelier, hot lime and gold light, the shortest bulb brightest, an enormous
-    crooked grin of mismatched teeth, chromolithograph cigarette card chromolithograph print, dot rosettes and garish inks, isolated on a plain flat pale grey studio
-    backdrop, even soft light, strong crisp silhouette
+    a single bulbous anglerfish in strict side profile facing right, whole body visible,
+    seven glowing round bulbs on thin bent brass stalks rising from its head and
+    spreading out in a fan, hot lime and gold light, the shortest bulb brightest, an
+    enormous crooked grin of mismatched teeth, chromolithograph cigarette card print,
+    dot rosettes and garish inks, isolated on a plain flat pale grey studio backdrop,
+    even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Seven lights, darling, like the dining room of a very good house. Hang it over

@@ -31,19 +31,19 @@ plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
   a wide bed of coarse gravel across the whole lower frame with the grains arranged in
-  flowing lines like the scales of an enormous body, a slow rise in the middle where
-  something beneath is lifting it, scraperboard illustration, white line scratched out of
-  solid black ink with a blade, pure black and pure white only, every tone built from line
-  density, form built entirely from cut hatching, stark and linear, unpeopled frame, the
-  board around it left solid uncut black
+  flowing lines, a slow rise in the middle where something beneath is lifting it,
+  scraperboard illustration, white line scratched out of solid black ink with a blade,
+  pure black and pure white only, every tone built from line density, form built
+  entirely from cut hatching, stark and linear, unpeopled frame, the board around it
+  left solid uncut black
 sprite:
   motion: breathe
   prompt: >
     a single low broad mound of coarse gravel that is itself one living body, the grains
-    arranged in flowing overlapping lines like the scales of something enormous, a slow
-    swelling rise in the middle, a faint seam of a closed mouth along one edge, white
-    line scraperboard surface cut from solid black, form built from dense hatching,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    arranged in flowing overlapping lines, a slow swelling rise in the middle, a faint
+    seam of a closed mouth along one edge, white line scraperboard surface cut from
+    solid black, form built from dense hatching, isolated on a plain flat pale grey
+    studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Why buy ordinary gravel when you could have gravel with ambitions? It lays

@@ -250,6 +250,24 @@ could be photographed. Nobody needs to notice this.
    two dry sentences from someone not telling you everything. The writing is the constant;
    the image is the variable. That is the correct way round — a bestiary with eight visual
    lineages and one voice reads as *one collector*. The reverse would read as noise.
+7. **No similes, and no glass.** Krea 2 is literal: it paints every noun it is given, so
+   a comparison paints the thing compared to. The renders proved it: "panels arranged like
+   a cathedral window" came back as a church window set in a wall, "biscuits on its claws
+   like a waiter carrying plates" came back holding a tray, and "as seen pressed against
+   aquarium glass" stages a pane between the viewer and the creature. If an object-shaped
+   creature *is* the object, say so and give it a body: "a creature whose body is a
+   pointed arch of stained glass, two dark eyes near its peak" rendered correctly where
+   "shaped like a cathedral window" did not.
+
+   | was | is |
+   |---|---|
+   | `whiskers like a walrus moustache` | `four very long thick drooping whiskers` |
+   | `spines arranged like a chandelier` | `spines spreading out in a fan` |
+   | `as seen pressed against aquarium glass` | `seen head-on from the front` |
+   | `shaped like a reading desk` | `with a flat sloped back and an open book growing from it` |
+
+   Enforced: `scripts/validate_fish.py` rejects `like a/an/the`, `as if`, `as though`,
+   `aquarium glass` and `pane` in both `art_prompt` and `sprite.prompt`.
 
 ---
 

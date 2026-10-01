@@ -39,12 +39,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single broad flattened shell creature as seen pressed against aquarium glass,
-    its whole face taken up by one heavy embossed seal cut in deep bold relief, a
-    thick rim of shell clamped flat around the seal, the soft body tucked entirely
-    inside, white scraperboard hatching cut from solid black ink across the shell,
-    dense line where the seal sinks deepest, bright ridges on the raised letters,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single broad flat round shell creature seen from directly in front, its whole
+    front taken up by one heavy embossed seal cut in deep bold relief, a thick rim of
+    shell clamped around the seal, two small eyes on short stalks peeking from the rim,
+    white scraperboard hatching cut from solid black ink across the shell, dense line
+    where the seal sinks deepest, bright ridges on the raised letters, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Nothing in the shop is more decisive. It greets every visitor from the glass,

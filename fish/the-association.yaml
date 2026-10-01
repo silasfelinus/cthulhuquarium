@@ -28,21 +28,21 @@ evolves_from: portsmouth-bitterling
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a small deep-bodied bitterling in showy civic colours with a broad striped band along its
-  flank like a sash, fins edged in a contrasting trim, posed in three-quarter view as though
-  for a portrait, chromolithograph cigarette card from around 1900, small format with a
-  printed ornamental border and a blank name banner, four-colour stone printing, visible
+  a small deep-bodied bitterling in showy civic colours with a broad striped band along
+  its flank, fins edged in a contrasting trim, posed in three-quarter view,
+  chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border and a blank name banner, four-colour stone printing, visible
   misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
   unpeopled frame, the name banner empty
 sprite:
   motion: tailbeat
   prompt: >
     a single small deep-bodied bitterling in strict side profile facing right, whole
-    body in view, showy civic colours, a broad striped band running along its flank
-    like a mayoral sash, every fin edged in a bright contrasting trim, a proud
-    upright dorsal fin, chromolithograph cigarette card chromolithograph print, flat
-    bright stone-printed inks with slight misregistration and dot rosettes on the
-    body, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    body in view, showy civic colours, a broad striped band running along its flank,
+    every fin edged in a bright contrasting trim, a proud upright dorsal fin,
+    chromolithograph cigarette card chromolithograph print, flat bright stone-printed
+    inks with slight misregistration and dot rosettes on the body, isolated on a plain
+    flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Civic pride in fish form, sashed like a mayor and twice as photogenic. It makes

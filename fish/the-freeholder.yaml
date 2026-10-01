@@ -29,20 +29,21 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  an enormous limpet covering most of the glass, shell built up in uneven ridged storeys
-  like a squat tower, a clear ring of bare pane around it that nothing else occupies,
-  scraperboard illustration, white line scratched out of solid black ink with a blade, pure
-  black and pure white only, every tone built from line density, form built entirely from
-  cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
+  an enormous limpet covering most of the glass, shell built up in uneven ridged tiers
+  stepping inward toward the top, a clear ring of empty space around it, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, pure black and
+  pure white only, every tone built from line density, form built entirely from cut
+  hatching, stark and linear, unpeopled frame, the board around it left solid uncut
   black
 sprite:
   motion: breathe
   prompt: >
-    a single enormous limpet as seen pressed against aquarium glass from the inside,
-    its shell built up in uneven ridged storeys like a squat stepped tower, each
-    storey with a thick overhanging rim, a broad flat foot sealed to the pane around
-    the base, white scraperboard hatching cut from solid black, bright line on each
-    ledge, deep black shadow under every rim, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single enormous limpet seen from the side, its conical shell built up in three
+    uneven ridged tiers that step inward toward the top, each tier with a thick
+    overhanging rim, a broad flat muscular foot spread wide under the base, two small
+    eyes peeking from under the lowest rim, white scraperboard hatching cut from solid
+    black ink, bright line on each ledge, deep black shadow under every rim, isolated on
+    a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A limpet of property and standing, built up storey by storey. It has made the

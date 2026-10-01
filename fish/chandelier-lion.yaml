@@ -36,10 +36,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single flamboyant lionfish in strict side profile facing right, whole body visible, an absurdly wide fan of candy-striped venomous spines spread up and out like
-    the arms of a chandelier, hot pink, tangerine and gold stripes across body and fins,
-    long feathered pectoral fins, a preening lifted chin, chromolithograph cigarette card chromolithograph print, bold flat inks with slight misregistration on the body,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single flamboyant lionfish in strict side profile facing right, whole body
+    visible, an absurdly wide fan of candy-striped venomous spines spread up and out,
+    hot pink, tangerine and gold stripes across body and fins, long feathered pectoral
+    fins, a preening lifted chin, chromolithograph cigarette card chromolithograph
+    print, bold flat inks with slight misregistration on the body, isolated on a plain
+    flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Our showpiece! Every colour you could ask for and several you couldn't, and it does so love an audience. Admire it freely.

@@ -30,9 +30,9 @@ evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a broad shell opened wide into a fan of soft welcoming fronds arranged in a rosette, warm
-  coral and cream, the fronds leaning slightly outward toward the viewer as though in
-  greeting, chromolithograph cigarette card from around 1900, small format with a printed
+  a broad shell opened wide into a fan of soft welcoming fronds arranged in a rosette,
+  warm coral and cream, the fronds leaning slightly outward toward the viewer,
+  chromolithograph cigarette card from around 1900, small format with a printed
   ornamental border and a blank name banner, four-colour stone printing, visible
   misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
   unpeopled frame, the name banner empty
@@ -40,10 +40,10 @@ sprite:
   motion: sway
   prompt: >
     a single broad shell standing upright rooted at the bottom, opened wide into a
-    rosette fan of soft fronds, warm coral and cream, the fronds leaning slightly
-    outward as though in greeting, a smooth hinged shell base, chromolithograph
-    cigarette card chromolithograph print, dot rosettes and slightly garish inks, isolated
-    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    rosette fan of soft fronds, warm coral and cream, the fronds leaning outward and
+    open, a smooth hinged shell base, chromolithograph cigarette card print, dot
+    rosettes and slightly garish inks, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Coral, cream and open-armed. The warmest little whelk I have ever stocked, and

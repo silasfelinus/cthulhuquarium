@@ -28,20 +28,21 @@ evolves_from: kitchen-perch
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a tight group of striped perch of graded sizes arranged like a family portrait, largest at
-  the back and smallest at the front, all facing forward and holding still, warm brass and
-  olive, chromolithograph cigarette card from around 1900, small format with a printed
+  a tight group of striped perch of graded sizes arranged, largest at the back and
+  smallest at the front, all facing forward and holding still, warm brass and olive,
+  chromolithograph cigarette card from around 1900, small format with a printed
   ornamental border and a blank name banner, four-colour stone printing, visible
   misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
   unpeopled frame, the name banner empty
 sprite:
   motion: tailbeat
   prompt: >
-    a single sturdy striped perch in strict side profile facing right, whole body visible, broad dark vertical bars across a warm brass flank, olive back, a spiny
-    dorsal fin held upright and proper, a composed dignified eye like a portrait
-    sitter, rounded tail, chromolithograph cigarette card chromolithograph print on the
-    body, bold outline, flat printed colour with fine dot rosettes, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single sturdy striped perch in strict side profile facing right, whole body
+    visible, broad dark vertical bars across a warm brass flank, olive back, a spiny
+    dorsal fin held upright, a calm steady eye, closed mouth, rounded tail,
+    chromolithograph cigarette card print on the body, bold outline, flat printed colour
+    with fine dot rosettes, isolated on a plain flat pale grey studio backdrop, even
+    soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A proper family, all in their places, the eldest at the back and the littlest in

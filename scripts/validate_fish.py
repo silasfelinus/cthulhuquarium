@@ -108,6 +108,12 @@ NEGATION = re.compile(r"\b(?:not|no|without|avoid|never|nor|none|neither|"
                       r"instead\s+of|rather\s+than|lacking|devoid\s+of|free\s+of|"
                       r"absent)\b", re.I)
 
+# Rule 7: Krea 2 is literal. A comparison paints the thing it compares to
+# ("like a chandelier" paints a chandelier), and naming the tank's glass paints a
+# pane in front of the creature.
+SIMILE = re.compile(r"\b(?:like\s+(?:an?|the)|as\s+if|as\s+though|"
+                    r"aquarium\s+glass|panes?)\b", re.I)
+
 PLATE_MARKERS = {
     "gosse": "lithograph", "blaschka": "glass model", "gyotaku": "rubbing",
     "trade-card": "cigarette card", "scraperboard": "scraperboard",
@@ -255,6 +261,11 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
                 f"the nouns and drops the negation, so this asks for the thing you "
                 f"meant to exclude. Say what IS there instead (ART-DIRECTION.md "
                 f"rule 2)")
+        sim = SIMILE.search(prompt)
+        if sim:
+            bad(f"art_prompt contains {sim.group(0)!r}. Krea 2 paints what the words "
+                f"name, so a comparison adds the thing compared to. Describe what is "
+                f"visible (ART-DIRECTION.md rule 7)")
 
         # Rule 1: the plate's medium has to actually be in the prompt.
         plate = data.get("plate")
@@ -305,6 +316,10 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
                 if neg:
                     bad(f"sprite.prompt contains a negation ({neg.group(0)!r}) -- say what IS "
                         f"there (ART-DIRECTION.md rule 2)")
+                sim = SIMILE.search(sp)
+                if sim:
+                    bad(f"sprite.prompt contains {sim.group(0)!r} -- Krea 2 paints the thing "
+                        f"compared to; describe what is visible (ART-DIRECTION.md rule 7)")
                 if not any(b in sp.lower() for b in SPRITE_BACKDROPS):
                     bad("sprite.prompt must name its plain flat backdrop "
                         f"({' or '.join(SPRITE_BACKDROPS)}) so the cut-out can key against it")

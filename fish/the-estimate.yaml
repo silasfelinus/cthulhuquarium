@@ -40,11 +40,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single very small slender fish in strict side profile facing right, whole body visible, a narrow pointed head and a long thin body, a faint doubled edge along
-    its outline as though it was printed twice, a small forked tail, sumi ink
-    rubbing of the creature cut out along its outline, flat black ink with patchy
-    coverage, fins printing as fine radiating lines, one wet hand-painted eye,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single very small slender fish in strict side profile facing right, whole body
+    visible, a narrow pointed head and a long thin body, a second faint offset outline
+    printed slightly above and behind its body outline, a small forked tail, sumi ink
+    rubbing of the fish cut out along its outline, flat black ink with patchy coverage,
+    fins printing as fine radiating lines, one wet hand-painted eye, isolated on a plain
+    flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A lively little shoal, plenty of them and always more than you'd think. Your

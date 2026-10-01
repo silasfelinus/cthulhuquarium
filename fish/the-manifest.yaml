@@ -30,20 +30,21 @@ evolution_kind: breeding
 plate: riso
 games: [cthulhuquarium]
 art_prompt: >
-  a towering creature shaped like an unrolled ledger scroll standing on end, old paper,
-  its surface covered in glowing rows of entries receding upward out of frame, a single
-  wide eye set into, risograph print in two fluorescent spot inks on cheap absorbent
-  paper, deliberate misregistration, the inks overprinting to a third colour where they
-  cross, flat unblended areas, paper showing through, unpeopled frame, wide bare margins
+  a towering creature whose body is one long sheet of pale skin standing on end, rolled
+  thick at its base, old paper, its surface covered in glowing rows of entries receding
+  upward out of frame, a single wide eye set into, risograph print in two fluorescent
+  spot inks on cheap absorbent paper, deliberate misregistration, the inks overprinting
+  to a third colour where they cross, flat unblended areas, paper showing through,
+  unpeopled frame, wide bare margins
 sprite:
   motion: breathe
   prompt: >
-    a single towering creature shaped like a long ledger scroll standing upright on
-    its rolled base, the top edge curling back over itself, its face covered in
-    tight rows of glowing entries, one wide eye set into the scroll near the top,
-    risograph print surface on the body in two fluorescent spot inks, flat
-    overprinted shapes with slight misregistration, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    a single tall upright creature whose body is one long sheet of pale skin rolled into
+    a thick cylinder at its base, the top edge curling back over itself, its front
+    covered in tight rows of small glowing marks, one wide eye set near the top, a
+    fringe of small fins down each side, risograph print surface on the body in two
+    fluorescent spot inks, flat overprinted shapes with slight misregistration, isolated
+    on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     The complete record, every creature this tank has ever known, in lovely glowing

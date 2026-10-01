@@ -39,10 +39,11 @@ sprite:
   motion: tailbeat
   faces: left
   prompt: >
-    a single plain silver roach in strict side profile facing right, whole body visible, dull pewter body, faintly red fins and a red ring around the eye, back held
-    flat and level as though just under the waterline, a few beads of rain caught on its
-    dorsal fin, hand-coloured lithograph linework and flat watercolour wash on the body,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a single plain silver roach in strict side profile facing right, whole body visible,
+    dull pewter body, faintly red fins and a red ring around the eye, back held flat and
+    level, a few beads of rain caught on its dorsal fin, hand-coloured lithograph
+    linework and flat watercolour wash on the body, isolated on a plain flat charcoal
+    studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A good plain silver fish with a weatherman's instincts. Better than any barometer, and far nicer to look at.

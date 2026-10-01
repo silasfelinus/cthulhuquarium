@@ -78,7 +78,7 @@ art:
     presenting:
       prompt: >-
         waist-up portrait of {base}, one arm extended gracefully to the right palm up,
-        unveiling something off to the side like a curtain call, a proud radiant smile,
+        unveiling something off to the side, chin raised in a theatrical bow, a proud radiant smile,
         {medium}, isolated on a plain flat pale grey studio backdrop, even soft light
     confiding:
       prompt: >-

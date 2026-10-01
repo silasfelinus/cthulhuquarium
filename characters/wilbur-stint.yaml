@@ -18,7 +18,7 @@ design:
   silhouette: >
     Gangly, stooped, shoulders up around his ears. Long lank hair past his shoulders
     hanging from a crown that is visibly going bald. Round spectacles. One arm in a
-    plaster cast and sling. Rubber waders. A long-handled net held like a lance.
+    plaster cast and sling. Rubber waders. A long-handled net held upright.
   face: >
     Long gentle face, earnest worried eyes magnified by the spectacles, a hopeful
     uncertain smile that arrives late. One lens cracked and mended with tape.
@@ -59,7 +59,7 @@ art:
     prompt: >-
       full-length studio portrait of {base}, standing in rubber waders beside a bubbling
       murky green aquarium tank where something large shifts, a long-handled net held
-      carefully upright in his good left hand like a lance, shoulders hunched, a
+      carefully upright in his good left hand, the pole straight and tall, shoulders hunched, a
       mournful long-suffering expression with only the faintest brave smile, a painted studio backdrop of a gaslit aquarium hall, {medium}
   portraits:
     greeting:

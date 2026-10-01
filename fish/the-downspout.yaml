@@ -30,21 +30,21 @@ evolves_from: rain-barrel-roach
 plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
-  a long hollow vertical creature like a length of downpipe standing at the waterline, the
-  open upper end flared wide, a steady column of water visible falling through the
-  transparent body, lampworked glass model on a thin wire mount, transparent hollow body,
-  light passing through the glass and pooling where it thickens, colour suspended in the
-  glass itself, museum specimen on a small wooden base, faint dust, unpeopled frame, a bare
-  unwritten label on the wooden base
+  a long hollow vertical creature with a straight round tube body standing at the
+  waterline, the open upper end flared wide, a steady column of water visible falling
+  through the transparent body, lampworked glass model on a thin wire mount, transparent
+  hollow body, light passing through the glass and pooling where it thickens, colour
+  suspended in the glass itself, museum specimen on a small wooden base, faint dust,
+  unpeopled frame, a bare unwritten label on the wooden base
 sprite:
   motion: breathe
   prompt: >
-    a single long hollow vertical creature shaped like a length of downpipe, whole
-    body in view, its upper end flared wide like a hopper, a steady column of
-    falling water visible through its transparent body, cool pale tones, as a
-    lampworked glass model, clear hollow glass with the colour suspended inside it,
-    light gathering where the glass thickens, isolated on a plain flat charcoal
-    studio backdrop, even soft light, strong crisp silhouette
+    a single long hollow vertical creature with a straight round tube body, whole body
+    in view, its upper end flared wide into a funnel, a steady column of falling water
+    visible through its transparent body, cool pale tones, as a lampworked glass model,
+    clear hollow glass with the colour suspended inside it, light gathering where the
+    glass thickens, isolated on a plain flat charcoal studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Fresh rain, delivered straight to the tank, like a little weather service of
