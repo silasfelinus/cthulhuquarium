@@ -30,11 +30,12 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a colossal crawdad seated on a ridge of gravel arranged into neat borders, plating, four
-  raised claws of different sizes, tiny crown- like spines along its back, scraperboard
+  a colossal crawdad seated on a ridge of gravel arranged into neat borders, plating,
+  four raised claws of different sizes, tiny pointed spines along its back, scraperboard
   illustration, white line scratched out of solid black ink with a blade, pure black and
   pure white only, every tone built from line density, form built entirely from cut
-  hatching, stark and linear, unpeopled frame, the board around it left solid uncut black
+  hatching, stark and linear, unpeopled frame, the board around it left solid uncut
+  black
 sprite:
   motion: breathe
   prompt: >

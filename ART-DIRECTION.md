@@ -266,7 +266,8 @@ could be photographed. Nobody needs to notice this.
    | `as seen pressed against aquarium glass` | `seen head-on from the front` |
    | `shaped like a reading desk` | `with a flat sloped back and an open book growing from it` |
 
-   Enforced: `scripts/validate_fish.py` rejects `like a/an/the`, `as if`, `as though`,
+   Enforced: `scripts/validate_fish.py` rejects any `like` that is not part of a hyphenated compound (`crab-like` is fine), `as if`,
+   `as though`, `on/against/of the glass`,
    `aquarium glass` and `pane` in both `art_prompt` and `sprite.prompt`.
 
 ---
