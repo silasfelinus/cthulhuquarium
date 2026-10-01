@@ -39,12 +39,13 @@ sprite:
   motion: breathe
   mass: true
   prompt: >
-    a single long receiving line drawn as one creature, nine soft archway-bodies joined
-    end to end in side view, each arch a step smaller than the one before it, a warm
-    glow in every opening fading toward the far end, the whole row reading as one
-    tapering mass, risograph print surface in two fluorescent spot inks, flat unblended
-    areas, slight misregistration along each arch, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    nine small arch-shaped creatures in one row seen from the side, each arch with two
+    small eyes near its top and a tiny glowing lure hanging from its peak, each creature
+    a step smaller than the one before it, their sides touching so the row reads as one
+    tapering mass, a warm glow inside every arch, risograph print surface in two
+    fluorescent spot inks, flat unblended areas, slight misregistration along each arch,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Nine arches, every one of them lit. I have hosted a great many evenings,

@@ -511,6 +511,11 @@ jobs:
     hash: 386eea2e5a33
     engine: wan
     submitted: '2026-10-01T19:23:46Z'
+  clips/the-night-watch:
+    job: 32566
+    hash: 2ad864945c27
+    engine: wan
+    submitted: '2026-10-01T22:36:52Z'
   clips/the-observation:
     job: 32505
     hash: b3a637f8f5be
@@ -536,6 +541,11 @@ jobs:
     hash: 947451b1f7d1
     engine: wan
     submitted: '2026-10-01T13:54:14Z'
+  clips/the-proprietor:
+    job: 32580
+    hash: fdbbe579cb09
+    engine: wan
+    submitted: '2026-10-01T22:38:44Z'
   clips/the-provision:
     job: 32563
     hash: 57238b7751fe
@@ -556,6 +566,21 @@ jobs:
     hash: 2c297b6bfe22
     engine: wan
     submitted: '2026-10-01T13:54:15Z'
+  clips/the-reckoning:
+    job: 32581
+    hash: 787cdf4b9f0e
+    engine: wan
+    submitted: '2026-10-01T22:38:45Z'
+  clips/the-reconciliation:
+    job: 32570
+    hash: ab1dcb8cbf26
+    engine: wan
+    submitted: '2026-10-01T22:36:56Z'
+  clips/the-round:
+    job: 32571
+    hash: 2fa6baf14fc6
+    engine: wan
+    submitted: '2026-10-01T22:36:56Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -581,6 +606,16 @@ jobs:
     hash: d74d55513d5f
     engine: wan
     submitted: '2026-10-01T14:54:58Z'
+  clips/the-single-fish:
+    job: 32572
+    hash: b72433104bf8
+    engine: wan
+    submitted: '2026-10-01T22:36:58Z'
+  clips/the-small-hours:
+    job: 32573
+    hash: 037c1fc1d08a
+    engine: wan
+    submitted: '2026-10-01T22:36:58Z'
   clips/the-spectacle:
     job: 32512
     hash: 973cf11c87e6
@@ -611,6 +646,21 @@ jobs:
     hash: 133230c3df52
     engine: wan
     submitted: '2026-10-01T14:55:03Z'
+  clips/the-threshold:
+    job: 32575
+    hash: 925e1dbab830
+    engine: wan
+    submitted: '2026-10-01T22:37:00Z'
+  clips/the-type-specimen:
+    job: 32576
+    hash: d2a9cd47973b
+    engine: wan
+    submitted: '2026-10-01T22:37:01Z'
+  clips/the-undercroft:
+    job: 32577
+    hash: 245da3e465a9
+    engine: wan
+    submitted: '2026-10-01T22:37:02Z'
   clips/the-usher:
     job: 32406
     hash: af9219db42c2
@@ -651,66 +701,16 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-night-watch:
-    job: 32555
-    hash: c4a4683b1e17
-    engine: flux
-    submitted: '2026-10-01T21:21:38Z'
-  sprites/the-proprietor:
-    job: 32556
-    hash: 5580009baa2f
-    engine: flux
-    submitted: '2026-10-01T21:21:38Z'
   sprites/the-receiving-line:
-    job: 32198
-    hash: e799045e0013
+    job: 32578
+    hash: 470f137b625b
     engine: flux
-    submitted: '2026-09-30T07:45:41Z'
-  sprites/the-reckoning:
-    job: 32199
-    hash: 6d47ddd0773f
-    engine: flux
-    submitted: '2026-09-30T07:45:41Z'
-  sprites/the-reconciliation:
-    job: 32200
-    hash: be37b9e599a6
-    engine: flux
-    submitted: '2026-09-30T07:45:42Z'
-  sprites/the-round:
-    job: 32201
-    hash: d04bd41f1ad4
-    engine: flux
-    submitted: '2026-09-30T07:45:42Z'
-  sprites/the-single-fish:
-    job: 32207
-    hash: f08464a7bd48
-    engine: flux
-    submitted: '2026-09-30T07:45:45Z'
-  sprites/the-small-hours:
-    job: 32208
-    hash: 5a9643b91721
-    engine: flux
-    submitted: '2026-09-30T07:45:45Z'
+    submitted: '2026-10-01T22:38:42Z'
   sprites/the-testimony:
-    job: 32215
-    hash: 2a36bab9c4ab
+    job: 32579
+    hash: 45d9d1cc5d76
     engine: flux
-    submitted: '2026-09-30T07:45:48Z'
-  sprites/the-threshold:
-    job: 32216
-    hash: b96f1341dea9
-    engine: flux
-    submitted: '2026-09-30T07:45:49Z'
-  sprites/the-type-specimen:
-    job: 32217
-    hash: b136fb7bd33b
-    engine: flux
-    submitted: '2026-09-30T07:45:49Z'
-  sprites/the-undercroft:
-    job: 32218
-    hash: 224cd6710408
-    engine: flux
-    submitted: '2026-09-30T07:45:49Z'
+    submitted: '2026-10-01T22:38:42Z'
   sprites/the-undercurrent:
     job: 32219
     hash: 42b9e6c12698
