@@ -361,6 +361,21 @@ jobs:
     hash: 2a0947cc5f14
     engine: wan
     submitted: '2026-10-01T10:27:11Z'
+  clips/the-efflorescence:
+    job: 32460
+    hash: 4b912cb1e71d
+    engine: wan
+    submitted: '2026-10-01T11:36:48Z'
+  clips/the-enforcement:
+    job: 32462
+    hash: a00c8ec81b91
+    engine: wan
+    submitted: '2026-10-01T11:36:51Z'
+  clips/the-enquiry-desk:
+    job: 32463
+    hash: ae25a93f482c
+    engine: wan
+    submitted: '2026-10-01T11:36:52Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -396,26 +411,11 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-efflorescence:
-    job: 32157
-    hash: b8753f588257
-    engine: flux
-    submitted: '2026-09-30T07:45:23Z'
   sprites/the-endowment:
-    job: 32158
-    hash: 7475cb925012
+    job: 32465
+    hash: 98b83dea468c
     engine: flux
-    submitted: '2026-09-30T07:45:24Z'
-  sprites/the-enforcement:
-    job: 32159
-    hash: e346829becac
-    engine: flux
-    submitted: '2026-09-30T07:45:24Z'
-  sprites/the-enquiry-desk:
-    job: 32160
-    hash: cf70b44c903a
-    engine: flux
-    submitted: '2026-09-30T07:45:25Z'
+    submitted: '2026-10-01T11:37:41Z'
   sprites/the-estimate:
     job: 32161
     hash: a5352a01ff99

@@ -37,11 +37,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single stout hermit crab seen from the side facing right, whole body visible,
-    its shell built from stacked coins, one claw held out with a small offering
-    balanced on it, warm gold and cream shell, chromolithograph cigarette card chromolithograph print, flat bright stone-printed inks with slight misregistration
-    and dot rosettes on the body, isolated on a plain flat pale grey studio
-    backdrop, even soft light, strong crisp silhouette
+    a hermit crab whose shell is a tall spiral tower of stacked gold coins, dozens of
+    shiny round gold coins piled into a leaning spiral on its back, a single stout
+    hermit crab seen from the side facing right, whole body visible, one claw held out
+    with a single gold coin balanced on it as an offering, warm gold and cream,
+    chromolithograph cigarette card print, flat bright stone-printed inks with slight
+    misregistration and dot rosettes on the body, isolated on a plain flat pale grey
+    studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A hermit crab of independent means and the kindest disposition. The whole tank
