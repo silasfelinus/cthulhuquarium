@@ -81,11 +81,21 @@ jobs:
     hash: 814bf94db20e
     engine: wan
     submitted: '2026-09-30T20:31:35Z'
+  clips/fractal-bloom:
+    job: 32404
+    hash: 921c77ec9348
+    engine: wan
+    submitted: '2026-10-01T04:00:30Z'
   clips/glass-shrimp:
     job: 32345
     hash: e6d34a0f1612
     engine: wan
     submitted: '2026-09-30T20:31:36Z'
+  clips/glass-weaver:
+    job: 32405
+    hash: f9509ad21b20
+    engine: wan
+    submitted: '2026-10-01T04:00:31Z'
   clips/gravel-tetra:
     job: 32346
     hash: 5951342373eb
@@ -216,26 +226,26 @@ jobs:
     hash: 558d9045ad88
     engine: wan
     submitted: '2026-10-01T02:06:27Z'
+  clips/the-usher:
+    job: 32406
+    hash: af9219db42c2
+    engine: wan
+    submitted: '2026-10-01T04:00:32Z'
   clips/thumbnail-dace:
     job: 32397
     hash: 9fa923c4bbda
     engine: wan
     submitted: '2026-10-01T03:03:14Z'
+  clips/till-minnow:
+    job: 32407
+    hash: fb2a3393af3a
+    engine: wan
+    submitted: '2026-10-01T04:00:33Z'
   sprites/elder-rustfish:
-    job: 32099
-    hash: 93d66347db65
+    job: 32409
+    hash: b85f979e58cc
     engine: flux
-    submitted: '2026-09-30T07:45:00Z'
-  sprites/fractal-bloom:
-    job: 32102
-    hash: e05b68b54323
-    engine: flux
-    submitted: '2026-09-30T07:45:01Z'
-  sprites/glass-weaver:
-    job: 32104
-    hash: 763e8e083aab
-    engine: flux
-    submitted: '2026-09-30T07:45:02Z'
+    submitted: '2026-10-01T04:09:25Z'
   sprites/marsh-sovereign-crawdad:
     job: 32112
     hash: fd30df770ee3
@@ -696,11 +706,6 @@ jobs:
     hash: d848b03694e3
     engine: flux
     submitted: '2026-09-30T07:45:51Z'
-  sprites/the-usher:
-    job: 32400
-    hash: 8c942000007b
-    engine: flux
-    submitted: '2026-10-01T03:04:20Z'
   sprites/the-verger:
     job: 32224
     hash: 978106dade4a
@@ -741,21 +746,16 @@ jobs:
     hash: af419912031e
     engine: flux
     submitted: '2026-09-30T07:45:55Z'
-  sprites/till-minnow:
-    job: 32401
-    hash: d4b4b695b08d
-    engine: flux
-    submitted: '2026-10-01T03:04:20Z'
   sprites/tithe-shoal:
     job: 32234
     hash: a6919c8c3477
     engine: flux
     submitted: '2026-09-30T07:45:56Z'
   sprites/wrapping-sole:
-    job: 32402
-    hash: abfa065f5a1a
+    job: 32410
+    hash: 32b65db846cd
     engine: flux
-    submitted: '2026-10-01T03:04:20Z'
+    submitted: '2026-10-01T04:09:26Z'
   videos/charlotte-fishmonger-hero:
     job: 32300
     hash: b92fbf8ba436
