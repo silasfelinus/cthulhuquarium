@@ -231,6 +231,11 @@ jobs:
     hash: 05b1aa594367
     engine: wan
     submitted: '2026-10-01T05:07:50Z'
+  clips/the-aggregate:
+    job: 32433
+    hash: 6ee1e288c3e2
+    engine: wan
+    submitted: '2026-10-01T07:09:15Z'
   clips/the-almoner:
     job: 32390
     hash: 06eab0e09d55
@@ -246,6 +251,31 @@ jobs:
     hash: 1c244d063632
     engine: wan
     submitted: '2026-10-01T06:08:05Z'
+  clips/the-auditor:
+    job: 32435
+    hash: 993ad66a6182
+    engine: wan
+    submitted: '2026-10-01T07:09:17Z'
+  clips/the-backlog:
+    job: 32436
+    hash: ddfa5deb5daa
+    engine: wan
+    submitted: '2026-10-01T07:09:18Z'
+  clips/the-balance:
+    job: 32437
+    hash: 99fef4111963
+    engine: wan
+    submitted: '2026-10-01T07:09:19Z'
+  clips/the-bedding:
+    job: 32438
+    hash: e877074fd194
+    engine: wan
+    submitted: '2026-10-01T07:09:20Z'
+  clips/the-catacomb:
+    job: 32439
+    hash: db0ad811c28b
+    engine: wan
+    submitted: '2026-10-01T07:09:21Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -281,41 +311,11 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-aggregate:
-    job: 32431
-    hash: 21f08d810060
-    engine: flux
-    submitted: '2026-10-01T06:09:00Z'
   sprites/the-annexation:
-    job: 32432
-    hash: e01fc207b820
+    job: 32440
+    hash: f68edae1fc8b
     engine: flux
-    submitted: '2026-10-01T06:09:01Z'
-  sprites/the-auditor:
-    job: 32136
-    hash: eecd6ab96ccb
-    engine: flux
-    submitted: '2026-09-30T07:45:15Z'
-  sprites/the-backlog:
-    job: 32137
-    hash: 5f16679e1f1c
-    engine: flux
-    submitted: '2026-09-30T07:45:15Z'
-  sprites/the-balance:
-    job: 32138
-    hash: e729b41a2481
-    engine: flux
-    submitted: '2026-09-30T07:45:16Z'
-  sprites/the-bedding:
-    job: 32139
-    hash: b8941c8c83b0
-    engine: flux
-    submitted: '2026-09-30T07:45:16Z'
-  sprites/the-catacomb:
-    job: 32140
-    hash: 29e2f8bef86c
-    engine: flux
-    submitted: '2026-09-30T07:45:16Z'
+    submitted: '2026-10-01T07:10:08Z'
   sprites/the-catchment:
     job: 32141
     hash: 330387fb1014

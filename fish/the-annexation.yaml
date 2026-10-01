@@ -38,13 +38,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a crawdad with four big claws, two huge pincer claws and two extra smaller pincer
-    claws all held up and open at once, each of the four claws a different size, a
-    single colossal crawdad seen from the side facing right, whole body visible, heavy
-    segmented armour plating, a ridge of tiny crown-like spines along its back, long
-    sweeping antennae, scraperboard rendering, crisp white lines cut into solid black,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a crawdad with two pairs of claws, one big pair of pincers held low in front and a
+    second smaller pair of pincers sticking up from its back above them, four open claws
+    in total all clearly separate, a single colossal crawdad seen from the side facing
+    right, whole body visible, heavy segmented armour plating, a ridge of tiny
+    crown-like spines along its back, long sweeping antennae, scraperboard rendering,
+    crisp white lines cut into solid black, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Four claws, a little crown of spines and real presence. Every tank wants someone
