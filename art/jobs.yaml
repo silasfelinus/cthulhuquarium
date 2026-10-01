@@ -151,6 +151,11 @@ jobs:
     hash: 690cb90bba5c
     engine: wan
     submitted: '2026-09-30T23:17:44Z'
+  clips/rainbow-nudibranch:
+    job: 32380
+    hash: 0c0f3474bf62
+    engine: wan
+    submitted: '2026-10-01T01:10:21Z'
   clips/sardine-common:
     job: 32374
     hash: 982085e7dea9
@@ -166,6 +171,16 @@ jobs:
     hash: 2a32f9adda64
     engine: wan
     submitted: '2026-10-01T00:13:38Z'
+  clips/standpipe-goby:
+    job: 32382
+    hash: aaa060351ee3
+    engine: wan
+    submitted: '2026-10-01T01:10:23Z'
+  clips/sump-blob:
+    job: 32383
+    hash: 627a07eb27a3
+    engine: wan
+    submitted: '2026-10-01T01:10:24Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -206,26 +221,11 @@ jobs:
     hash: be257930057a
     engine: flux
     submitted: '2026-09-30T07:45:06Z'
-  sprites/rainbow-nudibranch:
-    job: 32378
-    hash: c4d6a07df133
-    engine: flux
-    submitted: '2026-10-01T00:14:31Z'
   sprites/sea-camel:
-    job: 32379
-    hash: 4312f39e9334
+    job: 32386
+    hash: 9cec3825b2f7
     engine: flux
-    submitted: '2026-10-01T00:14:32Z'
-  sprites/standpipe-goby:
-    job: 32128
-    hash: 3127370c1107
-    engine: flux
-    submitted: '2026-09-30T07:45:12Z'
-  sprites/sump-blob:
-    job: 32129
-    hash: ef6a8bd42cff
-    engine: flux
-    submitted: '2026-09-30T07:45:12Z'
+    submitted: '2026-10-01T01:11:15Z'
   sprites/the-accumulation:
     job: 32130
     hash: 12b00ae002fa
@@ -237,10 +237,10 @@ jobs:
     engine: flux
     submitted: '2026-09-30T07:45:13Z'
   sprites/the-almoner:
-    job: 32132
-    hash: 870c301712e9
+    job: 32387
+    hash: 66a4f6a12d3e
     engine: flux
-    submitted: '2026-09-30T07:45:13Z'
+    submitted: '2026-10-01T01:11:15Z'
   sprites/the-annexation:
     job: 32133
     hash: c6bdf7c07f37
@@ -587,10 +587,10 @@ jobs:
     engine: flux
     submitted: '2026-09-30T07:45:42Z'
   sprites/the-sconce:
-    job: 32202
-    hash: 9591f9b980c7
+    job: 32388
+    hash: d8100500e158
     engine: flux
-    submitted: '2026-09-30T07:45:43Z'
+    submitted: '2026-10-01T01:11:15Z'
   sprites/the-second-notice:
     job: 32203
     hash: ce6422222a30
