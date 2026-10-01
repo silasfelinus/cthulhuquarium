@@ -30,19 +30,20 @@ evolution_kind: growth
 plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
-  a long branching creature shaped like a run of jointed pipework, a small blunt head at
-  every open end, the whole body hollow and filled with visible moving water, lampworked
-  glass model on a thin wire mount, transparent hollow body, light passing through the glass
-  and pooling where it thickens, colour suspended in the glass itself, museum specimen on a
-  small wooden base, faint dust, unpeopled frame, a bare unwritten label on the wooden base
+  a long branching creature made of hollow tubes joined at bent elbow joints, a small
+  blunt head at every open end, the whole body hollow and filled with visible moving
+  water, lampworked glass model on a thin wire mount, transparent hollow body, light
+  passing through the glass and pooling where it thickens, colour suspended in the glass
+  itself, museum specimen on a small wooden base, faint dust, unpeopled frame, a bare
+  unwritten label on the wooden base
 sprite:
   motion: breathe
   prompt: >
-    a single branching creature shaped like a short run of jointed pipework, three
-    open ends each finished with a small blunt fish head, the whole body hollow and
-    filled with visible swirling water, lampworked glass model body, clear glass
-    tubes with pale blue-green water inside, light pooling bright at each elbow
-    joint, isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a single creature made of hollow clear glass tubes joined at bent elbow joints, the
+    tubes branching into three arms, each arm ending in a small blunt fish head with two
+    eyes, pale blue-green water swirling inside the tubes, lampworked glass model body,
+    light pooling bright at each elbow joint, isolated on a plain flat charcoal studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A sweet little goby with a real feel for the plumbing. It is connected, darling,

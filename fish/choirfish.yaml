@@ -30,11 +30,10 @@ plate: blaschka
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   three slender fish with wide open singing mouths and long translucent ribbon fins,
-  glowing cyan throat-lights, arranged in a rising row like a choir, lampworked glass
-  model on a thin wire mount, transparent hollow body, light passing through the glass
-  and pooling where it thickens, colour suspended in the glass itself, museum specimen
-  on a small wooden base, faint dust, unpeopled frame, a bare unwritten label on the
-  wooden base
+  glowing cyan throat-lights, arranged in a rising row, lampworked glass model on a thin
+  wire mount, transparent hollow body, light passing through the glass and pooling where
+  it thickens, colour suspended in the glass itself, museum specimen on a small wooden
+  base, faint dust, unpeopled frame, a bare unwritten label on the wooden base
 sprite:
   motion: tailbeat
   faces: left

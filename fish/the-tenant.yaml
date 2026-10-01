@@ -30,20 +30,20 @@ evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a broad limpet spread across a pane, shell grown lopsided and patched in mismatched
-  teal and rust as though extended in stages, frilled margin creeping outward at one
-  corner, chromolithograph cigarette card from around 1900, small format with a printed
-  ornamental border and a blank name banner, four-colour stone printing, visible
-  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
-  unpeopled frame, the name banner empty
+  a broad limpet seen from the side, shell grown lopsided and patched in mismatched teal
+  and rust, frilled margin creeping outward at one corner, chromolithograph cigarette
+  card from around 1900, small format with a printed ornamental border and a blank name
+  banner, four-colour stone printing, visible misregistration and dot rosettes, slightly
+  garish cheap inks, corners worn round, unpeopled frame, the name banner empty
 sprite:
   motion: breathe
   prompt: >
-    a single broad limpet as seen pressed against aquarium glass, a lopsided shell
-    patched in mismatched teal and rust as though extended in stages, each added patch a
-    slightly different colour, a frilled margin creeping outward at one corner,
-    chromolithograph cigarette card chromolithograph print, dot rosettes and slightly garish
-    inks, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single broad limpet seen from the side, a lopsided conical shell made of
+    mismatched patches, each patch a slightly different shade of teal or rust, a frilled
+    margin creeping outward at one corner, two small eyes peeking from under the rim,
+    chromolithograph cigarette card print, dot rosettes and slightly garish inks,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     A snug little limpet that makes itself thoroughly at home. It is always nicest

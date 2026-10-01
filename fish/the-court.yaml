@@ -31,23 +31,22 @@ evolution_kind: growth
 plate: gyotaku
 games: [cthulhuquarium]
 art_prompt: >
-  a great many small shrimp printed in strict tiered ranks like a seating plan, each wearing
-  a fitted crown that continues into the shell, the ranks narrowing toward one larger empty
-  place at the top, gyotaku fish rubbing, sumi ink pressed directly from the body onto
-  fibrous washi paper, flat black, coverage uneven, the ink thin and skipping where the body
-  lifted away, fins printing as fine radiating lines, one wet painted eye added afterward by
-  hand, unpeopled frame, the rest of the sheet bare
+  a great many small shrimp printed in strict tiered ranks, each wearing a fitted crown
+  that continues into the shell, the ranks narrowing toward one larger empty place at
+  the top, gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous
+  washi paper, flat black, coverage uneven, the ink thin and skipping where the body
+  lifted away, fins printing as fine radiating lines, one wet painted eye added
+  afterward by hand, unpeopled frame, the rest of the sheet bare
 sprite:
   motion: breathe
   mass: true
   prompt: >
-    the whole court as one mass, whole form in view, a great many small shrimp in
-    strict tiered ranks like a seating plan, each wearing a fitted crown that grows
-    into its shell, the ranks narrowing upward toward one larger empty seat at the
-    top, sumi ink rubbing of the creature cut out along its outline, flat black ink
-    with patchy coverage, fins printing as fine radiating lines, one wet
-    hand-painted eye, isolated on a plain flat pale grey studio backdrop, even soft
-    light, strong crisp silhouette
+    the whole court as one mass, whole form in view, a great many small shrimp in strict
+    tiered ranks, each wearing a fitted crown that grows into its shell, the ranks
+    narrowing upward toward one larger empty seat at the top, sumi ink rubbing of the
+    creature cut out along its outline, flat black ink with patchy coverage, fins
+    printing as fine radiating lines, one wet hand-painted eye, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Brine shrimp with manners, every one in its proper place. They lend any tank the

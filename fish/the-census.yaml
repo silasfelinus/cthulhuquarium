@@ -29,12 +29,12 @@ evolves_from: the-estimate
 plate: gyotaku
 games: [cthulhuquarium]
 art_prompt: >
-  hundreds of identical small fish printed in perfect ruled rows and columns like a table,
-  each one at the same angle, the grid slightly denser toward one corner where the rows have
+  hundreds of identical small fish printed in perfect ruled rows and columns, each one
+  at the same angle, the grid slightly denser toward one corner where the rows have
   begun to double up, gyotaku fish rubbing, sumi ink pressed directly from the body onto
-  fibrous washi paper, flat black, coverage uneven, the ink thin and skipping where the body
-  lifted away, fins printing as fine radiating lines, one wet painted eye added afterward by
-  hand, unpeopled frame, the rest of the sheet bare
+  fibrous washi paper, flat black, coverage uneven, the ink thin and skipping where the
+  body lifted away, fins printing as fine radiating lines, one wet painted eye added
+  afterward by hand, unpeopled frame, the rest of the sheet bare
 sprite:
   motion: breathe
   mass: true

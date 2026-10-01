@@ -30,22 +30,23 @@ evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >
-  a small flat sole lying pressed against the gravel with both eyes on the upper side, body
+  a small flat sole lying flat on the gravel with both eyes on the upper side, body
   wrapped over the edge of a stone beneath it, sandy buff mottling, the outline of the
   hidden object showing through, hand-coloured lithograph plate from an 1850s natural
-  history book, fine engraved line under flat hand-laid watercolour washes, Prussian blue
-  and madder and gamboge, visible plate mark, foxed paper, the wash running slightly outside
-  the line, unpeopled frame, the caption space beneath the image left empty
+  history book, fine engraved line under flat hand-laid watercolour washes, Prussian
+  blue and madder and gamboge, visible plate mark, foxed paper, the wash running
+  slightly outside the line, unpeopled frame, the caption space beneath the image left
+  empty
 sprite:
   motion: ripple
   faces: left
   prompt: >
-    a flatfish folded in half like a taco or a folded pancake, its flat body bent over
-    along the middle so the top half lies on the bottom half with a rounded crease, a
-    single small flat oval sole with its head to the right, whole body visible, both
-    eyes on the upper side, a fringe of fin all round its edge, sandy buff mottling,
-    hand-coloured lithograph linework and flat watercolour wash on the body, isolated on
-    a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a flatfish folded in half, its flat body bent over along the middle so the top half
+    lies on the bottom half with a rounded crease, a single small flat oval sole with
+    its head to the right, whole body visible, both eyes on the upper side, a fringe of
+    fin all round its edge, sandy buff mottling, hand-coloured lithograph linework and
+    flat watercolour wash on the body, isolated on a plain flat charcoal studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Flat as a pressed flower and every bit as tidy. It makes itself useful the

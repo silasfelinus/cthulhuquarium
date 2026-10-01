@@ -31,19 +31,21 @@ evolves_to: the-annexation
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a huge armoured crawdad on a heap of silt, two enormous scarlet claws held wide like a
-  crown, crooked spines along its back, small darting shapes fleeing at the edges of the
-  frame, chromolithograph cigarette card from around 1900, small format with a printed
-  ornamental border and a blank name banner, four-colour stone printing, visible
-  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
-  unpeopled frame, the name banner empty
+  a huge armoured crawdad on a heap of silt, two enormous scarlet claws held wide and
+  high above its head, crooked spines along its back, small darting shapes fleeing at
+  the edges of the frame, chromolithograph cigarette card from around 1900, small format
+  with a printed ornamental border and a blank name banner, four-colour stone printing,
+  visible misregistration and dot rosettes, slightly garish cheap inks, corners worn
+  round, unpeopled frame, the name banner empty
 sprite:
   motion: breathe
   prompt: >
     a single huge armoured crawdad seen from the front, two enormous scarlet claws held
-    wide and high like a crown, crooked spines along its back, heavy segmented carapace
-    in rust and scarlet, small proud eyes on stalks, chromolithograph cigarette card chromolithograph print, bold flat inks with slight misregistration on the body, isolated
-    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    wide and high above its head, crooked spines along its back, heavy segmented
+    carapace in rust and scarlet, small proud eyes on stalks, chromolithograph cigarette
+    card chromolithograph print, bold flat inks with slight misregistration on the body,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Royalty, and it knows it. Those scarlet claws held up like a crown, and it rules its corner with such conviction.

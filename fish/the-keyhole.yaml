@@ -32,21 +32,20 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a small blunt-headed fish wedged flat against the inside of the glass, one enormous round
-  eye facing outward at the viewer, body compressed to almost nothing behind it, stubby fins
-  braced against the pane, scraperboard illustration, white line scratched out of solid
-  black ink with a blade, pure black and pure white only, every tone built from line
-  density, form built entirely from cut hatching, stark and linear, unpeopled frame, the
-  board around it left solid uncut black
+  a small blunt-headed fish wedged flat against the inside of the glass, one enormous
+  round eye facing outward at the viewer, body compressed to almost nothing behind it,
+  stubby fins spread flat to the sides, scraperboard illustration, white line scratched
+  out of solid black ink with a blade, pure black and pure white only, every tone built
+  from line density, form built entirely from cut hatching, stark and linear, unpeopled
+  frame, the board around it left solid uncut black
 sprite:
   motion: breathe
   prompt: >
-    a single small blunt-headed blenny as seen pressed against aquarium glass from
-    the inside, one enormous round eye facing straight out at the viewer, the body
-    squeezed thin behind it, four stubby fins braced flat against the pane, white
-    scraperboard hatching cut from solid black ink, the great eye a bright ring
-    around a deep black pupil, isolated on a plain flat pale grey studio backdrop,
-    even soft light, strong crisp silhouette
+    a single small blunt-headed blenny seen head-on from the front, one enormous round
+    eye facing straight out at the viewer, its body tapering away small behind the eye,
+    four stubby fins spread flat to the sides, white scraperboard hatching cut from
+    solid black ink, the great eye a bright ring around a deep black pupil, isolated on
+    a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A little blenny with the loveliest big eye, always at the glass and always

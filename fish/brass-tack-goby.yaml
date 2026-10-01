@@ -38,12 +38,12 @@ sprite:
   faces: left
   motion: tailbeat
   prompt: >
-    a single tiny blunt-headed goby as seen pressed against aquarium glass, belly to the
-    pane, its fused pelvic fins spread into a round sucker disc gripping hard, pectoral
-    fins braced and flared, dull olive body with a round warm brass-gold spot on the
-    crown like the head of a tack, short tail curled to the right, hand-coloured
-    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single tiny blunt-headed goby seen head-on from the front, its fused pelvic fins
+    spread into a round sucker disc gripping hard, pectoral fins braced and flared, dull
+    olive body with a round warm brass-gold spot on the crown, short tail curled to the
+    right, hand-coloured lithograph linework and flat watercolour wash on the body,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     A little brass fitting that swims. It holds its place through absolutely anything, and I do admire a creature who knows where it stands.

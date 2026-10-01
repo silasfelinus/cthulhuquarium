@@ -31,20 +31,20 @@ evolution_kind: growth
 plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
-  a cluster of slender tapering forms standing upright in a row like a rack of votive
-  candles, each tipped with a small suspended warm light, transparent bodies with the light
-  visible right down inside them, lampworked glass model on a thin wire mount, transparent
-  hollow body, light passing through the glass and pooling where it thickens, colour
-  suspended in the glass itself, museum specimen on a small wooden base, faint dust,
-  unpeopled frame, a bare unwritten label on the wooden base
+  a cluster of slender tapering forms standing upright in a row, each with a small warm
+  flame at its tip, each tipped with a small suspended warm light, transparent bodies
+  with the light visible right down inside them, lampworked glass model on a thin wire
+  mount, transparent hollow body, light passing through the glass and pooling where it
+  thickens, colour suspended in the glass itself, museum specimen on a small wooden
+  base, faint dust, unpeopled frame, a bare unwritten label on the wooden base
 sprite:
   motion: sway
   prompt: >
-    a single slender tapering form standing upright rooted at the bottom like a votive
-    candle, a small suspended warm light at its tip, the light visible right down inside
-    its transparent body, a fine ribbed stem, lampworked glass model, light pooling
-    where the glass thickens, colour suspended in the glass, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    a single slender tapering creature standing upright rooted at the bottom, a small
+    warm flame glowing at its pointed tip, the warm light visible deep inside its
+    transparent body, a fine ribbed stem, lampworked glass model, light pooling where
+    the glass thickens, colour suspended in the glass, isolated on a plain flat charcoal
+    studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A little rack of votive lights for your tank, lit every evening without a match.

@@ -39,11 +39,11 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single heavy-shelled snail as seen pressed against aquarium glass from the front,
-    broad muscular foot spread flat, a thick spiral shell cut with ruled lines like
-    correspondence, a hard round stamped seal mark on the shell's crown, short alert
-    tentacles, white line scraperboard surface cut from solid black, dense hatching,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single heavy-shelled snail seen from the side, a broad muscular foot spread flat,
+    a thick spiral shell covered in fine straight parallel ruled lines, a hard round
+    stamped seal mark on the top of the shell, short alert tentacles, white line
+    scraperboard surface cut from solid black, dense hatching, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Such a diligent little correspondent, with its own seal right on the shell. It

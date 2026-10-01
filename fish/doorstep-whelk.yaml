@@ -38,12 +38,11 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single small ridged whelk as seen pressed against aquarium glass, its shell
-    aperture turned squarely toward the viewer as though waiting at a door, warm
-    sandstone and dull cream spiral ridges, soft pale foot spread flat and expectant at
-    the bottom, two short tentacles raised, hand-coloured lithograph linework and flat
-    watercolour wash on the body, isolated on a plain flat charcoal studio backdrop,
-    even soft light, strong crisp silhouette
+    a single small ridged whelk seen from the front, its shell aperture turned squarely
+    toward the viewer, warm sandstone and dull cream spiral ridges, soft pale foot
+    spread flat and expectant at the bottom, two short tentacles raised, hand-coloured
+    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
+    charcoal studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     The most devoted little creature. It greets you the right way round every time, like a good dog, only quieter and with a shell.

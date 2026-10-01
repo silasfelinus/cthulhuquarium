@@ -30,20 +30,20 @@ evolution_kind: growth
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a fish caught mid-flourish in violet and gold, fins spread like a costume, its face
-  confident and slightly too symmetrical, a faint second fainter fish-shape trailing
-  just behind where it used to be, wet specimen preserved in a sealed glass jar of
-  fluid, formalin yellow, colours leached toward parchment, the glass refracting the
+  a fish caught mid-flourish in violet and gold, fins spread wide and fanned out, its
+  face confident and slightly too symmetrical, a faint second fainter fish-shape
+  trailing just behind where it used to be, wet specimen preserved in a sealed glass jar
+  of fluid, formalin yellow, colours leached toward parchment, the glass refracting the
   body where it presses against it, a handwritten paper label tied on with string,
   unpeopled frame, the label's handwriting worn to illegible loops
 sprite:
   motion: tailbeat
   prompt: >
-    a single showy fish in strict side profile facing right, whole body visible,
-    violet body with gold trim, fins flung wide like a stage costume mid-flourish, a
-    confident face that is slightly too symmetrical, a long gold-edged tail, wet wax
-    moulage specimen, glistening, a slick highlight along the spread fins, isolated
-    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single showy fish in strict side profile facing right, whole body visible, violet
+    body with gold trim, every fin spread wide and fanned out, a long flowing gold-edged
+    tail, a proud face with a lifted chin, wet wax moulage specimen, glistening, a slick
+    highlight along the spread fins, isolated on a plain flat pale grey studio backdrop,
+    even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     The leading role, and it knows it. Violet and gold, fins flung wide, never a
