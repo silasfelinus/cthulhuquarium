@@ -38,6 +38,7 @@ art_prompt: >
   the sheet bare
 sprite:
   motion: tailbeat
+  mass: true
   prompt: >
     a single tight shoal of tiny identical fish packed together into the outline of one
     larger fish, drawn as one mass in strict side profile facing right, whole shape in view, the tiny fish all heading right, one near the middle turned to face left

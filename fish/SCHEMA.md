@@ -176,6 +176,7 @@ sprite:
 | `sprite.motion` | How the body moves in place. One of `tailbeat`, `undulate`, `ripple`, `pulse`, `sway`, `breathe`, `rigid`. |
 | `sprite.prompt` | Written for *this* creature. Not the card prompt with a suffix bolted on. |
 | `sprite.faces` | Optional, `left` or `right` (default). Set on review when a render came back facing the wrong way; `build_sprites.py` mirrors it so every built sprite faces right. Review with `scripts/contact_sheet.py`. |
+| `sprite.mass` | Optional, `true` when the sprite already draws the whole group as one body (a census block, a court of shrimp, a fish made of sardines). The swim canvas then draws one of it and never adds `school` packmates, which would each be a copy of the whole crowd. |
 
 `motion` is not `behavior`. `behavior` is the path the creature takes through the tank;
 `motion` is what its body does while taking it. A `lurk` angler still `tailbeat`s; a

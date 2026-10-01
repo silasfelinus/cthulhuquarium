@@ -37,6 +37,7 @@ art_prompt: >
   hand, unpeopled frame, the rest of the sheet bare
 sprite:
   motion: breathe
+  mass: true
   prompt: >
     the whole census as one mass, a squared block of hundreds of identical small
     fish in perfect ruled rows and columns, whole block in view, every fish facing

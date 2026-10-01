@@ -36,6 +36,7 @@ art_prompt: >
   border, unpeopled frame, the plate's caption strip empty
 sprite:
   motion: rigid
+  mass: true
   prompt: >
     the whole coronation as one radial mass, whole form in view, crowned shrimp
     arranged in concentric rings around a small vacant centre, every ring facing
