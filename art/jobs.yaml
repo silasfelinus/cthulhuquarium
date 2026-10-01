@@ -141,6 +141,16 @@ jobs:
     hash: f54216168ad9
     engine: wan
     submitted: '2026-10-01T05:07:47Z'
+  clips/moebius-crab:
+    job: 32419
+    hash: cfb7fb210461
+    engine: wan
+    submitted: '2026-10-01T05:58:25Z'
+  clips/old-catfish:
+    job: 32420
+    hash: ac5bc4796f64
+    engine: wan
+    submitted: '2026-10-01T05:58:26Z'
   clips/pane-limpet:
     job: 32363
     hash: 2566a8b11221
@@ -221,11 +231,31 @@ jobs:
     hash: 05b1aa594367
     engine: wan
     submitted: '2026-10-01T05:07:50Z'
+  clips/the-aggregate:
+    job: 32421
+    hash: 6ee1e288c3e2
+    engine: wan
+    submitted: '2026-10-01T05:58:27Z'
   clips/the-almoner:
     job: 32390
     hash: 06eab0e09d55
     engine: wan
     submitted: '2026-10-01T02:06:25Z'
+  clips/the-annexation:
+    job: 32422
+    hash: 532c6f1266ba
+    engine: wan
+    submitted: '2026-10-01T05:58:28Z'
+  clips/the-antiphon:
+    job: 32423
+    hash: cda9cd68929f
+    engine: wan
+    submitted: '2026-10-01T05:58:29Z'
+  clips/the-association:
+    job: 32424
+    hash: 1c244d063632
+    engine: wan
+    submitted: '2026-10-01T05:58:30Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -261,36 +291,6 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/moebius-crab:
-    job: 32417
-    hash: f3964cde4479
-    engine: flux
-    submitted: '2026-10-01T05:08:43Z'
-  sprites/old-catfish:
-    job: 32418
-    hash: 425ccd27b692
-    engine: flux
-    submitted: '2026-10-01T05:08:44Z'
-  sprites/the-aggregate:
-    job: 32131
-    hash: 2fa9c88d7f80
-    engine: flux
-    submitted: '2026-09-30T07:45:13Z'
-  sprites/the-annexation:
-    job: 32133
-    hash: c6bdf7c07f37
-    engine: flux
-    submitted: '2026-09-30T07:45:14Z'
-  sprites/the-antiphon:
-    job: 32134
-    hash: 7ae51d5d478c
-    engine: flux
-    submitted: '2026-09-30T07:45:14Z'
-  sprites/the-association:
-    job: 32135
-    hash: 446e1b704d03
-    engine: flux
-    submitted: '2026-09-30T07:45:14Z'
   sprites/the-auditor:
     job: 32136
     hash: eecd6ab96ccb
