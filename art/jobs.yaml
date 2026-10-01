@@ -331,6 +331,36 @@ jobs:
     hash: 82950202c1c6
     engine: wan
     submitted: '2026-10-01T09:15:32Z'
+  clips/the-courier:
+    job: 32454
+    hash: 038d764ca975
+    engine: wan
+    submitted: '2026-10-01T10:27:06Z'
+  clips/the-court:
+    job: 32455
+    hash: 2651f92b28f6
+    engine: wan
+    submitted: '2026-10-01T10:27:07Z'
+  clips/the-delivery:
+    job: 32456
+    hash: 8073d1640785
+    engine: wan
+    submitted: '2026-10-01T10:27:08Z'
+  clips/the-doorkeeper:
+    job: 32457
+    hash: 4f4657d0c6ad
+    engine: wan
+    submitted: '2026-10-01T10:27:09Z'
+  clips/the-double-entry:
+    job: 32458
+    hash: 3d55e4951ee9
+    engine: wan
+    submitted: '2026-10-01T10:27:10Z'
+  clips/the-downspout:
+    job: 32459
+    hash: 2a0947cc5f14
+    engine: wan
+    submitted: '2026-10-01T10:27:11Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -366,36 +396,6 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-courier:
-    job: 32151
-    hash: e25d8b3c120d
-    engine: flux
-    submitted: '2026-09-30T07:45:21Z'
-  sprites/the-court:
-    job: 32152
-    hash: c3494e60cd89
-    engine: flux
-    submitted: '2026-09-30T07:45:21Z'
-  sprites/the-delivery:
-    job: 32153
-    hash: 96454efe29d7
-    engine: flux
-    submitted: '2026-09-30T07:45:22Z'
-  sprites/the-doorkeeper:
-    job: 32154
-    hash: 76d9617c48a3
-    engine: flux
-    submitted: '2026-09-30T07:45:22Z'
-  sprites/the-double-entry:
-    job: 32155
-    hash: 6379a93d1a18
-    engine: flux
-    submitted: '2026-09-30T07:45:23Z'
-  sprites/the-downspout:
-    job: 32156
-    hash: e40e2db809a1
-    engine: flux
-    submitted: '2026-09-30T07:45:23Z'
   sprites/the-efflorescence:
     job: 32157
     hash: b8753f588257
