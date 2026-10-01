@@ -291,6 +291,11 @@ jobs:
     hash: e041538050a7
     engine: wan
     submitted: '2026-10-01T08:12:36Z'
+  clips/the-clerestory:
+    job: 32448
+    hash: 4054c077e82e
+    engine: wan
+    submitted: '2026-10-01T09:15:26Z'
   clips/the-cold-snap:
     job: 32445
     hash: 59f2edeb2905
@@ -301,6 +306,31 @@ jobs:
     hash: cb45a106421a
     engine: wan
     submitted: '2026-10-01T08:12:39Z'
+  clips/the-concern:
+    job: 32449
+    hash: 0959951c0a67
+    engine: wan
+    submitted: '2026-10-01T09:15:27Z'
+  clips/the-conservatory:
+    job: 32450
+    hash: 87f0ddd0eda4
+    engine: wan
+    submitted: '2026-10-01T09:15:28Z'
+  clips/the-consignment:
+    job: 32451
+    hash: 3793372759f7
+    engine: wan
+    submitted: '2026-10-01T09:15:29Z'
+  clips/the-continuance:
+    job: 32452
+    hash: 36b7a580e55b
+    engine: wan
+    submitted: '2026-10-01T09:15:30Z'
+  clips/the-coronation:
+    job: 32453
+    hash: 82950202c1c6
+    engine: wan
+    submitted: '2026-10-01T09:15:32Z'
   clips/the-sconce:
     job: 32391
     hash: 56bee4cccc37
@@ -336,36 +366,6 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-clerestory:
-    job: 32447
-    hash: f8180a4fec00
-    engine: flux
-    submitted: '2026-10-01T08:13:19Z'
-  sprites/the-concern:
-    job: 32146
-    hash: 10c3679b38c1
-    engine: flux
-    submitted: '2026-09-30T07:45:19Z'
-  sprites/the-conservatory:
-    job: 32147
-    hash: 375a8fd81061
-    engine: flux
-    submitted: '2026-09-30T07:45:19Z'
-  sprites/the-consignment:
-    job: 32148
-    hash: b7a30dd17700
-    engine: flux
-    submitted: '2026-09-30T07:45:20Z'
-  sprites/the-continuance:
-    job: 32149
-    hash: 50dc69eaeb1c
-    engine: flux
-    submitted: '2026-09-30T07:45:20Z'
-  sprites/the-coronation:
-    job: 32150
-    hash: f264b2f6d169
-    engine: flux
-    submitted: '2026-09-30T07:45:21Z'
   sprites/the-courier:
     job: 32151
     hash: e25d8b3c120d

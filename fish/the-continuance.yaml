@@ -37,6 +37,7 @@ art_prompt: >
   handwriting worn to illegible loops
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     a single large old carp in strict side profile facing right, whole body visible, clouded milky eyes, slack drooping barbels, scales lifting at the edges,
     a grey-bronze body, its mouth open mid-gulp, wet wax moulage specimen,
