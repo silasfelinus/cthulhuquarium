@@ -38,6 +38,7 @@ art_prompt: >
   black
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a single heavy-shelled snail seen from the side, a broad muscular foot spread flat,
     a thick spiral shell covered in fine straight parallel ruled lines, a hard round

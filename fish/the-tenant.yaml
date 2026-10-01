@@ -37,6 +37,7 @@ art_prompt: >
   garish cheap inks, corners worn round, unpeopled frame, the name banner empty
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a single broad limpet seen from the side, a lopsided conical shell made of
     mismatched patches, each patch a slightly different shade of teal or rust, a frilled
