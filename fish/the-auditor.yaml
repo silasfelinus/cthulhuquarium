@@ -37,6 +37,7 @@ art_prompt: >
   unpeopled frame, the board around it left solid uncut black
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     a single severe narrow fish in strict side profile facing right, whole body visible, a tall stack of flat plate-like fins down its spine like bound ledgers,
     one narrow unblinking eye, a straight level body and a clipped square tail,
