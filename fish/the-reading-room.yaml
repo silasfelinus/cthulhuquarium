@@ -38,6 +38,7 @@ art_prompt: >
   label's handwriting worn to illegible loops
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a single low broad creature with a flat sloped back, an open book made of pale skin
     pages growing out of its back, faint lines across the pages, the soft cover folded

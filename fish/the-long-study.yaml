@@ -38,6 +38,7 @@ art_prompt: >
   worn to illegible loops
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a single immense creature squatting low and wide, its front grown into rows of small
     square shelves and pigeonholes packed with rolled cream paper scrolls, one long thin
