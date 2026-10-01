@@ -217,6 +217,14 @@ def main() -> int:
         if not static_path.exists():
             missing += 1
             continue
+        # Re-baking every animation took most of deliver.sh's run once ~130
+        # sprites existed; only redo one whose cut-out or fish file (motion) is
+        # newer, unless asked for these slugs or --force.
+        anim_path = ANIM / f"{slug}.webp"
+        fish_path = FISH / f"{slug}.yaml"
+        if (not args.force and not args.slugs and anim_path.exists()
+                and anim_path.stat().st_mtime >= max(static_path.stat().st_mtime, fish_path.stat().st_mtime)):
+            continue
         static = Image.open(static_path).convert("RGBA")
         scale = ANIM_LONG_EDGE / max(static.size)
         static = static.resize((max(1, round(static.width * scale)), max(1, round(static.height * scale))), Image.LANCZOS)

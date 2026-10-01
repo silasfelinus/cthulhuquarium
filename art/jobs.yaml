@@ -461,11 +461,26 @@ jobs:
     hash: 941db0ecdeaf
     engine: wan
     submitted: '2026-10-01T19:23:43Z'
+  clips/the-inventory:
+    job: 32557
+    hash: 8dff550f597c
+    engine: wan
+    submitted: '2026-10-01T21:21:41Z'
   clips/the-keyhole:
     job: 32501
     hash: 716cfb3fd2ce
     engine: wan
     submitted: '2026-10-01T13:54:09Z'
+  clips/the-long-consideration:
+    job: 32558
+    hash: 0f69c46efd3d
+    engine: wan
+    submitted: '2026-10-01T21:21:42Z'
+  clips/the-long-crossing:
+    job: 32559
+    hash: e010f0c0772d
+    engine: wan
+    submitted: '2026-10-01T21:21:43Z'
   clips/the-long-office:
     job: 32552
     hash: 43aa376d4cdd
@@ -501,11 +516,41 @@ jobs:
     hash: b3a637f8f5be
     engine: wan
     submitted: '2026-10-01T13:54:13Z'
+  clips/the-parcel:
+    job: 32560
+    hash: c57b8604d68a
+    engine: wan
+    submitted: '2026-10-01T21:21:44Z'
+  clips/the-permanent-collection:
+    job: 32561
+    hash: 5d5c3ffdc1db
+    engine: wan
+    submitted: '2026-10-01T21:21:45Z'
+  clips/the-pleasant-island:
+    job: 32562
+    hash: 522ba815fc3b
+    engine: wan
+    submitted: '2026-10-01T21:21:46Z'
   clips/the-principal:
     job: 32506
     hash: 947451b1f7d1
     engine: wan
     submitted: '2026-10-01T13:54:14Z'
+  clips/the-provision:
+    job: 32563
+    hash: 57238b7751fe
+    engine: wan
+    submitted: '2026-10-01T21:21:47Z'
+  clips/the-quire:
+    job: 32564
+    hash: 35bb6054bcdf
+    engine: wan
+    submitted: '2026-10-01T21:21:48Z'
+  clips/the-reading-bell:
+    job: 32565
+    hash: fa4bffed9e4c
+    engine: wan
+    submitted: '2026-10-01T21:21:49Z'
   clips/the-reading-room:
     job: 32507
     hash: 2c297b6bfe22
@@ -606,61 +651,16 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-inventory:
-    job: 32544
-    hash: 32e6eb38289a
-    engine: flux
-    submitted: '2026-10-01T19:23:17Z'
-  sprites/the-long-consideration:
-    job: 32545
-    hash: d0c70a0888a2
-    engine: flux
-    submitted: '2026-10-01T19:23:17Z'
-  sprites/the-long-crossing:
-    job: 32546
-    hash: d6ecbd8530c5
-    engine: flux
-    submitted: '2026-10-01T19:23:18Z'
   sprites/the-night-watch:
-    job: 32187
-    hash: a25fbfe90ec0
+    job: 32555
+    hash: c4a4683b1e17
     engine: flux
-    submitted: '2026-09-30T07:45:36Z'
-  sprites/the-parcel:
-    job: 32189
-    hash: b9445f4041b8
-    engine: flux
-    submitted: '2026-09-30T07:45:37Z'
-  sprites/the-permanent-collection:
-    job: 32190
-    hash: 8502691d9a90
-    engine: flux
-    submitted: '2026-09-30T07:45:37Z'
-  sprites/the-pleasant-island:
-    job: 32191
-    hash: 9bd4cddda23f
-    engine: flux
-    submitted: '2026-09-30T07:45:38Z'
+    submitted: '2026-10-01T21:21:38Z'
   sprites/the-proprietor:
-    job: 32193
-    hash: 47183a49b761
+    job: 32556
+    hash: 5580009baa2f
     engine: flux
-    submitted: '2026-09-30T07:45:39Z'
-  sprites/the-provision:
-    job: 32194
-    hash: 0b644424c21c
-    engine: flux
-    submitted: '2026-09-30T07:45:39Z'
-  sprites/the-quire:
-    job: 32195
-    hash: 77f82e12fd3d
-    engine: flux
-    submitted: '2026-09-30T07:45:39Z'
-  sprites/the-reading-bell:
-    job: 32196
-    hash: 2760e4553fc2
-    engine: flux
-    submitted: '2026-09-30T07:45:40Z'
+    submitted: '2026-10-01T21:21:38Z'
   sprites/the-receiving-line:
     job: 32198
     hash: e799045e0013
