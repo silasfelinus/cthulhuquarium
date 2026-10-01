@@ -39,12 +39,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small lionfish in strict side profile facing right, whole body visible, a
-    modest fan of candy-striped tangerine and cream spines, one steady flame-coloured
-    light held out ahead of its face on a single upright stalk, perfectly level posture,
-    chromolithograph cigarette card chromolithograph print on the body, dot rosettes and
-    slightly garish inks, isolated on a plain flat pale grey studio backdrop, even soft
-    light, strong crisp silhouette
+    a lionfish holding a small lit candle flame on a thin stalk that rises from its
+    forehead and bends forward in front of its mouth, a bright yellow glowing flame like
+    a wall sconce lamp, a single small lionfish in strict side profile facing right,
+    whole body visible, a modest fan of candy-striped tangerine and cream spines,
+    perfectly level posture, chromolithograph cigarette card print on the body, dot
+    rosettes and slightly garish inks, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A lionfish that brings its own lamp! Candy stripes, one steady flame, and never
