@@ -32,12 +32,12 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a small blunt-headed fish wedged flat against the inside of the glass, one enormous
-  round eye facing outward at the viewer, body compressed to almost nothing behind it,
-  stubby fins spread flat to the sides, scraperboard illustration, white line scratched
-  out of solid black ink with a blade, pure black and pure white only, every tone built
-  from line density, form built entirely from cut hatching, stark and linear, unpeopled
-  frame, the board around it left solid uncut black
+  a small blunt-headed fish seen head-on from the front, one enormous round eye facing
+  straight out at the viewer, body compressed to almost nothing behind it, stubby fins
+  spread flat to the sides, scraperboard illustration, white line scratched out of solid
+  black ink with a blade, pure black and pure white only, every tone built from line
+  density, form built entirely from cut hatching, stark and linear, unpeopled frame, the
+  board around it left solid uncut black
 sprite:
   motion: breathe
   prompt: >

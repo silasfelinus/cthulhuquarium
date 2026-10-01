@@ -30,11 +30,11 @@ evolution_kind: growth
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a small gorgeous sea slug on the glass, banded in every colour at once with a crown of
-  frilled gills and two blunt horns, luminous and immaculate, doing absolutely nothing,
-  ornamental natural history plate, obsessive radial symmetry, the organism arranged as
-  design to fill the sheet, fine line and restrained colour, ruled ornamental border,
-  unpeopled frame, the plate's caption strip empty
+  a small gorgeous sea slug on dark stone, banded in every colour at once with a crown
+  of frilled gills and two blunt horns, luminous and immaculate, doing absolutely
+  nothing, ornamental natural history plate, obsessive radial symmetry, the organism
+  arranged as design to fill the sheet, fine line and restrained colour, ruled
+  ornamental border, unpeopled frame, the plate's caption strip empty
 sprite:
   motion: ripple
   prompt: >

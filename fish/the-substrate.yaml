@@ -38,6 +38,7 @@ art_prompt: >
   left solid uncut black
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a low wide flat creature with one long closed mouth across its front edge and two
     small heavy-lidded eyes just above the mouth, its whole broad back covered in coarse

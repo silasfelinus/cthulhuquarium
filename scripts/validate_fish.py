@@ -111,7 +111,8 @@ NEGATION = re.compile(r"\b(?:not|no|without|avoid|never|nor|none|neither|"
 # Rule 7: Krea 2 is literal. A comparison paints the thing it compares to
 # ("like a chandelier" paints a chandelier), and naming the tank's glass paints a
 # pane in front of the creature.
-SIMILE = re.compile(r"\b(?:like\s+(?:an?|the)|as\s+if|as\s+though|"
+SIMILE = re.compile(r"\b(?:(?<!-)like\s+\w|as\s+if|as\s+though|"
+                    r"(?:on|against|of|gripping)\s+the\s+glass|"
                     r"aquarium\s+glass|panes?)\b", re.I)
 
 PLATE_MARKERS = {

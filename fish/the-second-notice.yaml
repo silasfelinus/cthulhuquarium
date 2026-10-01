@@ -30,11 +30,11 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a larger heavy-shelled snail on the glass, its trail behind it cut into ruled lines of
-  dense hatching like ruled correspondence, a hard stamped seal at the end of the trail,
-  scraperboard illustration, white line scratched out of solid black ink with a blade, pure
-  black and pure white only, every tone built from line density, form built entirely from
-  cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
+  a larger heavy-shelled snail on smooth stone, its trail behind it cut into ruled lines
+  of dense hatching, a hard round stamped mark at the end of the trail, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, pure black and
+  pure white only, every tone built from line density, form built entirely from cut
+  hatching, stark and linear, unpeopled frame, the board around it left solid uncut
   black
 sprite:
   motion: breathe

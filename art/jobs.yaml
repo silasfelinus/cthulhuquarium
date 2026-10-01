@@ -401,6 +401,21 @@ jobs:
     hash: 101be5a6c265
     engine: wan
     submitted: '2026-10-01T16:22:01Z'
+  clips/the-float:
+    job: 32533
+    hash: 3b056a29c85a
+    engine: wan
+    submitted: '2026-10-01T17:43:08Z'
+  clips/the-foundation:
+    job: 32534
+    hash: f40a3d9ee00c
+    engine: wan
+    submitted: '2026-10-01T17:43:09Z'
+  clips/the-founding-rustfish:
+    job: 32535
+    hash: 3d2d4d025f30
+    engine: wan
+    submitted: '2026-10-01T17:43:10Z'
   clips/the-foyer:
     job: 32496
     hash: 5fb1122cee7f
@@ -411,6 +426,11 @@ jobs:
     hash: c28615df81ed
     engine: wan
     submitted: '2026-10-01T13:54:07Z'
+  clips/the-guest-list:
+    job: 32537
+    hash: 11da11fdd958
+    engine: wan
+    submitted: '2026-10-01T17:43:12Z'
   clips/the-household:
     job: 32500
     hash: 05c5b0c277d4
@@ -491,6 +511,11 @@ jobs:
     hash: 2fbc6dcb94a4
     engine: wan
     submitted: '2026-10-01T14:55:02Z'
+  clips/the-substrate:
+    job: 32540
+    hash: 495ff89e7435
+    engine: wan
+    submitted: '2026-10-01T17:43:15Z'
   clips/the-summons:
     job: 32393
     hash: 558d9045ad88
@@ -541,41 +566,21 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-float:
-    job: 32165
-    hash: 04576db3e49f
-    engine: flux
-    submitted: '2026-09-30T07:45:27Z'
-  sprites/the-foundation:
-    job: 32166
-    hash: 3858f8be5a89
-    engine: flux
-    submitted: '2026-09-30T07:45:27Z'
-  sprites/the-founding-rustfish:
-    job: 32167
-    hash: 0a7f01393a6b
-    engine: flux
-    submitted: '2026-09-30T07:45:28Z'
   sprites/the-glasshouse:
-    job: 32170
-    hash: 3d2d3ff44c35
+    job: 32541
+    hash: e639ba127120
     engine: flux
-    submitted: '2026-09-30T07:45:29Z'
-  sprites/the-guest-list:
-    job: 32171
-    hash: ad5c998d293c
-    engine: flux
-    submitted: '2026-09-30T07:45:29Z'
+    submitted: '2026-10-01T17:45:42Z'
   sprites/the-harbors-due:
-    job: 32172
-    hash: df628be00d45
+    job: 32542
+    hash: 27faf9419e43
     engine: flux
-    submitted: '2026-09-30T07:45:30Z'
+    submitted: '2026-10-01T17:45:43Z'
   sprites/the-hold:
-    job: 32173
-    hash: 0b1bde695af7
+    job: 32543
+    hash: 1691ee074d71
     engine: flux
-    submitted: '2026-09-30T07:45:30Z'
+    submitted: '2026-10-01T17:45:43Z'
   sprites/the-holotype:
     job: 32174
     hash: 6653b998986d
@@ -686,11 +691,6 @@ jobs:
     hash: 5a9643b91721
     engine: flux
     submitted: '2026-09-30T07:45:45Z'
-  sprites/the-substrate:
-    job: 32532
-    hash: 7092b8ff65fb
-    engine: flux
-    submitted: '2026-10-01T16:23:28Z'
   sprites/the-testimony:
     job: 32215
     hash: 2a36bab9c4ab

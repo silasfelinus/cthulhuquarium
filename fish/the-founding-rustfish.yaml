@@ -31,21 +31,21 @@ evolution_kind: growth
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  an enormous ornate rustfish in corroded gold and deep rust, fins like heavy drapery,
-  ringed by a faint halo of smaller rustfish-shaped afterimages offset a little to one side
-  of it, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
-  leached toward parchment, the glass refracting the body where it presses against it, a
-  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
-  to illegible loops
+  an enormous ornate rustfish in corroded gold and deep rust, long fins hanging in deep
+  heavy folds, ringed by a faint halo of smaller rustfish-shaped afterimages offset a
+  little to one side of it, wet specimen preserved in a sealed glass jar of fluid,
+  formalin yellow, colours leached toward parchment, the glass refracting the body where
+  it presses against it, a handwritten paper label tied on with string, unpeopled frame,
+  the label's handwriting worn to illegible loops
 sprite:
   motion: tailbeat
   prompt: >
-    a single enormous ornate rustfish in strict side profile facing right, whole
-    body in view, deep-bodied and regal, corroded gold scales flaking to deep rust
-    along the flank, long heavy fins hanging in folds like velvet drapery, a tall
-    crested dorsal fin, a calm heavy-lidded eye, wet wax moulage specimen,
-    glistening, the gold slightly waxen and soft at the fin edges, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single enormous ornate rustfish in strict side profile facing right, whole body in
+    view, deep-bodied and regal, corroded gold scales flaking to deep rust along the
+    flank, long heavy fins hanging in deep heavy folds, a tall crested dorsal fin, a
+    calm heavy-lidded eye, wet wax moulage specimen, glistening, the gold slightly waxen
+    and soft at the fin edges, isolated on a plain flat pale grey studio backdrop, even
+    soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Our oldest line, and the most distinguished fish in the building. Those fins

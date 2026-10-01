@@ -39,11 +39,11 @@ sprite:
   motion: rigid
   faces: left
   prompt: >
-    a single small fish built entirely of sharply folded flat facets and hard creases
-    like origami, caught at a crisp quarter-turn with its planes angled, a pointed fan
-    tail of pleated folds, sumi ink rubbing of the folded fish cut out along its
-    outline, flat black on each facet with pale bare creases between, one painted eye,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single small fish built entirely of sharply folded flat facets and hard creases,
+    caught at a crisp quarter-turn with its planes angled, a pointed fan tail of pleated
+    folds, sumi ink rubbing of the folded fish cut out along its outline, flat black on
+    each facet with pale bare creases between, one painted eye, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A perfectly crisp little thing, all neat creases and clean angles. It turns the way a page turns in a very good book.
