@@ -38,10 +38,11 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single vast upright creature shaped like a tall pointed cathedral window,
-    whole body visible, built from leaded panels of turquoise and gold glass, dark
-    lead lines tracing the ribs, light blazing through the panels from within,
-    ornamental natural history linework, fine precise line and restrained colour,
+    a tall upright sea creature whose whole body is a pointed gothic arch shape made of
+    thick opaque stained glass, two dark eyes near its pointed top and small fins along
+    its sides, its body panels a deep saturated turquoise, cobalt and amber, heavy black
+    lead lines dividing the panels like ribs, a single creature standing free on its own
+    with nothing around it, whole body visible, ornamental natural history linework,
     obsessive symmetry, isolated on a plain flat charcoal studio backdrop, even soft
     light, strong crisp silhouette
 voices:
