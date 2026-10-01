@@ -37,6 +37,7 @@ art_prompt: >
   label's handwriting worn to illegible loops
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a broad heavy grouper-shaped fish hovering upright behind a wide thick shelf of its
     own lower lip, two long thin fins resting flat on the shelf, its head a smooth

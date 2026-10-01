@@ -39,6 +39,7 @@ art_prompt: >
   solid uncut black
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     a single narrow upright fish in strict side profile facing right, whole body visible, a long ruled column of tally marks cut down its flank in neat groups of five,
     a hard flat eye and a mouth set in a straight line, stiff squared fins, white line
