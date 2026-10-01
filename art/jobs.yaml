@@ -426,21 +426,56 @@ jobs:
     hash: c28615df81ed
     engine: wan
     submitted: '2026-10-01T13:54:07Z'
+  clips/the-glasshouse:
+    job: 32547
+    hash: 728a4c68b65f
+    engine: wan
+    submitted: '2026-10-01T19:23:39Z'
   clips/the-guest-list:
     job: 32537
     hash: 11da11fdd958
     engine: wan
     submitted: '2026-10-01T17:43:12Z'
+  clips/the-harbors-due:
+    job: 32548
+    hash: ef043511365e
+    engine: wan
+    submitted: '2026-10-01T19:23:40Z'
+  clips/the-hold:
+    job: 32549
+    hash: cf24469cf610
+    engine: wan
+    submitted: '2026-10-01T19:23:41Z'
+  clips/the-holotype:
+    job: 32550
+    hash: bdbd9c5f2453
+    engine: wan
+    submitted: '2026-10-01T19:23:42Z'
   clips/the-household:
     job: 32500
     hash: 05c5b0c277d4
     engine: wan
     submitted: '2026-10-01T13:54:08Z'
+  clips/the-inquiry:
+    job: 32551
+    hash: 941db0ecdeaf
+    engine: wan
+    submitted: '2026-10-01T19:23:43Z'
   clips/the-keyhole:
     job: 32501
     hash: 716cfb3fd2ce
     engine: wan
     submitted: '2026-10-01T13:54:09Z'
+  clips/the-long-office:
+    job: 32552
+    hash: 43aa376d4cdd
+    engine: wan
+    submitted: '2026-10-01T19:23:44Z'
+  clips/the-long-patience:
+    job: 32553
+    hash: ba66c2c6d043
+    engine: wan
+    submitted: '2026-10-01T19:23:45Z'
   clips/the-long-study:
     job: 32502
     hash: 6abeb105dcbe
@@ -456,6 +491,11 @@ jobs:
     hash: 3c0b4b0fa645
     engine: wan
     submitted: '2026-10-01T13:54:12Z'
+  clips/the-marginalia:
+    job: 32554
+    hash: 386eea2e5a33
+    engine: wan
+    submitted: '2026-10-01T19:23:46Z'
   clips/the-observation:
     job: 32505
     hash: b3a637f8f5be
@@ -566,61 +606,21 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-glasshouse:
-    job: 32541
-    hash: e639ba127120
-    engine: flux
-    submitted: '2026-10-01T17:45:42Z'
-  sprites/the-harbors-due:
-    job: 32542
-    hash: 27faf9419e43
-    engine: flux
-    submitted: '2026-10-01T17:45:43Z'
-  sprites/the-hold:
-    job: 32543
-    hash: 1691ee074d71
-    engine: flux
-    submitted: '2026-10-01T17:45:43Z'
-  sprites/the-holotype:
-    job: 32174
-    hash: 6653b998986d
-    engine: flux
-    submitted: '2026-09-30T07:45:31Z'
-  sprites/the-inquiry:
-    job: 32176
-    hash: 3282386e38c4
-    engine: flux
-    submitted: '2026-09-30T07:45:32Z'
   sprites/the-inventory:
-    job: 32177
-    hash: 34509b656f2f
+    job: 32544
+    hash: 32e6eb38289a
     engine: flux
-    submitted: '2026-09-30T07:45:32Z'
+    submitted: '2026-10-01T19:23:17Z'
   sprites/the-long-consideration:
-    job: 32179
-    hash: ad8baada4a0a
+    job: 32545
+    hash: d0c70a0888a2
     engine: flux
-    submitted: '2026-09-30T07:45:33Z'
+    submitted: '2026-10-01T19:23:17Z'
   sprites/the-long-crossing:
-    job: 32180
-    hash: 97dbc2b7103c
+    job: 32546
+    hash: d6ecbd8530c5
     engine: flux
-    submitted: '2026-09-30T07:45:33Z'
-  sprites/the-long-office:
-    job: 32181
-    hash: 65d8f0fb5faf
-    engine: flux
-    submitted: '2026-09-30T07:45:34Z'
-  sprites/the-long-patience:
-    job: 32182
-    hash: b48be2bfbcbd
-    engine: flux
-    submitted: '2026-09-30T07:45:34Z'
-  sprites/the-marginalia:
-    job: 32186
-    hash: a36a5b0a2e19
-    engine: flux
-    submitted: '2026-09-30T07:45:36Z'
+    submitted: '2026-10-01T19:23:18Z'
   sprites/the-night-watch:
     job: 32187
     hash: a25fbfe90ec0

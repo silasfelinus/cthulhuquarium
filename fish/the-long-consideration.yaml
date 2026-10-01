@@ -37,12 +37,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single tall folded creature made of far too many thin jointed limbs held tight
-    against its narrow upright body, joints stacked in a long zigzag column, a
-    smooth blank oval head at the top, deep violet skin with acid yellow knuckles at
-    every joint, wet wax moulage specimen, glistening, a slick highlight running
-    down each folded limb, isolated on a plain flat pale grey studio backdrop, even
-    soft light, strong crisp silhouette
+    a tall narrow insect-shaped water creature in side view facing right, eight long
+    thin jointed arms folded tight against its narrow body in a stacked zigzag, a smooth
+    blank oval head on a thin neck at the top, a slender segmented abdomen ending in a
+    small fin, deep violet skin with acid yellow knuckles at every joint, wet wax
+    moulage specimen, glistening, a slick highlight running down each folded arm,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Tall, poised, beautifully composed, and never in a hurry. It gives any tank the

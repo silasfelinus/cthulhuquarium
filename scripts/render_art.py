@@ -216,6 +216,10 @@ def submit(todo: list[dict], core, engine: str, manifest: dict) -> None:
             manifest[job["key"]] = {"job": job_id, "hash": job["hash"], "engine": "wan",
                                     "submitted": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
             sent += 1
+            # A video enqueue can take minutes; record each one so a run killed
+            # mid-batch never leaves a submitted job missing from the manifest.
+            save_manifest(manifest)
+            print(f"  submitted {job['key']} (job {job_id})", flush=True)
             continue
         entry = {"prompt": job["prompt"], "size": job["size"], "engine": engine, "project": "cthulhuquarium",
                  "priority": PRIORITY,
