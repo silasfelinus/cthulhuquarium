@@ -31,6 +31,16 @@ jobs:
     hash: 5d8414470ca6
     engine: wan
     submitted: '2026-09-30T18:44:36Z'
+  clips/chandelier-lion:
+    job: 32394
+    hash: b25533f0dcd2
+    engine: wan
+    submitted: '2026-10-01T03:03:12Z'
+  clips/choirfish:
+    job: 32395
+    hash: 1f6c416066bb
+    engine: wan
+    submitted: '2026-10-01T03:03:13Z'
   clips/crawdad-common:
     job: 32331
     hash: e5e2ec9f90e6
@@ -206,16 +216,11 @@ jobs:
     hash: 558d9045ad88
     engine: wan
     submitted: '2026-10-01T02:06:27Z'
-  sprites/chandelier-lion:
-    job: 32091
-    hash: e66161b69609
-    engine: flux
-    submitted: '2026-09-30T07:44:56Z'
-  sprites/choirfish:
-    job: 32092
-    hash: d2dd893b9710
-    engine: flux
-    submitted: '2026-09-30T07:44:57Z'
+  clips/thumbnail-dace:
+    job: 32397
+    hash: 9fa923c4bbda
+    engine: wan
+    submitted: '2026-10-01T03:03:14Z'
   sprites/elder-rustfish:
     job: 32099
     hash: 93d66347db65
@@ -692,10 +697,10 @@ jobs:
     engine: flux
     submitted: '2026-09-30T07:45:51Z'
   sprites/the-usher:
-    job: 32223
-    hash: 353e4c002df5
+    job: 32400
+    hash: 8c942000007b
     engine: flux
-    submitted: '2026-09-30T07:45:52Z'
+    submitted: '2026-10-01T03:04:20Z'
   sprites/the-verger:
     job: 32224
     hash: 978106dade4a
@@ -736,26 +741,21 @@ jobs:
     hash: af419912031e
     engine: flux
     submitted: '2026-09-30T07:45:55Z'
-  sprites/thumbnail-dace:
-    job: 32232
-    hash: 1eb37c026bd6
-    engine: flux
-    submitted: '2026-09-30T07:45:56Z'
   sprites/till-minnow:
-    job: 32233
-    hash: 87e1002988a3
+    job: 32401
+    hash: d4b4b695b08d
     engine: flux
-    submitted: '2026-09-30T07:45:56Z'
+    submitted: '2026-10-01T03:04:20Z'
   sprites/tithe-shoal:
     job: 32234
     hash: a6919c8c3477
     engine: flux
     submitted: '2026-09-30T07:45:56Z'
   sprites/wrapping-sole:
-    job: 32235
-    hash: 321bc82be006
+    job: 32402
+    hash: abfa065f5a1a
     engine: flux
-    submitted: '2026-09-30T07:45:57Z'
+    submitted: '2026-10-01T03:04:20Z'
   videos/charlotte-fishmonger-hero:
     job: 32300
     hash: b92fbf8ba436

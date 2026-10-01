@@ -37,6 +37,7 @@ art_prompt: >
   wooden base
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     a single slender fish in strict side profile facing right, whole body visible, its
     mouth held wide open mid-song, a soft cyan light glowing inside its throat, long

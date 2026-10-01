@@ -39,11 +39,12 @@ art_prompt: >
 sprite:
   motion: ripple
   prompt: >
-    a single small flat sole seen from above facing right, whole body visible, both
-    eyes on the upper side, a thin oval body with a fringe of fin all round its edge,
-    one edge neatly folded over like wrapping, sandy buff mottling, hand-coloured
-    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    a flat sole fish whose tail end is folded over on top of itself like the corner of a
+    wrapped parcel, a clear crease and the folded flap lying on its back, a single small
+    flat oval sole seen from above with its head to the right, whole body visible, both
+    eyes on the upper side, a fringe of fin all round its edge, sandy buff mottling,
+    hand-coloured lithograph linework and flat watercolour wash on the body, isolated on
+    a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Flat as a pressed flower and every bit as tidy. It makes itself useful the
