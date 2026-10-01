@@ -161,6 +161,11 @@ jobs:
     hash: 982085e7dea9
     engine: wan
     submitted: '2026-10-01T00:13:35Z'
+  clips/sea-camel:
+    job: 32389
+    hash: b90cab57cd5e
+    engine: wan
+    submitted: '2026-10-01T02:06:24Z'
   clips/silt-loach:
     job: 32376
     hash: 2d04ef1ad5f3
@@ -181,6 +186,26 @@ jobs:
     hash: 627a07eb27a3
     engine: wan
     submitted: '2026-10-01T01:10:24Z'
+  clips/the-almoner:
+    job: 32390
+    hash: 06eab0e09d55
+    engine: wan
+    submitted: '2026-10-01T02:06:25Z'
+  clips/the-sconce:
+    job: 32391
+    hash: 56bee4cccc37
+    engine: wan
+    submitted: '2026-10-01T02:06:26Z'
+  clips/the-sexton:
+    job: 32392
+    hash: 31f471908c54
+    engine: wan
+    submitted: '2026-10-01T02:06:27Z'
+  clips/the-summons:
+    job: 32393
+    hash: 558d9045ad88
+    engine: wan
+    submitted: '2026-10-01T02:06:27Z'
   sprites/chandelier-lion:
     job: 32091
     hash: e66161b69609
@@ -221,11 +246,6 @@ jobs:
     hash: be257930057a
     engine: flux
     submitted: '2026-09-30T07:45:06Z'
-  sprites/sea-camel:
-    job: 32386
-    hash: 9cec3825b2f7
-    engine: flux
-    submitted: '2026-10-01T01:11:15Z'
   sprites/the-accumulation:
     job: 32130
     hash: 12b00ae002fa
@@ -236,11 +256,6 @@ jobs:
     hash: 2fa9c88d7f80
     engine: flux
     submitted: '2026-09-30T07:45:13Z'
-  sprites/the-almoner:
-    job: 32387
-    hash: 66a4f6a12d3e
-    engine: flux
-    submitted: '2026-10-01T01:11:15Z'
   sprites/the-annexation:
     job: 32133
     hash: c6bdf7c07f37
@@ -586,11 +601,6 @@ jobs:
     hash: d04bd41f1ad4
     engine: flux
     submitted: '2026-09-30T07:45:42Z'
-  sprites/the-sconce:
-    job: 32388
-    hash: d8100500e158
-    engine: flux
-    submitted: '2026-10-01T01:11:15Z'
   sprites/the-second-notice:
     job: 32203
     hash: ce6422222a30
@@ -599,11 +609,6 @@ jobs:
   sprites/the-seven-lights:
     job: 32204
     hash: a8889b7279f3
-    engine: flux
-    submitted: '2026-09-30T07:45:44Z'
-  sprites/the-sexton:
-    job: 32205
-    hash: 57e4e0f14444
     engine: flux
     submitted: '2026-09-30T07:45:44Z'
   sprites/the-silence:
@@ -639,11 +644,6 @@ jobs:
   sprites/the-substrate:
     job: 32212
     hash: 85c5121c843a
-    engine: flux
-    submitted: '2026-09-30T07:45:47Z'
-  sprites/the-summons:
-    job: 32213
-    hash: 0c739d62db32
     engine: flux
     submitted: '2026-09-30T07:45:47Z'
   sprites/the-tenant:
