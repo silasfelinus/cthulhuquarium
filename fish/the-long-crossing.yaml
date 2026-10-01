@@ -37,6 +37,7 @@ art_prompt: >
   unpeopled frame, the name banner empty
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     two tall rounded humps rising from the back of a long-necked fish, each hump loaded
     with bundled packs tied on with crossed cord, the fish in strict side profile facing

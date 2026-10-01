@@ -36,6 +36,7 @@ art_prompt: >
   added afterward by hand, unpeopled frame, the rest of the sheet bare
 sprite:
   motion: rigid
+  faces: left
   prompt: >
     a single folded paper creature of sharp geometric planes, part crane and part
     polyhedron, a pointed wedge of a head, crisp creases dividing the body into flat
