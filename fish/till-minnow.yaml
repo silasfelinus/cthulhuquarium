@@ -39,10 +39,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small bright minnow in strict side profile facing right, whole body visible, a row of round pale scales along its flank like a line of stacked coins,
-    tarnished silver and warm brass, a quick alert eye, neat forked tail, hand-coloured
-    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    a minnow with a row of six shiny gold coins set along its side from gills to tail
+    like a line of stacked pennies, each coin round and bright gold, a single small
+    bright minnow in strict side profile facing right, whole body visible, tarnished
+    silver body, a quick alert eye, neat forked tail, hand-coloured lithograph linework
+    and flat watercolour wash on the body, isolated on a plain flat charcoal studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A bright little minnow with scales like a stack of coins. It brings such luck to

@@ -38,9 +38,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single narrow upright fish in strict side profile facing right, whole body visible, a stiff high collar of fins around its head, a long sombre face, one pectoral
-    fin held out sideways as though indicating a direction, white line scraperboard
-    surface cut from solid black, dense hatching, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a fish dressed like a theatre usher, a tall stiff white ruff collar of fins standing
+    up around its neck like a starched collar, one long pectoral fin stretched straight
+    out forward pointing the way like an arm showing someone to their seat, a single
+    narrow upright fish in strict side profile facing right with its head on the right,
+    whole body visible, a long sombre face, white line scraperboard surface cut from
+    solid black, dense hatching, isolated on a plain flat pale grey studio backdrop,
+    even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A proper usher, with a collar and a real sense of occasion. Nothing enters your
