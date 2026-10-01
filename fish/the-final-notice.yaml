@@ -30,21 +30,22 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a broad flattened shell clamped against the glass with a heavy embossed seal filling its
-  whole face, the seal cut in deep bold relief, the soft body drawn entirely inside,
-  scraperboard illustration, white line scratched out of solid black ink with a blade, pure
-  black and pure white only, every tone built from line density, form built entirely from
-  cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
-  black
+  a heavy snail with a broad flattened spiral shell and a deep round crown-shaped stamp
+  mark pressed into the middle of the shell, its foot clamped flat on dark stone,
+  scraperboard illustration, white line scratched out of solid black ink with a blade,
+  pure black and pure white only, every tone built from line density, form built
+  entirely from cut hatching, stark and linear, unpeopled frame, the board around it
+  left solid uncut black
 sprite:
   motion: breathe
   prompt: >
-    a single broad flat round shell creature seen from directly in front, its whole
-    front taken up by one heavy embossed seal cut in deep bold relief, a thick rim of
-    shell clamped around the seal, two small eyes on short stalks peeking from the rim,
-    white scraperboard hatching cut from solid black ink across the shell, dense line
-    where the seal sinks deepest, bright ridges on the raised letters, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a single heavy snail in strict side profile facing right, whole body visible, a
+    broad muscular foot clamped flat beneath it, a large round flattened spiral shell,
+    one deep round crown-shaped stamp mark pressed into the middle of the shell, short
+    stout tentacles held forward, white scraperboard hatching cut from solid black ink
+    across the shell and body, dense line inside the stamp mark, bright ridges on the
+    spiral, isolated on a plain flat pale grey studio backdrop, even soft light, strong
+    crisp silhouette
 voices:
   charlotte: >-
     Nothing in the shop is more decisive. It greets every visitor from the glass,
