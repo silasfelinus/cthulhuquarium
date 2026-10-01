@@ -38,10 +38,11 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single huge angular creature standing in side view facing right, whole body
-    visible, a hard faceted body of stacked square box-shaped plates, one very long
-    jointed limb held straight out level in front of it, a narrow level eye slit, white
-    line scraperboard surface cut from solid black, dense crisp hatching on every plane,
+    one very long jointed claw arm held straight out level in front of a huge angular
+    crab-like creature, the creature in side view facing right, whole body visible, a
+    hard faceted shell of stacked square box-shaped plates, six short thick legs
+    underneath, a narrow level eye slit at the front of the shell, white line
+    scraperboard surface cut from solid black, dense crisp hatching on every plane,
     isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
     silhouette
 voices:

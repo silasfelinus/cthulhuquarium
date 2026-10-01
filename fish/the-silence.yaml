@@ -39,6 +39,7 @@ art_prompt: >
   cross, flat unblended areas, paper showing through, unpeopled frame, wide bare margins
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a single soft rounded oval fish seen from the side, its body one smooth unbroken
     field of flat dark blue ink, its rim edged with a thin band of fine busy printed

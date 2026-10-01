@@ -38,6 +38,7 @@ art_prompt: >
   afterward by hand, unpeopled frame, the rest of the sheet bare
 sprite:
   motion: tailbeat
+  faces: left
   prompt: >
     a single small deep-bodied bream in strict side profile facing right, whole body
     visible, evenly spaced scales lined up in straight neat rows and columns, a tidy
