@@ -71,6 +71,11 @@ jobs:
     hash: 2129efefe728
     engine: wan
     submitted: '2026-09-30T20:31:34Z'
+  clips/elder-rustfish:
+    job: 32411
+    hash: 5e8302bff340
+    engine: wan
+    submitted: '2026-10-01T05:07:46Z'
   clips/errand-guppy:
     job: 32339
     hash: e0e9c1c14738
@@ -131,6 +136,11 @@ jobs:
     hash: 55b01aaa3b02
     engine: wan
     submitted: '2026-09-30T22:20:26Z'
+  clips/marsh-sovereign-crawdad:
+    job: 32412
+    hash: f54216168ad9
+    engine: wan
+    submitted: '2026-10-01T05:07:47Z'
   clips/pane-limpet:
     job: 32363
     hash: 2566a8b11221
@@ -206,6 +216,11 @@ jobs:
     hash: 627a07eb27a3
     engine: wan
     submitted: '2026-10-01T01:10:24Z'
+  clips/the-accumulation:
+    job: 32415
+    hash: 05b1aa594367
+    engine: wan
+    submitted: '2026-10-01T05:07:50Z'
   clips/the-almoner:
     job: 32390
     hash: 06eab0e09d55
@@ -241,31 +256,21 @@ jobs:
     hash: fb2a3393af3a
     engine: wan
     submitted: '2026-10-01T04:00:33Z'
-  sprites/elder-rustfish:
-    job: 32409
-    hash: b85f979e58cc
-    engine: flux
-    submitted: '2026-10-01T04:09:25Z'
-  sprites/marsh-sovereign-crawdad:
-    job: 32112
-    hash: fd30df770ee3
-    engine: flux
-    submitted: '2026-09-30T07:45:05Z'
+  clips/wrapping-sole:
+    job: 32416
+    hash: ba6fff5f9ee4
+    engine: wan
+    submitted: '2026-10-01T05:07:51Z'
   sprites/moebius-crab:
-    job: 32113
-    hash: 208652c8e1e0
+    job: 32417
+    hash: f3964cde4479
     engine: flux
-    submitted: '2026-09-30T07:45:06Z'
+    submitted: '2026-10-01T05:08:43Z'
   sprites/old-catfish:
-    job: 32114
-    hash: be257930057a
+    job: 32418
+    hash: 425ccd27b692
     engine: flux
-    submitted: '2026-09-30T07:45:06Z'
-  sprites/the-accumulation:
-    job: 32130
-    hash: 12b00ae002fa
-    engine: flux
-    submitted: '2026-09-30T07:45:12Z'
+    submitted: '2026-10-01T05:08:44Z'
   sprites/the-aggregate:
     job: 32131
     hash: 2fa9c88d7f80
@@ -751,11 +756,6 @@ jobs:
     hash: a6919c8c3477
     engine: flux
     submitted: '2026-09-30T07:45:56Z'
-  sprites/wrapping-sole:
-    job: 32410
-    hash: 32b65db846cd
-    engine: flux
-    submitted: '2026-10-01T04:09:26Z'
   videos/charlotte-fishmonger-hero:
     job: 32300
     hash: b92fbf8ba436
