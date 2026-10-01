@@ -38,10 +38,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single long-necked fish in strict side profile facing right, whole body visible, two heavy laden humps along its back each lashed with crossed cord, a
-    small patient eye and a faint sneer on its long snout, sand gold body shading to
-    dusty rose along the belly, a plain forked tail, chromolithograph cigarette card chromolithograph print on the body, bold outline, flat printed colour, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    two tall rounded humps rising from the back of a long-necked fish, each hump loaded
+    with bundled packs tied on with crossed cord, the fish in strict side profile facing
+    right, whole body visible, a small patient eye and a faint sneer on its long snout,
+    sand gold body shading to dusty rose along the belly, a plain forked tail,
+    chromolithograph cigarette card print on the body, bold outline, flat printed
+    colour, isolated on a plain flat pale grey studio backdrop, even soft light, strong
+    crisp silhouette
 voices:
   charlotte: >-
     Packed, provisioned, and ready for anything. The most self-sufficient creature
