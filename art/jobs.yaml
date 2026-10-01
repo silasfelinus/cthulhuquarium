@@ -386,11 +386,21 @@ jobs:
     hash: ee69ecced10e
     engine: wan
     submitted: '2026-10-01T12:42:48Z'
+  clips/the-final-notice:
+    job: 32523
+    hash: 0acfafaa34be
+    engine: wan
+    submitted: '2026-10-01T16:22:00Z'
   clips/the-first-demand:
     job: 32495
     hash: 05f3623fa080
     engine: wan
     submitted: '2026-10-01T12:42:50Z'
+  clips/the-fixture:
+    job: 32524
+    hash: 101be5a6c265
+    engine: wan
+    submitted: '2026-10-01T16:22:01Z'
   clips/the-foyer:
     job: 32496
     hash: 5fb1122cee7f
@@ -416,6 +426,11 @@ jobs:
     hash: 6abeb105dcbe
     engine: wan
     submitted: '2026-10-01T13:54:10Z'
+  clips/the-mains:
+    job: 32525
+    hash: b49ff576170f
+    engine: wan
+    submitted: '2026-10-01T16:22:02Z'
   clips/the-manifest:
     job: 32504
     hash: 3c0b4b0fa645
@@ -466,6 +481,11 @@ jobs:
     hash: 973cf11c87e6
     engine: wan
     submitted: '2026-10-01T14:54:59Z'
+  clips/the-stocktake:
+    job: 32526
+    hash: d594e491524b
+    engine: wan
+    submitted: '2026-10-01T16:22:03Z'
   clips/the-subscription:
     job: 32514
     hash: 2fbc6dcb94a4
@@ -486,6 +506,26 @@ jobs:
     hash: af9219db42c2
     engine: wan
     submitted: '2026-10-01T04:00:32Z'
+  clips/the-verger:
+    job: 32528
+    hash: 53f96fa9d3e6
+    engine: wan
+    submitted: '2026-10-01T16:22:05Z'
+  clips/the-vespers:
+    job: 32529
+    hash: c46f7580a7de
+    engine: wan
+    submitted: '2026-10-01T16:22:06Z'
+  clips/the-watershed:
+    job: 32530
+    hash: 2a9c3d01cfe6
+    engine: wan
+    submitted: '2026-10-01T16:22:07Z'
+  clips/the-welcome:
+    job: 32531
+    hash: 79666a50fd1b
+    engine: wan
+    submitted: '2026-10-01T16:22:09Z'
   clips/thumbnail-dace:
     job: 32397
     hash: 9fa923c4bbda
@@ -501,16 +541,6 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-final-notice:
-    job: 32497
-    hash: 205fe7f984f2
-    engine: flux
-    submitted: '2026-10-01T12:43:39Z'
-  sprites/the-fixture:
-    job: 32164
-    hash: 7dff7378f491
-    engine: flux
-    submitted: '2026-09-30T07:45:26Z'
   sprites/the-float:
     job: 32165
     hash: 04576db3e49f
@@ -581,11 +611,6 @@ jobs:
     hash: b48be2bfbcbd
     engine: flux
     submitted: '2026-09-30T07:45:34Z'
-  sprites/the-mains:
-    job: 32508
-    hash: d4bbbc9e419c
-    engine: flux
-    submitted: '2026-10-01T13:55:57Z'
   sprites/the-marginalia:
     job: 32186
     hash: a36a5b0a2e19
@@ -661,16 +686,11 @@ jobs:
     hash: 5a9643b91721
     engine: flux
     submitted: '2026-09-30T07:45:45Z'
-  sprites/the-stocktake:
-    job: 32516
-    hash: c71641aa7501
-    engine: flux
-    submitted: '2026-10-01T14:56:57Z'
   sprites/the-substrate:
-    job: 32489
-    hash: 12d539d8e76c
+    job: 32532
+    hash: 7092b8ff65fb
     engine: flux
-    submitted: '2026-10-01T11:58:13Z'
+    submitted: '2026-10-01T16:23:28Z'
   sprites/the-testimony:
     job: 32215
     hash: 2a36bab9c4ab
@@ -711,16 +731,6 @@ jobs:
     hash: d848b03694e3
     engine: flux
     submitted: '2026-09-30T07:45:51Z'
-  sprites/the-verger:
-    job: 32485
-    hash: 7ffa21d30508
-    engine: flux
-    submitted: '2026-10-01T11:56:30Z'
-  sprites/the-vespers:
-    job: 32486
-    hash: 524354a57576
-    engine: flux
-    submitted: '2026-10-01T11:56:30Z'
   sprites/the-vigil:
     job: 32226
     hash: 064876793051
@@ -741,16 +751,6 @@ jobs:
     hash: 8fdb2a7091dd
     engine: flux
     submitted: '2026-09-30T07:45:54Z'
-  sprites/the-watershed:
-    job: 32487
-    hash: fcd7f7de36bd
-    engine: flux
-    submitted: '2026-10-01T11:56:31Z'
-  sprites/the-welcome:
-    job: 32488
-    hash: a3aec15826af
-    engine: flux
-    submitted: '2026-10-01T11:56:31Z'
   sprites/tithe-shoal:
     job: 32234
     hash: a6919c8c3477

@@ -39,11 +39,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single low broad mound of coarse gravel that is itself one living body, the grains
-    arranged in flowing overlapping lines, a slow swelling rise in the middle, a faint
-    seam of a closed mouth along one edge, white line scraperboard surface cut from
-    solid black, form built from dense hatching, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a low wide flat creature with one long closed mouth across its front edge and two
+    small heavy-lidded eyes just above the mouth, its whole broad back covered in coarse
+    gravel grains in flowing overlapping lines, a slow swelling hump in the middle of
+    its back, white line scraperboard surface cut from solid black, form built from
+    dense hatching, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Why buy ordinary gravel when you could have gravel with ambitions? It lays

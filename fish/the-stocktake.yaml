@@ -37,6 +37,7 @@ art_prompt: >
   black
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     one very long jointed claw arm held straight out level in front of a huge angular
     crab-like creature, the creature in side view facing right, whole body visible, a

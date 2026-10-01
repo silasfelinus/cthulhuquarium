@@ -37,6 +37,7 @@ art_prompt: >
   unpeopled frame, the board around it left solid uncut black
 sprite:
   motion: breathe
+  faces: left
   prompt: >
     a single large snail seen from the side, a broad foot spread flat, an ornate spiral
     shell drawn up into tall pointed stacked whorls, one small round bead balanced on
