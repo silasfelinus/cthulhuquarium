@@ -36,11 +36,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single hermit crab in strict side profile facing right, whole body visible,
-    carrying a shell twisted into one continuous looping band that passes through
-    itself, swirled purple and gold bands, a small crab body and legs showing beneath
-    the loop, ornamental natural history line and restrained colour on the body,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a hermit crab carrying a shell shaped like a twisted ribbon loop, a wide flat band
+    of shell curled round into a figure eight infinity sign with a half twist, the crab
+    peeking out from under the twisted loop, a single hermit crab in strict side profile
+    facing right, whole body visible, swirled purple and gold bands on the ribbon shell,
+    small crab body and legs below, ornamental natural history line and restrained
+    colour on the body, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     The most extraordinary shell in the shop, one continuous twist of purple and gold. It has made itself thoroughly at home in there.

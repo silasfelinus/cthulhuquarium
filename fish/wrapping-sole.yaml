@@ -38,6 +38,7 @@ art_prompt: >
   the line, unpeopled frame, the caption space beneath the image left empty
 sprite:
   motion: ripple
+  faces: left
   prompt: >
     a flatfish folded in half like a taco or a folded pancake, its flat body bent over
     along the middle so the top half lies on the bottom half with a rounded crease, a
