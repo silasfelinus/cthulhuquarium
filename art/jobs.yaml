@@ -1,8 +1,3 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
-jobs:
-  clips/the-parcel:
-    job: 33262
-    hash: c57b8604d68a
-    engine: wan
-    submitted: '2026-10-02T21:54:51Z'
+jobs: {}
