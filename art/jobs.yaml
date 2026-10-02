@@ -6,156 +6,11 @@ jobs:
     hash: 5e8302bff340
     engine: wan
     submitted: '2026-10-02T16:32:17Z'
-  clips/the-census:
-    job: 32443
-    hash: e041538050a7
-    engine: wan
-    submitted: '2026-10-01T08:12:36Z'
-  clips/the-clerestory:
-    job: 32448
-    hash: 4054c077e82e
-    engine: wan
-    submitted: '2026-10-01T09:15:26Z'
-  clips/the-cold-snap:
-    job: 32445
-    hash: 59f2edeb2905
-    engine: wan
-    submitted: '2026-10-01T08:12:38Z'
-  clips/the-committee:
-    job: 32446
-    hash: cb45a106421a
-    engine: wan
-    submitted: '2026-10-01T08:12:39Z'
-  clips/the-concern:
-    job: 32449
-    hash: 0959951c0a67
-    engine: wan
-    submitted: '2026-10-01T09:15:27Z'
-  clips/the-conservatory:
-    job: 32450
-    hash: 87f0ddd0eda4
-    engine: wan
-    submitted: '2026-10-01T09:15:28Z'
-  clips/the-consignment:
-    job: 32451
-    hash: 3793372759f7
-    engine: wan
-    submitted: '2026-10-01T09:15:29Z'
-  clips/the-continuance:
-    job: 32452
-    hash: 36b7a580e55b
-    engine: wan
-    submitted: '2026-10-01T09:15:30Z'
-  clips/the-coronation:
-    job: 32453
-    hash: 82950202c1c6
-    engine: wan
-    submitted: '2026-10-01T09:15:32Z'
-  clips/the-courier:
-    job: 32454
-    hash: 038d764ca975
-    engine: wan
-    submitted: '2026-10-01T10:27:06Z'
-  clips/the-court:
-    job: 32455
-    hash: 2651f92b28f6
-    engine: wan
-    submitted: '2026-10-01T10:27:07Z'
-  clips/the-delivery:
-    job: 32456
-    hash: 8073d1640785
-    engine: wan
-    submitted: '2026-10-01T10:27:08Z'
-  clips/the-doorkeeper:
-    job: 32457
-    hash: 4f4657d0c6ad
-    engine: wan
-    submitted: '2026-10-01T10:27:09Z'
-  clips/the-double-entry:
-    job: 32458
-    hash: 3d55e4951ee9
-    engine: wan
-    submitted: '2026-10-01T10:27:10Z'
-  clips/the-downspout:
-    job: 32459
-    hash: 2a0947cc5f14
-    engine: wan
-    submitted: '2026-10-01T10:27:11Z'
-  clips/the-efflorescence:
-    job: 32460
-    hash: 4b912cb1e71d
-    engine: wan
-    submitted: '2026-10-01T11:36:48Z'
-  clips/the-endowment:
-    job: 32492
-    hash: ff7484e7c2ed
-    engine: wan
-    submitted: '2026-10-01T12:42:47Z'
-  clips/the-enforcement:
-    job: 32462
-    hash: a00c8ec81b91
-    engine: wan
-    submitted: '2026-10-01T11:36:51Z'
-  clips/the-enquiry-desk:
-    job: 32463
-    hash: ae25a93f482c
-    engine: wan
-    submitted: '2026-10-01T11:36:52Z'
-  clips/the-estimate:
-    job: 32493
-    hash: ee69ecced10e
-    engine: wan
-    submitted: '2026-10-01T12:42:48Z'
-  clips/the-final-notice:
-    job: 32523
-    hash: 0acfafaa34be
-    engine: wan
-    submitted: '2026-10-01T16:22:00Z'
-  clips/the-first-demand:
-    job: 32495
-    hash: 05f3623fa080
-    engine: wan
-    submitted: '2026-10-01T12:42:50Z'
-  clips/the-fixture:
-    job: 32524
-    hash: 101be5a6c265
-    engine: wan
-    submitted: '2026-10-01T16:22:01Z'
-  clips/the-float:
-    job: 32533
-    hash: 3b056a29c85a
-    engine: wan
-    submitted: '2026-10-01T17:43:08Z'
-  clips/the-foundation:
-    job: 32534
-    hash: f40a3d9ee00c
-    engine: wan
-    submitted: '2026-10-01T17:43:09Z'
-  clips/the-founding-rustfish:
-    job: 32535
-    hash: 3d2d4d025f30
-    engine: wan
-    submitted: '2026-10-01T17:43:10Z'
-  clips/the-foyer:
-    job: 32496
-    hash: 5fb1122cee7f
-    engine: wan
-    submitted: '2026-10-01T12:42:51Z'
-  clips/the-freeholder:
-    job: 32499
-    hash: c28615df81ed
-    engine: wan
-    submitted: '2026-10-01T13:54:07Z'
   clips/the-glasshouse:
     job: 32547
     hash: 728a4c68b65f
     engine: wan
     submitted: '2026-10-01T19:23:39Z'
-  clips/the-guest-list:
-    job: 32537
-    hash: 11da11fdd958
-    engine: wan
-    submitted: '2026-10-01T17:43:12Z'
   clips/the-harbors-due:
     job: 32548
     hash: ef043511365e
@@ -171,11 +26,6 @@ jobs:
     hash: bdbd9c5f2453
     engine: wan
     submitted: '2026-10-01T19:23:42Z'
-  clips/the-household:
-    job: 32500
-    hash: 05c5b0c277d4
-    engine: wan
-    submitted: '2026-10-01T13:54:08Z'
   clips/the-inquiry:
     job: 32551
     hash: 941db0ecdeaf
@@ -186,11 +36,6 @@ jobs:
     hash: 8dff550f597c
     engine: wan
     submitted: '2026-10-01T21:21:41Z'
-  clips/the-keyhole:
-    job: 32501
-    hash: 716cfb3fd2ce
-    engine: wan
-    submitted: '2026-10-01T13:54:09Z'
   clips/the-long-consideration:
     job: 32558
     hash: 0f69c46efd3d
@@ -211,21 +56,11 @@ jobs:
     hash: ba66c2c6d043
     engine: wan
     submitted: '2026-10-01T19:23:45Z'
-  clips/the-long-study:
-    job: 32502
-    hash: 6abeb105dcbe
-    engine: wan
-    submitted: '2026-10-01T13:54:10Z'
   clips/the-mains:
-    job: 32525
+    job: 33188
     hash: b49ff576170f
     engine: wan
-    submitted: '2026-10-01T16:22:02Z'
-  clips/the-manifest:
-    job: 32504
-    hash: 3c0b4b0fa645
-    engine: wan
-    submitted: '2026-10-01T13:54:12Z'
+    submitted: '2026-10-02T19:17:32Z'
   clips/the-marginalia:
     job: 32554
     hash: 386eea2e5a33
@@ -236,11 +71,6 @@ jobs:
     hash: 2ad864945c27
     engine: wan
     submitted: '2026-10-01T22:36:52Z'
-  clips/the-observation:
-    job: 32505
-    hash: b3a637f8f5be
-    engine: wan
-    submitted: '2026-10-01T13:54:13Z'
   clips/the-parcel:
     job: 32560
     hash: c57b8604d68a
@@ -256,11 +86,6 @@ jobs:
     hash: 522ba815fc3b
     engine: wan
     submitted: '2026-10-01T21:21:46Z'
-  clips/the-principal:
-    job: 32506
-    hash: 947451b1f7d1
-    engine: wan
-    submitted: '2026-10-01T13:54:14Z'
   clips/the-proprietor:
     job: 32580
     hash: fdbbe579cb09
@@ -281,11 +106,6 @@ jobs:
     hash: fa4bffed9e4c
     engine: wan
     submitted: '2026-10-01T21:21:49Z'
-  clips/the-reading-room:
-    job: 32507
-    hash: 2c297b6bfe22
-    engine: wan
-    submitted: '2026-10-01T13:54:15Z'
   clips/the-receiving-line:
     job: 32979
     hash: 47335a69366a
@@ -306,21 +126,11 @@ jobs:
     hash: 2fa6baf14fc6
     engine: wan
     submitted: '2026-10-01T22:36:56Z'
-  clips/the-second-notice:
-    job: 32509
-    hash: 7dcbecd17a9d
-    engine: wan
-    submitted: '2026-10-01T14:54:56Z'
-  clips/the-seven-lights:
-    job: 32510
-    hash: ac3f3a289914
-    engine: wan
-    submitted: '2026-10-01T14:54:57Z'
   clips/the-silence:
-    job: 32511
+    job: 33189
     hash: d74d55513d5f
     engine: wan
-    submitted: '2026-10-01T14:54:58Z'
+    submitted: '2026-10-02T19:17:33Z'
   clips/the-single-fish:
     job: 32572
     hash: b72433104bf8
@@ -331,36 +141,11 @@ jobs:
     hash: 037c1fc1d08a
     engine: wan
     submitted: '2026-10-01T22:36:58Z'
-  clips/the-spectacle:
-    job: 32512
-    hash: 973cf11c87e6
-    engine: wan
-    submitted: '2026-10-01T14:54:59Z'
-  clips/the-stocktake:
-    job: 32526
-    hash: d594e491524b
-    engine: wan
-    submitted: '2026-10-01T16:22:03Z'
-  clips/the-subscription:
-    job: 32514
-    hash: 2fbc6dcb94a4
-    engine: wan
-    submitted: '2026-10-01T14:55:02Z'
-  clips/the-substrate:
-    job: 32540
-    hash: 495ff89e7435
-    engine: wan
-    submitted: '2026-10-01T17:43:15Z'
   clips/the-summons:
     job: 33152
     hash: 558d9045ad88
     engine: wan
     submitted: '2026-10-02T16:32:18Z'
-  clips/the-tenant:
-    job: 32515
-    hash: 133230c3df52
-    engine: wan
-    submitted: '2026-10-01T14:55:03Z'
   clips/the-testimony:
     job: 32991
     hash: 8aaf375129c4
@@ -402,15 +187,10 @@ jobs:
     engine: wan
     submitted: '2026-10-02T00:06:14Z'
   clips/the-verger:
-    job: 32528
+    job: 33190
     hash: 53f96fa9d3e6
     engine: wan
-    submitted: '2026-10-01T16:22:05Z'
-  clips/the-vespers:
-    job: 32529
-    hash: c46f7580a7de
-    engine: wan
-    submitted: '2026-10-01T16:22:06Z'
+    submitted: '2026-10-02T19:17:34Z'
   clips/the-vigil:
     job: 32985
     hash: a298ff415f65
@@ -431,16 +211,6 @@ jobs:
     hash: b5f7d4fbac62
     engine: wan
     submitted: '2026-10-02T09:51:31Z'
-  clips/the-watershed:
-    job: 32530
-    hash: 2a9c3d01cfe6
-    engine: wan
-    submitted: '2026-10-01T16:22:07Z'
-  clips/the-welcome:
-    job: 32531
-    hash: 79666a50fd1b
-    engine: wan
-    submitted: '2026-10-01T16:22:09Z'
   clips/tithe-shoal:
     job: 32995
     hash: 8f61aa1d4e81
