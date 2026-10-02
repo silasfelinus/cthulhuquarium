@@ -26,16 +26,6 @@ jobs:
     hash: f9509ad21b20
     engine: wan
     submitted: '2026-10-01T04:00:31Z'
-  clips/ledger-crab:
-    job: 32361
-    hash: fcf884330d91
-    engine: wan
-    submitted: '2026-09-30T22:20:25Z'
-  clips/lint-shrimp:
-    job: 32362
-    hash: 55b01aaa3b02
-    engine: wan
-    submitted: '2026-09-30T22:20:26Z'
   clips/marsh-sovereign-crawdad:
     job: 32412
     hash: f54216168ad9
@@ -51,31 +41,11 @@ jobs:
     hash: ac5bc4796f64
     engine: wan
     submitted: '2026-10-01T06:08:01Z'
-  clips/pane-limpet:
-    job: 32363
-    hash: 2566a8b11221
-    engine: wan
-    submitted: '2026-09-30T22:20:27Z'
-  clips/parlour-rustfish:
-    job: 32364
-    hash: 6e55b0c3016d
-    engine: wan
-    submitted: '2026-09-30T22:20:28Z'
   clips/penny-bream:
     job: 32372
     hash: 2110eabcbe0d
     engine: wan
     submitted: '2026-10-01T00:13:33Z'
-  clips/pier-blenny:
-    job: 32366
-    hash: aedead501c62
-    engine: wan
-    submitted: '2026-09-30T23:17:41Z'
-  clips/pin-shrimp:
-    job: 32367
-    hash: 0baa72caaef6
-    engine: wan
-    submitted: '2026-09-30T23:17:41Z'
   clips/portsmouth-bitterling:
     job: 32368
     hash: b0982f6d4f78
