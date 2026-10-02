@@ -16,7 +16,10 @@
 #   scenes.<id>.background milestone scenes only: the background Charlotte hands over
 #   scenes.<id>.beats[]    speaker (charlotte|wilbur), pose (see POSES), text,
 #                          focus (optional UI target to highlight),
-#                          await (optional player action that advances the beat)
+#                          await (optional player action that advances the beat),
+#                          plate (optional: this beat's plate, replacing the scene's;
+#                          `<character-slug>-hero` shows that character's full-length
+#                          moving portrait, videos/videos.yaml, as an upright card)
 #
 # POSES -- each is a cut-out dialogue portrait (characters/*.yaml, art: portraits):
 #   charlotte: welcome, delighted, presenting, confiding, lorgnette
@@ -46,11 +49,13 @@ scenes:
           Everything out is in, as we say.
       - speaker: charlotte
         pose: presenting
+        plate: charlotte-fishmonger-hero
         text: >-
           Charlotte Fishmonger, of the Portsmouth Fishmongers, and this is my
           Cthulhuquarium. You have the look of someone who needs something to look after.
       - speaker: charlotte
         pose: delighted
+        plate: wilbur-stint-hero
         text: Wilbur will show you. Wilbur shows everyone.
       - speaker: wilbur
         pose: greeting
