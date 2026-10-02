@@ -41,56 +41,11 @@ jobs:
     hash: ac5bc4796f64
     engine: wan
     submitted: '2026-10-01T06:08:01Z'
-  clips/penny-bream:
-    job: 32372
-    hash: 2110eabcbe0d
-    engine: wan
-    submitted: '2026-10-01T00:13:33Z'
-  clips/portsmouth-bitterling:
-    job: 32368
-    hash: b0982f6d4f78
-    engine: wan
-    submitted: '2026-09-30T23:17:42Z'
-  clips/postmark-snail:
-    job: 32369
-    hash: f65599329051
-    engine: wan
-    submitted: '2026-09-30T23:17:43Z'
-  clips/rain-barrel-roach:
-    job: 32370
-    hash: 690cb90bba5c
-    engine: wan
-    submitted: '2026-09-30T23:17:44Z'
-  clips/rainbow-nudibranch:
-    job: 32380
-    hash: 0c0f3474bf62
-    engine: wan
-    submitted: '2026-10-01T01:10:21Z'
-  clips/sardine-common:
-    job: 32374
-    hash: 982085e7dea9
-    engine: wan
-    submitted: '2026-10-01T00:13:35Z'
   clips/sea-camel:
     job: 32389
     hash: b90cab57cd5e
     engine: wan
     submitted: '2026-10-01T02:06:24Z'
-  clips/silt-loach:
-    job: 32376
-    hash: 2d04ef1ad5f3
-    engine: wan
-    submitted: '2026-10-01T00:13:37Z'
-  clips/skimmer-fry:
-    job: 32377
-    hash: 2a32f9adda64
-    engine: wan
-    submitted: '2026-10-01T00:13:38Z'
-  clips/standpipe-goby:
-    job: 32382
-    hash: aaa060351ee3
-    engine: wan
-    submitted: '2026-10-01T01:10:23Z'
   clips/sump-blob:
     job: 32383
     hash: 627a07eb27a3
