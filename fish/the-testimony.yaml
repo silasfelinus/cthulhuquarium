@@ -39,11 +39,12 @@ art_prompt: >
 sprite:
   motion: undulate
   prompt: >
-    two identical eel heads side by side on one long eel body, the body splitting at the
-    neck into two necks, both heads facing right with the same flat expression and level
-    eyes, the eel in strict side profile, whole body visible, a smooth tapering tail,
-    white line scraperboard surface cut from solid black, dense hatching, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a two-headed eel, one upper head and one lower head side by side at the front end,
+    two separate necks joining into one long body behind them, both heads facing right
+    with the same flat expression, two eyes on each head, the eel in strict side
+    profile, a smooth tapering tail, white line scraperboard surface cut from solid
+    black, dense hatching, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     Two heads, and never a cross word between them. I have known married couples who

@@ -566,6 +566,11 @@ jobs:
     hash: 2c297b6bfe22
     engine: wan
     submitted: '2026-10-01T13:54:15Z'
+  clips/the-receiving-line:
+    job: 32979
+    hash: 47335a69366a
+    engine: wan
+    submitted: '2026-10-02T00:06:09Z'
   clips/the-reckoning:
     job: 32581
     hash: 787cdf4b9f0e
@@ -661,6 +666,26 @@ jobs:
     hash: 245da3e465a9
     engine: wan
     submitted: '2026-10-01T22:37:02Z'
+  clips/the-undercurrent:
+    job: 32981
+    hash: b7ed63471975
+    engine: wan
+    submitted: '2026-10-02T00:06:11Z'
+  clips/the-understone:
+    job: 32982
+    hash: 2aece66b5bf1
+    engine: wan
+    submitted: '2026-10-02T00:06:12Z'
+  clips/the-understudy:
+    job: 32983
+    hash: d1de145586fc
+    engine: wan
+    submitted: '2026-10-02T00:06:13Z'
+  clips/the-unlidded-rustfish:
+    job: 32984
+    hash: fcbf4ee2acfe
+    engine: wan
+    submitted: '2026-10-02T00:06:14Z'
   clips/the-usher:
     job: 32406
     hash: af9219db42c2
@@ -676,6 +701,11 @@ jobs:
     hash: c46f7580a7de
     engine: wan
     submitted: '2026-10-01T16:22:06Z'
+  clips/the-vigil:
+    job: 32985
+    hash: a298ff415f65
+    engine: wan
+    submitted: '2026-10-02T00:06:15Z'
   clips/the-watershed:
     job: 32530
     hash: 2a9c3d01cfe6
@@ -701,41 +731,11 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-receiving-line:
-    job: 32578
-    hash: 470f137b625b
-    engine: flux
-    submitted: '2026-10-01T22:38:42Z'
   sprites/the-testimony:
-    job: 32579
-    hash: 45d9d1cc5d76
+    job: 32986
+    hash: 7fbea5613003
     engine: flux
-    submitted: '2026-10-01T22:38:42Z'
-  sprites/the-undercurrent:
-    job: 32219
-    hash: 42b9e6c12698
-    engine: flux
-    submitted: '2026-09-30T07:45:50Z'
-  sprites/the-understone:
-    job: 32220
-    hash: 9adf2894de09
-    engine: flux
-    submitted: '2026-09-30T07:45:50Z'
-  sprites/the-understudy:
-    job: 32221
-    hash: c5106a0af21f
-    engine: flux
-    submitted: '2026-09-30T07:45:51Z'
-  sprites/the-unlidded-rustfish:
-    job: 32222
-    hash: d848b03694e3
-    engine: flux
-    submitted: '2026-09-30T07:45:51Z'
-  sprites/the-vigil:
-    job: 32226
-    hash: 064876793051
-    engine: flux
-    submitted: '2026-09-30T07:45:53Z'
+    submitted: '2026-10-02T00:07:27Z'
   sprites/the-vitrine:
     job: 32227
     hash: aa985e580346
