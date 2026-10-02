@@ -38,6 +38,7 @@ art_prompt: >
   left empty
 sprite:
   motion: undulate
+  faces: left
   prompt: >
     a single long pale loach in strict side profile facing right, whole body visible, a
     low raised ridge along its back with a few neat gravel grains heaped on it, two soft
