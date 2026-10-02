@@ -38,6 +38,7 @@ art_prompt: >
   unpeopled frame, the board around it left solid uncut black
 sprite:
   motion: undulate
+  faces: left
   prompt: >
     a two-headed eel, one upper head and one lower head side by side at the front end,
     two separate necks joining into one long body behind them, both heads facing right

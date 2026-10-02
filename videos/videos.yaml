@@ -54,15 +54,24 @@ videos:
   - key: charlotte-fishmonger-hero
     source: characters/raw/charlotte-fishmonger-hero.webp
     use: Charlotte's full-length plate in the intro and the character card
+    # Portrait: the plate is 832x1216, and the 832x480 default cover-cropped her
+    # head out of frame (first render, 2026-10-02).
+    width: 480
+    height: 832
     prompt: >-
       she breathes slowly and lifts her chin, a slow gracious blink, the jet beads and
       sequins on her gown catching the gaslight, her raised hand turning a little in a
-      theatrical flourish, the painted backdrop still, hand-tinted albumen photograph
+      theatrical flourish, the camera and the painted backdrop perfectly still,
+      hand-tinted albumen photograph
   - key: wilbur-stint-hero
     source: characters/raw/wilbur-stint-hero.webp
     use: Wilbur's full-length plate in the intro and the character card
+    # Portrait, as above. "pushes his spectacles up his nose" came back as him
+    # putting on sunglasses, and the frame drifted; the motion is now small and fixed.
+    width: 480
+    height: 832
     prompt: >-
-      he shifts his weight from one foot to the other, pushes his spectacles up his nose
-      and tries a brave smile, the net held upright in his good arm swaying slightly,
-      something large turning slowly in the green tank beside him, hand-tinted albumen
-      photograph
+      he breathes slowly and shifts his weight from one foot to the other with a small
+      brave smile, the net held upright in his good arm swaying slightly, something
+      large turning slowly in the green tank beside him, the camera perfectly still,
+      hand-tinted albumen photograph
