@@ -1,116 +1,11 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
-  clips/chandelier-lion:
-    job: 32394
-    hash: b25533f0dcd2
-    engine: wan
-    submitted: '2026-10-01T03:03:12Z'
-  clips/choirfish:
-    job: 32395
-    hash: 1f6c416066bb
-    engine: wan
-    submitted: '2026-10-01T03:03:13Z'
   clips/elder-rustfish:
-    job: 32411
+    job: 33151
     hash: 5e8302bff340
     engine: wan
-    submitted: '2026-10-01T05:07:46Z'
-  clips/fractal-bloom:
-    job: 32404
-    hash: 921c77ec9348
-    engine: wan
-    submitted: '2026-10-01T04:00:30Z'
-  clips/glass-weaver:
-    job: 32405
-    hash: f9509ad21b20
-    engine: wan
-    submitted: '2026-10-01T04:00:31Z'
-  clips/marsh-sovereign-crawdad:
-    job: 32412
-    hash: f54216168ad9
-    engine: wan
-    submitted: '2026-10-01T05:07:47Z'
-  clips/moebius-crab:
-    job: 32425
-    hash: cfb7fb210461
-    engine: wan
-    submitted: '2026-10-01T06:08:00Z'
-  clips/old-catfish:
-    job: 32426
-    hash: ac5bc4796f64
-    engine: wan
-    submitted: '2026-10-01T06:08:01Z'
-  clips/sea-camel:
-    job: 32389
-    hash: b90cab57cd5e
-    engine: wan
-    submitted: '2026-10-01T02:06:24Z'
-  clips/sump-blob:
-    job: 32383
-    hash: 627a07eb27a3
-    engine: wan
-    submitted: '2026-10-01T01:10:24Z'
-  clips/the-accumulation:
-    job: 32415
-    hash: 05b1aa594367
-    engine: wan
-    submitted: '2026-10-01T05:07:50Z'
-  clips/the-aggregate:
-    job: 32433
-    hash: 6ee1e288c3e2
-    engine: wan
-    submitted: '2026-10-01T07:09:15Z'
-  clips/the-almoner:
-    job: 32390
-    hash: 06eab0e09d55
-    engine: wan
-    submitted: '2026-10-01T02:06:25Z'
-  clips/the-annexation:
-    job: 32441
-    hash: 532c6f1266ba
-    engine: wan
-    submitted: '2026-10-01T08:12:33Z'
-  clips/the-antiphon:
-    job: 32429
-    hash: cda9cd68929f
-    engine: wan
-    submitted: '2026-10-01T06:08:04Z'
-  clips/the-association:
-    job: 32430
-    hash: 1c244d063632
-    engine: wan
-    submitted: '2026-10-01T06:08:05Z'
-  clips/the-auditor:
-    job: 32435
-    hash: 993ad66a6182
-    engine: wan
-    submitted: '2026-10-01T07:09:17Z'
-  clips/the-backlog:
-    job: 32436
-    hash: ddfa5deb5daa
-    engine: wan
-    submitted: '2026-10-01T07:09:18Z'
-  clips/the-balance:
-    job: 32437
-    hash: 99fef4111963
-    engine: wan
-    submitted: '2026-10-01T07:09:19Z'
-  clips/the-bedding:
-    job: 32438
-    hash: e877074fd194
-    engine: wan
-    submitted: '2026-10-01T07:09:20Z'
-  clips/the-catacomb:
-    job: 32439
-    hash: db0ad811c28b
-    engine: wan
-    submitted: '2026-10-01T07:09:21Z'
-  clips/the-catchment:
-    job: 32442
-    hash: b6ae63203395
-    engine: wan
-    submitted: '2026-10-01T08:12:34Z'
+    submitted: '2026-10-02T16:32:17Z'
   clips/the-census:
     job: 32443
     hash: e041538050a7
@@ -411,11 +306,6 @@ jobs:
     hash: 2fa6baf14fc6
     engine: wan
     submitted: '2026-10-01T22:36:56Z'
-  clips/the-sconce:
-    job: 32391
-    hash: 56bee4cccc37
-    engine: wan
-    submitted: '2026-10-01T02:06:26Z'
   clips/the-second-notice:
     job: 32509
     hash: 7dcbecd17a9d
@@ -426,11 +316,6 @@ jobs:
     hash: ac3f3a289914
     engine: wan
     submitted: '2026-10-01T14:54:57Z'
-  clips/the-sexton:
-    job: 32392
-    hash: 31f471908c54
-    engine: wan
-    submitted: '2026-10-01T02:06:27Z'
   clips/the-silence:
     job: 32511
     hash: d74d55513d5f
@@ -467,10 +352,10 @@ jobs:
     engine: wan
     submitted: '2026-10-01T17:43:15Z'
   clips/the-summons:
-    job: 32393
+    job: 33152
     hash: 558d9045ad88
     engine: wan
-    submitted: '2026-10-01T02:06:27Z'
+    submitted: '2026-10-02T16:32:18Z'
   clips/the-tenant:
     job: 32515
     hash: 133230c3df52
@@ -516,11 +401,6 @@ jobs:
     hash: fcbf4ee2acfe
     engine: wan
     submitted: '2026-10-02T00:06:14Z'
-  clips/the-usher:
-    job: 32406
-    hash: af9219db42c2
-    engine: wan
-    submitted: '2026-10-01T04:00:32Z'
   clips/the-verger:
     job: 32528
     hash: 53f96fa9d3e6
@@ -561,23 +441,8 @@ jobs:
     hash: 79666a50fd1b
     engine: wan
     submitted: '2026-10-01T16:22:09Z'
-  clips/thumbnail-dace:
-    job: 32397
-    hash: 9fa923c4bbda
-    engine: wan
-    submitted: '2026-10-01T03:03:14Z'
-  clips/till-minnow:
-    job: 32407
-    hash: fb2a3393af3a
-    engine: wan
-    submitted: '2026-10-01T04:00:33Z'
   clips/tithe-shoal:
     job: 32995
     hash: 8f61aa1d4e81
     engine: wan
     submitted: '2026-10-02T07:54:38Z'
-  clips/wrapping-sole:
-    job: 32416
-    hash: ba6fff5f9ee4
-    engine: wan
-    submitted: '2026-10-01T05:07:51Z'
