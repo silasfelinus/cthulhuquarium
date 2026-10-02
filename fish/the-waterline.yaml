@@ -38,12 +38,14 @@ art_prompt: >
   rest of the sheet bare
 sprite:
   motion: undulate
+  mass: true
   prompt: >
-    a single long ribbon of hundreds of tiny fry packed shoulder to shoulder as one
-    mass, in side view running left to right, perfectly even thickness along its whole
-    length, every tiny head facing right, sumi ink rubbing of the band cut out along its
-    outline, flat black, uneven coverage, a scatter of wet painted eyes, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    about forty small silver fish lined up nose to tail in two neat touching rows, the
+    rows forming one long narrow band of even thickness running left to right, every
+    fish facing right with one dark eye and a small forked tail, each fish a crisp solid
+    shape, sumi ink rubbing of the fish cut out along their outlines, flat black ink,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     A perfect silver ribbon along the top of your water. It trims the tank like

@@ -651,6 +651,11 @@ jobs:
     hash: 133230c3df52
     engine: wan
     submitted: '2026-10-01T14:55:03Z'
+  clips/the-testimony:
+    job: 32991
+    hash: 8aaf375129c4
+    engine: wan
+    submitted: '2026-10-02T07:54:34Z'
   clips/the-threshold:
     job: 32575
     hash: 925e1dbab830
@@ -706,6 +711,16 @@ jobs:
     hash: a298ff415f65
     engine: wan
     submitted: '2026-10-02T00:06:15Z'
+  clips/the-vitrine:
+    job: 32992
+    hash: 9fb099dc23c6
+    engine: wan
+    submitted: '2026-10-02T07:54:35Z'
+  clips/the-waiting-list:
+    job: 32993
+    hash: 2d3291e6b281
+    engine: wan
+    submitted: '2026-10-02T07:54:36Z'
   clips/the-watershed:
     job: 32530
     hash: 2a9c3d01cfe6
@@ -726,48 +741,33 @@ jobs:
     hash: fb2a3393af3a
     engine: wan
     submitted: '2026-10-01T04:00:33Z'
+  clips/tithe-shoal:
+    job: 32995
+    hash: 8f61aa1d4e81
+    engine: wan
+    submitted: '2026-10-02T07:54:38Z'
   clips/wrapping-sole:
     job: 32416
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-testimony:
-    job: 32986
-    hash: 7fbea5613003
-    engine: flux
-    submitted: '2026-10-02T00:07:27Z'
-  sprites/the-vitrine:
-    job: 32227
-    hash: aa985e580346
-    engine: flux
-    submitted: '2026-09-30T07:45:53Z'
-  sprites/the-waiting-list:
-    job: 32228
-    hash: dc16f3bba5b9
-    engine: flux
-    submitted: '2026-09-30T07:45:54Z'
   sprites/the-waterline:
-    job: 32229
-    hash: 8fdb2a7091dd
+    job: 32996
+    hash: a6495750401a
     engine: flux
-    submitted: '2026-09-30T07:45:54Z'
-  sprites/tithe-shoal:
-    job: 32234
-    hash: a6919c8c3477
-    engine: flux
-    submitted: '2026-09-30T07:45:56Z'
+    submitted: '2026-10-02T07:56:36Z'
   videos/charlotte-fishmonger-hero:
-    job: 32300
-    hash: b92fbf8ba436
+    job: 32997
+    hash: da98fefc24a2
     engine: wan
-    submitted: '2026-09-30T09:53:37Z'
+    submitted: '2026-10-02T07:56:38Z'
   videos/screen-arrival:
     job: 32308
     hash: 6dd4608da197
     engine: wan
     submitted: '2026-09-30T12:26:21Z'
   videos/wilbur-stint-hero:
-    job: 32301
-    hash: da869432cae0
+    job: 32998
+    hash: 5d401627c898
     engine: wan
-    submitted: '2026-09-30T10:05:45Z'
+    submitted: '2026-10-02T07:56:39Z'
