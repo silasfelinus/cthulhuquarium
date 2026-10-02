@@ -1,36 +1,6 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
-  clips/bailiff-eel:
-    job: 32281
-    hash: 060872d1e951
-    engine: wan
-    submitted: '2026-09-30T09:23:32Z'
-  clips/brass-tack-goby:
-    job: 32282
-    hash: 636c0f7bf381
-    engine: wan
-    submitted: '2026-09-30T09:23:33Z'
-  clips/brine-courtiers:
-    job: 32283
-    hash: 13979e32c2b1
-    engine: wan
-    submitted: '2026-09-30T09:23:34Z'
-  clips/candle-snail:
-    job: 32328
-    hash: 13f6a9472b2f
-    engine: wan
-    submitted: '2026-09-30T18:44:34Z'
-  clips/catfish-common:
-    job: 32335
-    hash: 6539e8eeb2a2
-    engine: wan
-    submitted: '2026-09-30T19:37:47Z'
-  clips/cellar-newt:
-    job: 32330
-    hash: 5d8414470ca6
-    engine: wan
-    submitted: '2026-09-30T18:44:36Z'
   clips/chandelier-lion:
     job: 32394
     hash: b25533f0dcd2
@@ -41,91 +11,21 @@ jobs:
     hash: 1f6c416066bb
     engine: wan
     submitted: '2026-10-01T03:03:13Z'
-  clips/crawdad-common:
-    job: 32331
-    hash: e5e2ec9f90e6
-    engine: wan
-    submitted: '2026-09-30T18:44:37Z'
-  clips/culvert-eel:
-    job: 32332
-    hash: 3f3628515682
-    engine: wan
-    submitted: '2026-09-30T18:44:38Z'
-  clips/doorstep-whelk:
-    job: 32333
-    hash: 23dc8d252dcf
-    engine: wan
-    submitted: '2026-09-30T18:44:39Z'
-  clips/draught-stickleback:
-    job: 32342
-    hash: 1c2149c19ea5
-    engine: wan
-    submitted: '2026-09-30T20:31:33Z'
-  clips/drifting-bell:
-    job: 32337
-    hash: 9aad88633e13
-    engine: wan
-    submitted: '2026-09-30T19:37:49Z'
-  clips/drowned-carp:
-    job: 32343
-    hash: 2129efefe728
-    engine: wan
-    submitted: '2026-09-30T20:31:34Z'
   clips/elder-rustfish:
     job: 32411
     hash: 5e8302bff340
     engine: wan
     submitted: '2026-10-01T05:07:46Z'
-  clips/errand-guppy:
-    job: 32339
-    hash: e0e9c1c14738
-    engine: wan
-    submitted: '2026-09-30T19:37:51Z'
-  clips/folding-fry:
-    job: 32344
-    hash: 814bf94db20e
-    engine: wan
-    submitted: '2026-09-30T20:31:35Z'
   clips/fractal-bloom:
     job: 32404
     hash: 921c77ec9348
     engine: wan
     submitted: '2026-10-01T04:00:30Z'
-  clips/glass-shrimp:
-    job: 32345
-    hash: e6d34a0f1612
-    engine: wan
-    submitted: '2026-09-30T20:31:36Z'
   clips/glass-weaver:
     job: 32405
     hash: f9509ad21b20
     engine: wan
     submitted: '2026-10-01T04:00:31Z'
-  clips/gravel-tetra:
-    job: 32346
-    hash: 5951342373eb
-    engine: wan
-    submitted: '2026-09-30T20:31:37Z'
-  clips/guppy-common:
-    job: 32347
-    hash: 92bc28fd3190
-    engine: wan
-    submitted: '2026-09-30T20:31:38Z'
-  clips/gutter-minnow:
-    job: 32360
-    hash: 6f07254f0968
-    engine: wan
-    submitted: '2026-09-30T22:20:24Z'
-  clips/kitchen-perch:
-    job: 32349
-    hash: 45706a8adb69
-    engine: wan
-    submitted: '2026-09-30T21:24:26Z'
-  clips/lamplight-angler:
-    job: 32350
-    hash: eef831299095
-    engine: wan
-    submitted: '2026-09-30T21:24:27Z'
   clips/ledger-crab:
     job: 32361
     hash: fcf884330d91
@@ -721,6 +621,11 @@ jobs:
     hash: 2d3291e6b281
     engine: wan
     submitted: '2026-10-02T07:54:36Z'
+  clips/the-waterline:
+    job: 33083
+    hash: b5f7d4fbac62
+    engine: wan
+    submitted: '2026-10-02T09:51:31Z'
   clips/the-watershed:
     job: 32530
     hash: 2a9c3d01cfe6
@@ -751,23 +656,3 @@ jobs:
     hash: ba6fff5f9ee4
     engine: wan
     submitted: '2026-10-01T05:07:51Z'
-  sprites/the-waterline:
-    job: 32996
-    hash: a6495750401a
-    engine: flux
-    submitted: '2026-10-02T07:56:36Z'
-  videos/charlotte-fishmonger-hero:
-    job: 32997
-    hash: da98fefc24a2
-    engine: wan
-    submitted: '2026-10-02T07:56:38Z'
-  videos/screen-arrival:
-    job: 32308
-    hash: 6dd4608da197
-    engine: wan
-    submitted: '2026-09-30T12:26:21Z'
-  videos/wilbur-stint-hero:
-    job: 32998
-    hash: 5d401627c898
-    engine: wan
-    submitted: '2026-10-02T07:56:39Z'
