@@ -115,6 +115,7 @@ scenes:
 
   first_unlock:
     trigger: first_unlock
+    plate: screen-first-unlock
     beats:
       - speaker: charlotte
         pose: delighted
@@ -127,6 +128,7 @@ scenes:
 
   first_hatch:
     trigger: first_hatch
+    plate: screen-first-hatch
     beats:
       - speaker: charlotte
         pose: delighted
@@ -139,6 +141,7 @@ scenes:
 
   first_breed:
     trigger: first_breed
+    plate: screen-first-breed
     beats:
       - speaker: wilbur
         pose: alarmed
@@ -149,6 +152,7 @@ scenes:
 
   bestiary_complete:
     trigger: bestiary_complete
+    plate: screen-bestiary-complete
     beats:
       - speaker: charlotte
         pose: presenting
@@ -165,6 +169,7 @@ scenes:
 
   milestone_bestiary_5:
     trigger: milestone:bestiary_5
+    plate: screen-milestone-kelp-stair
     background: kelp-stair
     beats:
       - speaker: charlotte
@@ -195,6 +200,7 @@ scenes:
         text: They like the pews. Leave them the pews.
   milestone_bestiary_20:
     trigger: milestone:bestiary_20
+    plate: screen-milestone-portsmouth
     background: wreck-of-the-portsmouth
     beats:
       - speaker: charlotte
@@ -281,6 +287,7 @@ scenes:
         text: It'll get tight. They sort out their own order. Usually.
   milestone_first_evolution:
     trigger: milestone:first_evolution
+    plate: screen-milestone-hatchery
     background: hatchery
     beats:
       - speaker: wilbur
