@@ -30,12 +30,12 @@ evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a sleek small fish with a satchel-shaped swelling along its belly and a rolled paper held
-  crosswise in its mouth, caught mid-burst with the water streaming back from it, bright
-  green and cream, chromolithograph cigarette card from around 1900, small format with a
-  printed ornamental border and a blank name banner, four-colour stone printing, visible
-  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
-  the creature alone, a plain cream ribbon of bare paper along the bottom edge
+  a sleek small fish with a satchel-shaped swelling along its belly and a rolled paper
+  held crosswise in its mouth, caught mid-burst with the water streaming back from it,
+  bright green and cream, chromolithograph cigarette card from around 1900, small format
+  with a printed ornamental border, four-colour stone printing, visible misregistration
+  and dot rosettes, slightly garish cheap inks, corners worn round, the creature alone,
+  a plain cream ribbon of bare paper along the bottom edge
 sprite:
   motion: tailbeat
   prompt: >

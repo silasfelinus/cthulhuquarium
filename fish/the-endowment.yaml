@@ -28,12 +28,12 @@ evolves_from: the-almoner
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a stout hermit crab in a shell made of stacked coins, holding out one claw with a small
-  offering balanced on it, a queue of much smaller creatures waiting in an orderly line,
-  warm gold and cream, chromolithograph cigarette card from around 1900, small format with a
-  printed ornamental border and a blank name banner, four-colour stone printing, visible
-  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
-  the creature alone, a plain cream ribbon of bare paper along the bottom edge
+  a stout hermit crab in a shell made of stacked coins, holding out one claw with a
+  small offering balanced on it, a queue of much smaller creatures waiting in an orderly
+  line, warm gold and cream, chromolithograph cigarette card from around 1900, small
+  format with a printed ornamental border, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round, the
+  creature alone, a plain cream ribbon of bare paper along the bottom edge
 sprite:
   motion: breathe
   prompt: >

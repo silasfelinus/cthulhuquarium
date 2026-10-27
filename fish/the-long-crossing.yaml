@@ -29,12 +29,12 @@ evolves_from: sea-camel
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a long-necked fish with two heavy laden humps along its back, each lashed with cord, small
-  patient eyes and a slight sneer, standing level in open water facing away, sand gold and
-  dusty rose, chromolithograph cigarette card from around 1900, small format with a printed
-  ornamental border and a blank name banner, four-colour stone printing, visible
-  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
-  the creature alone, a plain cream ribbon of bare paper along the bottom edge
+  a long-necked fish with two heavy laden humps along its back, each lashed with cord,
+  small half-closed eyes and a slight sneer, standing level in open water facing away,
+  sand gold and dusty rose, chromolithograph cigarette card from around 1900, small
+  format with a printed ornamental border, four-colour stone printing, visible
+  misregistration and dot rosettes, slightly garish cheap inks, corners worn round, the
+  creature alone, a plain cream ribbon of bare paper along the bottom edge
 sprite:
   motion: tailbeat
   faces: left

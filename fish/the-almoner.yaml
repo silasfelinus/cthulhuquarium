@@ -32,10 +32,10 @@ games: [cthulhuquarium]
 art_prompt: >
   a small pale crab in cream and gold holding several identical portions of food out on
   its claws, arranged in a neat fan, all exactly the same size, chromolithograph
-  cigarette card from around 1900, small format with a printed ornamental border and a
-  blank name banner, four-colour stone printing, visible misregistration and dot
-  rosettes, slightly garish cheap inks, corners worn round, the creature alone, a plain
-  cream ribbon of bare paper along the bottom edge
+  cigarette card from around 1900, small format with a printed ornamental border,
+  four-colour stone printing, visible misregistration and dot rosettes, slightly garish
+  cheap inks, corners worn round, the creature alone, a plain cream ribbon of bare paper
+  along the bottom edge
 sprite:
   motion: breathe
   prompt: >

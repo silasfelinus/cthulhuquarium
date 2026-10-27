@@ -28,12 +28,12 @@ evolves_from: guppy-common
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a small plain guppy with an oversized fan tail, standing off from a tidy heap of sorted
-  wriggling grubs arranged in equal piles, posture upright and businesslike, pale rose and
-  silver, chromolithograph cigarette card from around 1900, small format with a printed
-  ornamental border and a blank name banner, four-colour stone printing, visible
-  misregistration and dot rosettes, slightly garish cheap inks, corners worn round,
-  the creature alone, a plain cream ribbon of bare paper along the bottom edge
+  a small plain guppy with an oversized fan tail, standing off from a tidy heap of
+  sorted wriggling grubs arranged in equal piles, posture upright and businesslike, pale
+  rose and silver, chromolithograph cigarette card from around 1900, small format with a
+  printed ornamental border, four-colour stone printing, visible misregistration and dot
+  rosettes, slightly garish cheap inks, corners worn round, the creature alone, a plain
+  cream ribbon of bare paper along the bottom edge
 sprite:
   motion: tailbeat
   prompt: >

@@ -31,11 +31,12 @@ plate: gyotaku
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
   a dense shoal of tiny identical fish swimming so tightly they form the outline of one
-  much larger fish, one single fish near the middle facing the wrong way, gyotaku fish
-  rubbing, sumi ink pressed directly from the body onto fibrous washi paper, flat black,
-  coverage uneven, the ink thin and skipping where the body lifted away, fins printing
-  as fine radiating lines, one wet painted eye added afterward by hand, the creature
-  alone in the middle of the sheet, the rest of the sheet bare
+  much larger fish, one single fish near the middle facing the opposite way to all the
+  others, gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous
+  washi paper, flat black, coverage uneven, the ink thin and skipping where the body
+  lifted away, fins printing as fine radiating lines, one wet painted eye added
+  afterward by hand, the creature alone in the middle of the sheet, the rest of the
+  sheet bare
 sprite:
   motion: tailbeat
   mass: true
