@@ -30,11 +30,11 @@ plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
   a towering creature built from overlapping rectangular paper-like fins stacked askew,
-  bone-white and cold blue, leaning slightly forward, blank unmarked paper over its whole
-  surface, top to bottom, wet specimen preserved in a sealed glass jar of fluid, formalin
-  yellow, colours leached toward parchment, the glass refracting the body where it presses
-  against it, a handwritten paper label tied on with string, unpeopled frame, the label's
-  handwriting worn to illegible loops
+  bone-white and cold blue, leaning slightly forward, blank unmarked paper over its
+  whole surface, top to bottom, wet specimen preserved in a sealed glass jar of fluid,
+  formalin yellow, colours leached toward parchment, the glass refracting the body where
+  it presses against it, a handwritten paper label tied on with string, the jar standing
+  alone, the label's brown ink faded to pale looping scribbles
 sprite:
   motion: breathe
   prompt: >

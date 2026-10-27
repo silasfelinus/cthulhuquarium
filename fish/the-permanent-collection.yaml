@@ -30,10 +30,11 @@ plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
   a vast ornamental arrangement of hundreds of small preserved specimens fixed in ranked
-  concentric rings, each ring a different kind, the whole composed as a single symmetrical
-  organism filling the sheet, ornamental natural history plate, obsessive radial symmetry,
-  the organism arranged as design to fill the sheet, fine line and restrained colour, ruled
-  ornamental border, unpeopled frame, the plate's caption strip empty
+  concentric rings, each ring a different kind, the whole composed as a single
+  symmetrical organism filling the sheet, ornamental natural history plate, obsessive
+  radial symmetry, the organism arranged as design to fill the sheet, fine line and
+  restrained colour, ruled ornamental border, the creature alone inside the ruled
+  border, a plain strip of bare paper beneath it
 sprite:
   motion: breathe
   mass: true

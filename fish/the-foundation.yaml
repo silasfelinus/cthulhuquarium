@@ -29,12 +29,12 @@ evolves_from: the-understone
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  an enormous flat slab of stone occupying the whole floor of the frame with a single wide
-  seam across it parted slightly into a mouth, gravel heaped against its edges and sliding
-  into the seam, scraperboard illustration, white line scratched out of solid black ink with
-  a blade, pure black and pure white only, every tone built from line density, form built
-  entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
-  solid uncut black
+  an enormous flat slab of stone covering the whole sea floor with a single wide seam
+  across it parted slightly into a mouth, gravel heaped against its edges and sliding
+  into the seam, scraperboard illustration, white line scratched out of solid black ink
+  with a blade, pure black and pure white only, every tone built from line density, form
+  built entirely from cut hatching,  the creature alone, the board
+  around it left solid uncut black
 sprite:
   motion: breathe
   prompt: >

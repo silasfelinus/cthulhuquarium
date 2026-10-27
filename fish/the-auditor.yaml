@@ -33,8 +33,8 @@ art_prompt: >
   a severe upright creature with a stack of flat plate-like fins down its spine, one
   narrow unblinking eye, held perfectly level, scraperboard illustration, white line
   scratched out of solid black ink with a blade, pure black and pure white only, every
-  tone built from line density, form built entirely from cut hatching, stark and linear,
-  unpeopled frame, the board around it left solid uncut black
+  tone built from line density, form built entirely from cut hatching, 
+  the creature alone, the board around it left solid uncut black
 sprite:
   motion: tailbeat
   faces: left

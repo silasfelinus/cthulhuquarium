@@ -33,7 +33,8 @@ art_prompt: >
   every fish an identical spoke from a common centre, fine needle detail, pale blue and
   white on the plate, ornamental natural history plate, obsessive radial symmetry, the
   organism arranged as design to fill the sheet, fine line and restrained colour, ruled
-  ornamental border, unpeopled frame, the plate's caption strip empty
+  ornamental border, the creature alone inside the ruled border, a plain strip of bare
+  paper beneath it
 sprite:
   motion: rigid
   mass: true

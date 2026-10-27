@@ -32,10 +32,10 @@ games: [cthulhuquarium]
 art_prompt: >
   a dense grid of small identical bodies printed in ruled rows and columns filling the
   sheet, each row a different kind of creature, one cell in the grid left as bare paper,
-  gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous washi paper,
-  flat black, coverage uneven, the ink thin and skipping where the body lifted away, fins
-  printing as fine radiating lines, one wet painted eye added afterward by hand, unpeopled
-  frame, the rest of the sheet bare
+  gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous washi
+  paper, flat black, coverage uneven, the ink thin and skipping where the body lifted
+  away, fins printing as fine radiating lines, one wet painted eye added afterward by
+  hand, the creature alone in the middle of the sheet, the rest of the sheet bare
 sprite:
   motion: breathe
   mass: true

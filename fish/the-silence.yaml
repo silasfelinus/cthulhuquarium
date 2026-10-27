@@ -32,11 +32,12 @@ evolution_kind: growth
 plate: riso
 games: [cthulhuquarium]
 art_prompt: >
-  a wide flat area of the frame where the ink has been laid down as one unbroken soft field
-  with a faint body outline pressed into it, everything at its edges printed in fine crowded
-  detail by comparison, risograph print in two fluorescent spot inks on cheap absorbent
-  paper, deliberate misregistration, the inks overprinting to a third colour where they
-  cross, flat unblended areas, paper showing through, unpeopled frame, wide bare margins
+  a wide flat area of the sheet where the ink has been laid down as one unbroken soft
+  field with a faint body outline pressed into it, everything at its edges printed in
+  fine crowded detail by comparison, risograph print in two fluorescent spot inks on
+  cheap absorbent paper, deliberate misregistration, the inks overprinting to a third
+  colour where they cross, flat unblended areas, paper showing through, the creature
+  alone on the sheet, wide bare margins
 sprite:
   motion: breathe
   faces: left

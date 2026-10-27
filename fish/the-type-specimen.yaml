@@ -32,11 +32,11 @@ plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
   a single shrimp suspended perfectly centred and level, every limb spread to an equal
-  measured angle, a fine scale rule floating alongside it for comparison, the body pale and
-  even, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
-  leached toward parchment, the glass refracting the body where it presses against it, a
-  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
-  to illegible loops
+  measured angle, a fine scale rule floating alongside it for comparison, the body pale
+  and even, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses
+  against it, a handwritten paper label tied on with string, the jar standing alone, the
+  label's brown ink faded to pale looping scribbles
 sprite:
   motion: tailbeat
   prompt: >

@@ -31,11 +31,11 @@ plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
   a long low creature crossing an empty shop floor between shelves of tanks, most of its
-  body still in the unlit part of the frame, a single narrow band of light cutting across
-  its back, scraperboard illustration, white line scratched out of solid black ink with a
+  body still in the unlit black water, a single narrow band of light cutting across its
+  back, scraperboard illustration, white line scratched out of solid black ink with a
   blade, pure black and pure white only, every tone built from line density, form built
-  entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
-  solid uncut black
+  entirely from cut hatching,  the creature alone, the board around it
+  left solid uncut black
 sprite:
   motion: undulate
   prompt: >

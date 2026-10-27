@@ -32,8 +32,8 @@ art_prompt: >
   pupil occupying most of it, faint radiating tissue at the edges, the shape of a room
   reflected in the curve of the eye, scraperboard illustration, white line scratched out
   of solid black ink with a blade, pure black and pure white only, every tone built from
-  line density, form built entirely from cut hatching, stark and linear, unpeopled
-  frame, the board around it left solid uncut black
+  line density, form built entirely from cut hatching,  the creature
+  alone, the board around it left solid uncut black
 sprite:
   motion: breathe
   prompt: >

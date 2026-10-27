@@ -32,8 +32,8 @@ art_prompt: >
   a lumpy rock that has split open into a huge hinged grin of jagged teeth, mossy and
   barnacle, two tiny googly eyes near the top, scraperboard illustration, white line
   scratched out of solid black ink with a blade, pure black and pure white only, every tone
-  built from line density, form built entirely from cut hatching, stark and linear,
-  unpeopled frame, the board around it left solid uncut black
+  built from line density, form built entirely from cut hatching, 
+  the creature alone, the board around it left solid uncut black
 sprite:
   motion: breathe
   prompt: >

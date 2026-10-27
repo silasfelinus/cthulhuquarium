@@ -20,7 +20,7 @@ plates:
   - key: upgrade-food
     size: 1024x1024
     prompt: >-
-      a squat Victorian tin of premium aquarium feed with an ornate embossed lid prised
+      a squat Victorian tin of aquarium feed with an ornate embossed lid prised
       half open, fat glossy grubs heaped inside and one climbing over the rim, a small
       brass measuring scoop resting against it, Victorian trade-catalogue engraving,
       fine line engraving with hatched shading, isolated on white paper with a blank
@@ -44,94 +44,121 @@ plates:
   # already exists; these wide plates let it occupy an illustrated screen.
   # The canonical character sheets own clothing/identity. Portrait hero
   # plates and cut-out poses remain separately queued in characters/*.yaml.
+  # Rewritten 2026-10-27 before their first render: Krea paints nouns, so
+  # "at the moment of the first purchase", "mysterious", "strange",
+  # "improbable" and "wide studio plate framing" became things a camera can
+  # see, and Charlotte and Wilbur carry the same short description in every
+  # plate (their characters/*.yaml sheets, condensed).
   - key: screen-first-unlock
     size: 1344x768
     prompt: >-
-      Wide interior of a crowded Victorian aquarium curiosity shop at the
-      moment of the first purchase, a grand elderly gothic prima donna
-      proprietress with towering silver-white pompadour and high-necked
-      black mourning gown theatrically unveiling a tiny glass specimen
-      tank on a polished counter, beside her an anxious stooped assistant
-      with long thinning hair, round taped spectacles and a plaster cast
-      cradling the specimen with his good hand, dozens of strange green
-      aquariums glowing in the dark behind them, hand-tinted albumen
-      carte-de-visite interior photograph, gaslight, sepia silver halides,
-      painted emerald on the glass, wide studio plate framing
+      wide interior of a crowded Victorian aquarium curiosity shop lit
+      by gaslight, behind a polished wooden counter a tall old woman
+      with a towering silver-white pompadour, kohl-rimmed eyes and
+      oxblood lips, in a high-necked black silk mourning gown with
+      leg-of-mutton sleeves and black lace gloves lifts a black silk
+      cloth off a small glass specimen tank with one gloved hand raised
+      high, a small bright orange fish inside the tank, beside her a
+      gangly stooped young man with long lank brown hair around a bald
+      crown, round wire spectacles with one taped lens, his right arm in
+      a white plaster cast and sling and bandages on his nose and chin
+      steadies the tank with his left hand, dozens of murky green
+      aquariums glowing on shelves in the dark behind them, hand-tinted
+      albumen carte-de-visite photograph, warm sepia and deep blacks,
+      painted emerald tint on the tank glass
 
   - key: screen-first-hatch
     size: 1344x768
     prompt: >-
-      Wide close interior photograph of a cramped gaslit Victorian fish
-      hatchery, a translucent irregular egg splitting in a shallow glass
-      nursery tank, a tiny unfamiliar aquatic creature emerging amid
-      luminous water droplets, a long-haired balding bespectacled keeper
-      in a bandaged forearm cast watching with earnest attention and a
-      hand-written clipboard resting beside the glass, towering ranks
-      of opaque green bottles and fragile brass plumbing behind,
-      hand-tinted albumen carte-de-visite studio photograph with period
-      long-exposure stillness, warm sepia, fine grain, pale moss tint
+      close interior view of a cramped gaslit Victorian fish hatchery, a
+      translucent pale green egg split open in a shallow glass nursery
+      tray, a tiny pink finned creature with oversized eyes wriggling
+      out among water droplets, a gangly stooped young man with long
+      lank brown hair around a bald crown, round wire spectacles with
+      one taped lens, his right arm in a white plaster cast and sling
+      and bandages on his nose and chin bending close over the tray with
+      a clipboard in his left hand, tall shelves of green glass bottles
+      and thin brass pipes behind him, hand-tinted albumen
+      carte-de-visite photograph, warm sepia, fine grain, pale
+      moss-green tint
 
   - key: screen-first-breed
     size: 1344x768
     prompt: >-
-      A Victorian specimen aquarium seen across its entire glass front,
-      two improbable fish sheltering a third tiny new creature among
-      twisting kelp and porcelain cave ornaments, a weary injured
-      bespectacled keeper with one arm in plaster recording what he
-      sees on a clipboard, behind him an elderly black-gowned prima
-      donna with a theatrical white pompadour smiling in delight,
-      watery green illumination spilling across the floorboards,
-      hand-tinted albumen carte-de-visite photographic interior
-      from a wide plate camera, warm sepia and deep gallery shadows
+      a Victorian specimen aquarium seen straight on through its glass
+      front, two large spotted fish, one blue and one gold, hovering on
+      either side of a tiny new fish striped blue and gold among
+      twisting kelp and white porcelain cave ornaments, in front of the
+      tank a gangly stooped young man with long lank brown hair around a
+      bald crown, round wire spectacles with one taped lens, his right
+      arm in a white plaster cast and sling and bandages on his nose and
+      chin writes on a clipboard propped on his cast, behind him a tall
+      old woman with a towering silver-white pompadour, kohl-rimmed eyes
+      and oxblood lips, in a high-necked black silk mourning gown with
+      leg-of-mutton sleeves and black lace gloves clasps her hands at
+      her breast and smiles, green light from the tank spilling across
+      bare floorboards, hand-tinted albumen carte-de-visite photograph,
+      warm sepia and deep shadows
 
   - key: screen-bestiary-complete
     size: 1344x768
     prompt: >-
-      The final page of an enormous hand-bound Victorian ichthyological
-      scrapbook opened upon an oak reading table, hundreds of little
-      specimen lithographs mounted across the spread with hand-lettered
-      inventory tags, an elderly black-gowned white-pompadoured gothic
-      proprietress standing proud at the desk and a long-haired
-      bespectacled injured assistant beside her, warm green lamplight
-      catching the book's gilded edges while the museum shelves fade
-      into ink-darkness, hand-tinted albumen carte-de-visite wide
-      interior photograph, fine plate-grain and subtle sepia tint
+      an enormous hand-bound Victorian scrapbook lying open on an oak
+      reading table, hundreds of small coloured fish engravings pasted
+      in neat rows across both pages, gilded page edges catching warm
+      green lamplight, a tall old woman with a towering silver-white
+      pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked
+      black silk mourning gown with leg-of-mutton sleeves and black lace
+      gloves standing at the table with one gloved hand resting on the
+      open book, beside her a gangly stooped young man with long lank
+      brown hair around a bald crown, round wire spectacles with one
+      taped lens, his right arm in a white plaster cast and sling and
+      bandages on his nose and chin smiling shyly, tall dark bookshelves
+      receding behind them into shadow, hand-tinted albumen
+      carte-de-visite photograph, fine grain, warm sepia tint
 
   - key: screen-milestone-kelp-stair
     size: 1344x768
     prompt: >-
-      A mysterious aquarium chamber revealed behind heavy Victorian
-      velvet curtains, a submerged wrought-iron staircase curling
-      through wavering kelp toward dim green water below, the grand
-      elderly gothic proprietress with silver-white pompadour and
-      black mourning silk unveiling this inheritance with an open
-      gloved hand, painted light on the glass and dripping stone,
-      wide antique carte-de-visite photographic interior,
-      hand-tinted albumen paper, sepia shadows and Prussian green
+      an aquarium room behind heavy red velvet curtains drawn back to
+      either side, a wrought-iron spiral staircase descending through
+      tall swaying golden-brown kelp into dim green water, water
+      droplets running down wet stone walls, a tall old woman with a
+      towering silver-white pompadour, kohl-rimmed eyes and oxblood
+      lips, in a high-necked black silk mourning gown with leg-of-mutton
+      sleeves and black lace gloves standing beside the curtain with one
+      gloved arm extended palm up toward the staircase, hand-tinted
+      albumen carte-de-visite photograph, sepia shadows, painted
+      Prussian green on the water
 
   - key: screen-milestone-portsmouth
     size: 1344x768
     prompt: >-
-      The wreck of an old Portsmouth merchant ship laid out as a
-      huge aquarium panorama, broken dark timber ribs and a rusting
-      brass ship's bell covered in weeds, luminous strange specimen
-      fish swimming between sealed cargo crates, seen from a dry
-      Victorian observation gallery framed with gothic arches, an
-      elderly black-gowned white-pompadoured proprietress presenting
-      the view with an eel-headed cane, hand-tinted albumen
-      carte-de-visite wide interior photograph, grainy sepia paper,
-      painted aquamarine and antique gaslight
+      the broken hull of an old wooden sailing ship lying in a huge
+      aquarium tank, dark timber ribs, a rusting brass ship's bell
+      covered in weed, small glowing blue and orange fish swimming
+      between sealed cargo crates, seen from a dry Victorian viewing
+      gallery with pointed stone arches, a tall old woman with a
+      towering silver-white pompadour, kohl-rimmed eyes and oxblood
+      lips, in a high-necked black silk mourning gown with leg-of-mutton
+      sleeves and black lace gloves standing in the gallery with one
+      hand on a silver cane with an eel's head handle and the other
+      raised toward the wreck, hand-tinted albumen carte-de-visite
+      photograph, grainy sepia, painted aquamarine water, gaslight
 
   - key: screen-milestone-hatchery
     size: 1344x768
     prompt: >-
-      A broad Victorian fish hatchery of glass shelves and green
-      nursery tanks, the silhouette of an altered specimen with
-      oddly expanded fins appearing behind wet glass beside the
-      shell it outgrew, a careful stooped aquarium keeper with
-      long thinning hair, round cracked spectacles, bandaged
-      fingers and one forearm in plaster studying the creature
-      beside his handwritten notebook, a grand silver-haired
-      gothic proprietress watching from the far doorway,
-      hand-tinted albumen carte-de-visite photographic interior,
-      pale copper lamp glow, deep blacks, painted sea-green glass
+      a long Victorian fish hatchery of glass shelves and green nursery
+      tanks, in the nearest tank a grown fish with wide fan-shaped fins
+      spread beside the cracked empty shell it hatched from, a gangly
+      stooped young man with long lank brown hair around a bald crown,
+      round wire spectacles with one taped lens, his right arm in a
+      white plaster cast and sling and bandages on his nose and chin
+      bending close to the tank with a handwritten notebook open in his
+      left hand, a tall old woman with a towering silver-white
+      pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked
+      black silk mourning gown with leg-of-mutton sleeves and black lace
+      gloves watching from a far doorway, pale copper lamplight,
+      hand-tinted albumen carte-de-visite photograph, deep blacks,
+      painted sea-green tint on the glass

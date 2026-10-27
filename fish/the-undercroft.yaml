@@ -32,11 +32,12 @@ plate: gosse
 games: [cthulhuquarium]
 art_prompt: >
   a pale blind newt with soft frilled external gills standing in a low brick vault, the
-  arches receding behind it further than the wall should allow, damp olive and bone white, a
-  shallow film of water across the floor, hand-coloured lithograph plate from an 1850s
-  natural history book, fine engraved line under flat hand-laid watercolour washes, Prussian
-  blue and madder and gamboge, visible plate mark, foxed paper, the wash running slightly
-  outside the line, unpeopled frame, the caption space beneath the image left empty
+  arches receding behind it further than the wall should allow, damp olive and bone
+  white, a shallow film of water across the floor, hand-coloured lithograph plate from
+  an 1850s natural history book, fine engraved line under flat hand-laid watercolour
+  washes, Prussian blue and madder and gamboge, visible plate mark, foxed paper, the
+  wash running slightly outside the line, the creature alone on the sheet, a wide plain
+  margin of foxed paper beneath it
 sprite:
   motion: undulate
   prompt: >

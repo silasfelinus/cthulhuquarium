@@ -16,12 +16,22 @@
 # the edges and the far back, and the centre is open water.
 #
 # Size 1344x768 (the tank stage is 16:9). No negations (ART-DIRECTION.md rule 2).
+#
+# FIELD NOTES (2026-10-27). Each background carries a `field_note`: the third
+# register from DESIGN-BRIEF.md decision 5, unattributed and separate from Charlotte
+# and Wilbur, written like a museum placard by someone who is not telling you
+# everything. Two sentences at most, no exclamation marks, the same rules as a fish's
+# field_note (fish/SCHEMA.md). The handover line is Charlotte's and lives in
+# story/scenes.yaml; this is what the shop says about the tank once it hangs.
 defaults:
   size: 1344x768
 backgrounds:
   - key: parlour
     name: The Parlour Tank
     unlock: default
+    field_note: >-
+      The tank the shop came with. The diving helmets were already in the gravel
+      when it was first filled, and nobody has claimed them.
     # Re-prompted 2026-09-30: the first render came back as a flat sandbox diorama
     # with a painter's signature scrawled in a corner, weaker than the placeholder
     # it would replace. This one leads with depth and brass, and asks for a clean
@@ -38,6 +48,9 @@ backgrounds:
   - key: kelp-stair
     name: The Kelp Stair
     unlock: bestiary_5
+    field_note: >-
+      Kelp planted along a stone stair that climbs further back than the tank is
+      deep. The fish keep to the lower steps.
     prompt: >
       the inside of an aquarium tank planted as a kelp forest, tall golden-brown kelp
       stalks rising from a rocky stepped floor at both edges, their fronds leaning in at
@@ -48,6 +61,9 @@ backgrounds:
   - key: sunken-pantry
     name: The Sunken Pantry
     unlock: bestiary_10
+    field_note: >-
+      A pantry laid in for one long winter, every jar still sealed. The preserves
+      are checked regularly and are keeping well.
     prompt: >
       the inside of an aquarium tank furnished as a drowned Victorian pantry, shelves of
       stoppered preserving jars and blue-and-white crockery along both side walls, a
@@ -58,6 +74,9 @@ backgrounds:
   - key: drowned-chapel
     name: The Drowned Chapel
     unlock: bestiary_15
+    field_note: >-
+      A village chapel lowered into the water in one piece, pews and all. The
+      congregation keeps to the back rows and does not mind the fish.
     prompt: >
       the inside of an aquarium tank built as a flooded village chapel, two rows of
       wooden pews receding along the silted floor, stone columns at the edges wrapped in
@@ -68,6 +87,9 @@ backgrounds:
   - key: wreck-of-the-portsmouth
     name: The Wreck of the Portsmouth
     unlock: bestiary_20
+    field_note: >-
+      The Portsmouth Fishmongers' own ship, as she was found. The figurehead was
+      repainted before she was sunk again.
     prompt: >
       the inside of an aquarium tank holding the broken hull of an old wooden sailing
       ship, ribbed timbers curving up both sides, a fallen mast lying diagonally across
@@ -77,6 +99,9 @@ backgrounds:
   - key: sorting-office
     name: The Sorting Office
     unlock: bestiary_25
+    field_note: >-
+      A sorting office with every pigeonhole full. The letters are all addressed to
+      the shop, and there are more of them each morning.
     prompt: >
       the inside of an aquarium tank furnished as a drowned Victorian post office sorting
       room, walls of wooden pigeonholes stuffed with swollen letters at both sides, a
@@ -87,6 +112,9 @@ backgrounds:
   - key: counting-house
     name: The Counting House
     unlock: bestiary_35
+    field_note: >-
+      Clerks' desks, green ledgers and a safe standing open. The accounts balance to
+      the farthing; the coins on the floor are not counted in them.
     prompt: >
       the inside of an aquarium tank furnished as a drowned counting house, tall clerks'
       desks and stools along the side walls, stacks of green-bound ledgers on the floor,
@@ -106,6 +134,9 @@ backgrounds:
   - key: flooded-conservatory
     name: The Flooded Conservatory
     unlock: bestiary_50
+    field_note: >-
+      A glasshouse of palms and ferns, filled to the roof. The ferns have taken to
+      the water better than anyone expected of a fern.
     prompt: >
       an entirely underwater view, the whole room drowned and filled to the ceiling with
       clear green water, seen from within the water, drifting motes and a soft blue-green
@@ -118,6 +149,9 @@ backgrounds:
   - key: catacomb
     name: The Catacomb
     unlock: bestiary_70
+    field_note: >-
+      Burial niches along both walls, their contents stacked with care. The fish
+      keep to the middle of the passage.
     prompt: >
       an underwater view from a camera resting on the drowned floor, looking straight
       along it, the whole catacomb sunk deep under cold grey-blue water that fills it from
@@ -131,6 +165,9 @@ backgrounds:
   - key: abyssal-plain
     name: The Abyssal Plain
     unlock: bestiary_95
+    field_note: >-
+      A slice of the deepest floor there is, brought up whole. The tracks in the
+      silt were there when it arrived, and there are more of them now.
     prompt: >
       the inside of an aquarium tank holding a slice of the deep sea floor, a flat plain
       of fine grey ooze stretching back to a dim horizon, glass sponges and stalked sea
@@ -141,6 +178,9 @@ backgrounds:
   - key: opera-house
     name: Charlotte's Opera House
     unlock: bestiary_125
+    field_note: >-
+      Charlotte's own house, seen from the stalls. Every seat is sold, and the
+      curtain has stayed down since her last performance.
     prompt: >
       an entirely underwater view, the whole room drowned and filled to the ceiling with
       clear deep green water, seen from within the water, drifting motes and a soft blue-green
@@ -154,6 +194,9 @@ backgrounds:
   - key: the-reading-room
     name: The Reading Room
     unlock: bestiary_151
+    field_note: >-
+      The domed room where the Ichthyonomicon is kept, lying open on the desk. Every
+      page of it is filled.
     prompt: >
       the inside of an aquarium tank furnished as a drowned domed library reading room,
       curved walls of bookcases along both sides, a round reading desk on the floor with
@@ -164,6 +207,9 @@ backgrounds:
   - key: public-baths
     name: The Public Baths
     unlock: first_full_tank
+    field_note: >-
+      A tiled bath hall with cubicles along the back wall. It was built for crowds,
+      and the crowds settle their own order.
     prompt: >
       a diver's view deep underwater inside a sunken Victorian tiled hall that lies on the
       sea bed, filled from floor to roof with turquoise sea water, the camera floating in
@@ -178,6 +224,9 @@ backgrounds:
   - key: hatchery
     name: The Hatchery
     unlock: first_evolution
+    field_note: >-
+      Trays and bell jars for the ones that have not decided what to be. The eggs
+      are counted twice a day, and the count is rarely the same twice.
     prompt: >
       an underwater view from a camera resting on the drowned floor, looking straight
       along it, the whole hatchery room sunk deep under green water that fills it from
@@ -192,6 +241,9 @@ backgrounds:
   - key: scullery
     name: The Scullery
     unlock: first_spotless_tank
+    field_note: >-
+      A scullery scrubbed down to the flagstones. The copper pans are polished every
+      week, whether or not anything has been cooked in them.
     prompt: >
       an underwater view from a camera resting on the drowned floor, looking straight
       along it, the whole scullery sunk deep under clear pale blue water that fills it
@@ -206,6 +258,9 @@ backgrounds:
   - key: duelling-ground
     name: The Duelling Ground
     unlock: first_rivalry_resolved
+    field_note: >-
+      A walled yard divided by a low stone wall, two sabres left standing in the
+      sand. Both sides of the wall are kept equally tidy.
     prompt: >
       an underwater view from a camera resting on the drowned floor, looking straight
       along it, the whole walled duelling yard sunk deep under grey-green water that fills

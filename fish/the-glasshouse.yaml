@@ -30,12 +30,12 @@ evolution_kind: growth
 plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
-  a large transparent domed body with an entire small garden growing inside it, tiny fronded
-  plants rooted to the inner wall, condensation gathered along the upper curve of the dome,
-  lampworked glass model on a thin wire mount, transparent hollow body, light passing
-  through the glass and pooling where it thickens, colour suspended in the glass itself,
-  museum specimen on a small wooden base, faint dust, unpeopled frame, a bare unwritten
-  label on the wooden base
+  a large transparent domed body with an entire small garden growing inside it, tiny
+  fronded plants rooted to the inner wall, condensation gathered along the upper curve
+  of the dome, lampworked glass model on a thin wire mount, transparent hollow body,
+  light passing through the glass and pooling where it thickens, colour suspended in the
+  glass itself, museum specimen on a small wooden base, faint dust, the glass creature
+  standing alone, a small plain cream paper tag on the wooden base
 sprite:
   motion: breathe
   prompt: >
