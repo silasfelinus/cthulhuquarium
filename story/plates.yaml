@@ -44,6 +44,11 @@ plates:
   # already exists; these wide plates let it occupy an illustrated screen.
   # The canonical character sheets own clothing/identity. Portrait hero
   # plates and cut-out poses remain separately queued in characters/*.yaml.
+  # Rewritten 2026-10-27 before their first render: Krea paints nouns, so
+  # "at the moment of the first purchase", "mysterious", "strange",
+  # "improbable" and "wide studio plate framing" became things a camera can
+  # see, and Charlotte and Wilbur carry the same short description in every
+  # plate (their characters/*.yaml sheets, condensed).
   - key: screen-first-unlock
     size: 1344x768
     prompt: >-
