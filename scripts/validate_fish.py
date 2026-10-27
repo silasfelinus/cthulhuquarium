@@ -254,8 +254,11 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
         # paint. "No face" does not.
         #
         # If this fires on a phrase you think is harmless, it still has to go --
-        # describe the state that IS there. "unpeopled frame" and "the caption space
-        # left empty" are the shape to copy.
+        # describe the state that IS there. "the creature alone on the sheet" and
+        # "wide bare margins" are the shape to copy. (This line used to recommend
+        # "unpeopled frame", and all 151 prompts carried it until 2026-10-27: Krea
+        # paints "frame" as a picture frame, so the Kind Robots prompt contract
+        # rejects it. The check below now holds art_prompt to that rule too.)
         neg = NEGATION.search(prompt)
         if neg:
             bad(f"art_prompt contains a negation ({neg.group(0)!r}). Krea 2 renders "
@@ -267,6 +270,13 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
             bad(f"art_prompt contains {sim.group(0)!r}. Krea 2 paints what the words "
                 f"name, so a comparison adds the thing compared to. Describe what is "
                 f"visible (ART-DIRECTION.md rule 7)")
+        # Kind Robots' server-side prompt contract (server/utils/artPromptContract.ts)
+        # and its Playbook Forge verifier reject these; catch them here.
+        contract = re.search(r"\bframes?\b|\bthumbnail\b|\blegible\b|\bpremium\b", prompt, re.I)
+        if contract:
+            bad(f"art_prompt uses {contract.group(0)!r}, which the Kind Robots prompt "
+                f"contract rejects -- name what is visible ('the creature alone', "
+                f"'edge to edge', 'showing through')")
 
         # Rule 1: the plate's medium has to actually be in the prompt.
         plate = data.get("plate")

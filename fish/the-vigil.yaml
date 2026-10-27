@@ -29,12 +29,12 @@ evolves_from: the-night-watch
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  an enormous still creature almost entirely composed of open eyes at every scale, all of
-  them turned the same direction, the body beneath them barely indicated, filling the jar to
-  the glass, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
-  leached toward parchment, the glass refracting the body where it presses against it, a
-  handwritten paper label tied on with string, unpeopled frame, the label's handwriting worn
-  to illegible loops
+  an enormous still creature almost entirely composed of open eyes at every scale, all
+  of them turned the same direction, the body beneath them barely indicated, filling the
+  jar to the glass, wet specimen preserved in a sealed glass jar of fluid, formalin
+  yellow, colours leached toward parchment, the glass refracting the body where it
+  presses against it, a handwritten paper label tied on with string, the jar standing
+  alone, the label's brown ink faded to pale looping scribbles
 sprite:
   motion: breathe
   prompt: >

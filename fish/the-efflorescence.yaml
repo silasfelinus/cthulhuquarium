@@ -30,10 +30,10 @@ plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
   an enormous anemone opened completely flat, hundreds of magenta and orange tendrils
-  splayed in perfect radial symmetry, a dark still centre that reflects nothing,
+  splayed in perfect radial symmetry, a dark still matte black centre,
   ornamental natural history plate, obsessive radial symmetry, the organism arranged as
   design to fill the sheet, fine line and restrained colour, ruled ornamental border,
-  unpeopled frame, the plate's caption strip empty
+  the creature alone inside the ruled border, a plain strip of bare paper beneath it
 sprite:
   motion: sway
   prompt: >

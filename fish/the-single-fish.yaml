@@ -32,10 +32,10 @@ games: [cthulhuquarium]
 art_prompt: >
   one enormous fish whose entire body is made of hundreds of tiny sardines packed tight,
   seams visible where they meet, one single eye formed by a gap in the crowd, mercury,
-  gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous washi paper,
-  flat black, coverage uneven, the ink thin and skipping where the body lifted away, fins
-  printing as fine radiating lines, one wet painted eye added afterward by hand, unpeopled
-  frame, the rest of the sheet bare
+  gyotaku fish rubbing, sumi ink pressed directly from the body onto fibrous washi
+  paper, flat black, coverage uneven, the ink thin and skipping where the body lifted
+  away, fins printing as fine radiating lines, one wet painted eye added afterward by
+  hand, the creature alone in the middle of the sheet, the rest of the sheet bare
 sprite:
   motion: tailbeat
   mass: true

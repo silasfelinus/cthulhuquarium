@@ -30,12 +30,12 @@ evolution_kind: growth
 plate: gyotaku
 games: [cthulhuquarium]
 art_prompt: >
-  an unbroken ribbon of hundreds of tiny fish packed shoulder to shoulder along the water
-  surface, running the full width of the frame at perfectly even thickness, gyotaku fish
-  rubbing, sumi ink pressed directly from the body onto fibrous washi paper, flat black,
-  coverage uneven, the ink thin and skipping where the body lifted away, fins printing as
-  fine radiating lines, one wet painted eye added afterward by hand, unpeopled frame, the
-  rest of the sheet bare
+  an unbroken ribbon of hundreds of tiny fish packed shoulder to shoulder along the
+  water surface, running edge to edge at perfectly even thickness, gyotaku fish rubbing,
+  sumi ink pressed directly from the body onto fibrous washi paper, flat black, coverage
+  uneven, the ink thin and skipping where the body lifted away, fins printing as fine
+  radiating lines, one wet painted eye added afterward by hand, the creature alone in
+  the middle of the sheet, the rest of the sheet bare
 sprite:
   motion: undulate
   mass: true

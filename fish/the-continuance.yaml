@@ -30,11 +30,11 @@ plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
   a large old carp with clouded eyes and slack drooping barbels, scales lifting at the
-  edges, holding itself upright and level in the water with obvious effort, mouth open and
-  working steadily, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
-  colours leached toward parchment, the glass refracting the body where it presses against
-  it, a handwritten paper label tied on with string, unpeopled frame, the label's
-  handwriting worn to illegible loops
+  edges, holding itself upright and level in the water with obvious effort, mouth open
+  and working steadily, wet specimen preserved in a sealed glass jar of fluid, formalin
+  yellow, colours leached toward parchment, the glass refracting the body where it
+  presses against it, a handwritten paper label tied on with string, the jar standing
+  alone, the label's brown ink faded to pale looping scribbles
 sprite:
   motion: tailbeat
   faces: left

@@ -33,10 +33,10 @@ games: [cthulhuquarium]
 art_prompt: >
   a narrow upright fish with a long ruled column of tally marks cut down its flank, the
   marks grouped in fives, a hard flat eye and a mouth set in a straight line, hanging
-  motionless, scraperboard illustration, white line scratched out of solid black ink with a
-  blade, pure black and pure white only, every tone built from line density, form built
-  entirely from cut hatching, stark and linear, unpeopled frame, the board around it left
-  solid uncut black
+  motionless, scraperboard illustration, white line scratched out of solid black ink
+  with a blade, pure black and pure white only, every tone built from line density, form
+  built entirely from cut hatching, stark and linear, the creature alone, the board
+  around it left solid uncut black
 sprite:
   motion: tailbeat
   faces: left

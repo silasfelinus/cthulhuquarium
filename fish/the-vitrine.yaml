@@ -30,11 +30,11 @@ plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
   a wholly transparent shrimp with a row of small solid objects suspended in a neat line
-  inside its body, each object a different shape, the shell itself visible only where the
-  light catches an edge, lampworked glass model on a thin wire mount, transparent hollow
-  body, light passing through the glass and pooling where it thickens, colour suspended in
-  the glass itself, museum specimen on a small wooden base, faint dust, unpeopled frame, a
-  bare unwritten label on the wooden base
+  inside its body, each object a different shape, the shell itself visible only where
+  the light catches an edge, lampworked glass model on a thin wire mount, transparent
+  hollow body, light passing through the glass and pooling where it thickens, colour
+  suspended in the glass itself, museum specimen on a small wooden base, faint dust, the
+  glass creature standing alone, a small plain cream paper tag on the wooden base
 sprite:
   motion: tailbeat
   prompt: >

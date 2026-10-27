@@ -30,12 +30,12 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a tall narrow fish holding itself perfectly vertical in a gap between two stone uprights,
-  fins spread wide to fill the opening exactly, a long humourless face and a set jaw,
-  scraperboard illustration, white line scratched out of solid black ink with a blade, pure
-  black and pure white only, every tone built from line density, form built entirely from
-  cut hatching, stark and linear, unpeopled frame, the board around it left solid uncut
-  black
+  a tall narrow fish holding itself perfectly vertical in a gap between two stone
+  uprights, fins spread wide to fill the opening exactly, a long humourless face and a
+  set jaw, scraperboard illustration, white line scratched out of solid black ink with a
+  blade, pure black and pure white only, every tone built from line density, form built
+  entirely from cut hatching, stark and linear, the creature alone, the board around it
+  left solid uncut black
 sprite:
   motion: tailbeat
   faces: left

@@ -28,11 +28,12 @@ evolves_from: the-reckoning
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a rigorously symmetrical creature built as a pair of matched pans hanging from a central
-  beam, each pan a mirrored half of the same body, ornamental scrollwork through the beam,
-  held perfectly level, ornamental natural history plate, obsessive radial symmetry, the
-  organism arranged as design to fill the sheet, fine line and restrained colour, ruled
-  ornamental border, unpeopled frame, the plate's caption strip empty
+  a rigorously symmetrical creature built as a pair of matched pans hanging from a
+  central beam, each pan a mirrored half of the same body, ornamental scrollwork through
+  the beam, held perfectly level, ornamental natural history plate, obsessive radial
+  symmetry, the organism arranged as design to fill the sheet, fine line and restrained
+  colour, ruled ornamental border, the creature alone inside the ruled border, a plain
+  strip of bare paper beneath it
 sprite:
   motion: breathe
   prompt: >

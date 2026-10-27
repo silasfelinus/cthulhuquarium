@@ -64,6 +64,23 @@ art:
       with one gloved hand raised in a theatrical flourish and the other resting on a silver cane with an eel's head for a
       handle, bustle and train pooled around her, a painted studio backdrop of a gaslit
       aquarium hall with rows of murky green tanks, {medium}
+    # The same sitting condensed to one self-contained prompt under 900 characters,
+    # with {base} and {medium} written out, for single-prompt records such as the
+    # Kind Robots Playbook Forge shopkeeper entry (2026-10-27). Keep it in step with
+    # base, medium and the hero prompt above when the design changes.
+    compact: >-
+      full-length studio portrait of a grand gothic prima donna of seventy-eight, an
+      old woman with a deeply lined powdered face, a towering silver-white pompadour
+      pierced with jet hatpins, a sharp aquiline nose, high painted brows,
+      heavy-lidded eyes rimmed in kohl, a beauty mark, oxblood lips in a wide warm
+      smile, a high-necked black silk taffeta mourning gown with enormous
+      leg-of-mutton sleeves, jet-bead fringe and fish-scale sequins, bustle and train
+      pooled at her feet, a cameo brooch carved with an octopus at her throat, black
+      lace fingerless gloves and rings on every finger, one hand raised in a
+      theatrical flourish and the other resting on a silver cane with an eel's head
+      handle, a painted studio backdrop of a gaslit aquarium hall with rows of murky
+      green tanks, hand-tinted albumen carte-de-visite photograph, deep blacks and
+      warm sepia, painted tint on her cheeks and lips
   portraits:
     welcome:
       prompt: >-

@@ -30,11 +30,12 @@ evolution_kind: growth
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a heavy ornamental creature grown into the brass frame of a tank, its symmetry matching
-  the frame's own scrollwork exactly, the join between metal and body impossible to locate,
-  ornamental natural history plate, obsessive radial symmetry, the organism arranged as
-  design to fill the sheet, fine line and restrained colour, ruled ornamental border,
-  unpeopled frame, the plate's caption strip empty
+  a heavy ornamental creature grown into the riveted brass edging of a tank, its
+  symmetrical body matching the brass scrollwork exactly, the brass and the body joined
+  in one smooth continuous line, ornamental natural history plate, obsessive radial
+  symmetry, the organism arranged as design to fill the sheet, fine line and restrained
+  colour, ruled ornamental border, the creature alone inside the ruled border, a plain
+  strip of bare paper beneath it
 sprite:
   motion: breathe
   prompt: >
