@@ -1,0 +1,74 @@
+# Console UI art for the kind_robots front end (conductor cthulhuquarium/t-098).
+#
+# Rendered by scripts/render_art.py (group `ui`), cut out by scripts/build_ui.py to
+# ui/built/<key>.webp, copied by kind_robots scripts/sync_cthulhuquarium_canon.mjs to
+# assets/images/cthulhuquarium/ui/. The front end draws an SVG fallback at the same
+# size until each file exists.
+#
+# Same rules as every canon prompt (ART-DIRECTION.md): concrete nouns, no negations,
+# no similes, no format words (poster, frame, card art). Each item is one object on a
+# flat backdrop so the cut-out can key against it.
+defaults:
+  size: 1024x1024
+  long_edge: 256
+  suffix: >-
+    a single object centred with space around it, painted in opaque gouache with fine dark ink
+    linework, deep jewel-tone pigments, burnished gold ink highlights, isolated on a plain flat pale
+    grey studio backdrop, even soft light, strong crisp silhouette
+items:
+  - key: tab-tank
+    prompt: >-
+      a small rectangular glass aquarium tank with blackened iron corners and brass rivets, sea-green
+      water inside with two fronds of weed and one small orange fish, seen at a slight three-quarter angle
+  - key: tab-feed
+    prompt: >-
+      a shallow round verdigris brass bowl heaped with glossy amber food pellets, three pellets spilled
+      beside it, seen at a slight three-quarter angle
+  - key: tab-creatures
+    prompt: >-
+      a small eldritch octopus with curling violet and plum tentacles, a ring of tiny pale eyes around its
+      mantle, sitting upright, its tentacles coiled beneath it
+  - key: tab-relics
+    prompt: >-
+      a weathered square stone tablet with chipped edges, an engraved open eye sigil at its centre inlaid
+      with tarnished gold, verdigris in the carved lines, a few barnacles on one corner
+  - key: tab-market
+    prompt: >-
+      a small market stall with a striped oxblood and bone canopy, two hanging brass lanterns glowing amber,
+      a counter stacked with tiny jars and a glass globe holding a fish
+  - key: coin
+    long_edge: 128
+    prompt: >-
+      one old gold coin seen face on, thick worn rim, an embossed open eye at its centre ringed by small
+      tentacle scrollwork, warm gold with darker tarnish in the recesses
+  - key: plinth
+    size: 1216x832
+    long_edge: 384
+    prompt: >-
+      a short round pedestal of dark carved stone with a polished brass band around its top edge and a
+      ring of carved tentacle scrollwork around its base, flat empty top, seen slightly from above
+  - key: corner-ornament
+    long_edge: 320
+    prompt: >-
+      an ornamental corner piece of gilt brass scrollwork shaped into an L, curling tentacles and kelp
+      fronds twisting along both arms, a small round boss with an engraved eye where the arms meet
+  - key: meter-hunger
+    long_edge: 96
+    prompt: >-
+      a small brass fork and spoon crossed over a round verdigris disc
+  - key: meter-clean
+    long_edge: 96
+    prompt: >-
+      a small brass scrub brush with pale bristles over a round verdigris disc, three tiny bubbles above it
+  - key: meter-mood
+    long_edge: 96
+    prompt: >-
+      a small oxblood glass heart with a gold rim over a round verdigris disc
+  - key: capacity
+    long_edge: 96
+    prompt: >-
+      a tiny glass aquarium tank with brass corners, sea-green water and a few weed fronds, seen face on
+  - key: day-moon
+    long_edge: 96
+    prompt: >-
+      a pale crescent moon of hammered silver with a small engraved eye in its curve

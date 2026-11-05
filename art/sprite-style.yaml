@@ -1,0 +1,14 @@
+# The tank register (ART-DIRECTION.md "The tank register", Silas 2026-11-05, conductor
+# cthulhuquarium/t-099). Every in-tank sprite is painted in this ONE medium, whatever the
+# species' book plate is, so the water reads as one game. scripts/apply_sprite_subjects.py
+# composes sprite.prompt as "<subject>, <clause>, <framing>"; scripts/validate_fish.py
+# requires `marker` in every sprite.prompt.
+marker: gouache
+clause: >-
+  PROVISIONAL
+framing: >-
+  a single creature in strict side profile facing right, the whole body visible with space around
+  it, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+framing_mass: >-
+  the whole group visible as one body with space around it, facing right, isolated on a plain flat
+  pale grey studio backdrop, even soft light, strong crisp silhouette

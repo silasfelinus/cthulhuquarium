@@ -88,7 +88,9 @@ def main() -> int:
         slug = raw.stem
         if args.slugs and slug not in args.slugs:
             continue
-        if not args.force and (OUT / f"{slug}.webp").exists():
+        built_path = OUT / f"{slug}.webp"
+        # A newer raw clip (a re-render after a sprite redesign) replaces the built one.
+        if not args.force and built_path.exists() and built_path.stat().st_mtime >= raw.stat().st_mtime:
             continue
         if session is None:
             from rembg import new_session

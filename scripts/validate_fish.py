@@ -115,6 +115,14 @@ SIMILE = re.compile(r"\b(?:(?<!-)like\s+\w|as\s+if|as\s+though|"
                     r"(?:on|against|of|gripping)\s+the\s+glass|"
                     r"aquarium\s+glass|panes?)\b", re.I)
 
+# The tank register (ART-DIRECTION.md "The tank register", 2026-11-05): every
+# in-tank sprite is painted in ONE house medium, whatever its book plate is, so
+# the water reads as one game. The plate lineages stay on the Ichthyonomicon
+# cards (art_prompt). SPRITE_MEDIUM is the phrase every sprite.prompt must carry;
+# art/sprite-style.yaml holds the full shared clause.
+SPRITE_STYLE = yaml.safe_load((Path(__file__).resolve().parent.parent / "art" / "sprite-style.yaml").read_text())
+SPRITE_MEDIUM = SPRITE_STYLE["marker"]
+
 PLATE_MARKERS = {
     "gosse": "lithograph", "blaschka": "glass model", "gyotaku": "rubbing",
     "trade-card": "cigarette card", "scraperboard": "scraperboard",
@@ -334,9 +342,9 @@ def check(path: Path, seen_slugs: dict[str, Path]) -> list[str]:
                 if not any(b in sp.lower() for b in SPRITE_BACKDROPS):
                     bad("sprite.prompt must name its plain flat backdrop "
                         f"({' or '.join(SPRITE_BACKDROPS)}) so the cut-out can key against it")
-                marker = PLATE_MARKERS.get(data.get("plate"))
-                if marker and marker not in sp.lower():
-                    bad(f"sprite.prompt never names the plate's medium ({marker!r})")
+                if SPRITE_MEDIUM not in sp.lower():
+                    bad(f"sprite.prompt never names the house sprite medium ({SPRITE_MEDIUM!r}, "
+                        f"art/sprite-style.yaml) -- the tank is one register (ART-DIRECTION.md)")
                 # Kind Robots' server-side prompt contract (server/utils/
                 # artPromptContract.ts) rejects these at enqueue; catch them here.
                 contract = re.search(r"\bframes?\b|\bclean\s+silhouette\b|"

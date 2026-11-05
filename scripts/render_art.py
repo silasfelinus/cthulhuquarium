@@ -10,6 +10,7 @@ Collects every render the canon asks for:
     plates      story/plates.yaml                         -> story/raw/<key>.webp
     videos      videos/videos.yaml (WAN image-to-video)   -> videos/raw/<key>.webp  (animated)
     clips       every fish, from its sprite render (WAN)  -> clips/raw/<slug>.webp  (animated)
+    ui          ui/ui.yaml (console UI art: tab icons, coin, plinth, ornaments) -> ui/raw/<key>.webp
 
 A video is submitted only once its source still exists, so `submit` after each
 `harvest` sends the clips whose stills just arrived.
@@ -48,7 +49,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "art" / "jobs.yaml"
-GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos", "clips")
+GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos", "clips", "ui")
 # flux schnell follows layout instructions (side profile, flat backdrop) reliably
 # for isolated subjects; override per run with --engine.
 DEFAULT_ENGINE = "flux"
@@ -99,6 +100,13 @@ def jobs() -> list[dict]:
     for bg in bgs["backgrounds"]:
         out.append({"group": "backgrounds", "id": bg["key"], "size": bg.get("size", bgs["defaults"]["size"]),
                     "prompt": _flat(bg["prompt"]), "dest": ROOT / "backgrounds/raw" / f"{bg['key']}.webp"})
+    ui_path = ROOT / "ui/ui.yaml"
+    if ui_path.exists():
+        ui = yaml.safe_load(ui_path.read_text())
+        for item in ui["items"]:
+            out.append({"group": "ui", "id": item["key"], "size": item.get("size", ui["defaults"]["size"]),
+                        "prompt": _flat(f"{item['prompt']}, {ui['defaults']['suffix']}"),
+                        "dest": ROOT / "ui/raw" / f"{item['key']}.webp"})
     for plate in yaml.safe_load((ROOT / "story/plates.yaml").read_text())["plates"]:
         out.append({"group": "plates", "id": plate["key"], "size": plate.get("size", "1344x768"),
                     "prompt": _flat(plate["prompt"]), "dest": ROOT / "story/raw" / f"{plate['key']}.webp"})
