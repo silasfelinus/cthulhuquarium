@@ -796,16 +796,6 @@ jobs:
     hash: b0bf8675f3f3
     engine: krea2
     submitted: '2026-11-05T21:56:24Z'
-  ui/tab-creatures:
-    job: 64177
-    hash: 0ba757bc7642
-    engine: krea2
-    submitted: '2026-11-05T21:56:22Z'
-  ui/tab-feed:
-    job: 64176
-    hash: 761ae3869689
-    engine: krea2
-    submitted: '2026-11-05T21:56:22Z'
   ui/tab-market:
     job: 64179
     hash: a99c84a622d7
@@ -816,8 +806,3 @@ jobs:
     hash: a576aa58ae3b
     engine: krea2
     submitted: '2026-11-05T21:56:22Z'
-  ui/tab-tank:
-    job: 64175
-    hash: f2876418e4a2
-    engine: krea2
-    submitted: '2026-11-05T21:56:21Z'
