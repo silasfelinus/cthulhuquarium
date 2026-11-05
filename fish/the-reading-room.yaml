@@ -38,13 +38,14 @@ art_prompt: >
   label's brown ink faded to pale looping scribbles
 sprite:
   motion: breathe
-  faces: left
   prompt: >
-    a single low broad creature with a flat sloped back, an open book made of pale skin
-    pages growing out of its back, faint lines across the pages, the soft cover folded
-    back at the corners, two small eyes at its front, four stubby legs at the base, warm
-    tan and cream body, wet wax moulage specimen, glistening, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    a low broad creature with an open book growing from its sloped back, the pages part
+    of its body, a reading-lamp antenna glowing over the pages, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A quiet corner with its own open book, always ready for a good long read. It

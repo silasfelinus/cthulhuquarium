@@ -31,21 +31,21 @@ evolution_kind: growth
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a round radial creature of fine branching channels joining toward one dark centre,
-  hundreds of tributaries converging on a single dark centre, arranged in perfect
-  symmetry to fill the sheet, pale blue and slate, ornamental natural history plate,
-  obsessive radial symmetry, the organism arranged as design to fill the sheet, fine
-  line and restrained colour, ruled ornamental border, the creature alone inside the
-  ruled border, a plain strip of bare paper beneath it
+  a round radial jelly-star creature with fine branching glowing channels converging
+  toward one dark centre, ornamental natural history plate, obsessive radial symmetry, the
+  organism arranged as design to fill the sheet, fine line and restrained colour, ruled
+  ornamental border, the creature alone inside the ruled border, a plain strip of bare
+  paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: ripple
   prompt: >
-    a single round flat creature seen from above, hundreds of fine branching pale blue
-    channels running inward from its edge and joining into thicker channels that meet at
-    one dark round centre, perfect radial symmetry, pale blue and slate, the branches
-    finest at the rim, ornamental natural history plate surface, fine line and
-    restrained colour, isolated on a plain flat charcoal studio backdrop, even soft
-    light, strong crisp silhouette
+    a round radial jelly-star creature with fine branching glowing channels converging
+    toward one dark centre, vivid painted illustration for a dark comedy video game,
+    bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Branched like a family tree and clear as a spring morning. Every tank upstairs

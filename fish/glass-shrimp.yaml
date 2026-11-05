@@ -38,10 +38,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single wholly transparent shrimp in strict side profile facing right, whole body visible, body picked out in thin bright outline, long whisker antennae swept back,
-    one vivid magenta lump of half-digested food suspended clearly in its middle,
-    lampworked glass model, light passing through the clear body and pooling where the
-    glass thickens, isolated on a plain flat charcoal studio backdrop, even soft light,
+    a wholly transparent shrimp drawn in thin bright outline, a vivid magenta lump of
+    half-digested something suspended inside its middle, vivid painted illustration for
+    a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
     strong crisp silhouette
 voices:
   charlotte: >-

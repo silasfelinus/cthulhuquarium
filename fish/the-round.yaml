@@ -39,11 +39,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small slim fish in strict side profile facing right, whole body visible, a
-    neat square parcel held in its mouth, a steady purposeful eye, fins printing as fine
-    radiating lines, sumi ink rubbing of the fish cut out along its outline, flat black
-    coverage thinning where the body lifted, one wet painted eye, isolated on a plain
-    flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a long single-file procession of small fish nose to tail curving in a closed loop,
+    each carrying a small parcel, vivid painted illustration for a dark comedy video
+    game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Each one carries its own tidy parcel, and not one has ever dropped it. A shoal

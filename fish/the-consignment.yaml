@@ -29,19 +29,22 @@ evolves_from: the-delivery
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a tall stacked column of wrapped and corded parcels of graded sizes bound together
-  into one body, each parcel bearing a written tag, the whole stack leaning very
-  slightly, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
-  colours leached toward parchment, the glass refracting the body where it presses
-  against it, a handwritten paper label tied on with string, the jar standing alone, the
-  label's brown ink faded to pale looping scribbles
+  a tall creature made of a stack of corded brown parcels fused into one body, crab legs
+  emerging from the bottom parcel, two eyes peering from a gap between parcels, paper tags
+  fluttering, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
+  colours leached toward parchment, the glass refracting the body where it presses against
+  it, a handwritten paper label tied on with string, the jar standing alone, the label's
+  brown ink faded to pale looping scribbles
 sprite:
+  redesigned: '2026-11-05'
   motion: rigid
   prompt: >
-    a single tall stacked column of wrapped and corded parcels of graded sizes bound
-    into one body, whole stack in view, each parcel carrying a small tied tag, the
-    whole column leaning very slightly, twine crossing every face, wet wax moulage
-    specimen, glistening, colours leached toward parchment, isolated on a plain flat
+    a tall creature made of a stack of corded brown parcels fused into one body, crab
+    legs emerging from the bottom parcel, two eyes peering from a gap between parcels,
+    paper tags fluttering, vivid painted illustration for a dark comedy video game, bold
+    readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
     pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-

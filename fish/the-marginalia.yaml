@@ -39,12 +39,13 @@ art_prompt: >
 sprite:
   motion: pulse
   prompt: >
-    a single glowing jellyfish upright with its bell at the top, the violet bell
-    carrying two kinds of luminous handwriting, one large and sprawling in magenta,
-    the other tiny and precise in cyan filling the gaps between, long ribbon
-    tendrils curling below, lampworked glass model body, clear glass bell with
-    colour suspended inside, isolated on a plain flat charcoal studio backdrop, even
-    soft light, strong crisp silhouette
+    a glowing violet jellyfish whose bell carries two kinds of luminous handwriting, one
+    sprawling and one small and precise, magenta and cyan tendrils, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Our Reading Bell, all grown up and doing beautifully. Bolder script, finer

@@ -38,14 +38,14 @@ art_prompt: >
   paper beneath it
 sprite:
   motion: tailbeat
-  faces: left
   prompt: >
-    a single deep-bodied fish in strict side profile facing right, whole body visible,
-    cobalt body with pale gold fins, a wide round open mouth, its throat glowing softly
-    from inside, faint concentric rings patterned on its flank, ornamental natural
-    history linework, fine precise line and restrained colour, obsessive symmetry,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp
-    silhouette
+    a cobalt and pale gold fish with a wide open round mouth and a throat lit from
+    inside, concentric ripple rings spreading from its mouth, vivid painted illustration
+    for a dark comedy video game, bold readable shapes, crisp inked outlines, rich
+    saturated jewel-tone colour, glowing bioluminescent accents, painterly texture, a
+    single creature in strict side profile facing right, the whole body visible with
+    space around it, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     It sings! Beautifully, with its throat lit up like a lamp. It fills a quiet

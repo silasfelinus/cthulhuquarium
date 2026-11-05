@@ -30,22 +30,22 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a wide bed of coarse gravel across the whole lower half with the grains arranged in
-  flowing lines, a slow rise in the middle where something beneath is lifting it,
-  scraperboard illustration, white line scratched out of solid black ink with a blade,
-  pure black and pure white only, every tone built from line density, form built
-  entirely from cut hatching,  the creature alone, the board around it
-  left solid uncut black
+  a wide flat creature camouflaged as a gravel bed, its back covered in coarse gravel
+  arranged in flowing lines, one huge eye opening in the middle, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, pure black and
+  pure white only, every tone built from line density, form built entirely from cut
+  hatching, the creature alone, the board around it left solid uncut black
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
-  faces: left
   prompt: >
-    a low wide flat creature with one long closed mouth across its front edge and two
-    small heavy-lidded eyes just above the mouth, its whole broad back covered in coarse
-    gravel grains in flowing overlapping lines, a slow swelling hump in the middle of
-    its back, white line scraperboard surface cut from solid black, form built from
-    dense hatching, isolated on a plain flat pale grey studio backdrop, even soft light,
-    strong crisp silhouette
+    a wide flat creature camouflaged as a gravel bed, its back covered in coarse gravel
+    arranged in flowing lines, one huge eye opening in the middle, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Why buy ordinary gravel when you could have gravel with ambitions? It lays

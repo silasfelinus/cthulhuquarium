@@ -38,12 +38,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a crawdad with two pairs of claws, one big pair of pincers held low in front and a
-    second smaller pair of pincers sticking up from its back above them, four open claws
-    in total all clearly separate, a single colossal crawdad seen from the side facing
-    right, whole body visible, heavy segmented armour plating, a ridge of tiny
-    crown-like spines along its back, long sweeping antennae, scraperboard rendering,
-    crisp white lines cut into solid black, isolated on a plain flat pale grey studio
+    a colossal crawdad with four raised claws of different sizes, plated armour in rust
+    and slate, small surveyor's pennant flags planted along its back, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
     backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-

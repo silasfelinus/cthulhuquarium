@@ -28,20 +28,21 @@ evolves_from: guppy-common
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a small plain guppy with an oversized fan tail, standing off from a tidy heap of
-  sorted wriggling grubs arranged in equal piles, posture upright and businesslike, pale
-  rose and silver, chromolithograph cigarette card from around 1900, small format with a
-  printed ornamental border, four-colour stone printing, visible misregistration and dot
+  a small plain guppy with an oversized fan tail carrying a woven reed basket of wriggling
+  grubs in its mouth, chromolithograph cigarette card from around 1900, small format with
+  a printed ornamental border, four-colour stone printing, visible misregistration and dot
   rosettes, slightly garish cheap inks, corners worn round, the creature alone, a plain
   cream ribbon of bare paper along the bottom edge
 sprite:
+  redesigned: '2026-11-05'
   motion: tailbeat
   prompt: >
-    a single small plain guppy in strict side profile facing right, whole body visible, an oversized fanned tail as large as its body, an upright businesslike
-    posture with chin lifted, pale rose and silver scales, a small busy eye,
-    chromolithograph cigarette card chromolithograph print on the body, bold outline,
-    flat printed colour with fine dot rosettes, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a small plain guppy with an oversized fan tail carrying a woven reed basket of
+    wriggling grubs in its mouth, vivid painted illustration for a dark comedy video
+    game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Such a helpful little guppy, practically staff. Businesslike, tidy, and the

@@ -29,22 +29,23 @@ evolves_from: the-fixture
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a vast ornamental arrangement of hundreds of small preserved specimens fixed in ranked
-  concentric rings, each ring a different kind, the whole composed as a single
-  symmetrical organism filling the sheet, ornamental natural history plate, obsessive
-  radial symmetry, the organism arranged as design to fill the sheet, fine line and
-  restrained colour, ruled ornamental border, the creature alone inside the ruled
-  border, a plain strip of bare paper beneath it
+  a vast slow armoured creature whose shell is a round display cabinet of concentric
+  rings, hundreds of small pinned specimens fixed in the rings, a heavy plated head,
+  ornamental natural history plate, obsessive radial symmetry, the organism arranged as
+  design to fill the sheet, fine line and restrained colour, ruled ornamental border, the
+  creature alone inside the ruled border, a plain strip of bare paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   mass: true
   prompt: >
-    the whole collection as one round symmetrical mass of hundreds of small
-    preserved specimens fixed in ranked concentric rings, tiny shells, fins, and
-    curled fish in alternating bands, a single larger specimen at the centre,
-    ornamental natural history drawing, obsessive radial symmetry, fine line and
-    restrained colour on the body, muted ivory, sepia, and sage, isolated on a plain
-    flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a vast slow armoured creature whose shell is a round display cabinet of concentric
+    rings, hundreds of small pinned specimens fixed in the rings, a heavy plated head,
+    vivid painted illustration for a dark comedy video game, bold readable shapes, crisp
+    inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, the whole group visible as one body with space around it, facing
+    right, isolated on a plain flat pale grey studio backdrop, even soft light, strong
+    crisp silhouette
 voices:
   charlotte: >-
     Our finest pieces, arranged in rings like a cathedral window, and all of it

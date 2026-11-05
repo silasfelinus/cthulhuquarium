@@ -29,19 +29,23 @@ plate: gosse
 games: [cthulhuquarium, ruler-hooked]
 evolves_to: elder-rustfish
 art_prompt: >
-  a plain cheerful rustfish with a flowing double tail, rust-orange with a dull copper
-  sheen, entirely unremarkable and rather pleased about it, hand-coloured lithograph
-  plate from an 1850s natural history book, fine engraved line under flat hand-laid
-  watercolour washes, Prussian blue and madder and gamboge, visible plate mark, foxed
-  paper, the wash running slightly outside the line, the creature alone on the sheet, a
-  wide plain margin of foxed paper beneath it
+  a plump cheerful fish whose scales are flaking plates of rust-orange iron, a flowing
+  double tail, a pleased expression, a few rust flakes drifting off its body, hand-
+  coloured lithograph plate from an 1850s natural history book, fine engraved line under
+  flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
+  mark, foxed paper, the wash running slightly outside the line, the creature alone on the
+  sheet, a wide plain margin of foxed paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: tailbeat
   prompt: >
-    a single plain cheerful rustfish in strict side profile facing right, whole body visible, rust-orange body with a dull copper sheen, a flowing double tail split into
-    two soft lobes, round contented eye and a small smiling mouth, hand-coloured
-    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    a plump cheerful fish whose scales are flaking plates of rust-orange iron, a flowing
+    double tail, a pleased expression, a few rust flakes drifting off its body, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A cheerful ornamental classic. Ideal for a parlour, a first tank or a bedside table, and it suits any size of home beautifully.

@@ -30,20 +30,21 @@ evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >
-  a small dumpy goby braced in the mouth of a brass pipe with its blunt head just
-  protruding, fused pelvic fins gripping the rim, mottled grey and dull blue, eyes set high
-  on the head, hand-coloured lithograph plate from an 1850s natural history book, fine
-  engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
-  gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
-  the creature alone on the sheet, a wide plain margin of foxed paper beneath it
+  a small dumpy grey goby ringed with brass pipe-collar bands, a little brass tap handle
+  growing from its forehead, hand-coloured lithograph plate from an 1850s natural history
+  book, fine engraved line under flat hand-laid watercolour washes, Prussian blue and
+  madder and gamboge, visible plate mark, foxed paper, the wash running slightly outside
+  the line, the creature alone on the sheet, a wide plain margin of foxed paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: tailbeat
-  faces: left
   prompt: >
-    a single small dumpy goby in strict side profile facing right, whole body visible, a blunt rounded head with both eyes set high on top, fused pelvic fins
-    forming a sucker cup beneath its chest, mottled grey and dull blue body, a
-    rounded tail, hand-coloured lithograph linework and flat watercolour wash on the
-    body, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a small dumpy grey goby ringed with brass pipe-collar bands, a little brass tap
+    handle growing from its forehead, vivid painted illustration for a dark comedy video
+    game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Stout, loyal, and with a grip like a limpet. Its eyes sit right on top so it

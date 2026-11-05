@@ -28,21 +28,23 @@ evolves_from: the-reckoning
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a rigorously symmetrical creature built as a pair of matched pans hanging from a
-  central beam, each pan a mirrored half of the same body, ornamental scrollwork through
-  the beam, held perfectly level, ornamental natural history plate, obsessive radial
-  symmetry, the organism arranged as design to fill the sheet, fine line and restrained
-  colour, ruled ornamental border, the creature alone inside the ruled border, a plain
-  strip of bare paper beneath it
+  a symmetrical pale crustacean holding two shallow brass scale pans on long level claws,
+  its thin upright body forming the central beam, one eye on each side held perfectly
+  level, ornamental natural history plate, obsessive radial symmetry, the organism
+  arranged as design to fill the sheet, fine line and restrained colour, ruled ornamental
+  border, the creature alone inside the ruled border, a plain strip of bare paper beneath
+  it
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single rigorously symmetrical creature facing the viewer, whole body visible,
-    a straight central beam with ornamental scrollwork running through it, a matched
-    pan hanging from each end, each pan a mirrored half of the same small body with
-    one eye apiece, both held perfectly level, ornamental natural history linework,
-    fine precise line and restrained colour, obsessive symmetry, isolated on a plain
-    flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a symmetrical pale crustacean holding two shallow brass scale pans on long level
+    claws, its thin upright body forming the central beam, one eye on each side held
+    perfectly level, vivid painted illustration for a dark comedy video game, bold
+    readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Perfectly poised, perfectly composed, and utterly unflappable. It is the sort of

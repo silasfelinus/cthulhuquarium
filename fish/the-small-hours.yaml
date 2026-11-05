@@ -39,11 +39,13 @@ art_prompt: >
 sprite:
   motion: undulate
   prompt: >
-    a single long low creature in strict side profile facing right, whole body visible,
-    a sleek elongated body close to the ground on short splayed limbs, one narrow bright
-    band of light cutting across the middle of its back, the rest of it deep dense
-    hatching, a small patient eye, white line scraperboard surface cut from solid black,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a long low dark creature with most of its body in shadow, a single narrow band of
+    lamplight across its back revealing many small legs, vivid painted illustration for
+    a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Our night creature, sleek as a cat and twice as discreet. It keeps the most

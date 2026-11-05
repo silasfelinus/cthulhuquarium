@@ -30,21 +30,23 @@ evolves_from: rain-barrel-roach
 plate: blaschka
 games: [cthulhuquarium]
 art_prompt: >
-  a long hollow vertical creature with a straight round tube body standing at the
-  waterline, the open upper end flared wide, a steady column of water visible falling
-  through the transparent body, lampworked glass model on a thin wire mount, transparent
-  hollow body, light passing through the glass and pooling where it thickens, colour
-  suspended in the glass itself, museum specimen on a small wooden base, faint dust,
-  the glass creature standing alone, a small plain cream paper tag on the wooden base
+  a long vertical tube worm with a flared funnel mouth at the top and a segmented
+  verdigris copper body, a column of tiny bubbles pouring from its mouth, lampworked glass
+  model on a thin wire mount, transparent hollow body, light passing through the glass and
+  pooling where it thickens, colour suspended in the glass itself, museum specimen on a
+  small wooden base, faint dust, the glass creature standing alone, a small plain cream
+  paper tag on the wooden base
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single long hollow vertical creature with a straight round tube body, whole body
-    in view, its upper end flared wide into a funnel, a steady column of falling water
-    visible through its transparent body, cool pale tones, as a lampworked glass model,
-    clear hollow glass with the colour suspended inside it, light gathering where the
-    glass thickens, isolated on a plain flat charcoal studio backdrop, even soft light,
-    strong crisp silhouette
+    a long vertical tube worm with a flared funnel mouth at the top and a segmented
+    verdigris copper body, a column of tiny bubbles pouring from its mouth, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Fresh rain, delivered straight to the tank, like a little weather service of

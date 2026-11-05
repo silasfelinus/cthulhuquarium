@@ -30,22 +30,23 @@ evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >
-  a small sardine with one enormous mirror-bright eye, sleek silver-blue torpedo body, a
-  dozen identical siblings blurred behind it all facing the same direction, hand-
+  a small sleek sardine with one enormous mirror-bright eye filling half its head, silver-
+  blue torpedo body with a single row of tiny glowing lantern spots along its flank, hand-
   coloured lithograph plate from an 1850s natural history book, fine engraved line under
   flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
-  mark, foxed paper, the wash running slightly outside the line, the creature alone on
-  the sheet, a wide plain margin of foxed paper beneath it
+  mark, foxed paper, the wash running slightly outside the line, the creature alone on the
+  sheet, a wide plain margin of foxed paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: tailbeat
-  faces: left
   prompt: >
-    a single small sardine in strict side profile facing right, whole body visible,
-    a sleek silver-blue torpedo body with a darker blue back, one enormous round
-    mirror-bright eye, a neat forked tail, hand-coloured lithograph linework and
-    flat watercolour wash on the body, the silver laid in as pale wash with fine
-    engraved scale lines, isolated on a plain flat pale grey studio backdrop, even
-    soft light, strong crisp silhouette
+    a small sleek sardine with one enormous mirror-bright eye filling half its head,
+    silver-blue torpedo body with a single row of tiny glowing lantern spots along its
+    flank, vivid painted illustration for a dark comedy video game, bold readable
+    shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Silver twins by the dozen, each one as good as the next. Buy a shoal and nobody

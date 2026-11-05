@@ -29,21 +29,22 @@ evolves_from: the-enquiry-desk
 plate: riso
 games: [cthulhuquarium]
 art_prompt: >
-  a very long vertical creature made of stacked ruled entries running from the top edge
-  of the sheet to the bottom edge, each entry a small closed body of its own, the lowest
-  ones printed faint and the topmost printed heavy, risograph print in two fluorescent
-  spot inks on cheap absorbent paper, deliberate misregistration, the inks overprinting
-  to a third colour where they cross, flat unblended areas, paper showing through, the
-  creature alone on the sheet, wide bare margins
+  a very long vertical chain of small sleeping pod creatures linked nose to tail, the
+  bottom pod awake with one open eye, risograph print in two fluorescent spot inks on
+  cheap absorbent paper, deliberate misregistration, the inks overprinting to a third
+  colour where they cross, flat unblended areas, paper showing through, the creature alone
+  on the sheet, wide bare margins
 sprite:
+  redesigned: '2026-11-05'
   motion: undulate
   prompt: >
-    a single very tall slender creature standing upright, whole body visible, made of
-    stacked ruled entries from head to tail, each entry a small closed segment of its
-    own, the topmost printed heavy and the lowest printed faint, a small round head at
-    the top, risograph print surface in two fluorescent spot inks, flat unblended areas,
-    slight misregistration, isolated on a plain flat pale grey studio backdrop, even
-    soft light, strong crisp silhouette
+    a very long vertical chain of small sleeping pod creatures linked nose to tail, the
+    bottom pod awake with one open eye, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Tall, orderly and endlessly patient, which is everything I ask of a queue. It

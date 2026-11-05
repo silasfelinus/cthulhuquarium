@@ -10,6 +10,7 @@ Collects every render the canon asks for:
     plates      story/plates.yaml                         -> story/raw/<key>.webp
     videos      videos/videos.yaml (WAN image-to-video)   -> videos/raw/<key>.webp  (animated)
     clips       every fish, from its sprite render (WAN)  -> clips/raw/<slug>.webp  (animated)
+    ui          ui/ui.yaml (console UI art: tab icons, coin, plinth, ornaments) -> ui/raw/<key>.webp
 
 A video is submitted only once its source still exists, so `submit` after each
 `harvest` sends the clips whose stills just arrived.
@@ -23,8 +24,9 @@ two steps that need not happen in the same session:
 
 `art/jobs.yaml` is the committed record of what is in flight: one entry per render
 with its ArtJob id and a hash of the prompt it was submitted with. `submit` skips
-anything already raw or already in flight with the same prompt; editing a prompt
-makes its entry stale and `submit` sends the new one. `harvest` drops FAILED and
+anything already raw from its current prompt (art/rendered.yaml) or already in flight
+with the same prompt; editing a prompt makes the raw and any in-flight entry stale, and
+`submit` sends the new one, which `harvest` writes over the old raw. `harvest` drops FAILED and
 CANCELLED entries so the next `submit` retries them. Commit `art/jobs.yaml` and the
 raw renders after each run, so any later session can pick up where this one left off.
 
@@ -48,10 +50,11 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "art" / "jobs.yaml"
-GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos", "clips")
-# flux schnell follows layout instructions (side profile, flat backdrop) reliably
-# for isolated subjects; override per run with --engine.
-DEFAULT_ENGINE = "flux"
+GROUPS = ("sprites", "portraits", "heroes", "backgrounds", "plates", "videos", "clips", "ui")
+# Krea 2 since 2026-11-05 (t-099): Silas found the flux renders "too harsh and
+# naturalistic", and the Krea 2 / Illustrious style test kept side profile and a clean
+# backdrop on Krea 2 while Illustrious added legs and floor shadows. Override with --engine.
+DEFAULT_ENGINE = "krea2"
 # Below the Daily Dream lane (200) and Mandarin curriculum art (80): this queue is
 # large and patient, and should never hold up time-sensitive work.
 PRIORITY = 20
@@ -99,6 +102,13 @@ def jobs() -> list[dict]:
     for bg in bgs["backgrounds"]:
         out.append({"group": "backgrounds", "id": bg["key"], "size": bg.get("size", bgs["defaults"]["size"]),
                     "prompt": _flat(bg["prompt"]), "dest": ROOT / "backgrounds/raw" / f"{bg['key']}.webp"})
+    ui_path = ROOT / "ui/ui.yaml"
+    if ui_path.exists():
+        ui = yaml.safe_load(ui_path.read_text())
+        for item in ui["items"]:
+            out.append({"group": "ui", "id": item["key"], "size": item.get("size", ui["defaults"]["size"]),
+                        "prompt": _flat(f"{item['prompt']}, {ui['defaults']['suffix']}"),
+                        "dest": ROOT / "ui/raw" / f"{item['key']}.webp"})
     for plate in yaml.safe_load((ROOT / "story/plates.yaml").read_text())["plates"]:
         out.append({"group": "plates", "id": plate["key"], "size": plate.get("size", "1344x768"),
                     "prompt": _flat(plate["prompt"]), "dest": ROOT / "story/raw" / f"{plate['key']}.webp"})
@@ -131,7 +141,49 @@ def jobs() -> list[dict]:
     for job in out:
         job["key"] = f"{job['group']}/{job['id']}"
         job["hash"] = hashlib.sha1(f"{job['prompt']}|{job['size']}".encode()).hexdigest()[:12]
+    # A fish clip is animated from its sprite render, so a re-rendered sprite makes the
+    # clip stale too: fold the sprite's prompt hash into the clip's.
+    sprite_hash = {j["id"]: j["hash"] for j in out if j["group"] == "sprites"}
+    for job in out:
+        if job["group"] == "clips" and job["id"] in sprite_hash:
+            job["source_key"] = f"sprites/{job['id']}"
+            job["hash"] = hashlib.sha1(f"{job['hash']}|{sprite_hash[job['id']]}".encode()).hexdigest()[:12]
     return out
+
+
+RENDERED = ROOT / "art" / "rendered.yaml"
+
+
+def load_rendered() -> dict:
+    """key -> hash of the prompt that produced the raw file on disk.
+
+    A raw whose recorded hash differs from its job's current hash is stale: its prompt
+    was rewritten (t-099 restyled every sprite), so `submit` sends the new prompt and
+    `harvest` overwrites the old raw when the new one lands. Nothing is deleted first;
+    the old raw stays in git history. A raw with no record predates this file and is
+    taken as current unless its group is listed in `stale_groups` there.
+    """
+    if not RENDERED.exists():
+        return {"stale_groups": [], "hashes": {}}
+    data = yaml.safe_load(RENDERED.read_text()) or {}
+    return {"stale_groups": data.get("stale_groups") or [], "hashes": data.get("hashes") or {}}
+
+
+def save_rendered(rendered: dict) -> None:
+    header = ("# Which prompt produced each committed raw render (scripts/render_art.py).\n"
+              "# Written by `harvest`. A raw whose hash differs from its prompt's is re-rendered.\n")
+    RENDERED.write_text(header + yaml.safe_dump({"stale_groups": rendered["stale_groups"],
+                                                 "hashes": dict(sorted(rendered["hashes"].items()))},
+                                                sort_keys=False))
+
+
+def is_current(job: dict, rendered: dict) -> bool:
+    if not job["dest"].exists():
+        return False
+    recorded = rendered["hashes"].get(job["key"])
+    if recorded is None:
+        return job["group"] not in rendered["stale_groups"]
+    return recorded == job["hash"]
 
 
 def load_manifest() -> dict:
@@ -202,14 +254,15 @@ def submit_video(job: dict, core) -> int:
     return int(job_id)
 
 
-def submit(todo: list[dict], core, engine: str, manifest: dict) -> None:
+def submit(todo: list[dict], core, engine: str, manifest: dict, current_keys: set | None = None) -> None:
+    current_keys = current_keys or set()
     sent = waiting = 0
     for job in todo:
         current = manifest.get(job["key"])
         if current and current.get("hash") == job["hash"]:
             continue
         if job["group"] in ("videos", "clips"):
-            if not job["source"].exists():
+            if not job["source"].exists() or (job.get("source_key") and job["source_key"] not in current_keys):
                 waiting += 1
                 continue
             job_id = submit_video(job, core)
@@ -237,11 +290,12 @@ def submit(todo: list[dict], core, engine: str, manifest: dict) -> None:
     print(f"submitted {sent}" + (f" ({waiting} videos still waiting on their source still)" if waiting else ""))
 
 
-def harvest(core, manifest: dict, by_key: dict) -> None:
+def harvest(core, manifest: dict, by_key: dict, rendered: dict) -> None:
     done = failed = waiting = 0
     for key, entry in list(manifest.items()):
         job = by_key.get(key)
-        if job is None or job["dest"].exists():
+        # Drop entries for renders that no longer exist, or that an older prompt sent.
+        if job is None or entry.get("hash") != job["hash"] or is_current(job, rendered):
             manifest.pop(key)
             continue
         status, resp = core.http_json("GET", f"{core.KR_BASE_URL}/api/art/queue/{entry['job']}")
@@ -257,6 +311,7 @@ def harvest(core, manifest: dict, by_key: dict) -> None:
             else:
                 to_webp(data, job["dest"])
             manifest.pop(key)
+            rendered["hashes"][key] = job["hash"]
             done += 1
             print(f"  harvested {key} (ArtImage {art['artImageId']})", flush=True)
         elif art["status"] in ("FAILED", "CANCELLED"):
@@ -266,6 +321,7 @@ def harvest(core, manifest: dict, by_key: dict) -> None:
         else:
             waiting += 1
     save_manifest(manifest)
+    save_rendered(rendered)
     print(f"harvested {done}, failed {failed} (will resubmit), still queued {waiting}")
 
 
@@ -280,8 +336,10 @@ def main() -> int:
 
     every = jobs()
     by_key = {j["key"]: j for j in every}
+    rendered = load_rendered()
+    current_keys = {j["key"] for j in every if is_current(j, rendered)}
     todo = [j for j in every if (args.group == "all" or j["group"] == args.group)
-            and (not args.only or j["id"] in args.only) and not j["dest"].exists()]
+            and (not args.only or j["id"] in args.only) and j["key"] not in current_keys]
     manifest = load_manifest()
 
     if args.action == "list":
@@ -300,9 +358,9 @@ def main() -> int:
         return 2
     core = core_module(args.conductor)
     if args.action == "submit":
-        submit(todo, core, args.engine, manifest)
+        submit(todo, core, args.engine, manifest, current_keys)
     else:
-        harvest(core, manifest, by_key)
+        harvest(core, manifest, by_key, rendered)
     return 0
 
 

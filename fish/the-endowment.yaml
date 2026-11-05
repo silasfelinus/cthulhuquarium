@@ -37,13 +37,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a hermit crab whose shell is a tall spiral tower of stacked gold coins, dozens of
-    shiny round gold coins piled into a leaning spiral on its back, a single stout
-    hermit crab seen from the side facing right, whole body visible, one claw held out
-    with a single gold coin balanced on it as an offering, warm gold and cream,
-    chromolithograph cigarette card print, flat bright stone-printed inks with slight
-    misregistration and dot rosettes on the body, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a stout hermit crab in a shell made of stacked gold coins, holding out one coin on
+    its claw, vivid painted illustration for a dark comedy video game, bold readable
+    shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A hermit crab of independent means and the kindest disposition. The whole tank

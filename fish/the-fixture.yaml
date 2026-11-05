@@ -39,12 +39,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single heavy squat creature shaped as a solid block of brass scrollwork, its
-    body curling outward in mirrored volutes on the left and right, a flat base of
-    fused metal and flesh at the bottom, tarnished gold scrolls shading into warm
-    fleshy amber where the body shows through, ornamental natural history drawing,
-    perfect bilateral symmetry, fine engraved line and restrained colour on the
-    body, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a heavy ornamental creature grown out of riveted brass scrollwork, verdigris and
+    gold, perfectly symmetrical, two glassy eyes in the scrolls, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     It comes with the tank, or the tank comes with it; either way it is a matching

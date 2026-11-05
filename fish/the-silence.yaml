@@ -32,20 +32,20 @@ evolution_kind: growth
 plate: riso
 games: [cthulhuquarium]
 art_prompt: >
-  a wide flat area of the sheet where the ink has been laid down as one unbroken soft
-  field with a faint body outline pressed into it, everything at its edges printed in
-  fine crowded detail by comparison, risograph print in two fluorescent spot inks on
+  a wide soft grey-white ray with velvet skin, enormous dark calm eyes, its tiny mouth
+  sewn shut with a single neat stitch, risograph print in two fluorescent spot inks on
   cheap absorbent paper, deliberate misregistration, the inks overprinting to a third
-  colour where they cross, flat unblended areas, paper showing through, the creature
-  alone on the sheet, wide bare margins
+  colour where they cross, flat unblended areas, paper showing through, the creature alone
+  on the sheet, wide bare margins
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
-  faces: left
   prompt: >
-    a single soft rounded oval fish seen from the side, its body one smooth unbroken
-    field of flat dark blue ink, its rim edged with a thin band of fine busy printed
-    pattern, a small closed eye, a tiny closed mouth, risograph print surface in two
-    fluorescent spot inks, flat unblended areas, slight misregistration at the edges,
+    a wide soft grey-white ray with velvet skin, enormous dark calm eyes, its tiny mouth
+    sewn shut with a single neat stitch, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
     isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
     silhouette
 voices:

@@ -39,11 +39,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small blunt catfish in strict side profile facing right, whole body visible, a huge mass of long coiling whiskers sprouting from its snout and
-    streaming forward, far larger than the body, one whisker reaching out longer and
-    straighter than the rest, a small stubby tail at the back, white scraperboard
-    line cut from solid black ink, each whisker a crisp bright stroke, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a vast tangle of catfish whiskers coiling and probing outward, a small blunt dark
+    body barely visible in the middle, two pale eyes, vivid painted illustration for a
+    dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Curious about absolutely everyone, and so thorough. Those whiskers! It has more

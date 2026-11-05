@@ -40,12 +40,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single huge armoured crawdad seen from the front, two enormous scarlet claws held
-    wide and high above its head, crooked spines along its back, heavy segmented
-    carapace in rust and scarlet, small proud eyes on stalks, chromolithograph cigarette
-    card chromolithograph print, bold flat inks with slight misregistration on the body,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a huge armoured crawdad with two enormous scarlet claws raised high above its head,
+    crooked spines along its back, a small dented tin crown on its head, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Royalty, and it knows it. Those scarlet claws held up like a crown, and it rules its corner with such conviction.

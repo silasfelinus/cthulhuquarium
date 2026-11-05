@@ -40,11 +40,13 @@ art_prompt: >
 sprite:
   motion: pulse
   prompt: >
-    a single glowing jellyfish upright with its bell at the top, the violet bell
-    covered in looping luminous script-like marks in an invented alphabet, magenta
-    and cyan, long ribbon tendrils curling below, lampworked glass model body, clear
-    glass bell with colour suspended inside and light pooling in the thicker rim,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a glowing violet jellyfish whose bell is covered in looping luminous script in an
+    invented alphabet, magenta and cyan ribbon tendrils, vivid painted illustration for
+    a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Such looping, lovely script across that glowing bell. It's like keeping a letter

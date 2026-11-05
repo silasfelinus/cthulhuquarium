@@ -30,20 +30,26 @@ evolution_kind: breeding
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a severe upright creature with a stack of flat plate-like fins down its spine, one
-  narrow unblinking eye, held perfectly level, scraperboard illustration, white line
-  scratched out of solid black ink with a blade, pure black and pure white only, every
-  tone built from line density, form built entirely from cut hatching, 
-  the creature alone, the board around it left solid uncut black
+  a tall flat upright fish whose body is a closed ledger book standing on end, a leather
+  spine for a back, gilt page edges along its belly, page-thin fins fanned along the top,
+  a single narrow eye behind a round brass monocle, a long thin disapproving mouth, slate
+  grey and ink blue, scraperboard illustration, white line scratched out of solid black
+  ink with a blade, pure black and pure white only, every tone built from line density,
+  form built entirely from cut hatching, the creature alone, the board around it left
+  solid uncut black
 sprite:
+  redesigned: '2026-11-05'
   motion: tailbeat
-  faces: left
   prompt: >
-    a single severe narrow fish in strict side profile facing right, whole body visible,
-    a tall stack of flat plate-like fins down its spine, one narrow unblinking eye, a
-    straight level body and a clipped square tail, scraperboard rendering, crisp white
-    lines cut into solid black, form built entirely from hatched cut marks, isolated on
-    a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a tall flat upright fish whose body is a closed ledger book standing on end, a
+    leather spine for a back, gilt page edges along its belly, page-thin fins fanned
+    along the top, a single narrow eye behind a round brass monocle, a long thin
+    disapproving mouth, slate grey and ink blue, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     So punctual, and so thorough. It calls on every resident personally, which is

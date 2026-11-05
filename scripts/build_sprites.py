@@ -199,7 +199,9 @@ def main() -> int:
         faces_left = (fish.get("sprite") or {}).get("faces") == "left"
         static_path = OUT / f"{slug}.webp"
         raw = RAW / f"{slug}.webp"
-        if not args.anim_only and (args.force or not static_path.exists()):
+        # A raw newer than its cut-out is a re-render (t-099 redesign): rebuild it.
+        stale = static_path.exists() and raw.exists() and raw.stat().st_mtime > static_path.stat().st_mtime
+        if not args.anim_only and (args.force or stale or not static_path.exists()):
             if not raw.exists():
                 missing += 1
                 continue
@@ -207,6 +209,10 @@ def main() -> int:
                 from rembg import new_session
 
                 session = new_session("isnet-general-use")
+            if stale:
+                # The old swimming clip shows the old creature: drop it so listings fall
+                # back to this sprite until the new clip (render_art.py clips) is built.
+                (ROOT / "clips" / f"{slug}.webp").unlink(missing_ok=True)
             sprite = cutout(raw, session)
             # The tank mirrors sprites by direction of travel and assumes the
             # art faces right; a render that came back facing left is flipped

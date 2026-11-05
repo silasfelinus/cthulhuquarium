@@ -20,6 +20,7 @@ python3 scripts/render_art.py harvest
 python3 scripts/build_sprites.py
 python3 scripts/build_story_art.py
 python3 scripts/build_fish_clips.py
+python3 scripts/build_ui.py
 # Videos and fish clips whose source still just arrived can go now.
 python3 scripts/render_art.py submit videos
 python3 scripts/render_art.py submit clips

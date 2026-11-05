@@ -39,10 +39,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small bright guppy in strict side profile facing right, whole body visible, a single grey grain of gravel held carefully in its mouth, thin cheerful body
-    in warm pink and pale green, a wide fan tail with fine rays, hand-coloured
-    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    a small pink and pale-green guppy with a wide fan tail carrying a tiny rolled paper
+    note in its mouth, mid-dart, vivid painted illustration for a dark comedy video
+    game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Such a willing little helper, always busy, always carrying something somewhere, and it has never once asked for a thing in return.

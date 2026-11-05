@@ -37,12 +37,13 @@ art_prompt: >
 sprite:
   motion: sway
   prompt: >
-    a single enormous anemone rooted upright at the bottom, whole body visible, its
-    disc opened completely flat and tilted toward the viewer, hundreds of magenta
-    and orange tendrils splayed in perfect radial symmetry, a dark still centre,
-    ornamental natural history linework, fine precise line and restrained colour,
-    obsessive symmetry, isolated on a plain flat pale grey studio backdrop, even
-    soft light, strong crisp silhouette
+    an enormous anemone opened flat, hundreds of magenta and orange tendrils in perfect
+    radial symmetry around a dark still centre, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Fully open, darling, at the very peak of its beauty, and it has simply decided

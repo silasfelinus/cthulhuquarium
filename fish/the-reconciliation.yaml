@@ -38,11 +38,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single perfectly symmetrical fish in strict side profile facing right, whole body visible, made of two identical halves joined along one bright seam running nose to
-    tail, the seam blazing where the two inks overprint, matching fins top and bottom,
-    calm level eye, risograph print surface in two fluorescent spot inks, flat unblended
-    areas, slight misregistration, isolated on a plain flat pale grey studio backdrop,
-    even soft light, strong crisp silhouette
+    two overlapping upright ledger-fish merging into one perfectly symmetrical creature,
+    the seam between them blazing with light, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Two halves, one seam, and not a hair's difference between them. The loveliest

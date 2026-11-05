@@ -40,12 +40,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single swollen rounded blob of magenta jelly, whole body visible, dozens of
-    small mislaid objects hanging visibly inside it, a spoon, a key, a button and a
-    fish bone at different depths, the outer skin smooth and bulging, as a
-    lampworked glass model, clear hollow glass with the colour suspended inside it,
-    light gathering where the glass thickens, isolated on a plain flat charcoal
-    studio backdrop, even soft light, strong crisp silhouette
+    a swollen blob of translucent magenta jelly with small objects suspended inside it,
+    a spoon, a key, a fish bone and a button, two tiny dark eyes at its top, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A great glowing jelly with all manner of treasures on display inside. A curio

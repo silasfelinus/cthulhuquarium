@@ -29,21 +29,23 @@ evolves_from: the-doorkeeper
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a tall upright creature whose entire flank is ruled into a long column of ruled entry
-  lines, each line bearing a mark, the lowest third of the column still blank and
-  waiting, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
-  colours leached toward parchment, the glass refracting the body where it presses
-  against it, a handwritten paper label tied on with string, the jar standing alone, the
-  label's brown ink faded to pale looping scribbles
+  a tall upright eel-shaped creature whose pale flank is ruled into a column of lines with
+  tiny handwritten names, most lines struck through, a pointed pen-nib head, wet specimen
+  preserved in a sealed glass jar of fluid, formalin yellow, colours leached toward
+  parchment, the glass refracting the body where it presses against it, a handwritten
+  paper label tied on with string, the jar standing alone, the label's brown ink faded to
+  pale looping scribbles
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single tall upright creature standing on a broad fleshy base, one long flank
-    facing the viewer ruled top to bottom into a column of fine cream entry lines,
-    each line ticked with a small dark mark, the lowest third of the column smooth
-    and unmarked, deep oxblood skin around the ruled panel, a small solemn eye near
-    the top, wet wax moulage specimen, glistening, isolated on a plain flat pale
-    grey studio backdrop, even soft light, strong crisp silhouette
+    a tall upright eel-shaped creature whose pale flank is ruled into a column of lines
+    with tiny handwritten names, most lines struck through, a pointed pen-nib head,
+    vivid painted illustration for a dark comedy video game, bold readable shapes, crisp
+    inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     It keeps a perfect record of everyone who comes in, which I find so reassuring.

@@ -39,13 +39,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a crab carrying a row of six round brown biscuits stacked on top of its two raised
-    claws, every biscuit exactly the same size, a single small pale crab seen from the
-    front, whole body visible, cream shell with gold edging, both claws raised and held
-    level, small attentive stalked eyes, chromolithograph cigarette card print, flat
-    bright stone-printed inks with slight misregistration and dot rosettes on the body,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp
-    silhouette
+    a small pale cream and gold crab holding out several identical portions of food on
+    its claws in a neat fan, vivid painted illustration for a dark comedy video game,
+    bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A courteous little crab in cream and gold, with the table manners of a bishop.

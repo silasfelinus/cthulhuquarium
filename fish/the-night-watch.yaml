@@ -40,12 +40,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a small shuttered lantern held out on one long thin fin by a tall slender eel-shaped
-    creature hovering upright, a hood of loose dark skin folded over its head and bowed
-    slightly, its long tail tapering away below, the lantern shutter nearly closed so a
-    thin blade of light cuts across its body, white scraperboard line cut from solid
-    black ink, the light blade a bright stroke across dense dark hatching, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a tall upright figure-shaped creature holding a shuttered lantern in one long limb,
+    a thin blade of light escaping the shutter, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     It keeps the whole shop safe after hours, lantern held high, and it never sleeps

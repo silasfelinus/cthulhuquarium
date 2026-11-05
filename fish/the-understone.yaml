@@ -37,10 +37,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single lumpy rock creature sitting squat, base at the bottom, split open across
-    the middle into a huge hinged grin of jagged teeth, mossy crusted surface with small
-    barnacles, two tiny googly eyes near the top, white line scraperboard surface cut
-    from solid black, dense hatching on the stone, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a lumpy mossy rock with barnacles split open into a huge hinged grin of jagged
+    teeth, two tiny googly eyes near the top, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     It's a rock and a fish, and there's simply no need to choose. Wonderfully low

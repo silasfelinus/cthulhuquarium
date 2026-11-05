@@ -39,12 +39,14 @@ art_prompt: >
   around it left solid uncut black
 sprite:
   motion: tailbeat
-  faces: left
   prompt: >
-    a single narrow upright fish in strict side profile facing right, whole body visible, a long ruled column of tally marks cut down its flank in neat groups of five,
-    a hard flat eye and a mouth set in a straight line, stiff squared fins, white line
-    scraperboard surface cut from solid black, form built from dense hatching, isolated
-    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a narrow upright fish with a long column of tally marks cut down its flank in groups
+    of five, a hard flat eye and a straight mouth, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     A fish that keeps the books. Look at those tallies, ruled in fives, not a stroke

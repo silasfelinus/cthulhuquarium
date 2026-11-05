@@ -30,20 +30,23 @@ evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a squared brown-paper package with string and a wax seal, drifting upright in water,
-  faint fin shapes pressing outward against the paper from inside, corners scuffed from
-  travel, chromolithograph cigarette card from around 1900, small format with a printed
-  ornamental border, four-colour stone printing, visible misregistration and dot
-  rosettes, slightly garish cheap inks, corners worn round, the creature alone, a plain
-  cream ribbon of bare paper along the bottom edge
+  a squared brown-paper package creature drifting upright, wax-sealed with string, small
+  fins pushing out through its torn corners, one large eye peering from a tear in the
+  paper, chromolithograph cigarette card from around 1900, small format with a printed
+  ornamental border, four-colour stone printing, visible misregistration and dot rosettes,
+  slightly garish cheap inks, corners worn round, the creature alone, a plain cream ribbon
+  of bare paper along the bottom edge
 sprite:
+  redesigned: '2026-11-05'
   motion: rigid
   prompt: >
-    a single squared brown wrapped package, whole package in view, tied with
-    crossed string and a round wax seal, faint fin shapes pressing outward against
-    the wrapping from inside, scuffed rounded corners, chromolithograph cigarette card chromolithograph print, flat bright stone-printed inks with slight
-    misregistration and dot rosettes on the body, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a squared brown-paper package creature drifting upright, wax-sealed with string,
+    small fins pushing out through its torn corners, one large eye peering from a tear
+    in the paper, vivid painted illustration for a dark comedy video game, bold readable
+    shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Something for us, and so beautifully wrapped. I have always believed a shop

@@ -38,11 +38,12 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single crab seen from the front, whole body visible, two perfectly identical
-    mirrored halves, a matching claw on each side held at exactly the same angle, a
-    faint second outline shadowing every limb, scraperboard rendering, crisp white
-    lines cut into solid black, form built entirely from hatched cut marks, isolated
-    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a crab with two mirrored identical halves, one rust and one ink blue, matching claws
+    held at exactly the same angle, vivid painted illustration for a dark comedy video
+    game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Perfect symmetry, two matching claws and impeccable habits. It would make a

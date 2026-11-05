@@ -40,10 +40,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single oversized rustfish in strict side profile facing right, whole body visible, hot rust-orange and bone, extra eyes opening along its flank and tail in a
-    row, each a different size, all wide awake, its original two eyes half-closed, wet
-    wax moulage specimen, glistening, colours leached slightly toward parchment,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    an oversized fish in hot rust-orange iron plates and bone with extra eyes opening
+    along its flank and tail, each a different size, all wide awake, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Such an attentive fish, with so many lovely eyes, and every one of them on you.

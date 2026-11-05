@@ -37,14 +37,14 @@ art_prompt: >
   the wooden base
 sprite:
   motion: tailbeat
-  faces: left
   prompt: >
-    a single slender fish in strict side profile facing right, whole body visible, its
-    mouth held wide open mid-song, a soft cyan light glowing inside its throat, long
-    translucent ribbon fins trailing from back and belly, a pale smoky blue body,
-    lampworked glass model, light passing through the clear body and pooling where the
-    glass thickens, colour suspended in the glass itself, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    three slender fish of different sizes in a rising row with wide open singing mouths,
+    glowing cyan throat lights, long translucent ribbon fins, vivid painted illustration
+    for a dark comedy video game, bold readable shapes, crisp inked outlines, rich
+    saturated jewel-tone colour, glowing bioluminescent accents, painterly texture, a
+    single creature in strict side profile facing right, the whole body visible with
+    space around it, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     A singing fish, darling. Take three and you will have the finest little chapel choir this side of the harbour.

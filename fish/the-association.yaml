@@ -28,21 +28,23 @@ evolves_from: portsmouth-bitterling
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a small deep-bodied bitterling in showy civic colours with a broad striped band along
-  its flank, fins edged in a contrasting trim, posed in three-quarter view,
-  chromolithograph cigarette card from around 1900, small format with a printed
-  ornamental border, four-colour stone printing, visible misregistration and dot
-  rosettes, slightly garish cheap inks, corners worn round, the creature alone, a plain
-  cream ribbon of bare paper along the bottom edge
+  a small deep-bodied fish with a striped band of civic red and gold scales across its
+  body, a heavy gold chain of office hanging around its neck, a puffed pompous chest,
+  chromolithograph cigarette card from around 1900, small format with a printed ornamental
+  border, four-colour stone printing, visible misregistration and dot rosettes, slightly
+  garish cheap inks, corners worn round, the creature alone, a plain cream ribbon of bare
+  paper along the bottom edge
 sprite:
+  redesigned: '2026-11-05'
   motion: tailbeat
   prompt: >
-    a single small deep-bodied bitterling in strict side profile facing right, whole
-    body in view, showy civic colours, a broad striped band running along its flank,
-    every fin edged in a bright contrasting trim, a proud upright dorsal fin,
-    chromolithograph cigarette card chromolithograph print, flat bright stone-printed
-    inks with slight misregistration and dot rosettes on the body, isolated on a plain
-    flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a small deep-bodied fish with a striped band of civic red and gold scales across its
+    body, a heavy gold chain of office hanging around its neck, a puffed pompous chest,
+    vivid painted illustration for a dark comedy video game, bold readable shapes, crisp
+    inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Civic pride in fish form, sashed like a mayor and twice as photogenic. It makes

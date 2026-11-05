@@ -36,14 +36,14 @@ art_prompt: >
   border, the creature alone inside the ruled border, a plain strip of bare paper beneath it
 sprite:
   motion: ripple
-  faces: left
   prompt: >
-    a single enormous sea slug seen from above, ranked rows of frilled plumes down its
-    back in perfect bilateral symmetry, every plume a different hue in a strict
-    repeating sequence of rose, saffron, teal and violet, a smooth broad foot, two neat
-    horns at its head, ornamental natural history plate surface, fine line and
-    restrained colour, isolated on a plain flat pale grey studio backdrop, even soft
-    light, strong crisp silhouette
+    an enormous nudibranch with ranked rows of frilled plumes down its back, every plume
+    a different hue in a strict repeating sequence, vivid painted illustration for a
+    dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Every plume a different colour, in perfect order, down both sides. It is the
