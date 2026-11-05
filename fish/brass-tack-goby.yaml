@@ -35,15 +35,15 @@ art_prompt: >
   gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
   the creature alone on the sheet, a wide plain margin of foxed paper beneath it
 sprite:
-  faces: left
   motion: tailbeat
   prompt: >
-    a single tiny blunt-headed goby seen head-on from the front, its fused pelvic fins
-    spread into a round sucker disc gripping hard, pectoral fins braced and flared, dull
-    olive body with a round warm brass-gold spot on the crown, short tail curled to the
-    right, hand-coloured lithograph linework and flat watercolour wash on the body,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a tiny blunt dull-olive goby with a polished brass tack head set into its forehead
+    as a shining stud, fused pelvic fins splayed into a round sucker, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A little brass fitting that swims. It holds its place through absolutely anything, and I do admire a creature who knows where it stands.

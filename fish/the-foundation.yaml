@@ -29,21 +29,22 @@ evolves_from: the-understone
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  an enormous flat slab of stone covering the whole sea floor with a single wide seam
-  across it parted slightly into a mouth, gravel heaped against its edges and sliding
-  into the seam, scraperboard illustration, white line scratched out of solid black ink
-  with a blade, pure black and pure white only, every tone built from line density, form
-  built entirely from cut hatching,  the creature alone, the board
-  around it left solid uncut black
+  an enormous flat flounder whose back is a mossy stone slab with gravel heaped on it, a
+  wide seam of a mouth along its front edge, two small eyes on top, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, pure black and
+  pure white only, every tone built from line density, form built entirely from cut
+  hatching, the creature alone, the board around it left solid uncut black
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single enormous flat slab-bodied creature of heavy stone resting low and wide,
-    one long seam across its front edge parted slightly into a wide thin mouth, a
-    few pebbles caught in the lip of the seam, weathered bedding lines running
-    across its whole mass, white scraperboard hatching cut out of solid black, the
-    top face bright with dense cut line, the mouth a deep black gap, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    an enormous flat flounder whose back is a mossy stone slab with gravel heaped on it,
+    a wide seam of a mouth along its front edge, two small eyes on top, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Solid, dependable, utterly unshakeable. Every good house is built on something,

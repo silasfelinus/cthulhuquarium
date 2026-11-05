@@ -37,12 +37,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single rotund anglerfish in strict side profile facing right, whole body visible,
-    an enormous grinning underbite of crooked mismatched teeth, a fat glowing lantern
-    bulb drooping on a bent stalk over its brow, hot lime-green glow against a deep plum
-    body, stubby fins, chromolithograph cigarette card chromolithograph print, bold flat
-    inks with slight misregistration on the body, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a rotund anglerfish with an enormous grinning underbite of crooked mismatched teeth,
+    a fat glowing lantern bulb drooping on a bent stalk over its brow, mottled plum and
+    moss green skin, small pale eyes, vivid painted illustration for a dark comedy video
+    game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     What a smile. And its very own little lamp, so it is never, ever in the dark. It makes any tank feel so welcoming.

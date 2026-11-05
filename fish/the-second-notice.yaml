@@ -37,13 +37,14 @@ art_prompt: >
   hatching,  the creature alone, the board around it left solid uncut black
 sprite:
   motion: breathe
-  faces: left
   prompt: >
-    a single heavy-shelled snail seen from the side, a broad muscular foot spread flat,
-    a thick spiral shell covered in fine straight parallel ruled lines, a hard round
-    stamped seal mark on the top of the shell, short alert tentacles, white line
-    scraperboard surface cut from solid black, dense hatching, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    a larger heavy-shelled snail with a hard round red stamp mark on its shell and a
+    trail behind it ruled in dense lines, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Such a diligent little correspondent, with its own seal right on the shell. It

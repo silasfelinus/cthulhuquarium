@@ -29,20 +29,23 @@ evolution_kind: growth
 plate: gosse
 games: [cthulhuquarium]
 art_prompt: >
-  a small ridged whelk shell with a soft foot extended, sitting square on a worn stone
-  step, oriented toward the viewer, warm sandstone and dull cream, morning light across
-  the step, hand-coloured lithograph plate from an 1850s natural history book, fine
-  engraved line under flat hand-laid watercolour washes, Prussian blue and madder and
-  gamboge, visible plate mark, foxed paper, the wash running slightly outside the line,
-  the creature alone on the sheet, a wide plain margin of foxed paper beneath it
+  a ridged sandstone-coloured whelk whose shell opening is a tiny arched front door with a
+  brass knocker, a soft cream foot beneath, two eyestalks peering over the doorway, hand-
+  coloured lithograph plate from an 1850s natural history book, fine engraved line under
+  flat hand-laid watercolour washes, Prussian blue and madder and gamboge, visible plate
+  mark, foxed paper, the wash running slightly outside the line, the creature alone on the
+  sheet, a wide plain margin of foxed paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single small ridged whelk seen from the front, its shell aperture turned squarely
-    toward the viewer, warm sandstone and dull cream spiral ridges, soft pale foot
-    spread flat and expectant at the bottom, two short tentacles raised, hand-coloured
-    lithograph linework and flat watercolour wash on the body, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    a ridged sandstone-coloured whelk whose shell opening is a tiny arched front door
+    with a brass knocker, a soft cream foot beneath, two eyestalks peering over the
+    doorway, vivid painted illustration for a dark comedy video game, bold readable
+    shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     The most devoted little creature. It greets you the right way round every time, like a good dog, only quieter and with a shell.

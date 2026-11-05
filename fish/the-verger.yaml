@@ -38,13 +38,14 @@ art_prompt: >
   left solid uncut black
 sprite:
   motion: breathe
-  faces: left
   prompt: >
-    a single large snail seen from the side, a broad foot spread flat, an ornate spiral
-    shell drawn up into tall pointed stacked whorls, one small round bead balanced on
-    the very top of the shell, short tentacles, white line scraperboard surface cut from
-    solid black, dense hatching, isolated on a plain flat pale grey studio backdrop,
-    even soft light, strong crisp silhouette
+    a large snail with an ornate spiral shell drawn up into tall pointed stacked whorls,
+    a small round bead balanced on the top, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     A snail with a steeple on its shell! It takes such pride in your tank's

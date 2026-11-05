@@ -282,3 +282,57 @@ of AI art that actually lands is not "a machine made it," it is "it looks like e
 else." Eight named lineages with real histories, one per creature, chosen for reasons a
 person could argue with, is simply a better brief than one style string repeated
 seventy-four times — and it would be the right call if every image were painted by hand.
+
+---
+
+## The tank register (2026-11-05)
+
+Silas, 2026-11-05, after looking at the live tank: *"It still looks more like a webapp than a
+console game, and a lot of the fish designs are boring."* And on the first restyle test:
+*"that style is too harsh and naturalistic. Illustrious or Krea would probably give us a much
+more dynamic style and palette."*
+
+**What went wrong.** The eight lineages above were written for the **book**, and they are
+right there: a scrapbook should look like eight things. But each species' `sprite.prompt` also
+carried its plate's medium. So the *water* looked like eight things too: photoreal lithograph
+commons swimming beside flat black scraperboard and gyotaku silhouettes, glass models, and
+haeckel "plates" that were literal objects (a sediment block, a ruled grid, a parcel). In a
+tank you see forty specimens at once at 60–150px. A mix of media there doesn't read as a
+collector's scrapbook. It reads as missing art direction.
+
+**The rule now.** The book and the tank are separate registers:
+
+- **`art_prompt` (the Ichthyonomicon card) keeps its plate lineage.** Nothing above changes.
+- **`sprite.prompt` (what swims) is painted in one house medium for every species**, defined in
+  `art/sprite-style.yaml` and rendered on **Krea 2** (`render_art.py` `DEFAULT_ENGINE`):
+  *vivid painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+  outlines, rich saturated jewel-tone colour, glowing bioluminescent accents, painterly texture*,
+  then the strict-profile flat-backdrop framing the cut-out needs. `validate_fish.py` requires
+  the marker phrase.
+
+That is the shared suffix this document warned about. It is the right call for the tank
+because a game's sprites need one hand. What keeps them from reading as a batch is the
+**subject**, which is bespoke per species and leads the prompt. Every subject names one
+hook you can read at 60px: an extra eye, a key in the sediment stripes, a brass monocle, a
+shell that is a front door.
+
+**Engine test, same four creatures** (conductor `projects/cthulhuquarium/docs/t-098-t-099-console-redesign.md`):
+flux gouache came back handsome but harsh and naturalistic, and lost the designed traits
+(the ledger-shaped auditor became a plain fish). Illustrious (Arthemy, Illustrij) had the
+most personality, but tag prompts gave the angler and sardine legs, put them on dark floors
+with cast shadows that cut out badly, and drop the prose concepts 151 bespoke designs
+depend on. Krea 2 kept strict profile, a clean backdrop and the subject's details, in a
+dynamic palette.
+
+**Redesigns.** 44 species got a new concept on 2026-11-05 (`sprite.redesigned`), keeping name,
+joke, field note and voices. Each was either an object or a sheet layout that cannot swim
+(`the-bedding`, `the-inventory`, `the-silence`), or a stock fish with nothing to look at
+(`penny-bream`, `kitchen-perch`, `parlour-rustfish`). Their `art_prompt` subject changed
+to match, with the plate clause untouched, so the card and the swimmer are the same creature.
+
+**Re-rendering is non-destructive.** `art/rendered.yaml` records which prompt produced each
+raw. A raw whose prompt changed is stale. `submit` sends the new prompt and `harvest` writes
+over the old raw when the new one lands. A fish clip's hash includes its sprite's, so a
+restyled sprite re-animates its clip once the new still exists. `build_sprites.py` rebuilds a
+cut-out whose raw is newer and drops the old clip, so listings never play the old creature
+next to the new one.

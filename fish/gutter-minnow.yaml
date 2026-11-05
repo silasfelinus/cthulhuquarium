@@ -37,15 +37,14 @@ art_prompt: >
   the sheet, a wide plain margin of foxed paper beneath it
 sprite:
   motion: tailbeat
-  faces: left
   prompt: >
-    a minnow with three big round eyes on its oversized head, one eye high, one low, one
-    near the mouth, each eye a different size, the huge lumpy head as big as the rest of
-    its body, a single scrappy little minnow in strict side profile facing right, whole
-    body visible, dented tin-can sheen on the scales, acid green and rust orange
-    patches, a ragged little tail, hand-coloured lithograph linework and flat
-    watercolour wash on the body, isolated on a plain flat pale grey studio backdrop,
-    even soft light, strong crisp silhouette
+    a scrappy minnow with a head far too big for its body and three mismatched eyes at
+    different heights, dented tin-can sheen, acid green and rust, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Honest, hardy stock with a great deal of personality. Three eyes, so it never misses a thing going on in the shop.

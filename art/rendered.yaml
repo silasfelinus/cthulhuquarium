@@ -1,0 +1,8 @@
+# Which prompt produced each committed raw render (scripts/render_art.py).
+# Written by `harvest`. A raw whose hash differs from its prompt's is re-rendered.
+# t-099 (2026-11-05): every sprite was restyled, so every pre-existing sprite raw and the
+# fish clip animated from it are stale until re-rendered.
+stale_groups:
+- sprites
+- clips
+hashes: {}

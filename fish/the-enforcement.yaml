@@ -37,10 +37,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single heavy armoured creature seen from the side facing right, whole body visible, standing squarely on thick legs with shoulders forward, a great embossed
-    seal set into its forehead, a row of blunt implements along its underside, wet
-    wax moulage specimen, glistening, colours leached toward parchment, isolated on
-    a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a heavy armoured slate creature with a great red wax seal set into its forehead and
+    a row of blunt hammer-headed claws beneath it, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Very discreet, very dependable, and it always sees a matter through. Every well-

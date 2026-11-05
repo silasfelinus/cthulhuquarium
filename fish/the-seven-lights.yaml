@@ -40,12 +40,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single bulbous anglerfish in strict side profile facing right, whole body visible,
-    seven glowing round bulbs on thin bent brass stalks rising from its head and
-    spreading out in a fan, hot lime and gold light, the shortest bulb brightest, an
-    enormous crooked grin of mismatched teeth, chromolithograph cigarette card print,
-    dot rosettes and garish inks, isolated on a plain flat pale grey studio backdrop,
-    even soft light, strong crisp silhouette
+    a bulbous anglerfish crowned with seven glowing bulbs on bent brass stalks spreading
+    in a fan, hot lime and gold light, an enormous mouth, vivid painted illustration for
+    a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     Seven lights, darling, like the dining room of a very good house. Hang it over

@@ -12,9 +12,8 @@ defaults:
   size: 1024x1024
   long_edge: 256
   suffix: >-
-    a single object centred with space around it, painted in opaque gouache with fine dark ink
-    linework, deep jewel-tone pigments, burnished gold ink highlights, isolated on a plain flat pale
-    grey studio backdrop, even soft light, strong crisp silhouette
+    a single object centred with space around it, vivid painted illustration for a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents, painterly texture, isolated on a plain flat pale grey
+    studio backdrop, even soft light, strong crisp silhouette
 items:
   - key: tab-tank
     prompt: >-

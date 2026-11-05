@@ -37,11 +37,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single fish in strict side profile facing right, whole body visible, the front
-    half crisply finished with neat scales and fins, the rear half smearing into loose
-    soft strokes, one enormous mismatched eye, shifting magenta and violet, wet wax
-    moulage specimen, glistening, colours leached toward parchment, isolated on a plain
-    flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a fish only half finished, one side crisply drawn and the other smearing away into
+    loose brushstrokes, a single enormous mismatched eye, shifting magenta, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Ready to be anything you like, and without a word of complaint. A true

@@ -38,12 +38,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a tall creature with two small dark eyes peering out near its top and two short
-    stubby fins at its base, its body made of overlapping rectangular bone white sheets
-    stacked askew in a leaning pile, the sheets edged in cold blue, the whole body
-    tipped forward toward the viewer, wet wax moulage specimen, glistening, the edges
-    softly translucent and slick, isolated on a plain flat charcoal studio backdrop,
-    even soft light, strong crisp silhouette
+    a towering creature built from overlapping rectangular paper-thin fins stacked
+    askew, bone white and cold blue, leaning slightly forward, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Tall, blue-edged, and wonderfully persistent. It is always there for you,

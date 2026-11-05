@@ -37,14 +37,14 @@ art_prompt: >
   the rest of the sheet bare
 sprite:
   motion: rigid
-  faces: left
   prompt: >
-    a single folded paper creature of sharp geometric planes, part crane and part
-    polyhedron, a pointed wedge of a head, crisp creases dividing the body into flat
-    faceted panels, sumi ink rubbing of the creature cut out along its outline, flat
-    black ink with uneven coverage, each facet printing a slightly different
-    density, a single painted eye, isolated on a plain flat pale grey studio
-    backdrop, even soft light, strong crisp silhouette
+    a folded paper creature of sharp geometric planes, part crane and part polyhedron,
+    bright origami colours, crisp creases, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Folded fresh every single day: a crane one morning, something delightfully

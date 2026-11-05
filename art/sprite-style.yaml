@@ -2,10 +2,12 @@
 # cthulhuquarium/t-099). Every in-tank sprite is painted in this ONE medium, whatever the
 # species' book plate is, so the water reads as one game. scripts/apply_sprite_subjects.py
 # composes sprite.prompt as "<subject>, <clause>, <framing>"; scripts/validate_fish.py
-# requires `marker` in every sprite.prompt.
-marker: gouache
+# requires `marker` in every sprite.prompt. Rendered on Krea 2 (render_art.py DEFAULT_ENGINE):
+# Silas 2026-11-05, flux was "too harsh and naturalistic"; the krea2/Illustrious style test
+# (conductor projects/cthulhuquarium/docs/t-098-t-099-console-redesign.md) chose Krea 2.
+marker: dark comedy video game
 clause: >-
-  PROVISIONAL
+  vivid painted illustration for a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents, painterly texture
 framing: >-
   a single creature in strict side profile facing right, the whole body visible with space around
   it, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette

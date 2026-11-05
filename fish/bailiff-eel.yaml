@@ -35,11 +35,14 @@ art_prompt: >
 sprite:
   motion: undulate
   prompt: >
-    a single long ribbon-bodied eel in strict side profile facing right, whole body visible, a stiff upright starched collar ringing its neck just behind the head, a
-    narrow hooded disapproving eye and a thin downturned frown, crisp even bands running
-    the length of its body to a tapering tail, white line scratched out of solid black
-    scraperboard across the whole body, form built from cut hatching, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a long gaunt eel banded in charcoal and rust with a stiff starched white collar ring
+    just behind its head, narrow disapproving yellow eyes, a thin downturned mouth, a
+    brass ring pierced through its dorsal fin, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Look at that collar, starched to perfection. A creature of real standing, and it attends to every matter with the utmost formality.

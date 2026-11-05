@@ -39,12 +39,13 @@ art_prompt: >
 sprite:
   motion: ripple
   prompt: >
-    a rainbow sea slug striped in bold bands of red, orange, yellow, green, blue and
-    violet running across its whole body, a single small plump sea slug in side view
-    crawling to the right with its head and two blunt horns at the right end, a neat
-    crown of frilled gills standing on its back, a smooth frilled skirt around its foot,
-    ornamental natural history linework, fine precise line, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    a gorgeous sea slug banded in every colour of the rainbow, a crown of frilled gills
+    and two blunt horns, luminous and immaculate, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Every colour at once, on one small slug, and it holds perfectly still so you can

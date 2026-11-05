@@ -1,3 +1,823 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
-jobs: {}
+jobs:
+  sprites/bailiff-eel:
+    job: 64188
+    hash: c32bbe1d1e4b
+    engine: krea2
+    submitted: '2026-11-05T21:56:28Z'
+  sprites/brass-tack-goby:
+    job: 64189
+    hash: bc65539592d8
+    engine: krea2
+    submitted: '2026-11-05T21:56:29Z'
+  sprites/brine-courtiers:
+    job: 64190
+    hash: 11cf9df12378
+    engine: krea2
+    submitted: '2026-11-05T21:56:29Z'
+  sprites/candle-snail:
+    job: 64191
+    hash: '444033493108'
+    engine: krea2
+    submitted: '2026-11-05T21:56:30Z'
+  sprites/catfish-common:
+    job: 64192
+    hash: 65625d9f0db1
+    engine: krea2
+    submitted: '2026-11-05T21:56:30Z'
+  sprites/cellar-newt:
+    job: 64193
+    hash: 2c8548d4f285
+    engine: krea2
+    submitted: '2026-11-05T21:56:30Z'
+  sprites/chandelier-lion:
+    job: 64194
+    hash: a1ea9bdc4dd4
+    engine: krea2
+    submitted: '2026-11-05T21:56:31Z'
+  sprites/choirfish:
+    job: 64195
+    hash: ff73af6589ac
+    engine: krea2
+    submitted: '2026-11-05T21:56:31Z'
+  sprites/crawdad-common:
+    job: 64196
+    hash: 2af6995431d9
+    engine: krea2
+    submitted: '2026-11-05T21:56:31Z'
+  sprites/culvert-eel:
+    job: 64197
+    hash: e91a8f553257
+    engine: krea2
+    submitted: '2026-11-05T21:56:32Z'
+  sprites/doorstep-whelk:
+    job: 64198
+    hash: be1665505911
+    engine: krea2
+    submitted: '2026-11-05T21:56:32Z'
+  sprites/draught-stickleback:
+    job: 64199
+    hash: 8972c815dac4
+    engine: krea2
+    submitted: '2026-11-05T21:56:32Z'
+  sprites/drifting-bell:
+    job: 64200
+    hash: 650c67afb037
+    engine: krea2
+    submitted: '2026-11-05T21:56:33Z'
+  sprites/drowned-carp:
+    job: 64201
+    hash: 98c671ee6f90
+    engine: krea2
+    submitted: '2026-11-05T21:56:33Z'
+  sprites/elder-rustfish:
+    job: 64202
+    hash: 6985472013b7
+    engine: krea2
+    submitted: '2026-11-05T21:56:34Z'
+  sprites/errand-guppy:
+    job: 64203
+    hash: fbda45cbdbda
+    engine: krea2
+    submitted: '2026-11-05T21:56:34Z'
+  sprites/folding-fry:
+    job: 64204
+    hash: a78e82d2f3d5
+    engine: krea2
+    submitted: '2026-11-05T21:56:34Z'
+  sprites/fractal-bloom:
+    job: 64205
+    hash: 13279377ae0d
+    engine: krea2
+    submitted: '2026-11-05T21:56:35Z'
+  sprites/glass-shrimp:
+    job: 64206
+    hash: a9bf19ecc8e4
+    engine: krea2
+    submitted: '2026-11-05T21:56:35Z'
+  sprites/glass-weaver:
+    job: 64207
+    hash: 4878b9f361b1
+    engine: krea2
+    submitted: '2026-11-05T21:56:35Z'
+  sprites/gravel-tetra:
+    job: 64208
+    hash: e9fa5a3ee17d
+    engine: krea2
+    submitted: '2026-11-05T21:56:36Z'
+  sprites/guppy-common:
+    job: 64209
+    hash: 84eb63c22a30
+    engine: krea2
+    submitted: '2026-11-05T21:56:36Z'
+  sprites/gutter-minnow:
+    job: 64210
+    hash: be4abf6d9999
+    engine: krea2
+    submitted: '2026-11-05T21:56:37Z'
+  sprites/kitchen-perch:
+    job: 64211
+    hash: 96fededf6669
+    engine: krea2
+    submitted: '2026-11-05T21:56:37Z'
+  sprites/lamplight-angler:
+    job: 64212
+    hash: d616b3fafc29
+    engine: krea2
+    submitted: '2026-11-05T21:56:37Z'
+  sprites/ledger-crab:
+    job: 64213
+    hash: 36445062b71e
+    engine: krea2
+    submitted: '2026-11-05T21:56:38Z'
+  sprites/lint-shrimp:
+    job: 64214
+    hash: 52b59c2cfc9c
+    engine: krea2
+    submitted: '2026-11-05T21:56:38Z'
+  sprites/marsh-sovereign-crawdad:
+    job: 64215
+    hash: 72e88e9b8588
+    engine: krea2
+    submitted: '2026-11-05T21:56:38Z'
+  sprites/moebius-crab:
+    job: 64216
+    hash: f2b36d6db40f
+    engine: krea2
+    submitted: '2026-11-05T21:56:39Z'
+  sprites/old-catfish:
+    job: 64217
+    hash: 73d158d86cb8
+    engine: krea2
+    submitted: '2026-11-05T21:56:39Z'
+  sprites/pane-limpet:
+    job: 64218
+    hash: a604438a609c
+    engine: krea2
+    submitted: '2026-11-05T21:56:39Z'
+  sprites/parlour-rustfish:
+    job: 64219
+    hash: 9e462265534c
+    engine: krea2
+    submitted: '2026-11-05T21:56:40Z'
+  sprites/penny-bream:
+    job: 64220
+    hash: 62bc52a183ec
+    engine: krea2
+    submitted: '2026-11-05T21:56:40Z'
+  sprites/pier-blenny:
+    job: 64221
+    hash: b15f67bbefa0
+    engine: krea2
+    submitted: '2026-11-05T21:56:41Z'
+  sprites/pin-shrimp:
+    job: 64222
+    hash: 1385cc556869
+    engine: krea2
+    submitted: '2026-11-05T21:56:41Z'
+  sprites/portsmouth-bitterling:
+    job: 64223
+    hash: 00ea77256317
+    engine: krea2
+    submitted: '2026-11-05T21:56:41Z'
+  sprites/postmark-snail:
+    job: 64224
+    hash: be17f6eee445
+    engine: krea2
+    submitted: '2026-11-05T21:56:42Z'
+  sprites/rain-barrel-roach:
+    job: 64225
+    hash: a3b5e73aace7
+    engine: krea2
+    submitted: '2026-11-05T21:56:42Z'
+  sprites/rainbow-nudibranch:
+    job: 64226
+    hash: a45ef81c3c1a
+    engine: krea2
+    submitted: '2026-11-05T21:56:42Z'
+  sprites/sardine-common:
+    job: 64227
+    hash: be688a2b124b
+    engine: krea2
+    submitted: '2026-11-05T21:56:43Z'
+  sprites/sea-camel:
+    job: 64228
+    hash: 05deaf4bbbb5
+    engine: krea2
+    submitted: '2026-11-05T21:56:43Z'
+  sprites/silt-loach:
+    job: 64229
+    hash: 8a3fb2fc8fc0
+    engine: krea2
+    submitted: '2026-11-05T21:56:43Z'
+  sprites/skimmer-fry:
+    job: 64230
+    hash: bce28e9ff07a
+    engine: krea2
+    submitted: '2026-11-05T21:56:44Z'
+  sprites/standpipe-goby:
+    job: 64231
+    hash: 7da528f18776
+    engine: krea2
+    submitted: '2026-11-05T21:56:44Z'
+  sprites/sump-blob:
+    job: 64232
+    hash: c83274b00cc3
+    engine: krea2
+    submitted: '2026-11-05T21:56:44Z'
+  sprites/the-accumulation:
+    job: 64233
+    hash: e9e2eecedd00
+    engine: krea2
+    submitted: '2026-11-05T21:56:45Z'
+  sprites/the-aggregate:
+    job: 64234
+    hash: 56ca83bd645c
+    engine: krea2
+    submitted: '2026-11-05T21:56:45Z'
+  sprites/the-almoner:
+    job: 64235
+    hash: 9d7c904ba8c7
+    engine: krea2
+    submitted: '2026-11-05T21:56:46Z'
+  sprites/the-annexation:
+    job: 64236
+    hash: 7afd6f322fd8
+    engine: krea2
+    submitted: '2026-11-05T21:56:46Z'
+  sprites/the-antiphon:
+    job: 64237
+    hash: 3abb3d8168d7
+    engine: krea2
+    submitted: '2026-11-05T21:56:46Z'
+  sprites/the-association:
+    job: 64238
+    hash: e50d265d7ae1
+    engine: krea2
+    submitted: '2026-11-05T21:56:47Z'
+  sprites/the-auditor:
+    job: 64239
+    hash: e66db6045226
+    engine: krea2
+    submitted: '2026-11-05T21:56:47Z'
+  sprites/the-backlog:
+    job: 64240
+    hash: b28e473d2e49
+    engine: krea2
+    submitted: '2026-11-05T21:56:47Z'
+  sprites/the-balance:
+    job: 64241
+    hash: 0db142433378
+    engine: krea2
+    submitted: '2026-11-05T21:56:48Z'
+  sprites/the-bedding:
+    job: 64242
+    hash: 452f2b6e7570
+    engine: krea2
+    submitted: '2026-11-05T21:56:48Z'
+  sprites/the-catacomb:
+    job: 64243
+    hash: ff6fd0f7d864
+    engine: krea2
+    submitted: '2026-11-05T21:56:48Z'
+  sprites/the-catchment:
+    job: 64244
+    hash: 977766174b04
+    engine: krea2
+    submitted: '2026-11-05T21:56:49Z'
+  sprites/the-census:
+    job: 64245
+    hash: ee66de73f0cc
+    engine: krea2
+    submitted: '2026-11-05T21:56:49Z'
+  sprites/the-clerestory:
+    job: 64246
+    hash: d711fa56f4a9
+    engine: krea2
+    submitted: '2026-11-05T21:56:49Z'
+  sprites/the-cold-snap:
+    job: 64247
+    hash: 567c621925e9
+    engine: krea2
+    submitted: '2026-11-05T21:56:50Z'
+  sprites/the-committee:
+    job: 64248
+    hash: 2016a78c0b83
+    engine: krea2
+    submitted: '2026-11-05T21:56:50Z'
+  sprites/the-concern:
+    job: 64249
+    hash: a5adfa33b100
+    engine: krea2
+    submitted: '2026-11-05T21:56:51Z'
+  sprites/the-conservatory:
+    job: 64250
+    hash: 032cf50f1aba
+    engine: krea2
+    submitted: '2026-11-05T21:56:51Z'
+  sprites/the-consignment:
+    job: 64251
+    hash: 077aeed2db2d
+    engine: krea2
+    submitted: '2026-11-05T21:56:51Z'
+  sprites/the-continuance:
+    job: 64252
+    hash: 9a668f12ba1e
+    engine: krea2
+    submitted: '2026-11-05T21:56:52Z'
+  sprites/the-coronation:
+    job: 64253
+    hash: fff8ac62da0d
+    engine: krea2
+    submitted: '2026-11-05T21:56:52Z'
+  sprites/the-courier:
+    job: 64254
+    hash: 2b7d4680ab44
+    engine: krea2
+    submitted: '2026-11-05T21:56:53Z'
+  sprites/the-court:
+    job: 64255
+    hash: 2a7e949ff2a8
+    engine: krea2
+    submitted: '2026-11-05T21:56:53Z'
+  sprites/the-delivery:
+    job: 64256
+    hash: c482a1eeb435
+    engine: krea2
+    submitted: '2026-11-05T21:56:53Z'
+  sprites/the-doorkeeper:
+    job: 64257
+    hash: 4a7f9246dad9
+    engine: krea2
+    submitted: '2026-11-05T21:56:54Z'
+  sprites/the-double-entry:
+    job: 64258
+    hash: 293d84de95a8
+    engine: krea2
+    submitted: '2026-11-05T21:56:54Z'
+  sprites/the-downspout:
+    job: 64259
+    hash: 810b2e145c79
+    engine: krea2
+    submitted: '2026-11-05T21:56:55Z'
+  sprites/the-efflorescence:
+    job: 64260
+    hash: 5ee3031fae8a
+    engine: krea2
+    submitted: '2026-11-05T21:56:55Z'
+  sprites/the-endowment:
+    job: 64261
+    hash: a8a94e71d03e
+    engine: krea2
+    submitted: '2026-11-05T21:56:55Z'
+  sprites/the-enforcement:
+    job: 64262
+    hash: 9abf92edc714
+    engine: krea2
+    submitted: '2026-11-05T21:56:56Z'
+  sprites/the-enquiry-desk:
+    job: 64263
+    hash: 87b384371996
+    engine: krea2
+    submitted: '2026-11-05T21:56:56Z'
+  sprites/the-estimate:
+    job: 64264
+    hash: 2cf922fb329c
+    engine: krea2
+    submitted: '2026-11-05T21:56:56Z'
+  sprites/the-final-notice:
+    job: 64265
+    hash: 500cc9fb818b
+    engine: krea2
+    submitted: '2026-11-05T21:56:57Z'
+  sprites/the-first-demand:
+    job: 64266
+    hash: 832e10de5c56
+    engine: krea2
+    submitted: '2026-11-05T21:56:57Z'
+  sprites/the-fixture:
+    job: 64267
+    hash: 5616798a4a96
+    engine: krea2
+    submitted: '2026-11-05T21:56:58Z'
+  sprites/the-float:
+    job: 64268
+    hash: '481411979826'
+    engine: krea2
+    submitted: '2026-11-05T21:56:58Z'
+  sprites/the-foundation:
+    job: 64269
+    hash: fbb697eb5424
+    engine: krea2
+    submitted: '2026-11-05T21:56:58Z'
+  sprites/the-founding-rustfish:
+    job: 64270
+    hash: 63f10356e1fb
+    engine: krea2
+    submitted: '2026-11-05T21:56:59Z'
+  sprites/the-foyer:
+    job: 64271
+    hash: 60828969ac5f
+    engine: krea2
+    submitted: '2026-11-05T21:56:59Z'
+  sprites/the-freeholder:
+    job: 64272
+    hash: 30c8bd4cd204
+    engine: krea2
+    submitted: '2026-11-05T21:56:59Z'
+  sprites/the-glasshouse:
+    job: 64273
+    hash: 3d96dd98b2cb
+    engine: krea2
+    submitted: '2026-11-05T21:57:00Z'
+  sprites/the-guest-list:
+    job: 64274
+    hash: 6fca27c64226
+    engine: krea2
+    submitted: '2026-11-05T21:57:00Z'
+  sprites/the-harbors-due:
+    job: 64275
+    hash: 69d2eecde3a7
+    engine: krea2
+    submitted: '2026-11-05T21:57:01Z'
+  sprites/the-hold:
+    job: 64276
+    hash: 26677ad1c585
+    engine: krea2
+    submitted: '2026-11-05T21:57:01Z'
+  sprites/the-holotype:
+    job: 64277
+    hash: 18b701c32177
+    engine: krea2
+    submitted: '2026-11-05T21:57:01Z'
+  sprites/the-household:
+    job: 64278
+    hash: efd86ea1ad1b
+    engine: krea2
+    submitted: '2026-11-05T21:57:02Z'
+  sprites/the-inquiry:
+    job: 64279
+    hash: 388378da9355
+    engine: krea2
+    submitted: '2026-11-05T21:57:02Z'
+  sprites/the-inventory:
+    job: 64280
+    hash: 191be43aff4a
+    engine: krea2
+    submitted: '2026-11-05T21:57:02Z'
+  sprites/the-keyhole:
+    job: 64281
+    hash: 7fa111d1083a
+    engine: krea2
+    submitted: '2026-11-05T21:57:03Z'
+  sprites/the-long-consideration:
+    job: 64282
+    hash: fd9302f7c887
+    engine: krea2
+    submitted: '2026-11-05T21:57:03Z'
+  sprites/the-long-crossing:
+    job: 64283
+    hash: 95aa9d7ea239
+    engine: krea2
+    submitted: '2026-11-05T21:57:04Z'
+  sprites/the-long-office:
+    job: 64284
+    hash: '220253093864'
+    engine: krea2
+    submitted: '2026-11-05T21:57:04Z'
+  sprites/the-long-patience:
+    job: 64285
+    hash: f1d646160a54
+    engine: krea2
+    submitted: '2026-11-05T21:57:04Z'
+  sprites/the-long-study:
+    job: 64286
+    hash: a1fbc0d4f491
+    engine: krea2
+    submitted: '2026-11-05T21:57:05Z'
+  sprites/the-mains:
+    job: 64287
+    hash: 416cd83578af
+    engine: krea2
+    submitted: '2026-11-05T21:57:05Z'
+  sprites/the-manifest:
+    job: 64288
+    hash: 120bb82448a3
+    engine: krea2
+    submitted: '2026-11-05T21:57:05Z'
+  sprites/the-marginalia:
+    job: 64289
+    hash: 4f2f34d240df
+    engine: krea2
+    submitted: '2026-11-05T21:57:06Z'
+  sprites/the-night-watch:
+    job: 64290
+    hash: df9b212e1738
+    engine: krea2
+    submitted: '2026-11-05T21:57:06Z'
+  sprites/the-observation:
+    job: 64291
+    hash: 7ed6b0769689
+    engine: krea2
+    submitted: '2026-11-05T21:57:06Z'
+  sprites/the-parcel:
+    job: 64292
+    hash: 5a02f6a00493
+    engine: krea2
+    submitted: '2026-11-05T21:57:07Z'
+  sprites/the-permanent-collection:
+    job: 64293
+    hash: 1da24c9d4c0e
+    engine: krea2
+    submitted: '2026-11-05T21:57:07Z'
+  sprites/the-pleasant-island:
+    job: 64294
+    hash: e24b11bbd227
+    engine: krea2
+    submitted: '2026-11-05T21:57:08Z'
+  sprites/the-principal:
+    job: 64295
+    hash: 1f2f088e3727
+    engine: krea2
+    submitted: '2026-11-05T21:57:08Z'
+  sprites/the-proprietor:
+    job: 64296
+    hash: bd0f88fa1231
+    engine: krea2
+    submitted: '2026-11-05T21:57:08Z'
+  sprites/the-provision:
+    job: 64297
+    hash: 5175db5eee30
+    engine: krea2
+    submitted: '2026-11-05T21:57:09Z'
+  sprites/the-quire:
+    job: 64298
+    hash: 9f582b55d878
+    engine: krea2
+    submitted: '2026-11-05T21:57:09Z'
+  sprites/the-reading-bell:
+    job: 64299
+    hash: 4679987d5b94
+    engine: krea2
+    submitted: '2026-11-05T21:57:09Z'
+  sprites/the-reading-room:
+    job: 64300
+    hash: 70b88904c843
+    engine: krea2
+    submitted: '2026-11-05T21:57:10Z'
+  sprites/the-receiving-line:
+    job: 64301
+    hash: 7e5fcc774433
+    engine: krea2
+    submitted: '2026-11-05T21:57:10Z'
+  sprites/the-reckoning:
+    job: 64302
+    hash: 2ca627951316
+    engine: krea2
+    submitted: '2026-11-05T21:57:10Z'
+  sprites/the-reconciliation:
+    job: 64303
+    hash: 0e5a84ab69c7
+    engine: krea2
+    submitted: '2026-11-05T21:57:11Z'
+  sprites/the-round:
+    job: 64304
+    hash: d0a20c944004
+    engine: krea2
+    submitted: '2026-11-05T21:57:11Z'
+  sprites/the-sconce:
+    job: 64305
+    hash: 80f67b77b47a
+    engine: krea2
+    submitted: '2026-11-05T21:57:11Z'
+  sprites/the-second-notice:
+    job: 64306
+    hash: aea8387a1efd
+    engine: krea2
+    submitted: '2026-11-05T21:57:12Z'
+  sprites/the-seven-lights:
+    job: 64307
+    hash: 77d38d747565
+    engine: krea2
+    submitted: '2026-11-05T21:57:12Z'
+  sprites/the-sexton:
+    job: 64308
+    hash: bf50b7d887b0
+    engine: krea2
+    submitted: '2026-11-05T21:57:13Z'
+  sprites/the-silence:
+    job: 64309
+    hash: 3ade553b787f
+    engine: krea2
+    submitted: '2026-11-05T21:57:13Z'
+  sprites/the-single-fish:
+    job: 64310
+    hash: 28e83d60e440
+    engine: krea2
+    submitted: '2026-11-05T21:57:13Z'
+  sprites/the-small-hours:
+    job: 64311
+    hash: 77d6a2f0bfaf
+    engine: krea2
+    submitted: '2026-11-05T21:57:14Z'
+  sprites/the-spectacle:
+    job: 64312
+    hash: 34bae5de6757
+    engine: krea2
+    submitted: '2026-11-05T21:57:14Z'
+  sprites/the-stocktake:
+    job: 64313
+    hash: 494b9fdd6fc0
+    engine: krea2
+    submitted: '2026-11-05T21:57:14Z'
+  sprites/the-subscription:
+    job: 64314
+    hash: 717bee4c2ab2
+    engine: krea2
+    submitted: '2026-11-05T21:57:15Z'
+  sprites/the-substrate:
+    job: 64315
+    hash: 2c73795ee3c1
+    engine: krea2
+    submitted: '2026-11-05T21:57:15Z'
+  sprites/the-summons:
+    job: 64316
+    hash: 943b6f75b269
+    engine: krea2
+    submitted: '2026-11-05T21:57:16Z'
+  sprites/the-tenant:
+    job: 64317
+    hash: 19726ab3d03c
+    engine: krea2
+    submitted: '2026-11-05T21:57:16Z'
+  sprites/the-testimony:
+    job: 64318
+    hash: b9556ff34995
+    engine: krea2
+    submitted: '2026-11-05T21:57:16Z'
+  sprites/the-threshold:
+    job: 64319
+    hash: 07f50c5f4829
+    engine: krea2
+    submitted: '2026-11-05T21:57:17Z'
+  sprites/the-type-specimen:
+    job: 64320
+    hash: f7060281809e
+    engine: krea2
+    submitted: '2026-11-05T21:57:17Z'
+  sprites/the-undercroft:
+    job: 64321
+    hash: b54f128de4e9
+    engine: krea2
+    submitted: '2026-11-05T21:57:17Z'
+  sprites/the-undercurrent:
+    job: 64322
+    hash: 1ea33349f2f5
+    engine: krea2
+    submitted: '2026-11-05T21:57:18Z'
+  sprites/the-understone:
+    job: 64323
+    hash: a6964071d8c4
+    engine: krea2
+    submitted: '2026-11-05T21:57:18Z'
+  sprites/the-understudy:
+    job: 64324
+    hash: 11e6ceacc4b5
+    engine: krea2
+    submitted: '2026-11-05T21:57:18Z'
+  sprites/the-unlidded-rustfish:
+    job: 64325
+    hash: b21a804a34b6
+    engine: krea2
+    submitted: '2026-11-05T21:57:19Z'
+  sprites/the-usher:
+    job: 64326
+    hash: 216960b8b4b8
+    engine: krea2
+    submitted: '2026-11-05T21:57:19Z'
+  sprites/the-verger:
+    job: 64327
+    hash: df65d57b326f
+    engine: krea2
+    submitted: '2026-11-05T21:57:20Z'
+  sprites/the-vespers:
+    job: 64328
+    hash: f32706a06985
+    engine: krea2
+    submitted: '2026-11-05T21:57:20Z'
+  sprites/the-vigil:
+    job: 64329
+    hash: 0d5bc2f64a8d
+    engine: krea2
+    submitted: '2026-11-05T21:57:20Z'
+  sprites/the-vitrine:
+    job: 64330
+    hash: 19096fc45eeb
+    engine: krea2
+    submitted: '2026-11-05T21:57:21Z'
+  sprites/the-waiting-list:
+    job: 64331
+    hash: 051bceee55ed
+    engine: krea2
+    submitted: '2026-11-05T21:57:21Z'
+  sprites/the-waterline:
+    job: 64332
+    hash: 1bd5d0114ed5
+    engine: krea2
+    submitted: '2026-11-05T21:57:21Z'
+  sprites/the-watershed:
+    job: 64333
+    hash: fd1b7dce9631
+    engine: krea2
+    submitted: '2026-11-05T21:57:22Z'
+  sprites/the-welcome:
+    job: 64334
+    hash: c5f6ef6044bd
+    engine: krea2
+    submitted: '2026-11-05T21:57:22Z'
+  sprites/thumbnail-dace:
+    job: 64335
+    hash: 4e98ca8117c0
+    engine: krea2
+    submitted: '2026-11-05T21:57:23Z'
+  sprites/till-minnow:
+    job: 64336
+    hash: f4459c1d5e75
+    engine: krea2
+    submitted: '2026-11-05T21:57:23Z'
+  sprites/tithe-shoal:
+    job: 64337
+    hash: 23638ac663bd
+    engine: krea2
+    submitted: '2026-11-05T21:57:23Z'
+  sprites/wrapping-sole:
+    job: 64338
+    hash: 9dccb4a7a74e
+    engine: krea2
+    submitted: '2026-11-05T21:57:24Z'
+  ui/capacity:
+    job: 64186
+    hash: f0fa39006a8e
+    engine: krea2
+    submitted: '2026-11-05T21:56:25Z'
+  ui/coin:
+    job: 64180
+    hash: 8d1a92f12b07
+    engine: krea2
+    submitted: '2026-11-05T21:56:23Z'
+  ui/corner-ornament:
+    job: 64182
+    hash: 9d0ab7bffb77
+    engine: krea2
+    submitted: '2026-11-05T21:56:24Z'
+  ui/day-moon:
+    job: 64187
+    hash: ce2cb40c4617
+    engine: krea2
+    submitted: '2026-11-05T21:56:26Z'
+  ui/meter-clean:
+    job: 64184
+    hash: cc1d5a213bb3
+    engine: krea2
+    submitted: '2026-11-05T21:56:25Z'
+  ui/meter-hunger:
+    job: 64183
+    hash: 0930a746dbd2
+    engine: krea2
+    submitted: '2026-11-05T21:56:24Z'
+  ui/meter-mood:
+    job: 64185
+    hash: 40b81b4c8c6d
+    engine: krea2
+    submitted: '2026-11-05T21:56:25Z'
+  ui/plinth:
+    job: 64181
+    hash: b0bf8675f3f3
+    engine: krea2
+    submitted: '2026-11-05T21:56:24Z'
+  ui/tab-creatures:
+    job: 64177
+    hash: 0ba757bc7642
+    engine: krea2
+    submitted: '2026-11-05T21:56:22Z'
+  ui/tab-feed:
+    job: 64176
+    hash: 761ae3869689
+    engine: krea2
+    submitted: '2026-11-05T21:56:22Z'
+  ui/tab-market:
+    job: 64179
+    hash: a99c84a622d7
+    engine: krea2
+    submitted: '2026-11-05T21:56:23Z'
+  ui/tab-relics:
+    job: 64178
+    hash: a576aa58ae3b
+    engine: krea2
+    submitted: '2026-11-05T21:56:22Z'
+  ui/tab-tank:
+    job: 64175
+    hash: f2876418e4a2
+    engine: krea2
+    submitted: '2026-11-05T21:56:21Z'

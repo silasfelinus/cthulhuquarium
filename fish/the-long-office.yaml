@@ -38,11 +38,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single tall solemn anglerfish in strict side profile facing right, whole body visible, a long curved arm rising from its head and carrying a rack of small
-    lit tapers above it, each flame a bright point, a hard cone of light spilling
-    down across its dark heavy body, risograph print surface on the body in two
-    fluorescent spot inks, flat overprinted shapes with slight misregistration,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a tall solemn creature holding a rack of lit tapers along a curved arm above itself,
+    a hard cone of light falling below, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Candlelight at every hour, and such a solemn, dignified bearing. It gives a tank

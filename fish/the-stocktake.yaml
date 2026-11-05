@@ -29,23 +29,22 @@ evolves_from: the-inventory
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a huge angular creature standing in a stockroom of ranked shelves, one long limb laid
-  along a shelf and drawing a line through everything on it, the shelves behind it
-  already bare, scraperboard illustration, white line scratched out of solid black ink
-  with a blade, pure black and pure white only, every tone built from line density, form
-  built entirely from cut hatching,  the creature alone, the board
-  around it left solid uncut black
+  a huge angular stick-insect creature with long jointed limbs, one limb holding a quill
+  drawing a line, shelf-shaped plates along its back stacked with tiny jars, scraperboard
+  illustration, white line scratched out of solid black ink with a blade, pure black and
+  pure white only, every tone built from line density, form built entirely from cut
+  hatching, the creature alone, the board around it left solid uncut black
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
-  faces: left
   prompt: >
-    one very long jointed claw arm held straight out level in front of a huge angular
-    crab-like creature, the creature in side view facing right, whole body visible, a
-    hard faceted shell of stacked square box-shaped plates, six short thick legs
-    underneath, a narrow level eye slit at the front of the shell, white line
-    scraperboard surface cut from solid black, dense crisp hatching on every plane,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a huge angular stick-insect creature with long jointed limbs, one limb holding a
+    quill drawing a line, shelf-shaped plates along its back stacked with tiny jars,
+    vivid painted illustration for a dark comedy video game, bold readable shapes, crisp
+    inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Every good house needs a proper stocktake, and this one sees to it personally.

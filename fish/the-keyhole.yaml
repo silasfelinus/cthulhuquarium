@@ -32,20 +32,21 @@ evolution_kind: growth
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a small blunt-headed fish seen head-on from the front, one enormous round eye facing
-  straight out at the viewer, body squeezed paper-thin behind it, stubby fins spread
-  flat to the sides, scraperboard illustration, white line scratched out of solid black
+  a paper-thin fish cut in a keyhole outline with a single enormous round eye in the
+  middle of its body, scraperboard illustration, white line scratched out of solid black
   ink with a blade, pure black and pure white only, every tone built from line density,
-  form built entirely from cut hatching,  the creature alone, the board
-  around it left solid uncut black
+  form built entirely from cut hatching, the creature alone, the board around it left
+  solid uncut black
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single small blunt-headed blenny seen head-on from the front, one enormous round
-    eye facing straight out at the viewer, its body tapering away small behind the eye,
-    four stubby fins spread flat to the sides, white scraperboard hatching cut from
-    solid black ink, the great eye a bright ring around a deep black pupil, isolated on
-    a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a paper-thin fish cut in a keyhole outline with a single enormous round eye in the
+    middle of its body, vivid painted illustration for a dark comedy video game, bold
+    readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A little blenny with the loveliest big eye, always at the glass and always

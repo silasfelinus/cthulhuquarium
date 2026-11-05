@@ -30,21 +30,23 @@ evolution_kind: growth
 plate: trade-card
 games: [cthulhuquarium]
 art_prompt: >
-  a small limpet clamped flat to glass seen head on, low conical shell striped teal and
-  cream, a rim of frilled foot squeezed out all round it, entirely immovable and pleased
-  about it, chromolithograph cigarette card from around 1900, small format with a
-  printed ornamental border, four-colour stone printing, visible misregistration and dot
-  rosettes, slightly garish cheap inks, corners worn round, the creature alone, a plain
-  cream ribbon of bare paper along the bottom edge
+  a small limpet with a striped teal and cream conical shell, a single large curious eye
+  peeking out from under the rim, a frilled foot squeezed out all round, chromolithograph
+  cigarette card from around 1900, small format with a printed ornamental border, four-
+  colour stone printing, visible misregistration and dot rosettes, slightly garish cheap
+  inks, corners worn round, the creature alone, a plain cream ribbon of bare paper along
+  the bottom edge
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single small limpet seen head-on from the front, a low conical shell striped in
-    teal and cream, a rim of frilled soft foot squeezed out all round the shell edge,
-    faint amber tint in the foot, smugly immovable, chromolithograph cigarette card
-    chromolithograph print, bold flat inks with slight misregistration on the body,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a small limpet with a striped teal and cream conical shell, a single large curious
+    eye peeking out from under the rim, a frilled foot squeezed out all round, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A homebody of the very best kind. It chose its spot at once and has shown not a flicker of regret since.

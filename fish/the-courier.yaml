@@ -39,11 +39,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single sleek small fish in strict side profile facing right, whole body visible, bright green and cream, a satchel-shaped swelling along its belly, a
-    rolled scroll held crosswise in its mouth, swept-back fins built for speed,
-    chromolithograph cigarette card chromolithograph print, flat bright stone-printed
-    inks with slight misregistration and dot rosettes on the body, isolated on a
-    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a sleek small fish with a satchel-shaped swelling on its belly and a rolled letter
+    held crosswise in its mouth, mid-dash, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     The busiest little guppy in the shop, always off somewhere with something

@@ -41,13 +41,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a big fish shape made entirely of dozens of small separate silver fish crowded
-    together side by side, each little fish clearly visible with its own eye and tail,
-    the school packed tight into the outline of one large fish facing right, a gaping
-    mouth at the front made of the gap between them, whole body visible, sumi ink
-    rubbing cut out along its outline, flat black ink with patchy coverage, small fish
-    picked out in pale silver, isolated on a plain flat pale grey studio backdrop, even
-    soft light, strong crisp silhouette
+    a tight mass of small identical silver fish pressed together into one large fish-
+    shaped body, individual fish visible along its edges, one large eye formed by a gap
+    in the crowd, vivid painted illustration for a dark comedy video game, bold readable
+    shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Dozens of little tetras swimming as one splendid fish. I do admire a team that

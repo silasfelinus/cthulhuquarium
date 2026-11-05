@@ -39,11 +39,12 @@ art_prompt: >
 sprite:
   motion: sway
   prompt: >
-    a single broad shell standing upright rooted at the bottom, opened wide into a
-    rosette fan of soft fronds, warm coral and cream, the fronds leaning outward and
-    open, a smooth hinged shell base, chromolithograph cigarette card print, dot
-    rosettes and slightly garish inks, isolated on a plain flat pale grey studio
-    backdrop, even soft light, strong crisp silhouette
+    a broad shell opened wide into a rosette of soft warm coral and cream fronds leaning
+    outward, vivid painted illustration for a dark comedy video game, bold readable
+    shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Coral, cream and open-armed. The warmest little whelk I have ever stocked, and

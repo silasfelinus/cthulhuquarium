@@ -30,22 +30,24 @@ evolution_kind: growth
 plate: haeckel
 games: [cthulhuquarium]
 art_prompt: >
-  a vast creature made of leaded coloured glass panels in a tall pointed arch shape,
-  with two dark eyes near its peak, turquoise and gold, light pouring through it from
-  its own direction, crosswise to the light in the water, ornamental natural history
-  plate, obsessive radial symmetry, the organism arranged as design to fill the sheet,
-  fine line and restrained colour, ruled ornamental border, the creature alone inside
-  the ruled border, a plain strip of bare paper beneath it
+  a tall arched creature whose body is panels of leaded coloured glass in turquoise and
+  gold, warm light shining through the coloured glass, two dark eyes near its pointed
+  peak, short tentacles at its base, ornamental natural history plate, obsessive radial
+  symmetry, the organism arranged as design to fill the sheet, fine line and restrained
+  colour, ruled ornamental border, the creature alone inside the ruled border, a plain
+  strip of bare paper beneath it
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a tall upright sea creature whose whole body is a pointed gothic arch shape made of
-    thick opaque stained glass, two dark eyes near its pointed top and small fins along
-    its sides, its body panels a deep saturated turquoise, cobalt and amber, heavy black
-    lead lines dividing the panels, a single creature standing free on its own with
-    nothing around it, whole body visible, ornamental natural history linework,
-    obsessive symmetry, isolated on a plain flat charcoal studio backdrop, even soft
-    light, strong crisp silhouette
+    a tall arched creature whose body is panels of leaded coloured glass in turquoise
+    and gold, warm light shining through the coloured glass, two dark eyes near its
+    pointed peak, short tentacles at its base, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Cathedral light, pouring down on the whole room. It gives every creature in the

@@ -39,11 +39,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single stumpy crawdad in strict side profile facing right, whole body visible,
-    wildly mismatched claws with the front claw absurdly larger than the other, both
-    raised at nothing, rust-red and tangerine segmented carapace, tiny furious eyes on
-    crooked stalks, short fanned tail tucked beneath, chromolithograph cigarette card chromolithograph print, bold flat inks with slight misregistration on the body, isolated
-    on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a stumpy rust-red crawdad with wildly mismatched claws, one claw three times the
+    size of the other, tiny furious eyes on crooked stalks, vivid painted illustration
+    for a dark comedy video game, bold readable shapes, crisp inked outlines, rich
+    saturated jewel-tone colour, glowing bioluminescent accents, painterly texture, a
+    single creature in strict side profile facing right, the whole body visible with
+    space around it, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     Such spirit in so small a parcel. One claw bigger than the other, and it would take on the whole shop with either.

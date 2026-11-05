@@ -38,12 +38,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single angular creature built from a few crisp folded sheets in bone white and
-    cold blue, standing upright on two folded points and leaning slightly forward,
-    sharp clean edges on every fold, a blank folded sheet for a head tilted politely
-    toward the viewer, wet wax moulage specimen, glistening, the folds slick and
-    softly translucent at their thin edges, faint blue shadow in each crease,
-    isolated on a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    an angular creature built from crisp folded paper sheets in bone white and cold
+    blue, a sharp paper beak, two small ink eyes, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Such beautiful manners. Crisp, courteous, correctly folded, and it leans in

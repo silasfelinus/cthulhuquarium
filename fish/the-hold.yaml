@@ -30,21 +30,23 @@ evolution_kind: breeding
 plate: moulage
 games: [cthulhuquarium, ruler-hooked]
 art_prompt: >
-  a big slack bag-creature hanging still, smooth blank skin across the whole upper half,
-  a wide seam across its lower half parted into a grin, deep indigo with a sickly green
-  interior glow, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
-  colours leached toward parchment, the glass refracting the body where it presses
-  against it, a handwritten paper label tied on with string, the jar standing alone, the
-  label's brown ink faded to pale looping scribbles
+  a big slack sack-shaped creature with stitched indigo canvas skin, a wide grinning seam
+  of a mouth across its lower half, drawstring tentacles hanging beneath, wet specimen
+  preserved in a sealed glass jar of fluid, formalin yellow, colours leached toward
+  parchment, the glass refracting the body where it presses against it, a handwritten
+  paper label tied on with string, the jar standing alone, the label's brown ink faded to
+  pale looping scribbles
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a wide grinning mouth full of small even teeth stretched across the lower half of a
-    big slack heavy creature, the creature hanging upright with smooth blank deep indigo
-    skin over its rounded eyeless top, a sickly green glow showing between the teeth,
-    the bottom sagging with weight, wet wax moulage specimen, glistening, a soft sheen
-    across the taut upper curve, isolated on a plain flat pale grey studio backdrop,
-    even soft light, strong crisp silhouette
+    a big slack sack-shaped creature with stitched indigo canvas skin, a wide grinning
+    seam of a mouth across its lower half, drawstring tentacles hanging beneath, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A marvellous quiet companion. It never chases and never fusses, and it simply

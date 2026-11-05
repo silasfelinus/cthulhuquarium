@@ -30,21 +30,23 @@ evolves_from: the-silence
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  an immense folded creature filling the whole jar, its surface worked into ranked
-  shelves and pigeonholes packed with rolled papers, one long limb resting across the
-  front, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
-  leached toward parchment, the glass refracting the body where it presses against it, a
+  an immense folded creature whose body is shelves and pigeonholes packed with rolled
+  papers, one long thin arm drawing out a scroll, two small glowing eyes at the top, wet
+  specimen preserved in a sealed glass jar of fluid, formalin yellow, colours leached
+  toward parchment, the glass refracting the body where it presses against it, a
   handwritten paper label tied on with string, the jar standing alone, the label's brown
   ink faded to pale looping scribbles
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
-  faces: left
   prompt: >
-    a single immense creature squatting low and wide, its front grown into rows of small
-    square shelves and pigeonholes packed with rolled cream paper scrolls, one long thin
-    limb laid flat across the middle row, a small hooded head bowed low over the limb,
-    dusty brown skin, wet wax moulage specimen, glistening, isolated on a plain flat
-    pale grey studio backdrop, even soft light, strong crisp silhouette
+    an immense folded creature whose body is shelves and pigeonholes packed with rolled
+    papers, one long thin arm drawing out a scroll, two small glowing eyes at the top,
+    vivid painted illustration for a dark comedy video game, bold readable shapes, crisp
+    inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A true scholar, with its own library built right in and every pigeonhole full.

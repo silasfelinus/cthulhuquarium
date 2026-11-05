@@ -31,21 +31,22 @@ evolution_kind: breeding
 plate: riso
 games: [cthulhuquarium]
 art_prompt: >
-  a vast creature whose ribs and fins form a rounded arch, warm chandelier light
-  spilling from somewhere inside it, the dark gap at its centre unmistakably a doorway,
-  risograph print in two fluorescent spot inks on cheap absorbent paper, deliberate
-  misregistration, the inks overprinting to a third colour where they cross, flat
-  unblended areas, paper showing through, the creature alone on the sheet, wide bare margins
+  a vast creature whose ribs form a rounded arched doorway, warm chandelier light glowing
+  from inside its open chest, fins hanging in heavy velvet-red folds, risograph print in
+  two fluorescent spot inks on cheap absorbent paper, deliberate misregistration, the inks
+  overprinting to a third colour where they cross, flat unblended areas, paper showing
+  through, the creature alone on the sheet, wide bare margins
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a tall upright creature whose body forms a rounded arch, curved ribs and fanned fins
-    making two pillars that meet in a curved top, a tall dark open hollow in its centre
-    with a warm golden glow deep inside, two small eyes set in the top of the arch, a
-    small glowing anglerfish lure hanging from the top, risograph print surface on the
-    body in two fluorescent spot inks, flat overprinted shapes with slight
-    misregistration, isolated on a plain flat charcoal studio backdrop, even soft light,
-    strong crisp silhouette
+    a vast creature whose ribs form a rounded arched doorway, warm chandelier light
+    glowing from inside its open chest, fins hanging in heavy velvet-red folds, vivid
+    painted illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     It lights the way in and keeps the door open all day long. A tank ought to have

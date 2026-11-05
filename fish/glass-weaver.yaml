@@ -37,11 +37,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single spindly sea spider seen from above, a tiny central body with far too many
-    long segmented legs splayed evenly in a ring, iridescent blue-green joints, a few
-    taut glowing strands strung between its leg tips in looping letter-like marks,
-    ornamental radial symmetry and fine line on the body, isolated on a plain flat
-    charcoal studio backdrop, even soft light, strong crisp silhouette
+    a spindly iridescent blue-green sea spider with far too many long segmented legs and
+    a tiny round body, fine glowing thread trailing from its legs, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     An artist in residence. Every morning a fresh composition in glass thread, and never the same one twice. Collectors travel miles for this.

@@ -36,12 +36,13 @@ art_prompt: >
 sprite:
   motion: breathe
   prompt: >
-    a single enormous shelled creature floating at the surface, the top of its shell
-    a little sandy island with two leaning palm trees, the broad grinning shell and
-    long trailing limbs hanging below, a wide toothy smile along the shell rim,
-    risograph print surface on the body in two fluorescent spot inks, flat
-    overprinted shapes with slight misregistration, isolated on a plain flat pale
-    grey studio backdrop, even soft light, strong crisp silhouette
+    a cheerful little tropical island with two palm trees and bright sand, directly
+    beneath it an enormous grinning shelled monster with many eyes, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A little tropical island of your very own, palms and all. It is always summer on

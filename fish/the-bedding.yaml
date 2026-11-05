@@ -29,21 +29,23 @@ evolves_from: the-substrate
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a thick cross-section of layered sediment seen from the side, each band a different
-  grain and shade, small objects and shells embedded at regular intervals through the
-  layers, wet specimen preserved in a sealed glass jar of fluid, formalin yellow,
-  colours leached toward parchment, the glass refracting the body where it presses
+  a broad flat burrowing creature whose back is banded in layers of sand, silt, clay and
+  shell, a small key and tiny shells embedded in its stripes, a blunt head with sleepy
+  eyes at the front, wet specimen preserved in a sealed glass jar of fluid, formalin
+  yellow, colours leached toward parchment, the glass refracting the body where it presses
   against it, a handwritten paper label tied on with string, the jar standing alone, the
   label's brown ink faded to pale looping scribbles
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single thick block of layered sediment seen from the side, whole body visible,
-    each band a different grain and shade from pale sand to dark silt, small shells and
-    trinkets embedded at even intervals through the layers, a slow soft bulge to its top
-    surface, wet wax moulage specimen, glistening, colours leached toward parchment,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a broad flat burrowing creature whose back is banded in layers of sand, silt, clay
+    and shell, a small key and tiny shells embedded in its stripes, a blunt head with
+    sleepy eyes at the front, vivid painted illustration for a dark comedy video game,
+    bold readable shapes, crisp inked outlines, rich saturated jewel-tone colour,
+    glowing bioluminescent accents, painterly texture, a single creature in strict side
+    profile facing right, the whole body visible with space around it, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     The comfiest floor a tank could ask for, deep and soft and wonderfully

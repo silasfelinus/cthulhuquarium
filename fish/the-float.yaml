@@ -40,12 +40,12 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single small minnow in strict side profile facing right, whole body visible, its
-    flank covered in round coin-shaped scales laid in exact overlapping rows, warm gold
-    scales over a bright silver belly, a neat forked tail, a small alert black eye,
-    chromolithograph cigarette card chromolithograph print on the body, bold outline,
-    flat printed colour with fine dot rosettes, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a neat stack of coin-scaled minnows, each overlapping the next by the same margin,
+    warm gold over silver, vivid painted illustration for a dark comedy video game, bold
+    readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A whole shoal in gold and silver, stacked as neat as a morning till. It

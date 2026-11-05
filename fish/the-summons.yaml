@@ -36,12 +36,14 @@ art_prompt: >
   the creature alone, the board around it left solid uncut black
 sprite:
   motion: undulate
-  faces: left
   prompt: >
-    a single lean eel in strict side profile facing right, whole body visible, held
-    unnaturally straight, a stiff pale collar ringing its neck just behind the head, a
-    mouth set in a thin formal line, a small fixed eye, white line scraperboard surface
-    cut from solid black, long parallel hatching down the body, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a lean eel with a stiff pale collar just behind its head, a thin straight mouth,
+    holding itself unnaturally straight, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Collared, upright, and never once late. I do wish more of my suppliers were

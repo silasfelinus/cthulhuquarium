@@ -41,12 +41,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single very small slender fish in strict side profile facing right, whole body
-    visible, a narrow pointed head and a long thin body, a second faint offset outline
-    printed slightly above and behind its body outline, a small forked tail, sumi ink
-    rubbing of the fish cut out along its outline, flat black ink with patchy coverage,
-    fins printing as fine radiating lines, one wet hand-painted eye, isolated on a plain
-    flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    a dense shoal of very small slender grey fish overlapping one another, crowded into
+    a single blurred mass at the centre, vivid painted illustration for a dark comedy
+    video game, bold readable shapes, crisp inked outlines, rich saturated jewel-tone
+    colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     A lively little shoal, plenty of them and always more than you'd think. Your

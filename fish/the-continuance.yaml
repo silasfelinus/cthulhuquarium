@@ -37,12 +37,14 @@ art_prompt: >
   alone, the label's brown ink faded to pale looping scribbles
 sprite:
   motion: tailbeat
-  faces: left
   prompt: >
-    a single large old carp in strict side profile facing right, whole body visible, clouded milky eyes, slack drooping barbels, scales lifting at the edges,
-    a grey-bronze body, its mouth open mid-gulp, wet wax moulage specimen,
-    glistening, colours leached toward parchment, isolated on a plain flat pale grey
-    studio backdrop, even soft light, strong crisp silhouette
+    a large old pale carp with clouded eyes and slack drooping barbels, scales lifting
+    at the edges, holding itself upright with grim determination, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Such distinction in a carp, and the calm of something that has seen it all. A

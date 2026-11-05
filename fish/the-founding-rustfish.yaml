@@ -40,12 +40,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single enormous ornate rustfish in strict side profile facing right, whole body in
-    view, deep-bodied and regal, corroded gold scales flaking to deep rust along the
-    flank, long heavy fins hanging in deep heavy folds, a tall crested dorsal fin, a
-    calm heavy-lidded eye, wet wax moulage specimen, glistening, the gold slightly waxen
-    and soft at the fin edges, isolated on a plain flat pale grey studio backdrop, even
-    soft light, strong crisp silhouette
+    an enormous ornate fish in corroded gold and deep rust plates, long heavy fins
+    hanging in deep folds, a halo of tiny rust flakes around it, vivid painted
+    illustration for a dark comedy video game, bold readable shapes, crisp inked
+    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Our oldest line, and the most distinguished fish in the building. Those fins

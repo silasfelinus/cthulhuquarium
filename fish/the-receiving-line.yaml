@@ -30,22 +30,22 @@ evolution_kind: breeding
 plate: riso
 games: [cthulhuquarium]
 art_prompt: >
-  a row of archway-creatures in perfect alignment receding into the dark, each one
-  smaller than the last, warm light dimming with distance, the furthest barely a glow,
-  risograph print in two fluorescent spot inks on cheap absorbent paper, deliberate
-  misregistration, the inks overprinting to a third colour where they cross, flat
-  unblended areas, paper showing through, the creature alone on the sheet, wide bare margins
+  a procession of five arched bell-shaped creatures in a row, each smaller than the last,
+  warm light inside each bell dimming down the line, risograph print in two fluorescent
+  spot inks on cheap absorbent paper, deliberate misregistration, the inks overprinting to
+  a third colour where they cross, flat unblended areas, paper showing through, the
+  creature alone on the sheet, wide bare margins
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   mass: true
   prompt: >
-    nine small arch-shaped creatures in one row seen from the side, each arch with two
-    small eyes near its top and a tiny glowing lure hanging from its peak, each creature
-    a step smaller than the one before it, their sides touching so the row reads as one
-    tapering mass, a warm glow inside every arch, risograph print surface in two
-    fluorescent spot inks, flat unblended areas, slight misregistration along each arch,
-    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
-    silhouette
+    a procession of five arched bell-shaped creatures in a row, each smaller than the
+    last, warm light inside each bell dimming down the line, vivid painted illustration
+    for a dark comedy video game, bold readable shapes, crisp inked outlines, rich
+    saturated jewel-tone colour, glowing bioluminescent accents, painterly texture, the
+    whole group visible as one body with space around it, facing right, isolated on a
+    plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Nine arches, every one of them lit. I have hosted a great many evenings,

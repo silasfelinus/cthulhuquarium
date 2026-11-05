@@ -41,11 +41,12 @@ art_prompt: >
 sprite:
   motion: undulate
   prompt: >
-    a single pale blind newt in strict side profile facing right, whole body visible,
-    soft frilled external gills fanning behind its head, smooth blank eye patches, damp
-    olive and bone white skin, four small splayed feet, a long flattened tail,
-    hand-coloured lithograph linework and flat watercolour wash on the body, isolated on
-    a plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a pale blind newt with soft frilled pink external gills and faint brick-pattern
+    markings on its skin, vivid painted illustration for a dark comedy video game, bold
+    readable shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
+    bioluminescent accents, painterly texture, a single creature in strict side profile
+    facing right, the whole body visible with space around it, isolated on a plain flat
+    pale grey studio backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     A dear little blind newt with the prettiest frilled gills, and it comes with

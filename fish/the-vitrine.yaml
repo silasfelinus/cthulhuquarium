@@ -38,10 +38,13 @@ art_prompt: >
 sprite:
   motion: tailbeat
   prompt: >
-    a single wholly transparent shrimp in strict side profile facing right, whole body visible, a neat row of small solid objects suspended in a line inside its body,
-    each a different shape, a sphere, a cube, a ring, the shell visible only as bright
-    edges, lampworked glass model, light pooling where the glass thickens, isolated on a
-    plain flat charcoal studio backdrop, even soft light, strong crisp silhouette
+    a wholly transparent shrimp with a row of small solid objects suspended in a neat
+    line inside its body, each object a different shape, vivid painted illustration for
+    a dark comedy video game, bold readable shapes, crisp inked outlines, rich saturated
+    jewel-tone colour, glowing bioluminescent accents, painterly texture, a single
+    creature in strict side profile facing right, the whole body visible with space
+    around it, isolated on a plain flat pale grey studio backdrop, even soft light,
+    strong crisp silhouette
 voices:
   charlotte: >-
     A shrimp you can see straight through, displaying its little treasures like a

@@ -37,13 +37,14 @@ art_prompt: >
   the creature alone, the board around it left solid uncut black
 sprite:
   motion: undulate
-  faces: left
   prompt: >
-    a single thick-bodied eel in strict side profile facing right, whole body visible,
-    a broad blunt head with a long flat unimpressed mouth lined with a great many small
-    even teeth, heavy bands wrapping its body down to a narrow tail, white line
-    scratched out of solid black scraperboard over the whole body, tone built from line
-    density, isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp silhouette
+    an eel banded grey and verdigris with a flat unimpressed face, a long even row of
+    tiny teeth, a ring of orange rust stain around its neck, vivid painted illustration
+    for a dark comedy video game, bold readable shapes, crisp inked outlines, rich
+    saturated jewel-tone colour, glowing bioluminescent accents, painterly texture, a
+    single creature in strict side profile facing right, the whole body visible with
+    space around it, isolated on a plain flat pale grey studio backdrop, even soft
+    light, strong crisp silhouette
 voices:
   charlotte: >-
     It comes with its own pipe, and so much character packed into the front half. You will hardly know it's there, which is the height of good manners.

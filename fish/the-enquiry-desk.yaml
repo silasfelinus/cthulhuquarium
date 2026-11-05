@@ -29,20 +29,23 @@ evolution_kind: growth
 plate: moulage
 games: [cthulhuquarium]
 art_prompt: >
-  a broad low creature with a wide flat upper surface and a single small hatch set into
-  its front, the hatch propped open, a drift of folded paper slips visible inside the
-  body, wet specimen preserved in a sealed glass jar of fluid, formalin yellow, colours
-  leached toward parchment, the glass refracting the body where it presses against it, a
+  a broad low crab-shaped creature with a flat polished wooden carapace, a small hatch
+  window in its front with one eye looking out, paper slips drifting from the hatch, wet
+  specimen preserved in a sealed glass jar of fluid, formalin yellow, colours leached
+  toward parchment, the glass refracting the body where it presses against it, a
   handwritten paper label tied on with string, the jar standing alone, the label's brown
   ink faded to pale looping scribbles
 sprite:
+  redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a single broad low creature seen from the front, whole body visible, a wide flat
-    upper surface, a single small hatch set into its front and propped open, a drift of
-    folded slips visible inside, wet wax moulage specimen, glistening, colours leached
-    toward parchment, isolated on a plain flat pale grey studio backdrop, even soft
-    light, strong crisp silhouette
+    a broad low crab-shaped creature with a flat polished wooden carapace, a small hatch
+    window in its front with one eye looking out, paper slips drifting from the hatch,
+    vivid painted illustration for a dark comedy video game, bold readable shapes, crisp
+    inked outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
+    painterly texture, a single creature in strict side profile facing right, the whole
+    body visible with space around it, isolated on a plain flat pale grey studio
+    backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
     Somewhere to take your questions at any hour. So attentive. Nobody has ever gone
