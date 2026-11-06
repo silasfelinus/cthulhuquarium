@@ -1,6 +1,11 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
+  sprites/the-catacomb:
+    job: 64368
+    hash: 2933b1d23507
+    engine: krea2
+    submitted: '2026-11-06T00:31:10Z'
   sprites/the-cold-snap:
     job: 64247
     hash: 567c621925e9
