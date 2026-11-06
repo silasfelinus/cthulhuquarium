@@ -30,22 +30,24 @@ evolves_from: the-undercroft
 plate: scraperboard
 games: [cthulhuquarium]
 art_prompt: >
-  a long pale blind cave salamander whose spine is a row of arched stone vertebra plates,
-  small niches along its flanks each holding a tiny fish skull, scraperboard illustration,
-  white line scratched out of solid black ink with a blade, pure black and pure white
-  only, every tone built from line density, form built entirely from cut hatching, the
-  creature alone, the board around it left solid uncut black
+  a long bone-white blind cave salamander with a row of small carved grey stone arches
+  rising along its spine, each arch a little niche holding a tiny fish skull, pale pink
+  feathery gills, smooth eyeless head, scraperboard illustration, white line scratched out
+  of solid black ink with a blade, pure black and pure white only, every tone built from
+  line density, form built entirely from cut hatching, the creature alone, the board
+  around it left solid uncut black
 sprite:
   redesigned: '2026-11-05'
   motion: breathe
   prompt: >
-    a long pale blind cave salamander whose spine is a row of arched stone vertebra
-    plates, small niches along its flanks each holding a tiny fish skull, vivid painted
-    illustration for a dark comedy video game, bold readable shapes, crisp inked
-    outlines, rich saturated jewel-tone colour, glowing bioluminescent accents,
-    painterly texture, a single creature in strict side profile facing right, the whole
-    body visible with space around it, isolated on a plain flat pale grey studio
-    backdrop, even soft light, strong crisp silhouette
+    a long bone-white blind cave salamander with a row of small carved grey stone arches
+    rising along its spine, each arch a little niche holding a tiny fish skull, pale
+    pink feathery gills, smooth eyeless head, vivid painted illustration for a dark
+    comedy video game, bold readable shapes, crisp inked outlines, rich saturated jewel-
+    tone colour, glowing bioluminescent accents, painterly texture, a single creature in
+    strict side profile facing right, the whole body visible with space around it,
+    isolated on a plain flat pale grey studio backdrop, even soft light, strong crisp
+    silhouette
 voices:
   charlotte: >-
     Our very own undercroft, darling, all niches and arches and beautifully kept.
