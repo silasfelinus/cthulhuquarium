@@ -31,7 +31,7 @@ plate: riso
 games: [cthulhuquarium]
 art_prompt: >
   an immense hermit creature carrying a whole little Victorian shopfront as its shell, a
-  glowing shop window full of tiny tanks, a painted sign board above it, many thin legs
+  glowing shop window full of tiny tanks, a striped awning above it, many thin legs
   beneath, risograph print in two fluorescent spot inks on cheap absorbent paper,
   deliberate misregistration, the inks overprinting to a third colour where they cross,
   flat unblended areas, paper showing through, the creature alone on the sheet, wide bare
@@ -41,8 +41,8 @@ sprite:
   motion: breathe
   prompt: >
     an immense hermit creature carrying a whole little Victorian shopfront as its shell,
-    a glowing shop window full of tiny tanks, a painted sign board above it, many thin
-    legs beneath, vivid painted illustration for a dark comedy video game, bold readable
+    a glowing shop window full of tiny tanks, a striped awning above it, many thin legs
+    beneath, vivid painted illustration for a dark comedy video game, bold readable
     shapes, crisp inked outlines, rich saturated jewel-tone colour, glowing
     bioluminescent accents, painterly texture, a single creature in strict side profile
     facing right, the whole body visible with space around it, isolated on a plain flat

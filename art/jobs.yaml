@@ -551,6 +551,11 @@ jobs:
     hash: 2933b1d23507
     engine: krea2
     submitted: '2026-11-06T00:31:10Z'
+  sprites/the-concern:
+    job: 64774
+    hash: 09e831d17098
+    engine: krea2
+    submitted: '2026-11-06T21:58:09Z'
   sprites/the-quire:
     job: 64298
     hash: 9f582b55d878
