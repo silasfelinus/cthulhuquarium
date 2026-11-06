@@ -1,266 +1,556 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
+  clips/bailiff-eel:
+    job: 64369
+    hash: 756fc6820686
+    engine: wan
+    submitted: '2026-11-06T00:35:06Z'
+  clips/brass-tack-goby:
+    job: 64370
+    hash: 8bb4822f5451
+    engine: wan
+    submitted: '2026-11-06T00:35:07Z'
+  clips/brine-courtiers:
+    job: 64371
+    hash: c97c95debb15
+    engine: wan
+    submitted: '2026-11-06T00:35:08Z'
+  clips/candle-snail:
+    job: 64372
+    hash: 8abd49575b3e
+    engine: wan
+    submitted: '2026-11-06T00:35:09Z'
+  clips/catfish-common:
+    job: 64373
+    hash: 7947ba189f42
+    engine: wan
+    submitted: '2026-11-06T00:35:09Z'
+  clips/cellar-newt:
+    job: 64374
+    hash: 455c8c821202
+    engine: wan
+    submitted: '2026-11-06T00:35:10Z'
+  clips/chandelier-lion:
+    job: 64375
+    hash: 862ea8dad47d
+    engine: wan
+    submitted: '2026-11-06T00:35:11Z'
+  clips/choirfish:
+    job: 64376
+    hash: 4926cf3dc100
+    engine: wan
+    submitted: '2026-11-06T00:35:12Z'
+  clips/crawdad-common:
+    job: 64377
+    hash: 221bf6a5ef11
+    engine: wan
+    submitted: '2026-11-06T00:35:13Z'
+  clips/culvert-eel:
+    job: 64378
+    hash: 274235f105e6
+    engine: wan
+    submitted: '2026-11-06T00:35:14Z'
+  clips/doorstep-whelk:
+    job: 64379
+    hash: 6a7268cceec8
+    engine: wan
+    submitted: '2026-11-06T00:35:15Z'
+  clips/draught-stickleback:
+    job: 64380
+    hash: bd1fddf0deec
+    engine: wan
+    submitted: '2026-11-06T00:35:16Z'
+  clips/drifting-bell:
+    job: 64381
+    hash: dcb209360733
+    engine: wan
+    submitted: '2026-11-06T00:35:17Z'
+  clips/drowned-carp:
+    job: 64382
+    hash: 059cb32ea228
+    engine: wan
+    submitted: '2026-11-06T00:35:18Z'
+  clips/elder-rustfish:
+    job: 64383
+    hash: e76c9ec43d61
+    engine: wan
+    submitted: '2026-11-06T00:35:19Z'
+  clips/errand-guppy:
+    job: 64384
+    hash: aee417dbf714
+    engine: wan
+    submitted: '2026-11-06T00:35:20Z'
+  clips/folding-fry:
+    job: 64385
+    hash: 7a0a5c74dada
+    engine: wan
+    submitted: '2026-11-06T00:35:20Z'
+  clips/fractal-bloom:
+    job: 64386
+    hash: e53fb618acf7
+    engine: wan
+    submitted: '2026-11-06T00:35:21Z'
+  clips/glass-shrimp:
+    job: 64387
+    hash: 354b102c15bf
+    engine: wan
+    submitted: '2026-11-06T00:35:22Z'
+  clips/glass-weaver:
+    job: 64388
+    hash: e33749e1eda3
+    engine: wan
+    submitted: '2026-11-06T00:35:23Z'
+  clips/gravel-tetra:
+    job: 64389
+    hash: 2472c782a865
+    engine: wan
+    submitted: '2026-11-06T00:35:24Z'
+  clips/guppy-common:
+    job: 64390
+    hash: 17a485957abf
+    engine: wan
+    submitted: '2026-11-06T00:35:25Z'
+  clips/gutter-minnow:
+    job: 64391
+    hash: 66c24280bcb3
+    engine: wan
+    submitted: '2026-11-06T00:35:26Z'
+  clips/kitchen-perch:
+    job: 64392
+    hash: 9e729627785d
+    engine: wan
+    submitted: '2026-11-06T00:35:27Z'
+  clips/lamplight-angler:
+    job: 64393
+    hash: 9d8e9ce2796b
+    engine: wan
+    submitted: '2026-11-06T00:35:28Z'
+  clips/ledger-crab:
+    job: 64394
+    hash: cd5b7c19efbe
+    engine: wan
+    submitted: '2026-11-06T00:35:29Z'
+  clips/lint-shrimp:
+    job: 64395
+    hash: 14c76d380196
+    engine: wan
+    submitted: '2026-11-06T00:35:29Z'
+  clips/marsh-sovereign-crawdad:
+    job: 64396
+    hash: 8d94f41cb32c
+    engine: wan
+    submitted: '2026-11-06T00:35:30Z'
+  clips/moebius-crab:
+    job: 64397
+    hash: 96e6dc692b74
+    engine: wan
+    submitted: '2026-11-06T00:35:31Z'
+  clips/old-catfish:
+    job: 64398
+    hash: 322e19594161
+    engine: wan
+    submitted: '2026-11-06T00:35:32Z'
+  clips/pane-limpet:
+    job: 64399
+    hash: b8ca8ff8ea64
+    engine: wan
+    submitted: '2026-11-06T00:35:33Z'
+  clips/parlour-rustfish:
+    job: 64400
+    hash: 3ac9f3dc9102
+    engine: wan
+    submitted: '2026-11-06T00:35:34Z'
+  clips/penny-bream:
+    job: 64401
+    hash: 6f9aa33d1fd5
+    engine: wan
+    submitted: '2026-11-06T00:35:35Z'
+  clips/pier-blenny:
+    job: 64402
+    hash: b42964f95d01
+    engine: wan
+    submitted: '2026-11-06T00:35:36Z'
+  clips/pin-shrimp:
+    job: 64403
+    hash: fd497fe13b9c
+    engine: wan
+    submitted: '2026-11-06T00:35:37Z'
+  clips/portsmouth-bitterling:
+    job: 64404
+    hash: b47c49ef5e64
+    engine: wan
+    submitted: '2026-11-06T00:35:37Z'
+  clips/postmark-snail:
+    job: 64405
+    hash: 52388c178aa0
+    engine: wan
+    submitted: '2026-11-06T00:35:38Z'
+  clips/rain-barrel-roach:
+    job: 64406
+    hash: 4083e4d91d51
+    engine: wan
+    submitted: '2026-11-06T00:35:39Z'
+  clips/rainbow-nudibranch:
+    job: 64407
+    hash: 837780b38962
+    engine: wan
+    submitted: '2026-11-06T00:35:40Z'
+  clips/sardine-common:
+    job: 64408
+    hash: aa7fa3376a42
+    engine: wan
+    submitted: '2026-11-06T00:35:41Z'
+  clips/sea-camel:
+    job: 64409
+    hash: 731a2140e6fa
+    engine: wan
+    submitted: '2026-11-06T00:35:42Z'
+  clips/silt-loach:
+    job: 64410
+    hash: fc47a51d8adb
+    engine: wan
+    submitted: '2026-11-06T00:35:43Z'
+  clips/skimmer-fry:
+    job: 64411
+    hash: c8be8597f2b2
+    engine: wan
+    submitted: '2026-11-06T00:35:43Z'
+  clips/standpipe-goby:
+    job: 64412
+    hash: 10e3f37b67a2
+    engine: wan
+    submitted: '2026-11-06T00:35:44Z'
+  clips/sump-blob:
+    job: 64413
+    hash: 0a6a8fcf43d2
+    engine: wan
+    submitted: '2026-11-06T00:35:45Z'
+  clips/the-accumulation:
+    job: 64414
+    hash: a7ae2cd67d82
+    engine: wan
+    submitted: '2026-11-06T00:35:46Z'
+  clips/the-aggregate:
+    job: 64415
+    hash: ed3d65c60b77
+    engine: wan
+    submitted: '2026-11-06T00:35:47Z'
+  clips/the-almoner:
+    job: 64416
+    hash: 252f3b41c996
+    engine: wan
+    submitted: '2026-11-06T00:35:48Z'
+  clips/the-annexation:
+    job: 64417
+    hash: 054e49380010
+    engine: wan
+    submitted: '2026-11-06T00:35:49Z'
+  clips/the-antiphon:
+    job: 64418
+    hash: 42f2b1fe476a
+    engine: wan
+    submitted: '2026-11-06T00:35:50Z'
+  clips/the-association:
+    job: 64419
+    hash: 51ba9454e7a5
+    engine: wan
+    submitted: '2026-11-06T00:35:51Z'
+  clips/the-auditor:
+    job: 64420
+    hash: a860c603c25d
+    engine: wan
+    submitted: '2026-11-06T00:35:52Z'
+  clips/the-backlog:
+    job: 64421
+    hash: 59f33312b79a
+    engine: wan
+    submitted: '2026-11-06T00:35:53Z'
+  clips/the-balance:
+    job: 64422
+    hash: e6c7f368ed74
+    engine: wan
+    submitted: '2026-11-06T00:35:54Z'
+  clips/the-bedding:
+    job: 64423
+    hash: 07c841f938ee
+    engine: wan
+    submitted: '2026-11-06T00:35:54Z'
+  clips/the-catchment:
+    job: 64424
+    hash: e5f45b84c822
+    engine: wan
+    submitted: '2026-11-06T00:35:55Z'
+  clips/the-census:
+    job: 64425
+    hash: 436d8b8eb171
+    engine: wan
+    submitted: '2026-11-06T00:35:56Z'
+  clips/the-clerestory:
+    job: 64426
+    hash: 8601dacd687d
+    engine: wan
+    submitted: '2026-11-06T00:35:57Z'
+  clips/the-cold-snap:
+    job: 64428
+    hash: ccb6b75a196b
+    engine: wan
+    submitted: '2026-11-06T01:56:17Z'
+  clips/the-committee:
+    job: 64429
+    hash: 83a97f8a3f59
+    engine: wan
+    submitted: '2026-11-06T01:56:18Z'
+  clips/the-concern:
+    job: 64430
+    hash: e8673e710bbc
+    engine: wan
+    submitted: '2026-11-06T01:56:19Z'
+  clips/the-conservatory:
+    job: 64431
+    hash: 45bade85945b
+    engine: wan
+    submitted: '2026-11-06T01:56:20Z'
+  clips/the-consignment:
+    job: 64432
+    hash: b1205e26d6a1
+    engine: wan
+    submitted: '2026-11-06T01:56:21Z'
+  clips/the-continuance:
+    job: 64433
+    hash: d9541b4f2050
+    engine: wan
+    submitted: '2026-11-06T01:56:22Z'
+  clips/the-coronation:
+    job: 64434
+    hash: a791848c17f5
+    engine: wan
+    submitted: '2026-11-06T01:56:23Z'
+  clips/the-courier:
+    job: 64435
+    hash: 27510b662753
+    engine: wan
+    submitted: '2026-11-06T01:56:24Z'
+  clips/the-court:
+    job: 64436
+    hash: 2a9330a19b38
+    engine: wan
+    submitted: '2026-11-06T01:56:25Z'
+  clips/the-delivery:
+    job: 64437
+    hash: 1258b56ffe8e
+    engine: wan
+    submitted: '2026-11-06T01:56:25Z'
+  clips/the-doorkeeper:
+    job: 64438
+    hash: 4bd694ecb134
+    engine: wan
+    submitted: '2026-11-06T01:56:26Z'
+  clips/the-double-entry:
+    job: 64439
+    hash: d145a3a5f5ee
+    engine: wan
+    submitted: '2026-11-06T01:56:27Z'
+  clips/the-downspout:
+    job: 64440
+    hash: 41e63fc36be0
+    engine: wan
+    submitted: '2026-11-06T01:56:28Z'
+  clips/the-efflorescence:
+    job: 64441
+    hash: b370f5cd3f6f
+    engine: wan
+    submitted: '2026-11-06T01:56:29Z'
+  clips/the-endowment:
+    job: 64442
+    hash: bc379810079a
+    engine: wan
+    submitted: '2026-11-06T01:56:30Z'
+  clips/the-enforcement:
+    job: 64443
+    hash: 15444472b3f4
+    engine: wan
+    submitted: '2026-11-06T01:56:31Z'
+  clips/the-enquiry-desk:
+    job: 64444
+    hash: fc523432e195
+    engine: wan
+    submitted: '2026-11-06T01:56:32Z'
+  clips/the-estimate:
+    job: 64445
+    hash: e3ec2b89640d
+    engine: wan
+    submitted: '2026-11-06T01:56:33Z'
+  clips/the-final-notice:
+    job: 64446
+    hash: 40cf7abc0293
+    engine: wan
+    submitted: '2026-11-06T01:56:33Z'
+  clips/the-first-demand:
+    job: 64447
+    hash: 0ed1a61c1ff8
+    engine: wan
+    submitted: '2026-11-06T01:56:34Z'
+  clips/the-fixture:
+    job: 64448
+    hash: d3faa86fd9d3
+    engine: wan
+    submitted: '2026-11-06T01:56:35Z'
+  clips/the-float:
+    job: 64449
+    hash: cd9597d3cefc
+    engine: wan
+    submitted: '2026-11-06T01:56:36Z'
+  clips/the-foundation:
+    job: 64450
+    hash: 3376b813fb13
+    engine: wan
+    submitted: '2026-11-06T01:56:37Z'
+  clips/the-founding-rustfish:
+    job: 64451
+    hash: a26cd256620c
+    engine: wan
+    submitted: '2026-11-06T01:56:38Z'
+  clips/the-foyer:
+    job: 64452
+    hash: d36580776a3b
+    engine: wan
+    submitted: '2026-11-06T01:56:39Z'
+  clips/the-freeholder:
+    job: 64453
+    hash: f746eb909bc9
+    engine: wan
+    submitted: '2026-11-06T01:56:40Z'
+  clips/the-glasshouse:
+    job: 64454
+    hash: 641e95a38843
+    engine: wan
+    submitted: '2026-11-06T01:56:41Z'
+  clips/the-guest-list:
+    job: 64455
+    hash: 0b5b0bd931a5
+    engine: wan
+    submitted: '2026-11-06T01:56:41Z'
+  clips/the-harbors-due:
+    job: 64456
+    hash: c54ecd759a7b
+    engine: wan
+    submitted: '2026-11-06T01:56:42Z'
+  clips/the-hold:
+    job: 64457
+    hash: 9f9751d588e0
+    engine: wan
+    submitted: '2026-11-06T01:56:43Z'
+  clips/the-holotype:
+    job: 64458
+    hash: 951e04e2dc5f
+    engine: wan
+    submitted: '2026-11-06T01:56:44Z'
+  clips/the-household:
+    job: 64459
+    hash: 369a8bb4723c
+    engine: wan
+    submitted: '2026-11-06T01:56:45Z'
+  clips/the-inquiry:
+    job: 64460
+    hash: a1b481d29300
+    engine: wan
+    submitted: '2026-11-06T01:56:46Z'
+  clips/the-inventory:
+    job: 64461
+    hash: 61da7200fa25
+    engine: wan
+    submitted: '2026-11-06T01:56:47Z'
+  clips/the-keyhole:
+    job: 64462
+    hash: bdc2de806fcc
+    engine: wan
+    submitted: '2026-11-06T01:56:48Z'
+  clips/the-long-consideration:
+    job: 64463
+    hash: afe1b948bc9f
+    engine: wan
+    submitted: '2026-11-06T01:56:49Z'
+  clips/the-long-crossing:
+    job: 64464
+    hash: 304adc3a2ff8
+    engine: wan
+    submitted: '2026-11-06T01:56:50Z'
+  clips/the-long-office:
+    job: 64465
+    hash: 7cb9ba3733cd
+    engine: wan
+    submitted: '2026-11-06T01:56:50Z'
+  clips/the-long-patience:
+    job: 64466
+    hash: e0e45351bf4c
+    engine: wan
+    submitted: '2026-11-06T01:56:51Z'
+  clips/the-long-study:
+    job: 64467
+    hash: e64d3f1ade4b
+    engine: wan
+    submitted: '2026-11-06T01:56:52Z'
+  clips/the-mains:
+    job: 64468
+    hash: c28605a03dc5
+    engine: wan
+    submitted: '2026-11-06T01:56:53Z'
+  clips/the-manifest:
+    job: 64469
+    hash: 194111e441fd
+    engine: wan
+    submitted: '2026-11-06T01:56:54Z'
+  clips/the-marginalia:
+    job: 64470
+    hash: 89e2a968772a
+    engine: wan
+    submitted: '2026-11-06T01:56:55Z'
+  clips/the-night-watch:
+    job: 64471
+    hash: d7560821a4b4
+    engine: wan
+    submitted: '2026-11-06T01:56:56Z'
+  clips/the-observation:
+    job: 64472
+    hash: 1e55e3860b08
+    engine: wan
+    submitted: '2026-11-06T01:56:57Z'
+  clips/the-parcel:
+    job: 64473
+    hash: c93046110187
+    engine: wan
+    submitted: '2026-11-06T01:56:58Z'
+  clips/the-permanent-collection:
+    job: 64474
+    hash: 96164d4288df
+    engine: wan
+    submitted: '2026-11-06T01:56:58Z'
+  clips/the-pleasant-island:
+    job: 64475
+    hash: 0c31797218cf
+    engine: wan
+    submitted: '2026-11-06T01:56:59Z'
+  clips/the-principal:
+    job: 64476
+    hash: 4260a4cea83d
+    engine: wan
+    submitted: '2026-11-06T01:57:00Z'
+  clips/the-proprietor:
+    job: 64477
+    hash: 7e211a81e2ea
+    engine: wan
+    submitted: '2026-11-06T01:57:01Z'
+  clips/the-provision:
+    job: 64478
+    hash: 2695e52a3455
+    engine: wan
+    submitted: '2026-11-06T01:57:02Z'
   sprites/the-catacomb:
     job: 64368
     hash: 2933b1d23507
     engine: krea2
     submitted: '2026-11-06T00:31:10Z'
-  sprites/the-cold-snap:
-    job: 64247
-    hash: 567c621925e9
-    engine: krea2
-    submitted: '2026-11-05T21:56:50Z'
-  sprites/the-committee:
-    job: 64248
-    hash: 2016a78c0b83
-    engine: krea2
-    submitted: '2026-11-05T21:56:50Z'
-  sprites/the-concern:
-    job: 64249
-    hash: a5adfa33b100
-    engine: krea2
-    submitted: '2026-11-05T21:56:51Z'
-  sprites/the-conservatory:
-    job: 64250
-    hash: 032cf50f1aba
-    engine: krea2
-    submitted: '2026-11-05T21:56:51Z'
-  sprites/the-consignment:
-    job: 64251
-    hash: 077aeed2db2d
-    engine: krea2
-    submitted: '2026-11-05T21:56:51Z'
-  sprites/the-continuance:
-    job: 64252
-    hash: 9a668f12ba1e
-    engine: krea2
-    submitted: '2026-11-05T21:56:52Z'
-  sprites/the-coronation:
-    job: 64253
-    hash: fff8ac62da0d
-    engine: krea2
-    submitted: '2026-11-05T21:56:52Z'
-  sprites/the-courier:
-    job: 64254
-    hash: 2b7d4680ab44
-    engine: krea2
-    submitted: '2026-11-05T21:56:53Z'
-  sprites/the-court:
-    job: 64255
-    hash: 2a7e949ff2a8
-    engine: krea2
-    submitted: '2026-11-05T21:56:53Z'
-  sprites/the-delivery:
-    job: 64256
-    hash: c482a1eeb435
-    engine: krea2
-    submitted: '2026-11-05T21:56:53Z'
-  sprites/the-doorkeeper:
-    job: 64257
-    hash: 4a7f9246dad9
-    engine: krea2
-    submitted: '2026-11-05T21:56:54Z'
-  sprites/the-double-entry:
-    job: 64258
-    hash: 293d84de95a8
-    engine: krea2
-    submitted: '2026-11-05T21:56:54Z'
-  sprites/the-downspout:
-    job: 64259
-    hash: 810b2e145c79
-    engine: krea2
-    submitted: '2026-11-05T21:56:55Z'
-  sprites/the-efflorescence:
-    job: 64260
-    hash: 5ee3031fae8a
-    engine: krea2
-    submitted: '2026-11-05T21:56:55Z'
-  sprites/the-endowment:
-    job: 64261
-    hash: a8a94e71d03e
-    engine: krea2
-    submitted: '2026-11-05T21:56:55Z'
-  sprites/the-enforcement:
-    job: 64262
-    hash: 9abf92edc714
-    engine: krea2
-    submitted: '2026-11-05T21:56:56Z'
-  sprites/the-enquiry-desk:
-    job: 64263
-    hash: 87b384371996
-    engine: krea2
-    submitted: '2026-11-05T21:56:56Z'
-  sprites/the-estimate:
-    job: 64264
-    hash: 2cf922fb329c
-    engine: krea2
-    submitted: '2026-11-05T21:56:56Z'
-  sprites/the-final-notice:
-    job: 64265
-    hash: 500cc9fb818b
-    engine: krea2
-    submitted: '2026-11-05T21:56:57Z'
-  sprites/the-first-demand:
-    job: 64266
-    hash: 832e10de5c56
-    engine: krea2
-    submitted: '2026-11-05T21:56:57Z'
-  sprites/the-fixture:
-    job: 64267
-    hash: 5616798a4a96
-    engine: krea2
-    submitted: '2026-11-05T21:56:58Z'
-  sprites/the-float:
-    job: 64268
-    hash: '481411979826'
-    engine: krea2
-    submitted: '2026-11-05T21:56:58Z'
-  sprites/the-foundation:
-    job: 64269
-    hash: fbb697eb5424
-    engine: krea2
-    submitted: '2026-11-05T21:56:58Z'
-  sprites/the-founding-rustfish:
-    job: 64270
-    hash: 63f10356e1fb
-    engine: krea2
-    submitted: '2026-11-05T21:56:59Z'
-  sprites/the-foyer:
-    job: 64271
-    hash: 60828969ac5f
-    engine: krea2
-    submitted: '2026-11-05T21:56:59Z'
-  sprites/the-freeholder:
-    job: 64272
-    hash: 30c8bd4cd204
-    engine: krea2
-    submitted: '2026-11-05T21:56:59Z'
-  sprites/the-glasshouse:
-    job: 64273
-    hash: 3d96dd98b2cb
-    engine: krea2
-    submitted: '2026-11-05T21:57:00Z'
-  sprites/the-guest-list:
-    job: 64274
-    hash: 6fca27c64226
-    engine: krea2
-    submitted: '2026-11-05T21:57:00Z'
-  sprites/the-harbors-due:
-    job: 64275
-    hash: 69d2eecde3a7
-    engine: krea2
-    submitted: '2026-11-05T21:57:01Z'
-  sprites/the-hold:
-    job: 64276
-    hash: 26677ad1c585
-    engine: krea2
-    submitted: '2026-11-05T21:57:01Z'
-  sprites/the-holotype:
-    job: 64277
-    hash: 18b701c32177
-    engine: krea2
-    submitted: '2026-11-05T21:57:01Z'
-  sprites/the-household:
-    job: 64278
-    hash: efd86ea1ad1b
-    engine: krea2
-    submitted: '2026-11-05T21:57:02Z'
-  sprites/the-inquiry:
-    job: 64279
-    hash: 388378da9355
-    engine: krea2
-    submitted: '2026-11-05T21:57:02Z'
-  sprites/the-inventory:
-    job: 64280
-    hash: 191be43aff4a
-    engine: krea2
-    submitted: '2026-11-05T21:57:02Z'
-  sprites/the-keyhole:
-    job: 64281
-    hash: 7fa111d1083a
-    engine: krea2
-    submitted: '2026-11-05T21:57:03Z'
-  sprites/the-long-consideration:
-    job: 64282
-    hash: fd9302f7c887
-    engine: krea2
-    submitted: '2026-11-05T21:57:03Z'
-  sprites/the-long-crossing:
-    job: 64283
-    hash: 95aa9d7ea239
-    engine: krea2
-    submitted: '2026-11-05T21:57:04Z'
-  sprites/the-long-office:
-    job: 64284
-    hash: '220253093864'
-    engine: krea2
-    submitted: '2026-11-05T21:57:04Z'
-  sprites/the-long-patience:
-    job: 64285
-    hash: f1d646160a54
-    engine: krea2
-    submitted: '2026-11-05T21:57:04Z'
-  sprites/the-long-study:
-    job: 64286
-    hash: a1fbc0d4f491
-    engine: krea2
-    submitted: '2026-11-05T21:57:05Z'
-  sprites/the-mains:
-    job: 64287
-    hash: 416cd83578af
-    engine: krea2
-    submitted: '2026-11-05T21:57:05Z'
-  sprites/the-manifest:
-    job: 64288
-    hash: 120bb82448a3
-    engine: krea2
-    submitted: '2026-11-05T21:57:05Z'
-  sprites/the-marginalia:
-    job: 64289
-    hash: 4f2f34d240df
-    engine: krea2
-    submitted: '2026-11-05T21:57:06Z'
-  sprites/the-night-watch:
-    job: 64290
-    hash: df9b212e1738
-    engine: krea2
-    submitted: '2026-11-05T21:57:06Z'
-  sprites/the-observation:
-    job: 64291
-    hash: 7ed6b0769689
-    engine: krea2
-    submitted: '2026-11-05T21:57:06Z'
-  sprites/the-parcel:
-    job: 64292
-    hash: 5a02f6a00493
-    engine: krea2
-    submitted: '2026-11-05T21:57:07Z'
-  sprites/the-permanent-collection:
-    job: 64293
-    hash: 1da24c9d4c0e
-    engine: krea2
-    submitted: '2026-11-05T21:57:07Z'
-  sprites/the-pleasant-island:
-    job: 64294
-    hash: e24b11bbd227
-    engine: krea2
-    submitted: '2026-11-05T21:57:08Z'
-  sprites/the-principal:
-    job: 64295
-    hash: 1f2f088e3727
-    engine: krea2
-    submitted: '2026-11-05T21:57:08Z'
-  sprites/the-proprietor:
-    job: 64296
-    hash: bd0f88fa1231
-    engine: krea2
-    submitted: '2026-11-05T21:57:08Z'
-  sprites/the-provision:
-    job: 64297
-    hash: 5175db5eee30
-    engine: krea2
-    submitted: '2026-11-05T21:57:09Z'
   sprites/the-quire:
     job: 64298
     hash: 9f582b55d878
