@@ -4,6 +4,114 @@ stale_groups:
 - sprites
 - clips
 hashes:
+  clips/bailiff-eel: 756fc6820686
+  clips/brass-tack-goby: 8bb4822f5451
+  clips/brine-courtiers: c97c95debb15
+  clips/candle-snail: 8abd49575b3e
+  clips/catfish-common: 7947ba189f42
+  clips/cellar-newt: 455c8c821202
+  clips/chandelier-lion: 862ea8dad47d
+  clips/choirfish: 4926cf3dc100
+  clips/crawdad-common: 221bf6a5ef11
+  clips/culvert-eel: 274235f105e6
+  clips/doorstep-whelk: 6a7268cceec8
+  clips/draught-stickleback: bd1fddf0deec
+  clips/drifting-bell: dcb209360733
+  clips/drowned-carp: 059cb32ea228
+  clips/elder-rustfish: e76c9ec43d61
+  clips/errand-guppy: aee417dbf714
+  clips/folding-fry: 7a0a5c74dada
+  clips/fractal-bloom: e53fb618acf7
+  clips/glass-shrimp: 354b102c15bf
+  clips/glass-weaver: e33749e1eda3
+  clips/gravel-tetra: 2472c782a865
+  clips/guppy-common: 17a485957abf
+  clips/gutter-minnow: 66c24280bcb3
+  clips/kitchen-perch: 9e729627785d
+  clips/lamplight-angler: 9d8e9ce2796b
+  clips/ledger-crab: cd5b7c19efbe
+  clips/lint-shrimp: 14c76d380196
+  clips/marsh-sovereign-crawdad: 8d94f41cb32c
+  clips/moebius-crab: 96e6dc692b74
+  clips/old-catfish: 322e19594161
+  clips/pane-limpet: b8ca8ff8ea64
+  clips/parlour-rustfish: 3ac9f3dc9102
+  clips/penny-bream: 6f9aa33d1fd5
+  clips/pier-blenny: b42964f95d01
+  clips/pin-shrimp: fd497fe13b9c
+  clips/portsmouth-bitterling: b47c49ef5e64
+  clips/postmark-snail: 52388c178aa0
+  clips/rain-barrel-roach: 4083e4d91d51
+  clips/rainbow-nudibranch: 837780b38962
+  clips/sardine-common: aa7fa3376a42
+  clips/sea-camel: 731a2140e6fa
+  clips/silt-loach: fc47a51d8adb
+  clips/skimmer-fry: c8be8597f2b2
+  clips/standpipe-goby: 10e3f37b67a2
+  clips/sump-blob: 0a6a8fcf43d2
+  clips/the-accumulation: a7ae2cd67d82
+  clips/the-aggregate: ed3d65c60b77
+  clips/the-almoner: 252f3b41c996
+  clips/the-annexation: 054e49380010
+  clips/the-antiphon: 42f2b1fe476a
+  clips/the-association: 51ba9454e7a5
+  clips/the-auditor: a860c603c25d
+  clips/the-backlog: 59f33312b79a
+  clips/the-balance: e6c7f368ed74
+  clips/the-bedding: 07c841f938ee
+  clips/the-catchment: e5f45b84c822
+  clips/the-census: 436d8b8eb171
+  clips/the-clerestory: 8601dacd687d
+  clips/the-cold-snap: ccb6b75a196b
+  clips/the-committee: 83a97f8a3f59
+  clips/the-conservatory: 45bade85945b
+  clips/the-consignment: b1205e26d6a1
+  clips/the-continuance: d9541b4f2050
+  clips/the-coronation: a791848c17f5
+  clips/the-courier: 27510b662753
+  clips/the-court: 2a9330a19b38
+  clips/the-delivery: 1258b56ffe8e
+  clips/the-doorkeeper: 4bd694ecb134
+  clips/the-double-entry: d145a3a5f5ee
+  clips/the-downspout: 41e63fc36be0
+  clips/the-efflorescence: b370f5cd3f6f
+  clips/the-endowment: bc379810079a
+  clips/the-enforcement: 15444472b3f4
+  clips/the-enquiry-desk: fc523432e195
+  clips/the-estimate: e3ec2b89640d
+  clips/the-final-notice: 40cf7abc0293
+  clips/the-first-demand: 0ed1a61c1ff8
+  clips/the-fixture: d3faa86fd9d3
+  clips/the-float: cd9597d3cefc
+  clips/the-foundation: 3376b813fb13
+  clips/the-founding-rustfish: a26cd256620c
+  clips/the-foyer: d36580776a3b
+  clips/the-freeholder: f746eb909bc9
+  clips/the-glasshouse: 641e95a38843
+  clips/the-guest-list: 0b5b0bd931a5
+  clips/the-harbors-due: c54ecd759a7b
+  clips/the-hold: 9f9751d588e0
+  clips/the-holotype: 951e04e2dc5f
+  clips/the-household: 369a8bb4723c
+  clips/the-inquiry: a1b481d29300
+  clips/the-inventory: 61da7200fa25
+  clips/the-keyhole: bdc2de806fcc
+  clips/the-long-consideration: afe1b948bc9f
+  clips/the-long-crossing: 304adc3a2ff8
+  clips/the-long-office: 7cb9ba3733cd
+  clips/the-long-patience: e0e45351bf4c
+  clips/the-long-study: e64d3f1ade4b
+  clips/the-mains: c28605a03dc5
+  clips/the-manifest: 194111e441fd
+  clips/the-marginalia: 89e2a968772a
+  clips/the-night-watch: d7560821a4b4
+  clips/the-observation: 1e55e3860b08
+  clips/the-parcel: c93046110187
+  clips/the-permanent-collection: 96164d4288df
+  clips/the-pleasant-island: 0c31797218cf
+  clips/the-principal: 4260a4cea83d
+  clips/the-proprietor: 7e211a81e2ea
+  clips/the-provision: 2695e52a3455
   sprites/bailiff-eel: c32bbe1d1e4b
   sprites/brass-tack-goby: bc65539592d8
   sprites/brine-courtiers: 11cf9df12378
@@ -59,13 +167,13 @@ hashes:
   sprites/the-backlog: b28e473d2e49
   sprites/the-balance: 0db142433378
   sprites/the-bedding: 452f2b6e7570
-  sprites/the-catacomb: ff6fd0f7d864
+  sprites/the-catacomb: 2933b1d23507
   sprites/the-catchment: 977766174b04
   sprites/the-census: ee66de73f0cc
   sprites/the-clerestory: d711fa56f4a9
   sprites/the-cold-snap: 567c621925e9
   sprites/the-committee: 2016a78c0b83
-  sprites/the-concern: a5adfa33b100
+  sprites/the-concern: 09e831d17098
   sprites/the-conservatory: 032cf50f1aba
   sprites/the-consignment: 077aeed2db2d
   sprites/the-continuance: 9a668f12ba1e
@@ -114,6 +222,47 @@ hashes:
   sprites/the-principal: 1f2f088e3727
   sprites/the-proprietor: bd0f88fa1231
   sprites/the-provision: 5175db5eee30
+  sprites/the-quire: 9f582b55d878
+  sprites/the-reading-bell: 4679987d5b94
+  sprites/the-reading-room: 70b88904c843
+  sprites/the-receiving-line: 7e5fcc774433
+  sprites/the-reckoning: 2ca627951316
+  sprites/the-reconciliation: 0e5a84ab69c7
+  sprites/the-round: d0a20c944004
+  sprites/the-sconce: 80f67b77b47a
+  sprites/the-second-notice: aea8387a1efd
+  sprites/the-seven-lights: 77d38d747565
+  sprites/the-sexton: bf50b7d887b0
+  sprites/the-silence: 3ade553b787f
+  sprites/the-single-fish: 28e83d60e440
+  sprites/the-small-hours: 77d6a2f0bfaf
+  sprites/the-spectacle: 34bae5de6757
+  sprites/the-stocktake: 494b9fdd6fc0
+  sprites/the-subscription: 717bee4c2ab2
+  sprites/the-substrate: 2c73795ee3c1
+  sprites/the-summons: 943b6f75b269
+  sprites/the-tenant: 19726ab3d03c
+  sprites/the-testimony: b9556ff34995
+  sprites/the-threshold: 07f50c5f4829
+  sprites/the-type-specimen: f7060281809e
+  sprites/the-undercroft: b54f128de4e9
+  sprites/the-undercurrent: 1ea33349f2f5
+  sprites/the-understone: a6964071d8c4
+  sprites/the-understudy: 11e6ceacc4b5
+  sprites/the-unlidded-rustfish: b21a804a34b6
+  sprites/the-usher: 216960b8b4b8
+  sprites/the-verger: df65d57b326f
+  sprites/the-vespers: f32706a06985
+  sprites/the-vigil: 0d5bc2f64a8d
+  sprites/the-vitrine: 19096fc45eeb
+  sprites/the-waiting-list: 051bceee55ed
+  sprites/the-waterline: 1bd5d0114ed5
+  sprites/the-watershed: fd1b7dce9631
+  sprites/the-welcome: c5f6ef6044bd
+  sprites/thumbnail-dace: 4e98ca8117c0
+  sprites/till-minnow: f4459c1d5e75
+  sprites/tithe-shoal: 23638ac663bd
+  sprites/wrapping-sole: 9dccb4a7a74e
   ui/capacity: f0fa39006a8e
   ui/coin: 8d1a92f12b07
   ui/corner-ornament: 9d0ab7bffb77
