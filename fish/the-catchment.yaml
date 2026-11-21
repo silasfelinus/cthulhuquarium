@@ -6,7 +6,7 @@ field_note: >
   Collects from an area substantially larger than the premises. The boundary has been
   surveyed once and the survey is not on file.
 quirks: >
-  Rain falling on the street is in the tank within the hour, whatever the weather indoors.
+  When it rains anywhere in the building, it is in the tank within the hour, whatever the weather indoors.
 alignment: gathering
 rarity: LEGENDARY
 stats:
@@ -47,8 +47,8 @@ sprite:
     backdrop, even soft light, strong crisp silhouette
 voices:
   charlotte: >-
-    The whole weather of the town, gathered into one tank for you. Like having a
+    All the weather in the building, gathered into one tank for you. Like having a
     view, only wetter, and so much more your own.
   wilbur: >-
-    Leave headroom on rainy days, whatever it's doing indoors. Check the street
+    Leave headroom on rainy days, whatever it's doing indoors. Check the gutters
     before you top up, and keep a bucket by the stand.

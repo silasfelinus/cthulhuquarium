@@ -3,7 +3,7 @@ name: Portsmouth Bitterling
 species: Rhodeus portus
 class: minnow
 field_note: >
-  Named for the town, which has not been consulted. Charlotte considers the association
+  Named for the wreck it was found in, which has not been consulted. Charlotte considers the association
   settled.
 quirks: >
   Spawns only inside the shell of something else, and is not particular about whether it
@@ -52,4 +52,4 @@ voices:
   charlotte: >-
     Our very own Portsmouth fish, in rose and violet. So wonderfully sociable; it makes friends with everyone who has a shell.
   wilbur: >-
-    Check your snails at breeding time. If one is moving slower than usual, it's carrying lodgers.
+    Check your snails now and then. If one is moving slower than usual, it's carrying lodgers.

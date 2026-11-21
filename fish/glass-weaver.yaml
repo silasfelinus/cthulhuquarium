@@ -3,7 +3,7 @@ name: Glass Weaver
 species: Pycnogonum scribens
 class: anomaly
 field_note: >
-  Its web has never caught anything. Staff report that it appears to be writing.
+  Its web has never caught anything. It is rebuilt each night to a slightly different plan.
 quirks: >
   Rebuilds nightly. No two arrangements have repeated.
 alignment: attentive
@@ -48,4 +48,4 @@ voices:
   charlotte: >-
     An artist in residence. Every morning a fresh composition in glass thread, and never the same one twice. Collectors travel miles for this.
   wilbur: >-
-    Don't clean the web away; it's rebuilt by morning regardless. I copy each one into the notebook before it goes. I don't read them. I just copy them.
+    Don't clean the web away; it's rebuilt by morning regardless. I draw each one into the notebook before it goes.
