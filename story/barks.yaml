@@ -96,7 +96,7 @@ barks:
     speaker: charlotte
     pose: delighted
     lines:
-      - Sold back to the house, lovely. It will be in somebody else's tank by teatime, and ever so happy.
+      - Sold back to the house, darling. It will be in somebody else's tank by teatime, and ever so happy.
       - Back it comes. The shelf had been missing it terribly, and the shelf is so rarely wrong.
       - A wonderful price. I would have paid double, frankly, but it would be rude to say so.
       - No fretting, darling; nothing that comes through this shop is ever really gone. It only changes tanks.
@@ -151,7 +151,7 @@ barks:
       - Clean glass, clean gravel. The coins come up quicker now; I don't know why, but they always do.
       - Nice work. Everything on the bottom is back where it belongs, or at least somewhere I can find it.
       - There were teeth in that lot, not from anyone we've got. I'll keep them in a jar.
-      - Leave the bit of scum on the far side. Something's laid in it, and I'd rather it hatched first.
+      - Leave the bit of scum on the far side. Something's living in it, and I'd rather not evict it.
       - That's the bottom back to gravel. It won't last, it never does, and that's all right.
       - The water's so clear you can see the shy ones now. They're doing fine.
 
@@ -188,7 +188,7 @@ barks:
       - They're only startled. That one's pretending to be a rock, and it's quite good at it.
       - Give them a minute; the small ones come back first. The big one comes back when it's ready.
       - I know it's tempting. I tapped once, my first week, and it tapped back.
-      - Th-they're fine. Just keep your face a little way back from the front for a moment.
+      - Th-they're fine. They just want a bit of quiet for a moment.
 
   welcome_back:
     speaker: charlotte

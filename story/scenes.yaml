@@ -87,7 +87,7 @@ scenes:
         pose: welcome
         text: >-
           Come in, come in, out of all that. Whatever it is out there, it will keep.
-          Everything out is in, as we say.
+          Do wipe your feet, darling; the floor has only just settled.
       - speaker: charlotte
         pose: presenting
         plate: charlotte-fishmonger-hero
@@ -132,7 +132,7 @@ scenes:
         focus: clean
         text: >-
           Things settle on the bottom. Some of it is gravel. When the meter fills up,
-          Clean brings it back down, and they work better for it.
+          Press Clean and it comes back down, and they work better for it.
       - speaker: charlotte
         pose: presenting
         focus: shop
@@ -151,8 +151,8 @@ scenes:
           The more of them you know, the more of the building opens up to you. There are
           floors below this one, darling, and I have the keys to all of them.
       - speaker: wilbur
-        pose: wince
-        text: I'll be in the back. Do call if anything gets out.
+        pose: explaining
+        text: I'll be in the back. Shout if anything gets out.
 
   first_unlock:
     title: The First Purchase
@@ -166,7 +166,7 @@ scenes:
           Your first purchase. I remember mine. Wilbur will carry it out; Wilbur carries
           everything out.
       - speaker: wilbur
-        pose: wince
+        pose: explaining
         text: It's in. It's settling. Maybe give the glass a minute before you tap it.
 
   bestiary_complete:
@@ -181,7 +181,7 @@ scenes:
           them all. I have been waiting years for someone like you.
       - speaker: wilbur
         pose: hopeful
-        text: The book's full. I didn't think anyone would. Thank you for looking after them.
+        text: The book's full. I didn't think anyone would fill it. Thank you for looking after them.
 
   # --- The finale's own scene: plays once, after The Last Aquarium is bought and its
   # reveal is dismissed. It IS the finale, so it is the one place that may follow it.
@@ -200,8 +200,8 @@ scenes:
       - speaker: wilbur
         pose: alarmed
         text: >-
-          Did something just go past the window? Something large? I'll write it down
-          exactly as it happened.
+          Did something just go past the window? Something large? I'll start
+          a new page.
       - speaker: charlotte
         pose: presenting
         text: >-
@@ -240,7 +240,7 @@ scenes:
       - speaker: charlotte
         pose: delighted
         text: >-
-          Ten. Now you are a regular, and regulars are shown downstairs. The key to Below
+          Now you are a regular, and regulars are shown downstairs. The key to Below
           Stairs, darling. Mind the third step; it is not always there.
       - speaker: wilbur
         pose: explaining
@@ -320,7 +320,7 @@ scenes:
       - speaker: charlotte
         pose: delighted
         text: >-
-          Twenty-five. The Sorting Office. Everything that was ever posted here arrived
+          The Sorting Office. Everything that was ever posted here arrived
           eventually. Some of it is still arriving.
       - speaker: charlotte
         pose: presenting
@@ -336,7 +336,7 @@ scenes:
       - speaker: wilbur
         pose: explaining
         text: >-
-          Everything in the Wing was posted to us. Some of them still have the stamps on.
+          Some of them still have their stamps on. I've never found a postmark I recognised.
         choices:
           - id: who-posted-them
             label: Who posted them?
@@ -377,8 +377,8 @@ scenes:
       - speaker: charlotte
         pose: lorgnette
         text: >-
-          Thirty-five. The Counting House. Every account in it balances. I had it
-          audited, and then I had the auditor put in a tank.
+          Thirty-five. The Counting House. Every account in it balances to the
+          farthing, darling, including several accounts nobody ever opened.
 
   milestone_bestiary_50:
     title: The Conservatory
@@ -389,7 +389,7 @@ scenes:
       - speaker: charlotte
         pose: presenting
         text: >-
-          Fifty, darling. Fifty. The Conservatory is yours. It was built to keep the
+          There, darling. The Conservatory is yours. It was built to keep the
           weather out and it has been keeping the water in ever since.
       - speaker: charlotte
         pose: confiding
@@ -421,7 +421,7 @@ scenes:
               - speaker: wilbur
                 pose: hopeful
                 text: >-
-                  Thank you. Most people run the last bit. You don't need to. Nothing in
+                  Thank you. You don't need to hurry. Nothing in
                   there is in a hurry.
           - id: your-mother
             label: What was your mother like, Charlotte?
@@ -463,12 +463,12 @@ scenes:
       - speaker: charlotte
         pose: presenting
         text: >-
-          Ninety-five. The Plain, from the very bottom of things. We had it brought up
+          The Plain, from the very bottom of things. We had it brought up
           in one piece. It was the only way it would come.
       - speaker: charlotte
         pose: confiding
         text: >-
-          There is no key for the last floor, darling. There never was a door. You simply
+          That was the last key, darling, and it opens nothing; there never was a door. You simply
           keep going down until the stairs stop, and then you are there.
       - speaker: wilbur
         pose: explaining
@@ -499,8 +499,8 @@ scenes:
               - speaker: charlotte
                 pose: delighted
                 text: >-
-                  Darling, I grew up down there. It is where the Fishmongers keep the
-                  very best stock, and I was always the very best stock.
+                  Darling, I was never let past the last landing. Mother said some
+                  places are better as stories, and she told the best ones.
       - speaker: charlotte
         pose: presenting
         text: >-
@@ -528,7 +528,7 @@ scenes:
       - speaker: charlotte
         pose: presenting
         text: >-
-          All of them. The Reading Room, where the book is kept. You belong in it now.
+          The Reading Room, darling, where the book is kept. Every page in it is yours.
       - speaker: wilbur
         pose: hopeful
         text: I've put a chair in for you. By the lamp. It's the good chair.
@@ -563,8 +563,8 @@ scenes:
       - speaker: charlotte
         pose: lorgnette
         text: >-
-          Expansion. How marvellous. Have the Hatchery, darling; it is where we keep the
-          ones that have not decided yet.
+          Expansion. How marvellous. Have the Hatchery, darling; it is where the shy
+          ones go until they feel like being looked at.
 
   milestone_first_spotless_tank:
     title: The Scullery
@@ -573,10 +573,10 @@ scenes:
     beats:
       - speaker: charlotte
         pose: delighted
-        text: Spotless. I could eat off it. Have the Scullery, you clearly know what to do with one.
+        text: Spotless. I could eat off it. Have the Scullery; you clearly know what to do with one.
       - speaker: wilbur
         pose: hopeful
-        text: It looked really good. I noticed.
+        text: It looked properly clean. The fish noticed too.
 
   milestone_first_rivalry_resolved:
     title: The Duelling Ground

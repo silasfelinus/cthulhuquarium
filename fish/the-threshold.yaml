@@ -3,7 +3,7 @@ name: The Threshold
 species: not applicable
 class: anomaly
 field_note: >
-  Everything out is in. This is the part of the building that decides.
+  Everything stops at the door. This is the part of the building that decides.
 quirks: >
   The doorway it occupies is a different width depending on which side it is measured from.
 alignment: liminal
