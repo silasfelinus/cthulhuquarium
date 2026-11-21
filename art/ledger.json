@@ -1975,9 +1975,9 @@
   "raw": true,
   "built": "characters/portraits/wilbur-stint-explaining-f2.webp",
   "bundled": "assets/images/cthulhuquarium/portraits/wilbur-stint-explaining-f2.webp",
-  "bundled_present": false,
+  "bundled_present": true,
   "bound": "scene pose (floor 2)",
-  "done": false
+  "done": true
  },
  {
   "key": "portraits/wilbur-stint-wince-f2",
@@ -2023,9 +2023,9 @@
   "raw": true,
   "built": "characters/portraits/wilbur-stint-greeting-f3.webp",
   "bundled": "assets/images/cthulhuquarium/portraits/wilbur-stint-greeting-f3.webp",
-  "bundled_present": false,
+  "bundled_present": true,
   "bound": "scene pose (floor 3)",
-  "done": false
+  "done": true
  },
  {
   "key": "portraits/wilbur-stint-explaining-f3",
@@ -2047,9 +2047,9 @@
   "raw": true,
   "built": "characters/portraits/wilbur-stint-wince-f3.webp",
   "bundled": "assets/images/cthulhuquarium/portraits/wilbur-stint-wince-f3.webp",
-  "bundled_present": false,
+  "bundled_present": true,
   "bound": "scene pose (floor 3)",
-  "done": false
+  "done": true
  },
  {
   "key": "portraits/wilbur-stint-hopeful-f3",
@@ -2083,9 +2083,9 @@
   "raw": true,
   "built": "characters/portraits/wilbur-stint-greeting-f4.webp",
   "bundled": "assets/images/cthulhuquarium/portraits/wilbur-stint-greeting-f4.webp",
-  "bundled_present": false,
+  "bundled_present": true,
   "bound": "scene pose (floor 4)",
-  "done": false
+  "done": true
  },
  {
   "key": "portraits/wilbur-stint-explaining-f4",
@@ -2167,9 +2167,9 @@
   "raw": true,
   "built": "characters/portraits/wilbur-stint-wince-f5.webp",
   "bundled": "assets/images/cthulhuquarium/portraits/wilbur-stint-wince-f5.webp",
-  "bundled_present": false,
+  "bundled_present": true,
   "bound": "scene pose (floor 5)",
-  "done": false
+  "done": true
  },
  {
   "key": "portraits/wilbur-stint-hopeful-f5",
