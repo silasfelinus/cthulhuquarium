@@ -106,3 +106,30 @@ art:
         waist-up portrait of {base}, eyes wide with alarm behind his spectacles, leaning
         back, his long hair swinging, the net raised defensively across his body,
         {medium}, isolated on a plain flat pale grey studio backdrop, even soft light
+  # The descent (conductor t-103, Silas 2026-11-21: "Yes, escalate"). One set of the
+  # five dialogue poses per floor below the Shop Floor, each adding to the one above
+  # it, so the deeper the player has gone, the more Wilbur has been through. The
+  # pictures are the only place this is told. No line in scenes.yaml or barks.yaml ever
+  # mentions it, and kind_robots' canon test lints for it.
+  #
+  # render_art.py renders `<pose>` with {base} extended by every `adds` up to that
+  # floor, to characters/raw/wilbur-stint-<pose>-f<N>.webp; build_story_art.py cuts
+  # them out like the base poses; kind_robots picks the deepest variant at or above
+  # the player's open floor and falls back to the base pose until it is rendered.
+  floor_variants:
+    2:
+      adds: >-
+        a fresh square of white gauze taped over his left eyebrow, a second sticking
+        plaster across the bridge of his nose
+    3:
+      adds: >-
+        a crepe bandage wound around his throat, a row of small round red sucker-mark
+        bruises along his jaw
+    4:
+      adds: >-
+        a folded white gauze pad taped over his left eye behind the cracked spectacles,
+        his left wrist strapped in a tight bandage
+    5:
+      adds: >-
+        a clean white bandage wrapped once around his head above the ears with the long
+        lank hair escaping beneath it, a fresh dressing on his right cheek

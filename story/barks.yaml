@@ -47,17 +47,6 @@ barks:
       - Everything is for sale, darling, everything. I have never once been sentimental about stock.
       - A new face on the top shelf, or a new arrangement of faces. It's settling in beautifully.
 
-  eggs:
-    speaker: charlotte
-    pose: presenting
-    lines:
-      - A common egg, darling. Common because everyone adores them, and because they simply will not stop arriving.
-      - An uncommon egg. A little warmer than the others, and a little smug about it.
-      - A rare egg; hold it to your ear, if you like. Most people only do that the once.
-      - An epic egg. It came with a great deal of paperwork, and I had all of it burned; so much tidier.
-      - A legendary egg. We keep it on velvet; it refuses anything less, and who are we to argue?
-      - Our mythic egg. Nobody is quite sure who laid it, and I think that is terribly romantic.
-
   sets:
     speaker: charlotte
     pose: presenting

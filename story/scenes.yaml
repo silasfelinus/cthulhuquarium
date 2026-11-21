@@ -6,20 +6,51 @@
 # screens, and at milestone interstitials -- "a milestone does not unlock a background;
 # a milestone causes Charlotte to appear, and she gives you the background."
 #
-# This file is the canon. kind_robots renders it (utils/cthulhuquariumStory.ts mirrors
-# it -- regenerate with scripts/sync_cthulhuquarium_story.mjs there, never hand-edit
-# the mirror).
+# Silas, 2026-11-21 (conductor t-102/t-103): "a really important thing is the overall
+# experience, how well we handle the style of the conversations, use the character
+# models for interstitial storytelling, and have a clear narrative progression, with
+# increasingly weirder and more interesting fish." So the game is now a DESCENT: five
+# floors of Charlotte's building, one per fish tier, each opened by a bestiary
+# milestone (kind_robots utils/cthulhuquariumFloors.ts):
+#
+#   I    The Shop Floor        open from the start   (tier 1)
+#   II   Below Stairs          10 species known      (tier 2)
+#   III  The Flooded Wing      25                    (tier 3)
+#   IV   The Conservatory      50                    (tier 4)
+#   V    The Bottom of Things  95                    (tier 5)
+#
+# The running thread is small and physical: Charlotte hands over a key to each floor
+# (her mother's, for the Conservatory; no key at all for the bottom), and Wilbur goes
+# down first with the lamp and comes to trust the player. The rooms tell the story;
+# nobody explains them. Wilbur's portraits change from floor to floor
+# (characters/wilbur-stint.yaml art.floor_variants). No line ever mentions it.
+#
+# This file is the canon. kind_robots renders it (utils/cthulhuquariumCanon.generated.ts
+# mirrors it -- regenerate with scripts/sync_cthulhuquarium_canon.mjs there, never
+# hand-edit the mirror).
 #
 # SHAPE
-#   scenes.<id>.trigger    what fires it (intro | first_* | milestone:<id> | ...)
-#   scenes.<id>.plate      optional full-width scene plate shown above the dialogue
+#   scenes.<id>.title      the scene's name in the Memory Book (required)
+#   scenes.<id>.trigger    what fires it (intro | milestone:<id> | floor_first:<n> |
+#                          finale | bestiary_complete | ...)
+#   scenes.<id>.floor      optional 1-5: the floor this scene belongs to; its
+#                          background is the backdrop when the scene has no plate
+#   scenes.<id>.plate      optional full-width scene plate shown behind the dialogue
 #   scenes.<id>.background milestone scenes only: the background Charlotte hands over
 #   scenes.<id>.beats[]    speaker (charlotte|wilbur), pose (see POSES), text,
 #                          focus (optional UI target to highlight),
 #                          await (optional player action that advances the beat),
 #                          plate (optional: this beat's plate, replacing the scene's;
 #                          `<character-slug>-hero` shows that character's full-length
-#                          moving portrait, videos/videos.yaml, as an upright card)
+#                          moving portrait, videos/videos.yaml, as an upright card),
+#                          choices (optional, floor-opening scenes only; see below)
+#
+# CHOICES -- the player's only lines in the game. Floor-opening scenes carry exactly one
+# choice beat: its text is spoken, then the player picks one of 2-3 short replies, then
+# that reply's 1-2 beats play, then the scene carries on. A reply changes the next line,
+# never the plot. Replies are the player's voice: short, plain, curious or kind.
+#   choices[]: id (kebab-case, unique in the scene), label (the player's line),
+#              reply[] (1-2 beats; speaker/pose/text only -- no focus, await or choices)
 #
 # POSES -- each is a cut-out dialogue portrait (characters/*.yaml, art: portraits):
 #   charlotte: welcome, delighted, presenting, confiding, lorgnette
@@ -32,11 +63,15 @@
 #     stutter is characterisation and never the reason a line is funny. The joke lands
 #     on the situation or on Charlotte, never on him. He never mentions his injuries.
 #   - Nobody hints at the finale. Nobody references the book their names come from.
+#     No line gestures at the glass, at being watched, or at who is kept.
+#   - Outside is never shown, named, dated or explained.
 #   - Short. A voice that speaks too often becomes a tooltip.
 
 scenes:
   intro:
+    title: The Arrival
     trigger: intro
+    floor: 1
     plate: screen-arrival
     # The intro walks the player through their first purchase, so it stands in for
     # first_unlock; that scene is marked seen when the intro finishes.
@@ -107,14 +142,16 @@ scenes:
       - speaker: charlotte
         pose: confiding
         text: >-
-          The more of them you know, the more of the building opens up to you. I shall
-          be around. I am always around.
+          The more of them you know, the more of the building opens up to you. There are
+          floors below this one, darling, and I have the keys to all of them.
       - speaker: wilbur
         pose: wince
         text: I'll be in the back. Do call if anything gets out.
 
   first_unlock:
+    title: The First Purchase
     trigger: first_unlock
+    floor: 1
     plate: screen-first-unlock
     beats:
       - speaker: charlotte
@@ -126,31 +163,8 @@ scenes:
         pose: wince
         text: It's in. It's settling. Maybe give the glass a minute before you tap it.
 
-  first_hatch:
-    trigger: first_hatch
-    plate: screen-first-hatch
-    beats:
-      - speaker: charlotte
-        pose: delighted
-        text: A birth, in my shop. Somebody fetch a ribbon.
-      - speaker: wilbur
-        pose: hopeful
-        text: >-
-          It hatched healthy. They mostly hatch as what was in the egg. This one did.
-          I checked twice.
-
-  first_breed:
-    trigger: first_breed
-    plate: screen-first-breed
-    beats:
-      - speaker: wilbur
-        pose: alarmed
-        text: They've made another one. I was there for it. I'll write it up properly.
-      - speaker: charlotte
-        pose: confiding
-        text: Love, darling. It comes for all of us in the end.
-
   bestiary_complete:
+    title: Every One
     trigger: bestiary_complete
     plate: screen-bestiary-complete
     beats:
@@ -163,12 +177,40 @@ scenes:
         pose: hopeful
         text: The book's full. I didn't think anyone would. Thank you for looking after them.
 
+  # --- The finale's own scene: plays once, after The Last Aquarium is bought and its
+  # reveal is dismissed. It IS the finale, so it is the one place that may follow it.
+  # Charlotte and Wilbur are still not in on anything: she is delighted with a sale, he
+  # saw something and will write it down. The tank carries on; the game never ends.
+  after_the_last_aquarium:
+    title: After the Last Aquarium
+    trigger: finale
+    plate: screen-after-the-last-aquarium
+    beats:
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          The Last Aquarium, darling. Sold. I have been saving it for years, and I could
+          not have wished it a better home.
+      - speaker: wilbur
+        pose: alarmed
+        text: >-
+          Did something just go past the window? Something large? I'll write it down
+          exactly as it happened.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Do carry on, darling. Nothing has changed, and nothing ever needs to. The tank
+          is yours for as long as you like, and here that is a very long time.
+
   # --- Milestone interstitials: Charlotte appears and hands over a background. -----
   # One per economy.yaml milestone. `background` names an entry in
-  # backgrounds/backgrounds.yaml.
+  # backgrounds/backgrounds.yaml. bestiary_10/25/50/95 also open a floor, so they are
+  # the floor-opening scenes: longer, with the player's one reply.
 
   milestone_bestiary_5:
+    title: The Kelp Stair
     trigger: milestone:bestiary_5
+    floor: 1
     plate: screen-milestone-kelp-stair
     background: kelp-stair
     beats:
@@ -177,17 +219,68 @@ scenes:
         text: >-
           Five species. You have a collector's eye. Have the Kelp Stair, and a little
           more room besides. It was my mother's; she won't be needing it.
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          It goes down further than it looks. We don't use it. There are proper stairs,
+          and you'll get the key to those soon enough.
+
   milestone_bestiary_10:
+    title: Below Stairs
     trigger: milestone:bestiary_10
+    floor: 2
     background: sunken-pantry
     beats:
       - speaker: charlotte
         pose: delighted
         text: >-
-          Ten. Now you are a regular. Regulars get the Pantry. Everything in it was put
+          Ten. Now you are a regular, and regulars are shown downstairs. The key to Below
+          Stairs, darling. Mind the third step; it is not always there.
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          I'll go first with the lamp. It's only the old pantry. Everything in it was put
           by for a winter that went on longer than expected.
+      - speaker: wilbur
+        pose: hopeful
+        text: >-
+          The ones down here are a little less like fish than the ones upstairs. Not
+          much. You'll see.
+        choices:
+          - id: lead-the-way
+            label: Lead the way.
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: >-
+                  Right. Stay where the lamp is. They like the lamp; they don't like
+                  surprises.
+          - id: less-like-fish
+            label: Less like fish how?
+            reply:
+              - speaker: wilbur
+                pose: explaining
+                text: >-
+                  Extra fins, mostly. One has a lid. They're all very well behaved, as
+                  long as you count them going in and count them coming out.
+          - id: is-it-safe
+            label: Is it safe down there?
+            reply:
+              - speaker: charlotte
+                pose: delighted
+                text: >-
+                  Perfectly, darling. Wilbur has been up and down those stairs for
+                  years, and he always comes back up.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          The Pantry is yours, for the tank, and the stock from downstairs is in the shop
+          from today. Do choose something; they have been waiting very patiently.
+
   milestone_bestiary_15:
+    title: The Drowned Chapel
     trigger: milestone:bestiary_15
+    floor: 2
     background: drowned-chapel
     beats:
       - speaker: charlotte
@@ -198,8 +291,11 @@ scenes:
       - speaker: wilbur
         pose: explaining
         text: They like the pews. Leave them the pews.
+
   milestone_bestiary_20:
+    title: The Wreck of the Portsmouth
     trigger: milestone:bestiary_20
+    floor: 2
     plate: screen-milestone-portsmouth
     background: wreck-of-the-portsmouth
     beats:
@@ -208,8 +304,11 @@ scenes:
         text: >-
           Twenty. You may have the Portsmouth. The Fishmongers' own ship. It went down
           with all our best stock, and the stock has been doing splendidly since.
+
   milestone_bestiary_25:
+    title: The Flooded Wing
     trigger: milestone:bestiary_25
+    floor: 3
     background: sorting-office
     beats:
       - speaker: charlotte
@@ -217,8 +316,56 @@ scenes:
         text: >-
           Twenty-five. The Sorting Office. Everything that was ever posted here arrived
           eventually. Some of it is still arriving.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Which means you are ready for the Flooded Wing. Another key, darling, the green
+          one. It has always been green.
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          The water comes up to the second landing in this part. It isn't a leak. It was
+          like this when the building came, and it hasn't got any higher, so I don't mind
+          it.
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          Everything in the Wing was posted to us. Some of them still have the stamps on.
+        choices:
+          - id: who-posted-them
+            label: Who posted them?
+            reply:
+              - speaker: charlotte
+                pose: confiding
+                text: >-
+                  Oh, everyone, darling. Every parcel is addressed to the Fishmongers,
+                  and the Fishmongers have never once refused a delivery.
+          - id: the-stamps
+            label: Can I see the stamps?
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: >-
+                  I'll steam one off for the book. Carefully. They don't care for the
+                  kettle.
+          - id: wade-in
+            label: I'll wade in after you.
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: >-
+                  Thank you. It's easier with two. One of us holds the lamp and the other
+                  one counts.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          The Wing's stock is in the shop from today, and the Sorting Office is yours for
+          the tank. Do sign for everything, darling. It makes them feel wanted.
+
   milestone_bestiary_35:
+    title: The Counting House
     trigger: milestone:bestiary_35
+    floor: 3
     background: counting-house
     beats:
       - speaker: charlotte
@@ -226,8 +373,11 @@ scenes:
         text: >-
           Thirty-five. The Counting House. Every account in it balances. I had it
           audited, and then I had the auditor put in a tank.
+
   milestone_bestiary_50:
+    title: The Conservatory
     trigger: milestone:bestiary_50
+    floor: 4
     background: flooded-conservatory
     beats:
       - speaker: charlotte
@@ -235,8 +385,57 @@ scenes:
         text: >-
           Fifty, darling. Fifty. The Conservatory is yours. It was built to keep the
           weather out and it has been keeping the water in ever since.
+      - speaker: charlotte
+        pose: confiding
+        text: >-
+          Nobody has been through to the far end since my mother. This was her key. I
+          have worn it ever since, for luck, and it has been tremendously lucky for me.
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          Things grow in there that aren't plants. They grow towards the lamp, so I'll
+          keep it low. It's very peaceful if you walk slowly.
+      - speaker: wilbur
+        pose: hopeful
+        text: >-
+          The ones from the Conservatory are the ones I like best. They take a while to
+          get used to. Then you can't imagine the tank without them.
+        choices:
+          - id: your-favourite
+            label: Which one is your favourite?
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: >-
+                  I'm not supposed to have favourites. There's one that hums when I come
+                  in. I'll let you work out which.
+          - id: walk-slowly
+            label: We'll walk slowly.
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: >-
+                  Thank you. Most people run the last bit. You don't need to. Nothing in
+                  there is in a hurry.
+          - id: your-mother
+            label: What was your mother like, Charlotte?
+            reply:
+              - speaker: charlotte
+                pose: delighted
+                text: >-
+                  Magnificent, darling. She sang, she kept the books, and she never once
+                  came back up without something new for the shop. I take after her in
+                  every way.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          The Conservatory's stock is in the shop from today. Choose whatever reaches for
+          you first.
+
   milestone_bestiary_70:
+    title: The Catacomb
     trigger: milestone:bestiary_70
+    floor: 4
     background: catacomb
     beats:
       - speaker: charlotte
@@ -247,8 +446,11 @@ scenes:
       - speaker: wilbur
         pose: wince
         text: I've put down fresh gravel. It keeps getting rearranged.
+
   milestone_bestiary_95:
+    title: The Bottom of Things
     trigger: milestone:bestiary_95
+    floor: 5
     background: abyssal-plain
     beats:
       - speaker: charlotte
@@ -256,8 +458,52 @@ scenes:
         text: >-
           Ninety-five. The Plain, from the very bottom of things. We had it brought up
           in one piece. It was the only way it would come.
+      - speaker: charlotte
+        pose: confiding
+        text: >-
+          There is no key for the last floor, darling. There never was a door. You simply
+          keep going down until the stairs stop, and then you are there.
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          I don't take the lamp past the last landing. It doesn't help, down there. They
+          make their own light, and it's better than ours.
+      - speaker: wilbur
+        pose: hopeful
+        text: >-
+          I've never brought anyone this far. I'm glad it's you. You've looked after every
+          one of them properly.
+        choices:
+          - id: thank-you-wilbur
+            label: I couldn't have done it without you, Wilbur.
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: Oh. Well. I-I held the lamp. You did the rest.
+          - id: together
+            label: Let's go down together.
+            reply:
+              - speaker: wilbur
+                pose: hopeful
+                text: All right. Together. Mind the last step; it's a long one.
+          - id: charlotte-been-down
+            label: Have you been down there, Charlotte?
+            reply:
+              - speaker: charlotte
+                pose: delighted
+                text: >-
+                  Darling, I grew up down there. It is where the Fishmongers keep the
+                  very best stock, and I was always the very best stock.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Everything from the bottom is in the shop from today. Choose slowly, darling.
+          None of them have ever been chosen before.
+
   milestone_bestiary_125:
+    title: The Opera House
     trigger: milestone:bestiary_125
+    floor: 5
     background: opera-house
     beats:
       - speaker: charlotte
@@ -265,15 +511,23 @@ scenes:
         text: >-
           A hundred and twenty-five. Then you shall have my Opera House. I sang there,
           once, for a very large audience. They are still applauding, in their way.
+
   milestone_bestiary_151:
+    title: The Reading Room
     trigger: milestone:bestiary_151
+    floor: 5
     background: the-reading-room
     beats:
       - speaker: charlotte
         pose: presenting
         text: >-
           All of them. The Reading Room, where the book is kept. You belong in it now.
+      - speaker: wilbur
+        pose: hopeful
+        text: I've put a chair in for you. By the lamp. It's the good chair.
+
   milestone_first_full_tank:
+    title: A Full House
     trigger: milestone:first_full_tank
     background: public-baths
     beats:
@@ -285,7 +539,11 @@ scenes:
       - speaker: wilbur
         pose: explaining
         text: It'll get tight. They sort out their own order. Usually.
+
+  # Breeding was removed in kind_robots t-082, so this landmark (id kept so tanks that
+  # already earned the Hatchery keep it) now fires on the first tank expansion (t-085).
   milestone_first_evolution:
+    title: The Hatchery
     trigger: milestone:first_evolution
     plate: screen-milestone-hatchery
     background: hatchery
@@ -293,14 +551,16 @@ scenes:
       - speaker: wilbur
         pose: explaining
         text: >-
-          It's changed. It's still yours, it's the same animal. There's just more of
-          it now, in directions.
+          That's the new shelf in. It holds; I've stood on it. There's room for four more
+          now, and they'll find their own corners.
       - speaker: charlotte
         pose: lorgnette
         text: >-
-          Growth. How marvellous. Have the Hatchery, darling; it is where we keep the
+          Expansion. How marvellous. Have the Hatchery, darling; it is where we keep the
           ones that have not decided yet.
+
   milestone_first_spotless_tank:
+    title: The Scullery
     trigger: milestone:first_spotless_tank
     background: scullery
     beats:
@@ -310,7 +570,9 @@ scenes:
       - speaker: wilbur
         pose: hopeful
         text: It looked really good. I noticed.
+
   milestone_first_rivalry_resolved:
+    title: The Duelling Ground
     trigger: milestone:first_rivalry_resolved
     background: duelling-ground
     beats:
@@ -322,3 +584,78 @@ scenes:
       - speaker: charlotte
         pose: presenting
         text: A peacemaker. Have the Duelling Ground, darling. Nobody is using it now.
+
+  # --- First of a floor: the player's first species ever from floors II-V. -------
+  # Short, and Wilbur first: he carried it up. kind_robots queues these from the
+  # purchase response's `firstOfFloor`.
+
+  floor_first_2:
+    title: Up from Below Stairs
+    trigger: floor_first:2
+    floor: 2
+    plate: screen-floor-first-2
+    beats:
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          That one came up from Below Stairs. Give it the dark corner for a day. It's used
+          to the pantry shelves.
+      - speaker: charlotte
+        pose: delighted
+        text: >-
+          Your first from downstairs, darling. You can always tell; they come up with such
+          a look of having been put by.
+
+  floor_first_3:
+    title: A Delivery from the Wing
+    trigger: floor_first:3
+    floor: 3
+    plate: screen-floor-first-3
+    beats:
+      - speaker: wilbur
+        pose: explaining
+        text: >-
+          It came up the stairs on its own, mostly. I carried the last flight. It's still
+          a bit damp from the post.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          Your first delivery from the Wing, darling. Signed for and everything. We shall
+          frame the receipt.
+
+  floor_first_4:
+    title: Something from the Conservatory
+    trigger: floor_first:4
+    floor: 4
+    plate: screen-floor-first-4
+    beats:
+      - speaker: wilbur
+        pose: hopeful
+        text: >-
+          It's taken to the tank already. It's leaning towards the light. That means it
+          likes you, or the light. Probably both.
+      - speaker: charlotte
+        pose: lorgnette
+        text: >-
+          Something from the Conservatory. My mother would have adored it. She adored
+          anything that grew.
+
+  floor_first_5:
+    title: Up from the Bottom
+    trigger: floor_first:5
+    floor: 5
+    plate: screen-floor-first-5
+    beats:
+      - speaker: wilbur
+        pose: alarmed
+        text: >-
+          It came up without being carried. I opened the door and it was on the landing,
+          waiting.
+      - speaker: wilbur
+        pose: hopeful
+        text: It's settled now. It's the quietest thing I've ever put in a tank.
+      - speaker: charlotte
+        pose: presenting
+        text: >-
+          From the very bottom, darling. Everyone else in the tank has gone terribly
+          polite. They know quality when they see it.

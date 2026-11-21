@@ -201,6 +201,36 @@ jobs:
     hash: 4d592f2d6083
     engine: wan
     submitted: '2026-11-07T02:16:19Z'
+  plates/screen-bestiary-complete:
+    job: 56868
+    hash: d1fe02db3c32
+    engine: krea2
+    submitted: '2026-11-21T01:09:03Z'
+    adopted_from: cthulhuquarium-forge-written-backlog-20261102
+  plates/screen-first-unlock:
+    job: 56865
+    hash: e65e06e2c7cb
+    engine: krea2
+    submitted: '2026-11-21T01:09:03Z'
+    adopted_from: cthulhuquarium-forge-written-backlog-20261102
+  plates/screen-milestone-hatchery:
+    job: 56871
+    hash: 82c0833e966b
+    engine: krea2
+    submitted: '2026-11-21T01:09:03Z'
+    adopted_from: cthulhuquarium-forge-written-backlog-20261102
+  plates/screen-milestone-kelp-stair:
+    job: 56869
+    hash: b3da962871ef
+    engine: krea2
+    submitted: '2026-11-21T01:09:03Z'
+    adopted_from: cthulhuquarium-forge-written-backlog-20261102
+  plates/screen-milestone-portsmouth:
+    job: 56870
+    hash: 76f259dbf944
+    engine: krea2
+    submitted: '2026-11-21T01:09:03Z'
+    adopted_from: cthulhuquarium-forge-written-backlog-20261102
   sprites/the-reckoning:
     job: 64918
     hash: 347b1822a8d0

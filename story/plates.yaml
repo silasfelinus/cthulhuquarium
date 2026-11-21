@@ -67,39 +67,6 @@ plates:
       albumen carte-de-visite photograph, warm sepia and deep blacks,
       painted emerald tint on the tank glass
 
-  - key: screen-first-hatch
-    size: 1344x768
-    prompt: >-
-      close interior view of a cramped gaslit Victorian fish hatchery, a
-      translucent pale green egg split open in a shallow glass nursery
-      tray, a tiny pink finned creature with oversized eyes wriggling
-      out among water droplets, a gangly stooped young man with long
-      lank brown hair around a bald crown, round wire spectacles with
-      one taped lens, his right arm in a white plaster cast and sling
-      and bandages on his nose and chin bending close over the tray with
-      a clipboard in his left hand, tall shelves of green glass bottles
-      and thin brass pipes behind him, hand-tinted albumen
-      carte-de-visite photograph, warm sepia, fine grain, pale
-      moss-green tint
-
-  - key: screen-first-breed
-    size: 1344x768
-    prompt: >-
-      a Victorian specimen aquarium seen straight on through its glass
-      front, two large spotted fish, one blue and one gold, hovering on
-      either side of a tiny new fish striped blue and gold among
-      twisting kelp and white porcelain cave ornaments, in front of the
-      tank a gangly stooped young man with long lank brown hair around a
-      bald crown, round wire spectacles with one taped lens, his right
-      arm in a white plaster cast and sling and bandages on his nose and
-      chin writes on a clipboard propped on his cast, behind him a tall
-      old woman with a towering silver-white pompadour, kohl-rimmed eyes
-      and oxblood lips, in a high-necked black silk mourning gown with
-      leg-of-mutton sleeves and black lace gloves clasps her hands at
-      her breast and smiles, green light from the tank spilling across
-      bare floorboards, hand-tinted albumen carte-de-visite photograph,
-      warm sepia and deep shadows
-
   - key: screen-bestiary-complete
     size: 1344x768
     prompt: >-
@@ -162,3 +129,63 @@ plates:
       gloves watching from a far doorway, pale copper lamplight,
       hand-tinted albumen carte-de-visite photograph, deep blacks,
       painted sea-green tint on the glass
+
+  # The descent (conductor t-102/t-103, 2026-11-21): the first creature up from each
+  # floor, and the scene after The Last Aquarium. Same carte-de-visite interior stock as
+  # the plates above; each floor's light gets stranger the deeper it comes from.
+  - key: screen-floor-first-2
+    size: 1344x768
+    prompt: >-
+      a narrow stone cellar stair rising into a gaslit Victorian aquarium shop,
+      a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin climbing the top steps holding a brass oil lamp high in his left hand,
+      a small glass carrying jar hooked over his cast with a pale many-finned
+      creature inside pressed to the jar's side, dusty pantry shelves of stoppered
+      preserving jars on the cellar walls below him, warm lamplight on worn
+      steps, hand-tinted albumen carte-de-visite photograph, warm sepia, deep
+      blacks, painted amber tint on the lamp flame
+
+  - key: screen-floor-first-3
+    size: 1344x768
+    prompt: >-
+      a gaslit Victorian aquarium shop counter piled with brown paper parcels tied
+      with string and covered in postage stamps, one parcel torn open with dark
+      water spilling across the counter and a glossy blue creature with stamps
+      still stuck to its back slipping out into a waiting glass tank, a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin standing
+      in rubber waders dripping wet to the knees holding a long-handled net,
+      a tall old woman with a towering silver-white pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked black silk mourning gown with leg-of-mutton sleeves and black lace gloves behind the counter holding up a signed paper receipt with delight,
+      hand-tinted albumen carte-de-visite photograph, sepia shadows, painted
+      Prussian-blue tint on the water
+
+  - key: screen-floor-first-4
+    size: 1344x768
+    prompt: >-
+      a tall glass aquarium tank in a gaslit Victorian shop, inside the tank a
+      strange pale creature with long branching frond-like fins leaning toward a
+      brass lamp set on the tank lid, tendrils of green weed growing from its back
+      toward the light, a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin kneeling beside the tank and smiling shyly at it, a tall old woman with a towering silver-white pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked black silk mourning gown with leg-of-mutton sleeves and black lace gloves
+      standing behind him studying the creature through a gold lorgnette,
+      hand-tinted albumen carte-de-visite photograph, warm sepia, painted
+      sea-green tint on the glass
+
+  - key: screen-floor-first-5
+    size: 1344x768
+    prompt: >-
+      the top landing of a dark stone stairwell in a Victorian building, a heavy
+      wooden door standing open, on the landing floor a large glass jar holding a
+      smooth black creature that glows with its own soft blue light from within,
+      the blue glow lighting the stair walls, a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin standing in the doorway with a
+      brass lamp lowered in his left hand and his eyes wide behind his spectacles,
+      hand-tinted albumen carte-de-visite photograph, deep blacks, painted cobalt
+      tint on the glow
+
+  - key: screen-after-the-last-aquarium
+    size: 1344x768
+    prompt: >-
+      the interior of a gaslit Victorian aquarium curiosity shop at night, an ornate
+      gilded aquarium tank on a carved pedestal at the centre of the room with a
+      small paper price tag tied to its brass handle by a black ribbon, a tall old woman with a towering silver-white pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked black silk mourning gown with leg-of-mutton sleeves and black lace gloves standing beside it
+      with both gloved hands clasped at her breast in delight, a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin behind her
+      turned toward the dark shop window holding up a pencil and an open notebook,
+      a large pale smooth shape filling the far side of the rain-streaked window
+      panes, hand-tinted albumen carte-de-visite photograph, warm sepia, deep
+      blacks, painted green tint in the tanks

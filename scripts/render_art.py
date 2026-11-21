@@ -35,6 +35,8 @@ is one client for the queue, not two. Needs KR_API_TOKEN.
 
     python3 scripts/render_art.py submit sprites --only drifting-bell
     python3 scripts/render_art.py list            # what is missing, nothing sent
+    python3 scripts/render_art.py adopt --ledger ../conductor/projects/cthulhuquarium/art/X.yaml
+                                                  # collect a conductor ledger's renders
 """
 from __future__ import annotations
 
@@ -98,6 +100,18 @@ def jobs() -> list[dict]:
             out.append({"group": "portraits", "id": f"{who['slug']}-{pose}", "size": spec.get("size", "896x1152"),
                         "prompt": _flat(spec["prompt"]).format(**fill),
                         "dest": ROOT / "characters/raw" / f"{who['slug']}-{pose}.webp"})
+        # Per-floor variants (characters/wilbur-stint.yaml art.floor_variants, t-103):
+        # the same poses with {base} grown by every floor's additions up to N.
+        variants = art.get("floor_variants") or {}
+        grown = fill["base"]
+        for floor in sorted(variants, key=int):
+            grown = f"{grown}, {_flat(variants[floor]['adds'])}"
+            floor_fill = {**fill, "base": grown}
+            for pose, spec in (art.get("portraits") or {}).items():
+                out.append({"group": "portraits", "id": f"{who['slug']}-{pose}-f{int(floor)}",
+                            "size": spec.get("size", "896x1152"),
+                            "prompt": _flat(spec["prompt"]).format(**floor_fill),
+                            "dest": ROOT / "characters/raw" / f"{who['slug']}-{pose}-f{int(floor)}.webp"})
     bgs = yaml.safe_load((ROOT / "backgrounds/backgrounds.yaml").read_text())
     for bg in bgs["backgrounds"]:
         out.append({"group": "backgrounds", "id": bg["key"], "size": bg.get("size", bgs["defaults"]["size"]),
@@ -325,13 +339,54 @@ def harvest(core, manifest: dict, by_key: dict, rendered: dict) -> None:
     print(f"harvested {done}, failed {failed} (will resubmit), still queued {waiting}")
 
 
+def adopt(ledger_path: str, mapping: dict, by_key: dict, manifest: dict, rendered: dict) -> None:
+    """Take renders a conductor art ledger submitted into this repo's manifest.
+
+    A conductor ledger with `auto_submit: true` is rendered by conductor's own workflow,
+    with no KR_API_TOKEN in this session. Its job ids land in the ledger, not in
+    art/jobs.yaml, so `harvest` (and deliver.sh) never collected them -- that is how
+    the 2026-11-02 Forge scene plates rendered and then sat unused. `adopt` records
+    those job ids against this repo's render keys, so the next `harvest` downloads them
+    like any job `submit` sent. A subject names its key with `canon_key:` (for example
+    `portraits/wilbur-stint-wince-f2`), or `--map subject=key` supplies it. Needs no token.
+    """
+    ledger = yaml.safe_load(Path(ledger_path).read_text())
+    adopted = skipped = 0
+    for subject in ledger.get("subjects") or []:
+        key = mapping.get(subject.get("key")) or subject.get("canon_key")
+        if not key:
+            continue
+        job = by_key.get(key)
+        if job is None:
+            print(f"  {subject['key']}: unknown render key {key}", file=sys.stderr)
+            skipped += 1
+            continue
+        lane_jobs = subject.get("jobs") or {}
+        job_id = next(iter(lane_jobs.values()), None) if lane_jobs else None
+        if not job_id:
+            skipped += 1
+            continue
+        if is_current(job, rendered):
+            skipped += 1
+            continue
+        manifest[key] = {"job": int(job_id), "hash": job["hash"], "engine": "krea2",
+                         "submitted": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                         "adopted_from": str(ledger.get("round") or Path(ledger_path).name)}
+        adopted += 1
+        print(f"  adopted {key} (job {job_id})")
+    save_manifest(manifest)
+    print(f"adopted {adopted}, skipped {skipped}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("action", choices=("list", "status", "submit", "harvest"))
+    parser.add_argument("action", choices=("list", "status", "submit", "harvest", "adopt"))
     parser.add_argument("group", nargs="?", default="all", choices=("all",) + GROUPS)
     parser.add_argument("--only", nargs="*", help="ids to act on")
     parser.add_argument("--engine", default=DEFAULT_ENGINE)
     parser.add_argument("--conductor", default=str(ROOT.parent / "conductor"))
+    parser.add_argument("--ledger", help="adopt: a conductor art ledger YAML")
+    parser.add_argument("--map", nargs="*", default=[], help="adopt: subject=render-key pairs")
     args = parser.parse_args()
 
     every = jobs()
@@ -352,6 +407,13 @@ def main() -> int:
         queued = sum(1 for j in todo if j["key"] in manifest) - stale
         print(f"{len(every)} renders: {len(every) - len(todo)} done, {queued} queued, "
               f"{stale} queued with an outdated prompt, {len(todo) - queued - stale} not submitted")
+        return 0
+    if args.action == "adopt":
+        if not args.ledger:
+            print("adopt needs --ledger", file=sys.stderr)
+            return 2
+        mapping = dict(pair.split("=", 1) for pair in args.map)
+        adopt(args.ledger, mapping, by_key, manifest, rendered)
         return 0
     if not os.environ.get("KR_API_TOKEN"):
         print("KR_API_TOKEN is not set", file=sys.stderr)
