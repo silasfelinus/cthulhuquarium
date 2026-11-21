@@ -166,6 +166,7 @@ hashes:
   plates/screen-milestone-hatchery: 82c0833e966b
   plates/screen-milestone-kelp-stair: b3da962871ef
   plates/screen-milestone-portsmouth: 76f259dbf944
+  plates/upgrade-room: 9d12f9547761
   portraits/wilbur-stint-alarmed-f2: b265bbfb586d
   portraits/wilbur-stint-alarmed-f3: 8e4b38c86806
   portraits/wilbur-stint-alarmed-f4: e4812a623536
@@ -341,10 +342,17 @@ hashes:
   ui/coin: 8d1a92f12b07
   ui/corner-ornament: 9d0ab7bffb77
   ui/day-moon: ce2cb40c4617
+  ui/decor-ceramic-ruin: efa98b0033db
+  ui/decor-coral-spire: 9eea40280133
+  ui/decor-driftwood: 7d656eaf043b
+  ui/decor-glow-kelp: da0264c0cd47
+  ui/decor-pebble-bed: 18d08764ab24
+  ui/decor-sunken-chest: 4ce9a58ae620
   ui/meter-clean: cc1d5a213bb3
   ui/meter-hunger: 0930a746dbd2
   ui/meter-mood: 40b81b4c8c6d
   ui/plinth: b0bf8675f3f3
+  ui/swimmer-collector: 58c9f188cffd
   ui/tab-creatures: 0ba757bc7642
   ui/tab-feed: 761ae3869689
   ui/tab-market: a99c84a622d7

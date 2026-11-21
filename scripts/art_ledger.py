@@ -72,6 +72,17 @@ def bindings(kind_robots: Path | None) -> dict[str, set[str]]:
         for path in list((kind_robots / "components/cthulhuquarium").glob("*.vue")) + list(
                 (kind_robots / "utils").glob("cthulhuquarium*.ts")):
             ui.update(re.findall(r"""(?:name=|art:\s*)["']([a-z0-9-]+)["']""", path.read_text()))
+        # Decorations and the collector are named by pattern (utils/cthulhuquariumDecorArt.ts):
+        # `decor-<kind>` for every kind in the server's DECOR_CATALOG, and `swimmer-collector`.
+        decor_art = kind_robots / "utils/cthulhuquariumDecorArt.ts"
+        economy = kind_robots / "server/utils/aquariumEconomy.ts"
+        if decor_art.exists() and economy.exists():
+            catalog = economy.read_text()
+            start = catalog.find("DECOR_CATALOG")
+            kinds = re.findall(r"kind: '([a-z_]+)'", catalog[start:start + 4000]) if start >= 0 else []
+            ui.update(f"decor-{kind.replace('_', '-')}" for kind in kinds)
+            if "swimmer-collector" in decor_art.read_text():
+                ui.add("swimmer-collector")
         # Plates the kind_robots code names directly (title card, endings shelf, finale).
         for path in list((kind_robots / "components/cthulhuquarium").glob("*.vue")) + list(
                 (kind_robots / "utils").glob("cthulhuquarium*.ts")) + list(
