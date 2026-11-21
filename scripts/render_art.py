@@ -318,7 +318,14 @@ def harvest(core, manifest: dict, by_key: dict, rendered: dict) -> None:
             continue
         art = resp["data"]["job"]
         if art["status"] == "DONE" and art.get("artImageId"):
-            data = base64.b64decode(core.fetch_image_b64(art["artImageId"]))
+            try:
+                data = base64.b64decode(core.fetch_image_b64(art["artImageId"]))
+            except RuntimeError as error:
+                # A DONE job whose image bytes cannot be fetched (2026-11-21: one of the
+                # adopted Forge plates) must not stop the rest of the harvest.
+                print(f"  unfetchable {key} (ArtImage {art['artImageId']}): {str(error)[:120]}", flush=True)
+                waiting += 1
+                continue
             if job["group"] in ("videos", "clips"):
                 job["dest"].parent.mkdir(parents=True, exist_ok=True)
                 job["dest"].write_bytes(data)

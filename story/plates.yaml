@@ -147,14 +147,18 @@ plates:
   - key: screen-floor-first-3
     size: 1344x768
     prompt: >-
-      a gaslit Victorian aquarium shop counter piled with brown paper parcels tied
-      with string and covered in postage stamps, one parcel torn open with dark
-      water spilling across the counter and a glossy blue creature with stamps
-      still stuck to its back slipping out into a waiting glass tank, a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin standing
-      in rubber waders dripping wet to the knees holding a long-handled net,
-      a tall old woman with a towering silver-white pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked black silk mourning gown with leg-of-mutton sleeves and black lace gloves behind the counter holding up a signed paper receipt with delight,
-      hand-tinted albumen carte-de-visite photograph, sepia shadows, painted
-      Prussian-blue tint on the water
+      a gaslit Victorian aquarium shop counter piled with brown paper parcels
+      tied with string and covered in postage stamps, one parcel torn open
+      with dark water spilling out and a glossy blue creature with stamps
+      stuck to its back slipping into a waiting glass tank, a gangly stooped
+      young man with long lank brown hair around a bald crown, round wire
+      spectacles with one taped lens, his right arm in a white plaster cast
+      and sling in rubber waders wet to the knees holding a long-handled net,
+      a tall old woman with a towering silver-white pompadour and oxblood lips
+      in a high-necked black silk mourning gown with black lace gloves behind
+      the counter holding up a signed paper receipt, hand-tinted albumen
+      carte-de-visite photograph, sepia shadows, painted Prussian-blue tint on
+      the water
 
   - key: screen-floor-first-4
     size: 1344x768
@@ -181,11 +185,15 @@ plates:
   - key: screen-after-the-last-aquarium
     size: 1344x768
     prompt: >-
-      the interior of a gaslit Victorian aquarium curiosity shop at night, an ornate
-      gilded aquarium tank on a carved pedestal at the centre of the room with a
-      small paper price tag tied to its brass handle by a black ribbon, a tall old woman with a towering silver-white pompadour, kohl-rimmed eyes and oxblood lips, in a high-necked black silk mourning gown with leg-of-mutton sleeves and black lace gloves standing beside it
-      with both gloved hands clasped at her breast in delight, a gangly stooped young man with long lank brown hair around a bald crown, round wire spectacles with one taped lens, his right arm in a white plaster cast and sling and bandages on his nose and chin behind her
-      turned toward the dark shop window holding up a pencil and an open notebook,
-      a large pale smooth shape filling the far side of the rain-streaked window
-      panes, hand-tinted albumen carte-de-visite photograph, warm sepia, deep
-      blacks, painted green tint in the tanks
+      a gaslit Victorian aquarium curiosity shop at night, an ornate gilded
+      aquarium tank on a carved pedestal at the centre of the room with a
+      small paper price tag tied to its brass handle by a black ribbon, a tall
+      old woman with a towering silver-white pompadour and oxblood lips in a
+      high-necked black silk mourning gown with black lace gloves beside it
+      with both gloved hands clasped at her breast in delight, a gangly
+      stooped young man with long lank brown hair around a bald crown, round
+      wire spectacles with one taped lens, his right arm in a white plaster
+      cast and sling behind her turned toward the dark rain-streaked shop
+      window holding up a pencil and an open notebook, a large pale smooth
+      shape filling the far side of the window panes, hand-tinted albumen
+      carte-de-visite photograph, warm sepia, deep blacks
