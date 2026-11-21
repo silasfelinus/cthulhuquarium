@@ -2,10 +2,10 @@
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
   plates/screen-after-the-last-aquarium:
-    job: 74346
-    hash: 1fb4e1a1a05c
+    job: 74368
+    hash: 92d51fe012b5
     engine: krea2
-    submitted: '2026-11-21T02:06:42Z'
+    submitted: '2026-11-21T02:26:20Z'
   plates/screen-bestiary-complete:
     job: 74338
     hash: d1fe02db3c32
@@ -22,10 +22,10 @@ jobs:
     engine: krea2
     submitted: '2026-11-21T02:06:41Z'
   plates/screen-floor-first-3:
-    job: 74343
-    hash: fbffb6b2b770
+    job: 74367
+    hash: 3c24f7262ba4
     engine: krea2
-    submitted: '2026-11-21T02:06:41Z'
+    submitted: '2026-11-21T02:26:20Z'
   plates/screen-floor-first-4:
     job: 74344
     hash: 404fba9fc114
