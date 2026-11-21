@@ -163,7 +163,7 @@ barks:
       - That one's circling the surface, which means hungry. Press Feed and it'll be seen to first.
       - Someone's peckish. If you've got a moment, they'll be glad of it.
       - It's hungry, not cross. It'll be cross in a while, and now is nicer.
-      - See the one nosing at the lid? It isn't trying to get out; it's asking.
+      - See the one nosing at the surface? It's asking, very politely.
       - A-a hungry one's started following the food tin around. Best not keep it waiting too long.
 
   rare_event:
@@ -181,20 +181,20 @@ barks:
 
   startle:
     speaker: wilbur
-    pose: wince
+    pose: explaining
     lines:
       - They've scattered, but they'll come back. It's best to let them decide when.
       - Tapping makes them jumpy, and the jumpy ones remember. A slow wave works better.
       - They're only startled. That one's pretending to be a rock, and it's quite good at it.
       - Give them a minute; the small ones come back first. The big one comes back when it's ready.
-      - I know it's tempting. I tapped once, my first week, and it tapped back.
+      - I know it's tempting. They'd much rather you waved.
       - Th-they're fine. They just want a bit of quiet for a moment.
 
   welcome_back:
     speaker: charlotte
     pose: welcome
     lines:
-      - There you are, come in. The tank kept perfectly well without you, and it kept count.
+      - There you are, come in. The tank kept perfectly well without you, though it did ask after you.
       - Welcome back, darling. The coins have been piling up out of sheer good manners.
       - You came back; I knew you would. I had your tank dusted.
       - Out of all that and in where it's warm. Your earnings are just where you left them, and then some.
