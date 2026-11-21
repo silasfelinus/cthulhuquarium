@@ -1,6 +1,21 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
 jobs:
+  clips/the-reckoning:
+    job: 74372
+    hash: 6e4c3902aa04
+    engine: wan
+    submitted: '2026-11-21T02:54:53Z'
+  clips/the-small-hours:
+    job: 74373
+    hash: ef59a8f4acb7
+    engine: wan
+    submitted: '2026-11-21T02:54:54Z'
+  clips/the-usher:
+    job: 74374
+    hash: 6dfabeb28d0a
+    engine: wan
+    submitted: '2026-11-21T02:54:54Z'
   plates/screen-after-the-last-aquarium:
     job: 74368
     hash: 92d51fe012b5
