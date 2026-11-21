@@ -118,6 +118,7 @@ hashes:
   clips/the-reading-bell: 76a71a3ad645
   clips/the-reading-room: 6dc3205379bf
   clips/the-receiving-line: e2d66afc2b32
+  clips/the-reckoning: 6e4c3902aa04
   clips/the-reconciliation: b859f34997ce
   clips/the-round: 55bad02b44ff
   clips/the-sconce: 423e43fc082b
@@ -126,6 +127,7 @@ hashes:
   clips/the-sexton: 84fc8d13b0df
   clips/the-silence: ce9679926354
   clips/the-single-fish: 74da37c93b0c
+  clips/the-small-hours: ef59a8f4acb7
   clips/the-spectacle: 4aee35d98c11
   clips/the-stocktake: 5d92792e7857
   clips/the-subscription: '368343052333'
@@ -140,6 +142,7 @@ hashes:
   clips/the-understone: 35a2f5e117f0
   clips/the-understudy: ee15a093660d
   clips/the-unlidded-rustfish: efd950c7c928
+  clips/the-usher: 6dfabeb28d0a
   clips/the-verger: cde488f3a276
   clips/the-vespers: 7f3b796216af
   clips/the-vigil: 724306562e57
@@ -152,6 +155,16 @@ hashes:
   clips/till-minnow: 75ac62987c13
   clips/tithe-shoal: ea40e44c3df1
   clips/wrapping-sole: 4d592f2d6083
+  plates/screen-after-the-last-aquarium: 92d51fe012b5
+  plates/screen-bestiary-complete: d1fe02db3c32
+  plates/screen-first-unlock: e65e06e2c7cb
+  plates/screen-floor-first-2: 4f8b28872d77
+  plates/screen-floor-first-3: 3c24f7262ba4
+  plates/screen-floor-first-4: 404fba9fc114
+  plates/screen-floor-first-5: 8d289127c5a2
+  plates/screen-milestone-hatchery: 82c0833e966b
+  plates/screen-milestone-kelp-stair: b3da962871ef
+  plates/screen-milestone-portsmouth: 76f259dbf944
   sprites/bailiff-eel: c32bbe1d1e4b
   sprites/brass-tack-goby: bc65539592d8
   sprites/brine-courtiers: 11cf9df12378

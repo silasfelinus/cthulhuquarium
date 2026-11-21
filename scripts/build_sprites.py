@@ -21,6 +21,7 @@ Needs: pillow, numpy, rembg (pip install "rembg[cpu]"); the isnet model download
 from __future__ import annotations
 
 import argparse
+import hashlib
 import math
 import sys
 from pathlib import Path
@@ -33,6 +34,8 @@ ROOT = Path(__file__).resolve().parent.parent
 FISH = ROOT / "fish"
 RAW = ROOT / "sprites" / "raw"
 OUT = ROOT / "sprites"
+# slug -> content hash of the raw render each cut-out was built from.
+BUILT_HASHES = OUT / "built.yaml"
 ANIM = ROOT / "sprites" / "anim"
 
 LONG_EDGE = 320
@@ -193,14 +196,24 @@ def main() -> int:
     ANIM.mkdir(parents=True, exist_ok=True)
     session = None
     built = missing = 0
+    record = (yaml.safe_load(BUILT_HASHES.read_text()) or {}) if BUILT_HASHES.exists() else {}
+    built_hashes = dict(record.get("raw") or {})
+    baked_anims = dict(record.get("anim") or {})
     for fish in load_species(args.slugs or None):
         slug = fish["slug"]
         motion = (fish.get("sprite") or {}).get("motion", "tailbeat")
         faces_left = (fish.get("sprite") or {}).get("faces") == "left"
         static_path = OUT / f"{slug}.webp"
         raw = RAW / f"{slug}.webp"
-        # A raw newer than its cut-out is a re-render (t-099 redesign): rebuild it.
-        stale = static_path.exists() and raw.exists() and raw.stat().st_mtime > static_path.stat().st_mtime
+        # A raw whose content changed since its cut-out was built is a re-render (t-099
+        # redesign): rebuild it. Content hashes, not file times: in a fresh clone every
+        # file's mtime is its checkout time, and comparing those once re-cut all 151
+        # sprites and deleted every swim clip (2026-11-21). A sprite with no record yet
+        # is taken as current and recorded.
+        raw_hash = hashlib.sha1(raw.read_bytes()).hexdigest()[:12] if raw.exists() else None
+        if raw_hash and static_path.exists() and slug not in built_hashes:
+            built_hashes[slug] = raw_hash
+        stale = static_path.exists() and raw_hash is not None and built_hashes.get(slug) != raw_hash
         if not args.anim_only and (args.force or stale or not static_path.exists()):
             if not raw.exists():
                 missing += 1
@@ -220,6 +233,7 @@ def main() -> int:
             if faces_left:
                 sprite = sprite.transpose(Image.FLIP_LEFT_RIGHT)
             sprite.save(static_path, "WEBP", quality=88, method=6)
+            built_hashes[slug] = raw_hash
         if not static_path.exists():
             missing += 1
             continue
@@ -227,9 +241,12 @@ def main() -> int:
         # sprites existed; only redo one whose cut-out or fish file (motion) is
         # newer, unless asked for these slugs or --force.
         anim_path = ANIM / f"{slug}.webp"
-        fish_path = FISH / f"{slug}.yaml"
+        # Same content rule as the cut-out: the animation is current when it was baked
+        # from this raw with this motion (sprites/built.yaml), not when its file is newer.
+        anim_key = f"{built_hashes.get(slug)}:{motion}"
         if (not args.force and not args.slugs and anim_path.exists()
-                and anim_path.stat().st_mtime >= max(static_path.stat().st_mtime, fish_path.stat().st_mtime)):
+                and baked_anims.get(slug, anim_key) == anim_key):
+            baked_anims[slug] = anim_key
             continue
         static = Image.open(static_path).convert("RGBA")
         scale = ANIM_LONG_EDGE / max(static.size)
@@ -239,8 +256,14 @@ def main() -> int:
             ANIM / f"{slug}.webp", "WEBP", save_all=True, append_images=frames[1:],
             duration=round(MOTIONS.get(motion, MOTIONS['tailbeat'])['period'] / FRAMES), loop=0, quality=80, method=6,
         )
+        baked_anims[slug] = anim_key
         built += 1
         print(f"built {slug} ({motion})")
+    BUILT_HASHES.write_text(
+        "# Written by build_sprites.py. raw: the raw render each cut-out was built from;\n"
+        "# anim: the raw and motion each animation was baked from.\n"
+        + yaml.safe_dump({"raw": dict(sorted(built_hashes.items())),
+                          "anim": dict(sorted(baked_anims.items()))}, sort_keys=False))
     print(f"{built} built, {missing} without a raw render yet")
     return 0
 
