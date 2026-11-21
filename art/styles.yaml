@@ -1,0 +1,51 @@
+# Cthulhuquarium's art styles beyond Classic (conductor cthulhuquarium/t-107). Silas 2026-11-21: "we should
+# add a different art style. Something from illustrious probably. The user should be able to swap between them,
+# like we do with shifting desks."
+#
+# Classic is everything else in this repo: render_art.py's jobs, rendered on Krea 2. A style here re-renders the
+# same stills with its own style half and the canon's subject half unchanged:
+#   sprites      "<subject>, <sprites text>, <framing>"   (art/sprite-style.yaml's clause swapped out)
+#   portraits    the character's {medium} swapped for <portraits text>   (heroes and floor variants too)
+#   backgrounds, plates, ui
+#                the canon prompt cut at the first `strip` marker (where its Classic medium starts), then
+#                ", <group text>"
+# Styled renders are adopt-only: scripts/style_ledger.py writes conductor lane ledgers (engine comfy plus an
+# Illustrious checkpoint, which render_art.py cannot submit), conductor submits them, and
+# `render_art.py adopt --ledger` + `harvest` land them under styles/<id>/raw/<folder>/; scripts/build_style.py
+# builds styles/<id>/built/<folder>/, which kind_robots mirrors into assets/images/cthulhuquarium/styles/<id>/.
+#
+# Lessons carried from Shifting Desks' suspended Illustrious style (170 of 196 beats failed review): the subject
+# first, a short quality lead, the style after the subject, and every round reviewed before it ships.
+styles:
+  illustrious:
+    label: Illustrated
+    # Chosen from the style check (conductor art/ILLUSTRIOUS-STYLE-CHECK-1.yaml, t-108). Until then no round
+    # is generated: style_ledger.py refuses a style whose `status` is not `chosen`.
+    status: style-check
+    lane:
+      key: illustrious
+      engine: comfy
+      checkpoint: null
+      prompt: prose
+      prefix: masterpiece, best quality, very aesthetic
+      steps: 28
+      cfg: 5
+      sampler: euler_ancestral
+    # Each group's style half, written once the checkpoint is chosen.
+    text:
+      sprites: null
+      portraits: null
+      backgrounds: null
+      plates: null
+      ui: null
+    negative:
+      sprites: girl, humanoid, anthropomorphic, human face, text, logo, watermark, signature, lowres
+      portraits: text, logo, watermark, signature, lowres, bad anatomy, extra fingers
+      backgrounds: people, fish, text, logo, watermark, signature, lowres
+      plates: text, logo, watermark, signature, lowres, bad anatomy
+      ui: text, logo, watermark, signature, lowres
+    # Where each group's Classic medium starts in its canon prompts (the first one found is the cut).
+    strip:
+      backgrounds: [hand-coloured lithograph, hand-tinted albumen, fine engraved line]
+      plates: [hand-tinted albumen, hand-coloured lithograph, long exposure stillness]
+      ui: []
