@@ -59,11 +59,13 @@ hashes:
   clips/the-backlog: 59f33312b79a
   clips/the-balance: e6c7f368ed74
   clips/the-bedding: 07c841f938ee
+  clips/the-catacomb: 70c42931612e
   clips/the-catchment: e5f45b84c822
   clips/the-census: 436d8b8eb171
   clips/the-clerestory: 8601dacd687d
   clips/the-cold-snap: ccb6b75a196b
   clips/the-committee: 83a97f8a3f59
+  clips/the-concern: 3485f8521606
   clips/the-conservatory: 45bade85945b
   clips/the-consignment: b1205e26d6a1
   clips/the-continuance: d9541b4f2050
@@ -112,6 +114,44 @@ hashes:
   clips/the-principal: 4260a4cea83d
   clips/the-proprietor: 7e211a81e2ea
   clips/the-provision: 2695e52a3455
+  clips/the-quire: f07c73e70913
+  clips/the-reading-bell: 76a71a3ad645
+  clips/the-reading-room: 6dc3205379bf
+  clips/the-receiving-line: e2d66afc2b32
+  clips/the-reconciliation: b859f34997ce
+  clips/the-round: 55bad02b44ff
+  clips/the-sconce: 423e43fc082b
+  clips/the-second-notice: 6483631c0bff
+  clips/the-seven-lights: db5a8aa83ef1
+  clips/the-sexton: 84fc8d13b0df
+  clips/the-silence: ce9679926354
+  clips/the-single-fish: 74da37c93b0c
+  clips/the-spectacle: 4aee35d98c11
+  clips/the-stocktake: 5d92792e7857
+  clips/the-subscription: '368343052333'
+  clips/the-substrate: 7d81d20fb63a
+  clips/the-summons: 7972c24006a3
+  clips/the-tenant: 5053143e11c8
+  clips/the-testimony: 5452cda0cc39
+  clips/the-threshold: 5de36b415e26
+  clips/the-type-specimen: 37861f8e4f37
+  clips/the-undercroft: d082f61b6dae
+  clips/the-undercurrent: 2f00bf285818
+  clips/the-understone: 35a2f5e117f0
+  clips/the-understudy: ee15a093660d
+  clips/the-unlidded-rustfish: efd950c7c928
+  clips/the-verger: cde488f3a276
+  clips/the-vespers: 7f3b796216af
+  clips/the-vigil: 724306562e57
+  clips/the-vitrine: 90e1e3765a7f
+  clips/the-waiting-list: 69aa24cf558c
+  clips/the-waterline: 7042ea0f771a
+  clips/the-watershed: 2e6b183cf529
+  clips/the-welcome: 11192f08eac3
+  clips/thumbnail-dace: 92a1149f1a6f
+  clips/till-minnow: 75ac62987c13
+  clips/tithe-shoal: ea40e44c3df1
+  clips/wrapping-sole: 4d592f2d6083
   sprites/bailiff-eel: c32bbe1d1e4b
   sprites/brass-tack-goby: bc65539592d8
   sprites/brine-courtiers: 11cf9df12378
@@ -226,7 +266,7 @@ hashes:
   sprites/the-reading-bell: 4679987d5b94
   sprites/the-reading-room: 70b88904c843
   sprites/the-receiving-line: 7e5fcc774433
-  sprites/the-reckoning: 2ca627951316
+  sprites/the-reckoning: 347b1822a8d0
   sprites/the-reconciliation: 0e5a84ab69c7
   sprites/the-round: d0a20c944004
   sprites/the-sconce: 80f67b77b47a
@@ -235,7 +275,7 @@ hashes:
   sprites/the-sexton: bf50b7d887b0
   sprites/the-silence: 3ade553b787f
   sprites/the-single-fish: 28e83d60e440
-  sprites/the-small-hours: 77d6a2f0bfaf
+  sprites/the-small-hours: 71dae69b5070
   sprites/the-spectacle: 34bae5de6757
   sprites/the-stocktake: 494b9fdd6fc0
   sprites/the-subscription: 717bee4c2ab2
@@ -250,7 +290,7 @@ hashes:
   sprites/the-understone: a6964071d8c4
   sprites/the-understudy: 11e6ceacc4b5
   sprites/the-unlidded-rustfish: b21a804a34b6
-  sprites/the-usher: 216960b8b4b8
+  sprites/the-usher: b5ce2d0892d2
   sprites/the-verger: df65d57b326f
   sprites/the-vespers: f32706a06985
   sprites/the-vigil: 0d5bc2f64a8d
