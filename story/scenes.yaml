@@ -276,7 +276,7 @@ scenes:
                 pose: delighted
                 text: >-
                   Perfectly, darling. Wilbur has been up and down those stairs for
-                  years, and he always comes back up.
+                  years. He knows every one of them by name.
       - speaker: charlotte
         pose: presenting
         text: >-
@@ -325,8 +325,8 @@ scenes:
       - speaker: charlotte
         pose: presenting
         text: >-
-          Which means you are ready for the Flooded Wing. Another key, darling, the green
-          one. It has always been green.
+          Paid in full, darling, and worth every coin. The Flooded Wing is yours: the
+          green key. It has always been green.
       - speaker: wilbur
         pose: explaining
         text: >-
@@ -394,8 +394,8 @@ scenes:
       - speaker: charlotte
         pose: confiding
         text: >-
-          Nobody has been through to the far end since my mother. This was her key. I
-          have worn it ever since, for luck, and it has been tremendously lucky for me.
+          Nobody has been through to the far end since my mother. That key was hers; I had
+          a copy cut for you and kept the original, for luck. It has been tremendously lucky.
       - speaker: wilbur
         pose: explaining
         text: >-
@@ -468,7 +468,7 @@ scenes:
       - speaker: charlotte
         pose: confiding
         text: >-
-          That was the last key, darling, and it opens nothing; there never was a door. You simply
+          That is the last key, darling, and the last you will need. Past it there is no door: you simply
           keep going down until the stairs stop, and then you are there.
       - speaker: wilbur
         pose: explaining
