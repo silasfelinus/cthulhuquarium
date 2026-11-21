@@ -77,7 +77,7 @@ been bolted onto `Character` to make it fit.
 | `size` | 1–12 tank units. Fish capacity is measured by total size, not by count. |
 | `yield` | Coins produced per drop cycle when fed. |
 | `interval` | Seconds between drops. |
-| `unlock_cost` | Coins to unlock. `0` means starting stock **or** reached only by evolution. |
+| `unlock_cost` | Coins to unlock. `0` means starting stock **or** reached only by evolution. Breeding was removed from the game (kind_robots t-082), so since t-102 (2026-11-21) an evolution species with `0` is bought like any other, at its rarity's default price, once its tier's floor is open (`tier` 1-5 = the five floors of the building). |
 | `behavior` | How it **moves**. One of the nine modes below. Drives the renderer; not a hardcoded switch. |
 | `hue` | 0–360. Base hue for prototype rendering and art direction consistency. |
 | `diet_role` | `prey` \| `predator` \| `neutral`. What it eats, and what eats it. |
