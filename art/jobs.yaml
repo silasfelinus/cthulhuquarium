@@ -1,3 +1,43 @@
 # In-flight ArtJobs for this repo's renders (scripts/render_art.py).
 # Written by `submit`, drained by `harvest`. Commit it.
-jobs: {}
+jobs:
+  plates/upgrade-room:
+    job: 76389
+    hash: 9d12f9547761
+    engine: krea2
+    submitted: '2026-11-21T11:40:38Z'
+  ui/decor-ceramic-ruin:
+    job: 76387
+    hash: efa98b0033db
+    engine: krea2
+    submitted: '2026-11-21T11:40:35Z'
+  ui/decor-coral-spire:
+    job: 76384
+    hash: 9eea40280133
+    engine: krea2
+    submitted: '2026-11-21T11:40:34Z'
+  ui/decor-driftwood:
+    job: 76383
+    hash: 7d656eaf043b
+    engine: krea2
+    submitted: '2026-11-21T11:40:34Z'
+  ui/decor-glow-kelp:
+    job: 76386
+    hash: da0264c0cd47
+    engine: krea2
+    submitted: '2026-11-21T11:40:35Z'
+  ui/decor-pebble-bed:
+    job: 76382
+    hash: 18d08764ab24
+    engine: krea2
+    submitted: '2026-11-21T11:40:33Z'
+  ui/decor-sunken-chest:
+    job: 76385
+    hash: 4ce9a58ae620
+    engine: krea2
+    submitted: '2026-11-21T11:40:35Z'
+  ui/swimmer-collector:
+    job: 76388
+    hash: 58c9f188cffd
+    engine: krea2
+    submitted: '2026-11-21T11:40:36Z'

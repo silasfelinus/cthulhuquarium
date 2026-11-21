@@ -71,3 +71,42 @@ items:
     long_edge: 96
     prompt: >-
       a pale crescent moon of hammered silver with a small engraved eye in its curve
+  # Tank decorations (kind_robots DECOR_CATALOG), drawn on the tank floor and in the Relics shop.
+  # They replace the emoji the tank drew until now (conductor cthulhuquarium/t-110).
+  - key: decor-pebble-bed
+    long_edge: 192
+    prompt: >-
+      a low scatter of seven smooth rounded river pebbles in slate grey, sandstone and pale green,
+      lying together on a patch of fine sand, seen from a slight angle above
+  - key: decor-driftwood
+    long_edge: 192
+    prompt: >-
+      a weathered branch of pale silver-grey driftwood lying on its side, sanded smooth by water,
+      two forked limbs reaching up, a tuft of green moss in one crook
+  - key: decor-coral-spire
+    long_edge: 192
+    prompt: >-
+      one tall slender spire of bright coral in crimson and coral pink, branching near the top
+      into three knobbed tips, rising from a small rocky base
+  - key: decor-sunken-chest
+    long_edge: 192
+    prompt: >-
+      a small iron-banded wooden treasure chest with its lid shut and a heavy brass padlock,
+      crusted with white barnacles and green weed, half settled into sand
+  - key: decor-glow-kelp
+    long_edge: 192
+    prompt: >-
+      a single tall frond of kelp with long ribbon leaves rising from a holdfast on a pebble,
+      its leaves glowing a soft bioluminescent sea green along their edges
+  - key: decor-ceramic-ruin
+    long_edge: 192
+    prompt: >-
+      half a small glazed ceramic castle turret in cream and cobalt blue, cracked open on one
+      side, its crenellations chipped, soft moss growing over the broken edge
+  # The Roaming Collector set piece, which patrols the tank picking up coins.
+  - key: swimmer-collector
+    long_edge: 160
+    prompt: >-
+      a small clockwork brass crab automaton with a round coin drum on its back with a slot in
+      the lid, two glass lens eyes on stalks, riveted brass claws held up ready, little winding
+      key at its side, seen from the side facing right
