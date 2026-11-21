@@ -167,6 +167,96 @@ def jobs() -> list[dict]:
         if job["group"] == "clips" and job["id"] in sprite_hash:
             job["source_key"] = f"sprites/{job['id']}"
             job["hash"] = hashlib.sha1(f"{job['hash']}|{sprite_hash[job['id']]}".encode()).hexdigest()[:12]
+    return out + styled_jobs(out)
+
+
+STYLES = ROOT / "art" / "styles.yaml"
+# A styled render's folder in styles/<id>/{raw,built}/ (and in kind_robots'
+# assets/images/cthulhuquarium/styles/<id>/), by Classic group.
+STYLE_FOLDERS = {"sprites": "sprites", "portraits": "portraits", "heroes": "heroes",
+                 "backgrounds": "backgrounds", "plates": "plates", "ui": "ui"}
+
+
+def load_styles() -> dict:
+    if not STYLES.exists():
+        return {}
+    return (yaml.safe_load(STYLES.read_text()) or {}).get("styles") or {}
+
+
+def styled_subject(job: dict, style: dict, sprite_style: dict, mediums: dict, ui_suffix: str) -> str | None:
+    """The canon subject of a Classic job with its Classic style half removed (art/styles.yaml)."""
+    group, prompt = job["group"], job["prompt"]
+    if group == "sprites":
+        # Anchored on the clause's first phrase: a few prompts carry the clause with a
+        # folding glitch ("jewel- tone"), so the whole clause is not matched verbatim.
+        anchor = _flat(sprite_style["clause"]).split(",")[0]
+        return prompt.split(f", {anchor}")[0] if anchor in prompt else None
+    if group in ("portraits", "heroes"):
+        who = next((slug for slug in mediums if job["id"].startswith(slug)), None)
+        medium = mediums.get(who)
+        return prompt.replace(medium, "{medium}") if medium and medium in prompt else None
+    if group == "ui":
+        tail = f", {ui_suffix}"
+        return prompt[: -len(tail)] if ui_suffix and prompt.endswith(tail) else prompt
+    markers = (style.get("strip") or {}).get(group) or []
+    cuts = [prompt.find(marker) for marker in markers if marker in prompt]
+    return prompt[: min(cuts)].rstrip(" ,") if cuts else prompt
+
+
+def styled_prompt(job: dict, subject: str, text: str, sprite_style: dict) -> str:
+    group = job["group"]
+    if group == "sprites":
+        framings = [_flat(sprite_style[k]) for k in ("framing", "framing_mass") if sprite_style.get(k)]
+        framing = next((f for f in framings if f in job["prompt"]), framings[0])
+        return f"{subject}, {text}, {framing}"
+    if group in ("portraits", "heroes"):
+        return subject.replace("{medium}", text)
+    return f"{subject}, {text}"
+
+
+def styled_jobs(classic: list[dict]) -> list[dict]:
+    """Every Classic still again in each art style of art/styles.yaml (t-107), adopt-only.
+
+    Keyed `styles/<style>/<group>/<id>`; raws land in styles/<style>/raw/<folder>/. A style
+    contributes no jobs until each group it renders has its `text` written (after its
+    style check is chosen), so the Classic pipeline is unchanged until then.
+    """
+    styles = load_styles()
+    if not styles:
+        return []
+    sprite_style = yaml.safe_load((ROOT / "art/sprite-style.yaml").read_text())
+    mediums = {}
+    for path in sorted((ROOT / "characters").glob("*.yaml")):
+        who = yaml.safe_load(path.read_text())
+        medium = (who.get("art") or {}).get("medium")
+        if medium:
+            mediums[who["slug"]] = _flat(medium)
+    ui_path = ROOT / "ui/ui.yaml"
+    ui_suffix = _flat(yaml.safe_load(ui_path.read_text())["defaults"]["suffix"]) if ui_path.exists() else ""
+    out: list[dict] = []
+    for style_id, style in styles.items():
+        texts = style.get("text") or {}
+        for job in classic:
+            text_group = "portraits" if job["group"] == "heroes" else job["group"]
+            folder = STYLE_FOLDERS.get(job["group"])
+            text = texts.get(text_group)
+            if not folder or not text:
+                continue
+            subject = styled_subject(job, style, sprite_style, mediums, ui_suffix)
+            if subject is None:
+                print(f"  {style_id}: no subject for {job['key']}", file=sys.stderr)
+                continue
+            stem = job["id"][: -len("-hero")] if job["group"] == "heroes" else job["id"]
+            prompt = _flat(styled_prompt(job, subject, _flat(text), sprite_style))
+            key = f"styles/{style_id}/{job['group']}/{job['id']}"
+            out.append({
+                "group": job["group"], "id": job["id"], "style": style_id, "folder": folder,
+                "stem": stem, "size": job["size"], "prompt": prompt, "subject": subject,
+                "negative": ((style.get("negative") or {}).get(text_group) or ""),
+                "adopt_only": True, "key": key,
+                "dest": ROOT / "styles" / style_id / "raw" / folder / f"{stem}.webp",
+                "hash": hashlib.sha1(f"{style_id}|{prompt}|{job['size']}".encode()).hexdigest()[:12],
+            })
     return out
 
 
@@ -376,14 +466,17 @@ def adopt(ledger_path: str, mapping: dict, by_key: dict, manifest: dict, rendere
             skipped += 1
             continue
         lane_jobs = subject.get("jobs") or {}
-        job_id = next(iter(lane_jobs.values()), None) if lane_jobs else None
+        lane_key = subject.get("lane") or (next(iter(lane_jobs), None) if lane_jobs else None)
+        job_id = lane_jobs.get(lane_key) if lane_key else None
         if not job_id:
             skipped += 1
             continue
         if is_current(job, rendered):
             skipped += 1
             continue
-        manifest[key] = {"job": int(job_id), "hash": job["hash"], "engine": "krea2",
+        lanes = {lane.get("key"): lane for lane in ledger.get("lanes") or []}
+        engine = (lanes.get(lane_key) or {}).get("engine") or "krea2"
+        manifest[key] = {"job": int(job_id), "hash": job["hash"], "engine": engine,
                          "submitted": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                          "adopted_from": str(ledger.get("round") or Path(ledger_path).name)}
         adopted += 1
@@ -401,6 +494,7 @@ def main() -> int:
     parser.add_argument("--conductor", default=str(ROOT.parent / "conductor"))
     parser.add_argument("--ledger", help="adopt: a conductor art ledger YAML")
     parser.add_argument("--map", nargs="*", default=[], help="adopt: subject=render-key pairs")
+    parser.add_argument("--style", help="list/status: an art style of art/styles.yaml instead of Classic")
     args = parser.parse_args()
 
     every = jobs()
@@ -408,7 +502,8 @@ def main() -> int:
     rendered = load_rendered()
     current_keys = {j["key"] for j in every if is_current(j, rendered)}
     todo = [j for j in every if (args.group == "all" or j["group"] == args.group)
-            and (not args.only or j["id"] in args.only) and j["key"] not in current_keys]
+            and (not args.only or j["id"] in args.only) and j["key"] not in current_keys
+            and j.get("style") == args.style]
     manifest = load_manifest()
 
     if args.action == "list":
@@ -419,6 +514,7 @@ def main() -> int:
     if args.action == "status":
         stale = sum(1 for j in todo if j["key"] in manifest and manifest[j["key"]]["hash"] != j["hash"])
         queued = sum(1 for j in todo if j["key"] in manifest) - stale
+        every = [j for j in every if j.get("style") == args.style]
         print(f"{len(every)} renders: {len(every) - len(todo)} done, {queued} queued, "
               f"{stale} queued with an outdated prompt, {len(todo) - queued - stale} not submitted")
         return 0
