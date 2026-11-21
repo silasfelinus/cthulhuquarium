@@ -19,6 +19,9 @@
 #   IV   The Conservatory      50                    (tier 4)
 #   V    The Bottom of Things  95                    (tier 5)
 #
+# Since t-105 (Silas 2026-11-21: "canon rarity + slower floors") Charlotte sells each
+# key once the player knows enough species; the floor's scene plays when it is bought.
+#
 # The running thread is small and physical: Charlotte hands over a key to each floor
 # (her mother's, for the Conservatory; no key at all for the bottom), and Wilbur goes
 # down first with the lamp and comes to trust the player. The rooms tell the story;
@@ -31,8 +34,11 @@
 #
 # SHAPE
 #   scenes.<id>.title      the scene's name in the Memory Book (required)
-#   scenes.<id>.trigger    what fires it (intro | milestone:<id> | floor_first:<n> |
-#                          finale | bestiary_complete | ...)
+#   scenes.<id>.trigger    what fires it (intro | milestone:<id> | floor_open:<n> |
+#                          floor_first:<n> | finale | bestiary_complete | ...)
+#                          floor_open:<n> plays when the player buys that floor's key
+#                          from Charlotte (t-105); its milestone still hands over the
+#                          background, quietly, when the threshold is met.
 #   scenes.<id>.floor      optional 1-5: the floor this scene belongs to; its
 #                          background is the backdrop when the scene has no plate
 #   scenes.<id>.plate      optional full-width scene plate shown behind the dialogue
@@ -227,7 +233,7 @@ scenes:
 
   milestone_bestiary_10:
     title: Below Stairs
-    trigger: milestone:bestiary_10
+    trigger: floor_open:2
     floor: 2
     background: sunken-pantry
     beats:
@@ -307,7 +313,7 @@ scenes:
 
   milestone_bestiary_25:
     title: The Flooded Wing
-    trigger: milestone:bestiary_25
+    trigger: floor_open:3
     floor: 3
     background: sorting-office
     beats:
@@ -376,7 +382,7 @@ scenes:
 
   milestone_bestiary_50:
     title: The Conservatory
-    trigger: milestone:bestiary_50
+    trigger: floor_open:4
     floor: 4
     background: flooded-conservatory
     beats:
@@ -449,8 +455,9 @@ scenes:
 
   milestone_bestiary_95:
     title: The Bottom of Things
-    trigger: milestone:bestiary_95
+    trigger: floor_open:5
     floor: 5
+    plate: screen-bottom-of-things
     background: abyssal-plain
     beats:
       - speaker: charlotte

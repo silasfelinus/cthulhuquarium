@@ -47,6 +47,18 @@ barks:
       - Everything is for sale, darling, everything. I have never once been sentimental about stock.
       - A new face on the top shelf, or a new arrangement of faces. It's settling in beautifully.
 
+  # t-105: Charlotte selling the next floor's key in the Market, once the player
+  # knows enough species. Generic, so it fits any floor; the plaque names it.
+  floor_key:
+    speaker: charlotte
+    pose: lorgnette
+    lines:
+      - I keep the keys behind the counter, darling. One does not simply wander downstairs; one is shown.
+      - The key is yours for a small consideration. The floor below has been expecting you for some time.
+      - Every floor has its price, and every price is a bargain. Ask anyone who has been down.
+      - A key is a promise, darling. I only make promises I am paid to keep.
+      - Mind how you go with it. Keys in this building have a way of turning on their own.
+
   sets:
     speaker: charlotte
     pose: presenting

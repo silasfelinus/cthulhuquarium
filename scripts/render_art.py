@@ -108,9 +108,14 @@ def jobs() -> list[dict]:
             grown = f"{grown}, {_flat(variants[floor]['adds'])}"
             floor_fill = {**fill, "base": grown}
             for pose, spec in (art.get("portraits") or {}).items():
+                # Rendered as Flux Kontext edits of the shipped base pose (conductor
+                # projects/cthulhuquarium/art/WILBUR-FLOORS-KONTEXT-1-F*.yaml), which keeps
+                # him the same man; a text render drew someone else (2026-11-21). `submit`
+                # never sends these; `adopt` records the Kontext jobs and `harvest` lands them.
                 out.append({"group": "portraits", "id": f"{who['slug']}-{pose}-f{int(floor)}",
                             "size": spec.get("size", "896x1152"),
                             "prompt": _flat(spec["prompt"]).format(**floor_fill),
+                            "adopt_only": True,
                             "dest": ROOT / "characters/raw" / f"{who['slug']}-{pose}-f{int(floor)}.webp"})
     bgs = yaml.safe_load((ROOT / "backgrounds/backgrounds.yaml").read_text())
     for bg in bgs["backgrounds"]:
@@ -272,6 +277,8 @@ def submit(todo: list[dict], core, engine: str, manifest: dict, current_keys: se
     current_keys = current_keys or set()
     sent = waiting = 0
     for job in todo:
+        if job.get("adopt_only"):
+            continue
         current = manifest.get(job["key"])
         if current and current.get("hash") == job["hash"]:
             continue
